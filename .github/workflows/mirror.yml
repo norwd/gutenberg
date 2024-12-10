@@ -26,7 +26,7 @@ jobs:
         run: date +%s > .test # for testing, will change
 
       - name: "Commit"
-        run: git add . && git commit --allow-empty --message="${MESSAGE}" && git push
+        run: git add . && git commit --allow-empty --author="${GIT_COMMITTER_NAME} <${GIT_COMMITTER_EMAIL}>" --message="${MESSAGE}" && git push
         env:
           GIT_COMMITTER_NAME: github-actions[bot]
           GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
