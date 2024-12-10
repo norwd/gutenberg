@@ -1,0 +1,2218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<!--
+
+Some comments about the postprocessing of this ebook, which might be
+useful someday for other postprocessors, or for me when I work on
+another such book and can't remember how I did something before...
+
+For consistency, I've used the same styles as I did in the other
+GROBE books. The originals are all formatted similarly.
+
+I duplicated the table of contents near the beginning of the book,
+because that's where many people would expect it, and because it will
+kind of get lost in the end anyway when the Gutenberg info is appended.
+
+I've retained some proofers' comments (and added some more during
+postprocessing!) in this HTML version, commented of course, related
+to things like errors in the book which I hope nobody ever "fixes"
+back to the way it is in the original!
+
+Words which have been corrected in this Gutenberg etext are marked
+by the comment "Error in book:" or some such.
+
+I used Vim (http://www.vim.org/) for most editing, but I used UniRed
+(http://www.esperanto.mv.ru/UniRed/) for spellchecking and conversion
+between iksismo, numerical character entities, and utf8 ascii. Be
+aware of some UniRed features I discovered: 1) All hexadecimal Unicode
+entities are converted to decimal (*throughout the file*) when it is
+saved. That may be good or bad, depending on your personal preference.
+I prefer hexadecimal, but decimal doesn't bother me too much, and one
+can still enter them as hexadecimal. 2) Windowy ASCII characters with
+the high bit set, that is, in the range [128..255] may be corrupted. For
+example, "naive" with an i-dieresis is converted to "na&#64933;". Be
+sure to convert such characters to Unicode *before* your first UniRed
+save!
+
+Note concerning HR width: 38% = 1 - GoldenRatio.
+
+Notes to myself inre dashes:
+   Validator doesn't like &#151; Use &mdash; or Unicode &#8212;
+   Unicode nonbreaking hyphen: &#8209;
+   Also, &ndash; = Unicode &#8211;
+
+                                  - William W. Patterson, AKA Ailanto
+
+-->
+
+<head>
+   <title>MARK TWAIN : TRI NOVELOJ</title>
+   <!-- Apparently the W3C HTML Validator *requires* Content-Type
+   tag or one of the other comparable things now. -->
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <style type="text/css">
+      body { margin-left: 5%; margin-right: 5% }
+      p.centre, div.centre, td.centre { text-align: center }
+      p.tutdekstre, div.tutdekstre, td.tutdekstre { text-align: right }
+      p.tutlive, div.tutlive, td.tutlive, blockquote.tutlive { text-align: left }
+      p.dekstre, div.dekstre, td.dekstre, blockquote.dekstre { text-align: left; margin-left: 2em }
+      p.live, div.live, td.live { text-align: right; margin-right: 2em }
+      .titolo { font-size: 125%; font-weight: bold; text-align: center; margin-top: 4em; margin-bottom: 1em }
+      .dike { font-weight: bold }
+      .italike { font-style: italic }
+      .grandege { font-size: 225% }
+      .grande { font-size: 125% }
+      .grandete { font-size: 115% }
+      .mezgrande { font-size: medium }
+      .malgrandete { font-size: 85% }
+      .malgrande { font-size: 70% }
+      .malgrandege { font-size: 55% }
+      .pligrande { font-size: larger }
+      .plimalgrande { font-size: smaller }
+   </style>
+</head>
+
+<body>
+
+
+<pre>
+
+The Project Gutenberg EBook of Mark Twain: Tri Noveloj, by Mark Twain
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Mark Twain: Tri Noveloj
+
+Author: Mark Twain
+
+Translator: Edwin Grobe
+
+Release Date: March 8, 2006 [EBook #17945]
+
+Language: Esperanto
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK MARK TWAIN: TRI NOVELOJ ***
+
+
+
+
+Produced by Robert L. Read, William Patterson, Edwin GROBE
+and the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+
+
+
+
+</pre>
+
+
+<!-- File: 01.png -->
+
+<div class="grande centre italike" style="margin-top: 0; margin-bottom: 2em">
+   KLASIKAJ USONAJ NOVELOJ
+</div>
+
+<div class="grande dike centre" style="margin-top: 0; margin-bottom: 2em">
+   MARK TWAIN<br>
+   (1835-1910)
+</div>
+
+<div class="grandege dike centre italike" style="margin-top: 1.5em; margin-bottom: 1em">
+   TRI NOVELOJ:
+</div>
+
+<div class="grande dike centre italike" style="margin-top: 1em; margin-bottom: 2em">
+   &mdash;&nbsp;KONFESO DE MORTANTO&nbsp;&mdash;<br>
+   &mdash;&nbsp;LA FIFAMA SALTANTA RANO DE KALAVERO-KONTEO&nbsp;&mdash;<br>
+   &mdash;&nbsp;LA RAKONTO PRI LA MALBONKONDUTA KNABETO&nbsp;&mdash;<br>
+</div>
+
+<div class="grande centre" style="margin-top: 2em; margin-bottom: 2em">
+   Esperantigis<br>
+   EDWIN GROBE
+</div>
+
+<div class="grandete centre" style="margin-top: 2em; margin-bottom: 4em">
+   1999<br>
+   Eldonejo-Arizona-Stelo<br>
+   1620 North Sunset Drive<br>
+   Tempe, Arizona 85281-1550<br>
+   Usono
+</div>
+
+<!-- File: 02.png -->
+
+<div class="malgrandete centre" style="margin-top: 4em; margin-bottom: 2em">
+   MARK TWAIN: TRI NOVELOJ<br>
+   Unua Eldono: Januaro 1999
+</div>
+
+<div class="malgrandete centre" style="margin-top: 2em; margin-bottom: 3em">
+   Originaj Anglalingvaj Titoloj:<br>
+   "A DYING MAN'S CONFESSION"<br>
+   "THE NOTORIOUS JUMPING FROG OF CALAVERAS COUNTY"<br>
+   "THE STORY OF THE BAD LITTLE BOY"
+</div>
+
+<div class="malgrandete centre" style="margin-top: 3em; margin-bottom: 2em">
+   Copyright 1999<br>
+   Edwin P. Grobe<br>
+   for the herein contained<br>
+   English-to-Esperanto Translations
+</div>
+
+<div id="enhavo_duplikato"> <!-- duplicate table of contents; see notes -->
+
+   <hr align="center" width="62%" style="margin-top: 2em; margin-bottom: 1em">
+
+   <div class="grande dike centre" style="margin-top: 1em; margin-bottom: 1em">
+      ENHAVO
+   </div>
+
+   <center>
+      <table border="0" cellspacing="16" cellpadding="0" summary="">
+         <tr><td align="left">"<a href="#konfeso">Konfeso de Mortanto</a>"</td><td align="left">p. 1</td></tr>
+         <tr><td align="left">"<a href="#rano">La Fifama Saltanta Rano de Kalavero-Konteo</a>"</td><td align="left">p. 14</td></tr>
+         <tr><td align="left">"<a href="#knabeto">La Rakonto pri la Malbonkonduta Knabeto</a>"</td><td align="left">p. 19</td></tr>
+      </table>
+   </center>
+
+   <hr align="center" width="62%" style="margin-top: 1em; margin-bottom: 2em">
+
+</div>
+
+<!-- File: 03.png -->
+
+<div id="konfeso" class="titolo">
+   KONFESO DE MORTANTO
+</div>
+
+<p>
+   Ni alproksimi&#285;is vila&#285;on Napoleonon en &#349;tato
+   Arkansaso. Tial mi komencis pripensi mian tiean taskon. La horo:
+   tagmezo. La vetero: hela kaj suna. Tio estis malbona. Almena&#365;,
+   ne bonega. &#264;ar mia tasko ne estis (la&#365;prefere) tagmeza
+   speco. Ju pli mi meditis, des pli tiu fakto sin trudis al
+   mi&mdash;jen unuforme, jen aliforme. Finfine &#285;i prenis la
+   formon de preciza demando. &#264;u estas bonsence plenumi la taskon
+   dumtage kiam, vin senigante je iom da komforto kaj inklino, vi povas
+   elprofiti la nokton por tio, sen scivolemaj gvatokuloj? Tio decidis
+   la aferon. Klara demando kaj klara respondo konsistigas la plej
+   mallongan elirejon por la plejmulto da konfuza&#309;oj.
+</p>
+
+<p>
+   Mi kunvenigis miajn amikojn en mia kajuto kaj diris ke mi
+   beda&#365;ras estigi &#285;enon kaj malesperon sed ke, post meditado
+   pri la afero, la&#365;&#349;ajne estos pli bone ke ni albordigu niajn
+   baga&#309;ojn kaj vizitu Napoleonon. Ilia malaprobo estis tuja kaj
+   la&#365;ta; ilia lingva&#309;o, ribelema. Ilia &#265;efa argumento
+   estis tiu kiu &#265;iam malmergi&#285;as la unua en tiaj okazoj, ekde
+   la komenco de tempo. "Sed vi elektis kaj <i>anta&#365;konsentis</i>
+   resti sur &#265;i tiu boato," ktp.; kvaza&#365;, decidi&#285;inte
+   fari malsa&#285;a&#309;on, la&#365; nepra neceso oni restu sur la
+   sama vojo kaj aliigi &#285;in en <i>du</i> malsa&#285;a&#309;ojn
+   per la plenumo de la komenca decidi&#285;o. Mi utiligis diversajn
+   taktikojn por mildigi ilian sintenon, kun sufi&#265;e bona sukceso.
+   Rezulte de tiu kura&#285;igo mi plimultigis miajn klopodojn. Kaj por
+   komprenigi al ili ke ne estis <i>mi</i> kiu postulis la plenumon de
+   la koncerna taska&#265;o kaj ke mi nepre senkulpas pri la afero,
+   mi balda&#365; ekkura&#285;is rakonti ties historion, preska&#365;
+   samvorte kiel mi &#265;i-poste raportas.
+</p>
+
+<p>
+   &#264;irka&#365; la fino de la pasinta jaro mi pasigis kelkajn
+   monatojn en Munkeno, en Bavario. En novembro mi lo&#285;is en
+   la pensiono de Fra&#365;lino Dalvejnero, &#265;e numero 1 de
+   Karlostrato. Sed mia laborejo situis unu mejlon for, en la domo
+   de vidvino sin vivtenanta per gastigado. &#348;i kaj &#349;iaj
+   du junaj infanoj kutimis veni &#265;e mi &#265;iun matenon kaj
+   kunbabiladi en la Germana&mdash;responde al mia peto. Unu tagon,
+   dum mi vagpromenadis en la urbo, mi vizitis unu el la du lokoj
+   kie la registaro retenas kaj prizorgas kadavrojn &#285;is la
+   kuracistoj certas ke tiuj finmortis kaj ne da&#365;re vivas en
+   tranca stato. Estis makabra loko, tiu &#265;ambrego. Vidi&#285;is
+   tridek ses plenkreskulaj kadavroj, sternite surdorse sur iom
+   oblikvangulaj tabuloj en tri longaj vicoj&mdash;kaj havante &#265;iuj
+   vaksoblankajn rigidajn viza&#285;ojn sub la blankaj mortotukoj
+   volvitaj &#265;irka&#365; ili. La&#365; la flankoj de la &#265;ambro
+   estis profundaj orielaspektaj alkovoj kaj en &#265;iu el tiuj
+   ku&#349;is pluraj marmormienaj beboj, entute ka&#349;ite kaj
+   enterigite sub tavoloj da fre&#349;aj floroj krom siaj viza&#285;oj
+   kaj interfalditaj manoj. &#264;irka&#365; fingro de &#265;iu el
+   tiuj kvindek senmovaj formoj, grandaj kaj malgrandaj, estis ringo.
+   Ekde la ringo, drato etendi&#285;is &#285;is la plafono kaj de
+   tie &#285;is sonorileto en tiea kontrol&#265;ambro kie, tage kaj
+   nokte, kontrolisto sidas &#265;iam en vigla atendado, preta alvenigi
+   eksaltan ur&#285;ohelpon al iu ajn ano de tiu palvanga kompanio
+   kiu, veki&#285;inte el la morto, estigas korpomovon&mdash;&#265;ar
+   &#265;iu movo, e&#265; la plej minimuma, agitos la draton kaj sonigos
+   tiun timindan sonorileton. Mi imagis min mortosentinelo kiu dormetis
+   en nepra tiea soleco en tre malfrua horo dum malrapidege
+
+<!-- File: 04.png -->
+
+   evoluanta gvatde&#309;orado de iu mu&#285;ventega nokto kaj eksentis
+   sian korpon alii&#285;i palpebrumtempe en tremetantan &#309;eleon pro
+   la subita brua&#265;o de tiu terura alvokilo! Tial mi enketis pri
+   tiu a&#309;o, demandis kio kutime okazas? &#264;u la gvatisto mortis
+   kaj la revivinta kadavro alvenis por komfortigi kiel eble plej multe
+   liajn lastajn momentojn? Sed oni ripro&#265;is al mi mian klopodon
+   nutri sencelan kaj senvaloran scivolemon en tiel solena kaj funebra
+   loko. Kaj mi foriris tre humiligite.
+</p>
+
+<p>
+   La sekvintan matenon mi rakontadis mian aventuron al la vidvino kiam
+   &#349;i ekkriis:
+</p>
+
+<p>
+   "Venu kun mi. Mi havas lo&#285;anton kiu rakontos al vi &#265;ion
+   kion vi deziras ekscii. Li estis noktosentinelo tie."
+</p>
+
+<p>
+   Li estis vivanta homo sed ne havis vivantan aspekton. Li ku&#349;is
+   surlite kaj altaj kusenoj subtenis lian kapon. Lia forvelkinta
+   viza&#285;o estis senkolora. Liaj profunde sinkintaj okuloj estis
+   fermitaj. Lia mano, ku&#349;ante sur lia brusto, estis ungegaspekta,
+   tiel osta kaj longfingra &#285;i estis. La vidvino komencis min
+   prezenti. La okuloj de la viro malfermi&#285;is malrapide kaj
+   briletis malice el la krepusko de siaj kavernoj. Li kuntiris nigre
+   la brovojn. Li levis la maldikan manon kaj entreprenis nin forsendi
+   per ordonema gesto. Sed la vidvino da&#365;re parolis &#285;is
+   eksciigi al li la fakton ke mi estas fremdulo kaj Usonano. La mieno
+   de la viro tuj &#349;an&#285;i&#285;is, pliheli&#285;is, e&#265;
+   avidi&#285;is&mdash;kaj en la sekvinta momento li kaj mi ek&#285;uis
+   kunan solecon.
+</p>
+
+<p>
+   Mi komencis paroli en roksolida Germana lingvo. Li respondis en ege
+   fleksebla Angla lingvo. Post tio ni nepre flankenlasis la Germanan.
+</p>
+
+<p>
+   Tiu ftizulo kaj mi intime amiki&#285;is. Mi vizitis lin &#265;iun
+   tagon kaj ni parolis pri &#265;io. Almena&#365; pri &#265;io krom
+   edzinoj kaj infanoj. Se mencii&#285;is la edzino a&#365; la infano
+   de iu ajn, &#265;iam postokazis tri fenomenoj: la plej afabla
+   kaj amema kaj dol&#265;a lumo briletis en la okuloj de la viro
+   dum momento; en la sekvinta momento la lumo forpali&#285;is kaj
+   &#285;in anstata&#365;is tiu minaca mieno jam ekflaminta tie kiam
+   mi vidis liajn okulojn malfermi&#285;i la unuan fojon; triavice,
+   li &#265;esis paroli tie kaj tiam por tiu tago, restis senparole
+   da&#365;re enliti&#285;ite, perdite en abstrakta kaj absorbita
+   pensado, la&#365;&#349;ajne a&#365;dante nenion kion mi diris,
+   malatentante miajn adia&#365;ojn, kaj evidente prikonsciis nek vide
+   nek a&#365;de pri mia foriro el la &#265;ambro.
+</p>
+
+<p>
+   Kiam mi jam estis dum du monatoj la &#265;iutaga kaj sola intimulo de
+   tiu Karolo Ritero, li diris abrupte ion tagon:
+</p>
+
+<p>
+   "Mi rakontos al vi mian historion."
+</p>
+
+<p>
+   Tiam li da&#365;rigis kiel jenas:
+</p>
+
+<hr align="center" width="62%">
+
+<p>
+   Mi neniam rezignis anta&#365; nun. Sed nun mi rezignas. Mi estas
+   mortonta. Mi finkonkludis hiera&#365;nokte ke devas okazi tiel kaj,
+   aldone, ege balda&#365;. Vi diras ke vi celas reviziti vian riveron
+   iun tagon kiam la okazo prezenti&#285;os. Nu, bonege. Tio, kune kun
+   stranga sperto kiun hazarda sorto okazigis al mi hiera&#365;nokte,
+   devigas min rakonti al vi mian historion&mdash;&#265;ar vi vidos
+   vila&#285;on Napoleonon en Arkansaso kaj por mia bono vi haltos tie
+   kaj plenumos taskon por mi&mdash;taskon kiun vi entreprenos bonvole
+   post a&#365;skulti mian rakonton.
+</p>
+
+<!-- File: 05.png -->
+
+<p>
+   Ni mallongigu la rakonton kie ajn eblas &#265;ar &#285;i estas
+   longa kaj bezonos mallongigon. Vi jam scias kiel okazis al mi aliri
+   Amerikon kaj kiel mi decidi&#285;is eklo&#285;i en tiu soleca regiono
+   de la Sudo. Sed vi ne scias ke mi havis edzinon. Mia edzino estis
+   juna, belega, amema, kaj, ho! tiel die bona kaj senkulpa kaj milda.
+   Kaj nia filineto estis miniatura kopio de sia patrino. Tio estis la
+   plej feli&#265;a el &#265;iuj feli&#265;aj hejmoj.
+</p>
+
+<p>
+   Iun nokton&mdash;okazis &#265;irka&#365; la fino de la
+   milito&mdash;mi veki&#285;is el ebria stuporo kaj min trovis
+   manligita kaj bu&#349;&#349;topita <!-- Error in book:
+   bu&#349;stopita --> dum la &#265;irka&#365;anta aero estis
+   malpurigita per kloroformo. Mi vidis du virojn en la &#265;ambro kaj
+   unu el ili diris al la alia en ra&#365;ka flustrado: "Mi <i>diris</i>
+   al &#349;i ke mi faros tion se &#349;i faros bruon, kaj rilate al la
+   infano&mdash;"
+</p>
+
+<p>
+   La alia viro interrompis en malla&#365;ta duonplora vo&#265;o:
+</p>
+
+<p>
+   "Vi diris ke ilin ni nur bu&#349;&#349;topos kaj prirabos, ne
+   difektos, alie mi ne konsentintus alveni."
+</p>
+
+<p>
+   "&#264;esu plenda&#265;i. <i>Necesis</i> &#349;an&#285;i la planon
+   kiam ili veki&#285;is. Vi faris <i>vian</i> plejon por ilin protekti.
+   Nun tio vin kontentigu. Venu, helpu ser&#265;fosadi."
+</p>
+
+<p>
+   Amba&#365; viroj surportis maskojn kaj krudajn &#265;ifonajn
+   "nigrul"-specajn vesta&#309;ojn. Ili havis celpunktan lanternon helpe
+   de kies lumo mi konsciis ke al la dekstra mano de la pli milda el la
+   du rabistoj mankas dikfingro. Ili ser&#265;fosadis hazardacele en mia
+   malri&#265;a lo&#285;ejo dum momento. La &#265;efbandito diris tiam
+   en teatra flustrado:
+</p>
+
+<p>
+   "Tio estas tempomal&#349;paro. <i>Li</i> malka&#349;u kie &#285;i
+   estas ka&#349;ita. Forigu lian bu&#349;o&#349;topilon kaj lin
+   revigligu."
+</p>
+
+<p>
+   La alia diris:
+</p>
+
+<p>
+   "Bone. Kondi&#265;e ke ne okazu klabado."
+</p>
+
+<p>
+   "Sen klabado estu, tial. Kondi&#265;e ke li da&#365;re silentu."
+</p>
+
+<p>
+   Ili min alproksimi&#285;is. En tiu momento a&#365;digis eksterdomaj
+   sonoj, sonoj de vo&#265;oj kaj hufotretado. La rabistoj retenis
+   la spiradon kaj a&#365;skultis. Malrapide la sonoj pli kaj pli
+   <!-- Error in book: proksikimi&#285;is --> proksimi&#285;is. Tiam
+   eksonis kriego:
+</p>
+
+<p>
+   "<i>Saluton</i>, la domo! Vidigu lumon. Ni deziras akvon."
+</p>
+
+<p>
+   "La vo&#265;o de la kapitano, per Dio!" diris la teatre flustrinta
+   brutulo, kaj amba&#365; banditoj forfu&#285;is pere de la
+   malanta&#365;pordo, mal&#349;altante sian lanternon dum la kurado.
+</p>
+
+<p>
+   La fremdulo alvokis plurajn pluajn fojojn, tiam
+   preterrajdis&mdash;estis la&#365;&#349;ajne dekduo da
+   &#265;evaloj&mdash;kaj nenion pluan mi a&#365;dis.
+</p>
+
+<p>
+   Mi luktis sed ne sukcesis min liberigi el miaj ligoj. Mi klopodis
+   paroli sed malhelpis tion mia bu&#349;&#349;topilo. Mi kapablis eligi
+   nenian sonon. Mi ser&#265;a&#365;skultis la vo&#265;ojn de miaj
+   edzino kaj infano&mdash;a&#365;skultis longe kaj atentege. Tamen
+   nenia sono eliris la alian ekstrema&#309;on de la &#265;ambro kie
+   staris ilia lito. Tiu silento pli kaj pli a&#265;i&#285;is, pli kaj
+   pli minaci&#285;is, en &#265;iu momento. &#264;u vi opinias povinti
+   toleri horoda&#365;ron da tia&#309;o? Kompatu min tial, al kiu
+   necesis toleri trihoran da&#365;ron. &#264;u trihoran? Trieternecan,
+   diru! Kiam ajn eksonis la horlo&#285;o &#349;ajnis ke jam forpasis
+   jaroj ekde kiam mi a&#365;dis &#285;in la anta&#365;an fojon. Dum la
+   tuta tempo mi baraktis en miaj ligoj kaj finfine, &#265;irka&#365; la
+   nova tagi&#285;o mi min liberigis kaj ekstre&#265;is miajn rigidajn
+   membrojn. Mi povis distingi detalojn iom bone. Disrubis la plankon
+   a&#309;oj tien &#309;etitaj per la &#349;telistoj dum
+
+<!-- File: 06.png -->
+
+   ili ser&#265;is miajn &#349;parmonojn. La unua objekto kaptinta mian
+   apartan atenton estis dokumento mia kiun mi vidis ekrigardi kaj
+   tiam for&#309;eti la pli krudan el la du brutuloj. Sango &#285;in
+   makuligis. Mi atingis stumblapa&#349;e la alian ekstrema&#309;on de
+   la &#265;ambro. Ho, kompatindaj, senofendaj, senhelpaj estuloj, tie
+   ili ku&#349;is. Jam forpasis iliaj &#265;agrenoj. Nur komenci&#285;is
+   la miaj.
+</p>
+
+<p>
+   &#264;u mi apelaciis al la juro? &#264;u mi? &#264;u sati&#285;as
+   la soifo de la malri&#265;ulo se la re&#285;o trinkas por li?
+   Ho, ne, ne, ne! Mi deziris nenian impertinentan sintrudon de la
+   juro. Le&#285;oj kaj la pendumilo ne povus kontra&#365;pagi la
+   &#349;uldoprezon kiun mi rajtis ricevi. La juro lasu sentime al
+   mi la tiurilatan respondecon. Mi malkovrus la &#349;uldanton kaj
+   kolektus la &#349;uldon. Kiel efektivigi tion, &#265;u vi diras?
+   Kiel efektivigi tion kaj tiom ekcerti pri &#285;i se mi neniam
+   vidis la viza&#285;ojn de la &#349;telistoj nek a&#365;dis iliajn
+   kutimajn vo&#265;ojn nek konceptis ununuran ideon pri kiuj ili
+   povus esti? Malgra&#365; tio tamen mi estis jes ja certa&mdash;ege
+   certa, ege memfida. Mi disponis indicon&mdash;indicon kiun vi
+   taksintus senvalora&mdash;indicon kiu ne multe helpintus e&#265;
+   detektivon pro tio ke mankus al li la sekreto pri kiel &#285;in
+   apliki. Mi parolos pri tio balda&#365;. Vi vidos. Ni da&#365;rigu
+   nun, konsiderante la aferon en ta&#365;ga ordo. Por komenci estis
+   cirkonstanco kiu disponigis al mi precizdirektan vidpunkton. Tiuj
+   du rabistoj estis klar&#349;ajne soldatoj trompvestitaj kiel
+   vagabondoj, kaj ne novvenitaj al milita servado sed spertaj pri
+   &#285;i&mdash;konstantuloj, eble. Ili ne akiris siajn soldatajn
+   sintenon, gestojn, starpozojn en unu tago, nek en unu monato, nek en
+   unu jaro. Tiel mi opiniis, sed nenion diris. Kaj unu el ili diris,
+   "La vo&#265;o de la kapitano, per Dio!"&mdash;la viro mem kiun mi
+   deziris senvivigi. Du mejlojn for tendumis pluraj regimentoj kaj du
+   kompanioj de Usona kavalerio. Kiam mi eksciis ke Kapitano Blakelio
+   de Kompanio&nbsp;C preterpasis nin dum la nokto kun eskorto, mi diris
+   nenion sed decidi&#285;is ser&#265;i mian viron en tiu kompanio. Dum
+   diversaj konversacioj studeme kaj obstine mi priskribis la rabistojn
+   kiel vagabondojn, kampadejo-parazitulojn. Kaj inter tiu socia klaso
+   miaj kunkonversaciintoj ser&#265;is vane, &#265;ar nur mi suspektis
+   la soldatojn.
+</p>
+
+<p>
+   Laborante pacience dumnokte en mia afliktita hejmo, mi fabrikis
+   kamufla&#309;on por mi el diversaj vesta&#309;pecoj kaj -eroj.
+   En la plej proksima vila&#285;o mi a&#265;etis paron da bluaj
+   &#349;irmvitroj. Post kelke da tempo, kiam la milita kampadejo
+   disi&#285;is kaj Kompanio-C-on oni forsendis cent mejlojn norden, al
+   Napoleono, mi ka&#349;is mian etan monprovizon en mia pantalonzono
+   kaj efektivigis mian foriron dum la nokto. Kiam Kompanio&nbsp;C
+   atingis Napoleonon mi estis jam tie. Jes, mi estis tie&mdash;kun
+   nova metio: sortodivenisto. Dezirante &#349;ajni egalpartia, mi
+   amiki&#285;is kaj divenis sortojn inter &#265;iuj kompanioj tie
+   garnizonigitaj. Tamen mi atentis plejparte pri Kompanio&nbsp;C. Mi
+   min komplezemigis senlime inter tiuj apartaj viroj. Ili petis de mi
+   nenian komplezon, starigis anta&#365; mi nenian minacon kiujn mi
+   malakceptis. Mi fari&#285;is bonvola viktimo de iliaj &#349;ercoj.
+   Tio pligrandigis mian popularecon. Mi fari&#285;is favorato.
+</p>
+
+<p>
+   Balda&#365; mi trovis soldaton al kiu mankis dikfingro. Kian
+   &#285;ojon tio havigis al mi! Kaj kiam mi ekcertis ke nur li, el
+   &#265;iuj kompanianoj siaj, perdis dikfingron, malaperis mia lasta
+   dubo. Mi <i>certegis</i> suresti la &#285;ustan spurvojon. La viro
+   nomi&#285;is Krugero. Li estis Germano. Estis na&#365; Germanoj en la
+   kompanio. Mi kontrolgvatadis
+
+<!-- File: 07.png -->
+
+   por ekscii kiuj estas liaj intimuloj, sed la&#365;&#349;ajne
+   <!-- Error in book: la&#365;sajne --> li havis neniajn apartajn
+   amikojn. Tamen intimulo lia estis mi kaj mi prizorgis kreskigi la
+   rilaton. Kelkfoje mi tiel sopiris al ven&#285;o ke mi apena&#365;
+   sukcesis malhelpi min surgenui&#285;i anta&#365; li kaj petegi ke
+   li fingremontru la viron mortigintan miajn edzinon kaj infanon sed
+   mi ekscipovis bridi al mi la langon. Mi atendadis pacience kaj
+   da&#365;re sortodivenis, la&#365;okaze.
+</p>
+
+<p>
+   Mia aparataro estis simpla: iom da ru&#285;a farbo kaj peceto da
+   blanka papero. Mi farbis la malsupron de la klienta dikfingro,
+   faris surpaperan prema&#309;on de &#285;i, &#285;in studadis dum la
+   nokto kaj sciigis lian sorton al li la sekvintan tagon. Kiun ideon
+   mi nutris, efektivigante tian sensenca&#309;on? Jen &#285;i estis.
+   Kiam mi estis knabo mi konis maljunan Francon estintan provoso
+   dum tridek jaroj kaj li diris al mi ke &#265;iu homo havas unu
+   trajton kiu neniam &#349;an&#285;i&#285;as ekde la lulilo &#285;is
+   la tombo: la linioj sur la malsupra flanko de la dikfingro. Kaj
+   li diris ke tiuj linioj neniam nepre samaspektas &#265;e iu ajn
+   homparo. Nuntagare ni fotas la novan krimulon kaj pendas lian
+   bildon en la Kanajlo-Galerio por estonta referenco. Sed tiu Franco,
+   dum sia aktiva laborkariero, kutimis fari prema&#309;on pri la
+   dikfingra malsupra&#309;o de nova malliberulo kaj &#285;in staplis
+   por ebla estonta uzado. Li diris &#265;iam ke bildoj senvaloras
+   &#265;ar eventualaj kamuflovesta&#309;oj povas ilin senutiligi. "La
+   dikfingro estas la ununura certa&#309;o," li diris. "&#284;i ne
+   kamuflovesteblas." Kaj li kutimis pravigi sian teorion helpe de miaj
+   amikoj kaj konatoj. Tio sukcesis &#265;iam.
+</p>
+
+<p>
+   Mi da&#365;re sortodivenis. &#264;iun nokton mi min izoligis, en
+   nepra soleco, kaj pristudis sub lupeo la dikfingrajn prema&#309;ojn
+   de la tago. Vi imagu la vorantan avidon per kiu mi okulkontrolegis
+   tiujn labirintajn ru&#285;ajn spiralojn, tenante apude tiun
+   dokumenton surportantan la dekstramanajn dik- kaj alifingrajn
+   prema&#309;ojn de tiu nekonata murdinto, presitajn per la plej
+   kara sango&mdash;por mi&mdash;iam defaligita sur &#265;i tiu
+   tero! Kaj foje kaj refoje necesis al mi ripeti la saman malnovan
+   senkura&#285;igan rimarkon: "&#264;u <i>neniam</i> samaspektos ili?"
+</p>
+
+<p>
+   Sed finfine alvenis mia rekompenco. &#284;i estis la dikfingra
+   prema&#309;o de la kvardektria viro de Kompanio&nbsp;C partopreninta
+   en mia eksperimento: Soldato Franzo Adlero. Unu horon anta&#365;e
+   mi sciis nek la nomon nek la vo&#265;on nek la figuron nek la
+   viza&#285;on nek la naciecon de la murdinto. Sed nun mi sciis
+   &#265;iujn tiujn detalojn. Mi opiniis rajti certi pri la afero.
+   La ripetitaj demonstradoj de la Franco estis mia rajtigilo. Tamen
+   restis rimedo por &#265;ion <i>nepre</i> certigi. Mi disponis pri
+   prema&#309;o de la maldekstra dikfingro de Krugero. En la mateno mi
+   flankenapartigis lin dum lia malde&#309;orado. Kiam ni staris ekster
+   la vid- kaj a&#365;dkampo de eblaj atestontoj mi diris en impona
+   maniero:
+</p>
+
+<p>
+   "Parto de via sorto estas tiel serioza ke mi ju&#285;is esti pli
+   bone ne malkovri &#285;in al vi okaze de publika kunveno. Vi kaj
+   cetera viro, kies sorton mi pristudis hiera&#365;nokte&mdash;Soldato
+   Adlero&mdash;murdis virinon kaj infanon. Oni vin spuras. Anta&#365;
+   ol forpasos kvin tagoj oni murdos vin amba&#365;."
+</p>
+
+<p>
+   Li falis surgenuen, timigite &#285;is frenezio. Kaj dum kvin minutoj
+   li ade elver&#349;is la saman litanion, kiel demenculo, kaj en tiu
+   sama duonplora maniero restinta unu el miaj memora&#309;oj pri tiu
+   murdonokto en mia &#265;ambreto:
+</p>
+
+<!-- File: 08.png -->
+
+<p>
+   "Mi ne faris tion. La&#365; mia animo, tion mi ne faris. Kaj mi
+   strebis malhelpi ke <i>li</i> faru tion. Tiel mi agis, Dio estu mia
+   atestanto. Li faris tion solapersone."
+</p>
+
+<p>
+   Jen estis &#265;io kion mi volis. Kaj mi klopodis min senigi je la
+   stultulo. Sed ne, li alkro&#265;i&#285;is al mi, petegante ke mi lin
+   protektu kontra&#365; la murdinto. Li diris:
+</p>
+
+<p>
+   "Mi havas monon. Dek mil dolarojn. En ka&#349;ejo. La frukta&#309;o
+   de &#349;telado kaj rabado. Savu min. Diru al mi kion fari kaj
+   &#285;i estos al vi, &#265;iu cendo. Du trionoj el &#285;i apartenas
+   al mia kuzo, Adlero, sed vi rajtas alpreni &#285;in entute. Ni
+   ka&#349;is &#285;in kiam ni alvenis &#265;i tien komence. Sed mi
+   reka&#349;is &#285;in hiera&#365; en nova loko kaj ne diris tion al
+   li. Mi intencis dizerti kaj &#285;in forpreni entute. &#284;i estas
+   oro kaj tro peza por manporti kiam oni kuras kaj evitas. Sed virino
+   kiu jam transiris la riveron anta&#365; du tagoj por pretigi mian
+   vojon postsekvos min kun la mono. Kaj se mi ne havus la &#349;ancon
+   priskribi la ka&#349;ejon al &#349;i, mi intencis ruzdoni mian
+   ar&#285;entan po&#349;horlo&#285;on en &#349;ian manon a&#365;
+   transsendi &#285;in al &#349;i kaj &#349;i komprenus la aferon.
+   Estas paperpeco en la malanta&#365;a&#309;o de la ujo kiu &#265;ion
+   rakontas. Jen, prenu la horlo&#285;on kaj diru al mi kion fari."
+</p>
+
+<p>
+   Li penadis trudi sian horlo&#285;on al mi kaj elmontradis la
+   paperon, klarigante &#285;in al mi, kiam Adlero eniris la vidkampon
+   fordistance je &#265;irka&#365; dek du jardoj. Mi diris al la
+   kompatinda Krugero:
+</p>
+
+<p>
+   "Enpo&#349;igu denove vian horlo&#285;on, &#285;in mi ne deziras.
+   Nenia difektado vin atingos. Foriru nun, mi devas diveni lian
+   sorton por Adlero. Balda&#365; mi diros al vi kiel eskapi de la
+   murdinto. Intertempe, necesos al mi rekontroli la prema&#309;on de
+   via dikfingro. Nenion diru al Adlero pri &#265;i tiu afero. Nenion
+   diru al iu ajn."
+</p>
+
+<p>
+   Li foriris plena je timo kaj dankemo, kompatinda diablulo. Mi diris
+   al Adlero longan sortodivenon&mdash;la&#365;intence tiel longan ke mi
+   ne povis &#285;in findiri. Promesis alveni lian gvardpostenejon tiun
+   nokton kaj diri al li ties vere gravan parton&mdash;ties tragedian
+   parton, mi diris. Tial, necesas esti ekster la a&#365;dkampo de
+   suba&#365;skultantoj. Oni &#265;iam postenigis pikedon ekster la
+   urbo. Nuraj disciplino kaj ceremonio. Nenia bezono tiurilate. Nenia
+   malamiko en la &#265;irka&#365;ejo.
+</p>
+
+<p>
+   &#264;irka&#365; noktomezo mi survoji&#285;is, provizite per la
+   kontra&#365;signo, kaj gvidis miajn pa&#349;ojn &#285;is la soleca
+   regiono kie Adlero estis gvardonta. Estis tiel malhele ke mi stumblis
+   senpere kontra&#365; malklaran figuron preska&#365; anta&#365; ol
+   povi eligi &#349;irmvorton. La sentinelo salutis kaj mi respondis,
+   amba&#365; en la sama momento. Mi aldonis: "Estas nur mi, la
+   sortodivenisto." Tiam mi glitpa&#349;is al la flanko de la kompatinda
+   diablulo kaj &#349;ovegis mian ponardon en lian koron. "<i>Ja
+   wohl</i>," mi ridis. Jen <i>estis</i>, efektive, la tragedia parto de
+   lia sorto. <!-- Error in book: extra quotemark --> Dum li falis de
+   sur sia &#265;evalo, li strebis alkro&#265;i&#285;i al mi kaj miaj
+   bluaj &#349;irmokuloj postrestis en lia mano. Kaj foren plon&#285;is
+   la besto, lin trenante kun piedo en la piedingo.
+</p>
+
+<p>
+   Mi forfu&#285;is tra la arbaro kaj efektivigis mian eskapon,
+   postlasinte miajn &#349;irmokulojn en la mano de la mortinto.
+</p>
+
+<p>
+   Tio okazis anta&#365; dek kvin-dek ses jaroj. Ekde tiam mi vagiradas
+   sencele &#265;irka&#365; la mondo, foje laborante, foje senlabore;
+   foje havante monprovizon, foje senmone; sed &#265;iam lacigite per
+   troa vivado kaj dezirante finvivi, &#265;ar mian surteran mision
+   plenumis la faro de tiu nokto. Kaj la nuraj plezuro, konsolo,
+   kontenti&#285;o kiujn
+
+<!-- File: 09.png -->
+
+   mi spertis en &#265;iuj tiuj tedaj jaroj estis la &#265;iutaga penso:
+   "Mi senvivigis lin!"
+</p>
+
+<p>
+   Anta&#365; kvar jaroj mia sano komencis malbonfarti. Mi vagatingintis
+   Munkenon la&#365; mia sencela maniero. Malhavante monon, mi
+   ser&#265;is kaj akiris laborpostenon. Mi plenumis mian taskon
+   fidele dum &#265;irka&#365; unu jaro. Tiam oni postenigis min kiel
+   noktosentinelon tie en tiu mortodomo kiun vi vizitis lastatempe.
+   La loko konvenis al mia humoro. &#284;i pla&#265;is al mi.
+   Pla&#265;is al mi esti kun la mortintoj&mdash;esti sola kun ili. Mi
+   kutimis vagiradi inter tiuj rigidaj kadavroj kaj enrigardi iliajn
+   a&#365;sterajn viza&#285;ojn dum horoj. Ju pli malfrua estis la
+   horo, des pli impona estis la situacio. Mi preferis la malfruan
+   horon. Foje mi malheligis la lumojn. Tio estigis perspektivon,
+   vi komprenu, kaj liberigis la imagon. &#264;iam la malklaraj,
+   malanta&#365;enirantaj mortintovicoj estigis &#265;e oni strangajn
+   kaj fascinajn fantaziojn. Anta&#365; du jaroj&mdash;mi jam estis
+   tie ekde unu jaro&mdash;mi sidis tute sole en la gvat&#265;ambro
+   en ventega vintra nokto, malvarmigite, sensentigite, senkonsole,
+   ekdormetante iom post iom en senkonscion. La plorego de la vento kaj
+   la klakado de foraj &#349;utroj sonadis pli kaj pli malla&#365;te en
+   miaj sena&#365;di&#285;ontaj oreloj &#265;iumomente kiam subite kaj
+   akute la mortosonorilo eligis sangofrostigan alarmon super mia kapo!
+   Preska&#365; paralizis min la &#349;oko &#265;ar neniam anta&#365;e
+   mi a&#365;dis la signalon.
+</p>
+
+<p>
+   Mi min renormaligis kaj hastegis al la kadavro&#265;ambro.
+   Preska&#365; mezdistance for la&#365; la ekstera vico sidis
+   rektaspina figuro envolvita en mortotuko, svingante la kapon
+   malrapide de flanko al flanko: makabra spektaklo! &#284;ia flanko
+   alfrontis min. Mi aliris &#285;in haste kaj enrigardis fikse
+   &#285;ian viza&#285;on. &#264;ielo! Adlero &#285;i estis!
+</p>
+
+<p>
+   &#264;u vi povas diveni kio estis mia unua ekpenso? Envortigite, jen
+   &#285;i estis: "&#348;ajnas tial ke vi eskapis de mi unuan fojon.
+   Okazos kontra&#365;a rezulto &#265;i-foje!"
+</p>
+
+<p>
+   Ver&#349;ajne tiu etulo spertis neimageblajn terurojn. Imagu kion li
+   devis eksenti veki&#285;inte meze de tiu senvo&#265;a silento kaj
+   &#265;irka&#365;spektadinte tiun malgajan mortintaron! Kiu dankemo
+   brilegis en lia magrega blanka viza&#285;o kiam li vidis vivantan
+   formon anta&#365; si! Kaj kiel la fervoro de tiu senparola dankemo
+   plimulti&#285;is kiam lia rigardo atingis la vivigajn kordialojn
+   kiujn mi portis en la manoj! Tiam imagu la hororon kiu eniris lian
+   pin&#265;itan viza&#285;on kiam mi metis la kordialojn malanta&#365;
+   min kaj diris moke:
+</p>
+
+<p>
+   "Ekparolu, Franzo Adlero! Alvoku tiujn mortintojn! Sendube ili
+   a&#365;skultos kaj kompatos. Sed en &#265;i tiu loko au&#349;kultos
+   kaj kompatos neniu alia."
+</p>
+
+<p>
+   Li penadis paroli. Tamen rezistis kaj malpermesis paroladon tiu parto
+   de la mortotuko kunpremanta liajn makzelojn. Li strebis levi petegajn
+   manojn sed ili restis, kunmetite kaj kunligite, sur lia brusto. Mi
+   kriegis:
+</p>
+
+<p>
+   "Kriegu, Franzo Adlero! Veku la dormantojn en la foraj stratoj,
+   petante ilin alvenigi helpon al vi. Kriegu&mdash;sen mal&#349;pari
+   tempon, &#265;ar estas malmulte da tempo por mal&#349;pari. Kio,
+   &#265;u vi ne povas? Kia doma&#285;o! Tamen ne gravas. Kriegado ne
+   &#265;iam alvenigas helpon. Kiam vi kaj via kuzo murdis senhelpajn
+   virinon kaj infanon en kabano de Arkansaso&mdash;mia edzino estis
+   kaj mia infano&mdash;ili kripetis helpon, &#265;u vi memoras? Sed
+   tio ne sukcesis. Vi memoras ke tio ne sukcesis, &#265;u ne? Viaj
+   dentoj klaketadas&mdash;tial kial vi ne povas ekkrii? Malfiksu la
+   banda&#285;ojn per viaj manoj. Tiam
+
+<!-- File: 10.png -->
+
+   vi povos ekkrii. Ho, mi komprenas. Viaj manoj estas ligitaj kaj ne
+   povas helpi vin. Kiom strange eventoj ripeti&#285;as post longaj
+   jaroj. &#264;ar anka&#365; <i>miaj</i> manoj estis ligitaj tiun
+   nokton, &#265;u vi memoras? Jes, tiel forte ligitaj kiel viaj
+   manoj estas ligitaj nun. Kiom stranga tio estas! Mi ne povis min
+   liberigi. La ideo malligi min ne eniris vian menson. La ideo malligi
+   vin ne eniras mian menson nun. &#348;&#349;&#349;! Jen malfruhora
+   pa&#349;sono! &#284;i venas en nia direkto. A&#365;skultu, kiom
+   proksima &#285;i estas! Eblas kompti la pa&#349;sonojn: unu, du,
+   tri! Jen, &#285;i staras &#309;us aliflanke de la pordo. Jen estas
+   la horo! Kriegu, viro, kriegu! Estas la ununura &#349;anco inter
+   vi kaj eterneco! Ho, vidu! Vi hezitis tro longan tempon. &#284;i
+   preterpasis. Jen. &#284;i malla&#365;ti&#285;as. &#284;i estas
+   for! Pripensu tion! Primeditu tion! Vi &#309;us a&#365;dis homan
+   pa&#349;sonon je la lasta fojo. Kiom strange devas esti a&#365;skulti
+   tiel ordinaran sonon kaj konscii ke neniam denove oni a&#365;dos
+   sama&#309;on."
+</p>
+
+<p>
+   Ho, amiko mia! La dolorego en tiu envolvita viza&#285;o estis vidinda
+   ekstazo! Mi elpensis novan torturon kaj &#285;in aplikis, min
+   helpante per iom da mensoga kreivo:
+</p>
+
+<p>
+   "Tiu kompatinda Krugero strebis savi miajn edzinon kaj infanon kaj
+   mi havigis al li reciprokan komplezon en la ta&#365;ga momento. Mi
+   konvinkis lin prirabi vin. Kaj mi kaj iu virino helpis lin dizerti el
+   sia militservo kaj lin alvenigis al sekurejo."
+</p>
+
+<p>
+   Rigardo de surprizo kaj triumfo ekbrilis malhele tra la angoro
+   en la viza&#285;o de mia viktimo. Mi perpleksi&#285;is,
+   maltrankvili&#285;is, diris:
+</p>
+
+<p>
+   "Nu, kio? &#264;u li ne eskapis?"
+</p>
+
+<p>
+   Nea kapskuo.
+</p>
+
+<p>
+   "&#264;u ne? Kio okazis tial?"
+</p>
+
+<p>
+   La kontento en la envolvita viza&#285;o ankora&#365;
+   pliklari&#285;is. La viro strebis murmura&#265;i kelkajn
+   vortojn&mdash;sensukcese; penadis esprimi ion per la malhelpitaj
+   manoj&mdash;malsukcesis; pa&#365;zis momenton, tiam klinis malforte
+   la kapon en signifocela maniero, en la direkto al la kadavro
+   ku&#349;anta la plej proksime al li.
+</p>
+
+<p>
+   "&#264;u mortinta?" mi demandis. "&#264;u ne sukcesis eskapi? &#264;u
+   kaptita fu&#285;ante kaj pafita?"
+</p>
+
+<p>
+   Cetera kapskuo nea.
+</p>
+
+<p>
+   "Tial, kiel?"
+</p>
+
+<p>
+   Denove la viro entreprenis fari ion permane. Mi zorge atentis sed ne
+   sukcesis diveni la celon. Mi anta&#365;enklini&#285;is kaj rigardis
+   e&#265; pli zorge. Li &#265;irka&#365;tordis dikfingron kaj per
+   &#285;i malforte pikis la bruston.
+</p>
+
+<p>
+   "Ho, &#265;u vi volas diri: ponardita?"
+</p>
+
+<p>
+   Jesa kapmovo, akompanite de fantoma rideto de tioma diableco ke
+   &#285;i ek&#349;altis veklumon en mia malakra cerbo kaj mi kriegis:
+</p>
+
+<p>
+   "&#264;u ponardis lin <i>mi</i>, lin preninte por vi? &#264;ar tiu
+   pikbato celis ununure vin!"
+</p>
+
+<p>
+   La jesa kapmovo de la denove mortanta fripono estis tiel &#285;oja
+   kiel lia mankanta fortiko kapablis elmontri.
+</p>
+
+<p>
+   "Ho, mizera, mizera mi, mortiginte la kompatan personon kiu
+   amiki&#285;is kun miaj karuloj kiam ili estis senhelpaj kaj kiu ilin
+   servintus se li povintus! Mizera, ho, mizera, mizera mi!"
+</p>
+
+<p>
+   Mi imagis a&#365;di la dampitan glugleton de primoka rido. Mi eligis
+   la viza&#285;on de
+
+<!-- File: 11.png -->
+
+   inter la manoj kaj vidis mian malamikon malanta&#365;ensinki sur sian
+   klintabulon.
+</p>
+
+<p>
+   Necesis al li sufi&#265;e longa tempo por morti. Li disponis mirindan
+   vitalecon, surprizan konstitucion. Jes, li pasigis pla&#265;e longan
+   tempon pri la afero. Mi alportis se&#285;on kaj &#309;urnalon,
+   sidi&#285;is apud li kaj legis. De tempo al tempo mi trinketis
+   brandon. Tion mi bezonis pro la malvarmo. Sed mi trinketis anka&#365;
+   pro tio ke, en la komenco, kiam mi etendis la manon por alpreni
+   la botelon, li supozis ke mi celas havigi iom al li. Mi legis
+   la&#365;tvo&#265;e: &#265;efe fantaziajn raportojn pri homoj
+   ur&#285;e forkaptitaj de sur la tombosojlo kaj revenigitaj al vivo
+   kaj viglo pere de kelkaj kulerplenoj da likvoro kaj varma bano.
+   Jes, li pasigis longan malfacilan tempon mortante: tri horojn, ses
+   minutojn, ekde la momento kiam li a&#365;digis la sonorilon.
+</p>
+
+<p>
+   La&#365; onia opinio, dum la dek ok jaroj forpasintaj ekde kiam
+   iniciati&#285;is tiu kadavrogvatado, nenia en tuko envolvita gasto de
+   la Bavariaj mortodomoj iam sonorigis sian sonorilon. Nu, tio estas
+   sen&#285;ena opinio. &#284;i restu tia.
+</p>
+
+<p>
+   La malvarmo de la morto&#265;ambro jam penetris miajn ostojn.
+   &#284;i revigligis kaj retrudis al mi la malsanon anta&#365;e min
+   afliktintan sed kiu, &#285;is la koncerna nokto, konstante kaj ade
+   malaperis. Tiu viro murdis mian edzinon kaj mian infanon. Kaj post
+   tri tagoj li aldonintos mian nomon al sia murdolisto. Ne gravas! Dio!
+   Kiel bonsapora estas la memora&#309;o pri tio. Mi kaptoatingis lin
+   eskapantan el sia tombo kaj lin re&#349;ovis en &#285;in!
+</p>
+
+<p>
+   Post tiu nokto mi devis enliti&#285;i dum tuta semajno. Sed ekde kiam
+   mi povis iom rondiradi, mi konsultis la mortodomajn registrolibrojn
+   kaj eksciis la numeron de la domo en kiu Adlero mortis. Mizera
+   pensiona&#265;o tiu estis. Mi konceptis la ideon ke kompreneble
+   li akirintus la personajn hava&#309;ojn de Krugero, estante la
+   kuzo de tiu, kaj mi deziris obteni la horlo&#285;on de Krugero
+   se eblus al mi. Tamen dum mi estis malsana la poseda&#309;ojn de
+   Adlero oni forvendis kaj dislokis, krom pluraj malnovaj leteroj kaj
+   ceteraj senvaloraj diversa&#309;oj. Tamen, pere de tiuj leteroj,
+   mi spurtrovis filon de Krugero, la nuran restantan parencon lian.
+   Tridekjara nun, li estas faka &#349;uisto kaj lo&#285;as &#265;e
+   Numero 14 Re&#285;ostrato en Manhejmo. Vidvo, li havas plurajn junajn
+   gefilojn. Sen klarigi al li la kialon de tio, konstante ekde tiam mi
+   provizas lin per du trionoj el lia financa subteno.
+</p>
+
+<p>
+   Nu, rilate al tiu horlo&#285;o&mdash;vidu kiom strange evoluas la
+   aferoj! Mi &#265;irka&#365;spuris &#285;in en Germanio dum pli ol
+   jaro je granda mon- kaj &#265;agrenkosto. Kaj finfine mi ekhavis
+   &#285;in! Ekhavis &#285;in kaj nedireble ek&#285;oji&#285;is.
+   Malfermis &#285;in kaj nenion trovis interne. Ho, mi devintus
+   anta&#365;scii ke tiu paperpeceto ne restos tie &#265;iun tiun
+   tempon. Kompreneble, mi rezignis pensi pri la dek mil dolaroj
+   tiam. Rezignis tion kaj forigis &#285;in el mia menso. Kaj ege
+   mal&#285;oje, &#285;in dezirinte por la filo de Krugero.
+</p>
+
+<p>
+   Hiera&#365;nokte, kiam finfine mi konsentis pri mia neevitebla morto,
+   mi komencis pretigi miajn hava&#309;ojn. Mi entreprenis bruligi
+   &#265;iujn senutilajn dokumentojn kaj certege, de inter la dokumentoj
+   de Adlero ne anta&#365;e zorge kontrolitaj elfalis tiu longe dezirata
+   peceto. Tuj mi &#285;in rekonis. Jen &#285;i. Mi &#285;in tradukos:
+</p>
+
+<p class="italike" style="margin-top: 2em; margin-bottom: 2em">
+   Brika lustablo, mezurbe, angule de Orleano- kaj Merkato-Stratoj.
+   Angulo
+
+<!-- File: 12.png -->
+
+   alfrontanta urbodomon. Tria &#349;tono, kvara vico. Tien en&#349;ovu
+   mesa&#285;on dirantan kiom alvenos.
+</p>
+
+<p style="margin-top: 2em">
+   Jen. Prenu kaj konservu &#285;in! Krugero klarigis ke tiu &#349;tono
+   formoveblas, kaj ke &#285;i estas en la norda muro de la fundamento,
+   kvaravice ekde la supro, tria&#349;tone ekde la okcidento. La mono
+   ka&#349;i&#285;as malanta&#365; &#285;i. Li diris ke la lasta
+   frazo estas trompa&#309;o por devojigi okaze ke la papero enfalu
+   mal&#285;ustajn manojn. Sendube &#285;i plenumis tiun funkcion por
+   Adlero.
+</p>
+
+<p>
+   Nun mi deziras petegi ke kiam vi faros vian proponitan voja&#285;on
+   la&#365; la rivero, vi spurtrovu tiun ka&#349;itan monon kaj sendu
+   &#285;in al Adamo Krugero, &#265;e la Manhejma adreso kiun mi
+   menciis. &#284;i ri&#265;uligos lin kaj mi dormos des pli trankvile
+   en mia tombo sciante ke mi faris mian plejon por la filo de la viro
+   kiu klopodis savi miajn edzinon kaj infanon&mdash;kvankam mia mano
+   senscie lin mortigis, kontra&#365;e al la impulso de mia koro kiu
+   preferintus lin &#349;irmi kaj savi.
+</p>
+
+<hr align="center" width="62%">
+
+<p>
+   "Tia estis la rakonto de Ritero," mi diris al miaj du amikoj.
+   Esti&#285;is profunda kaj impona silento kiu da&#365;ris ne mallongan
+   tempon. Tiam amba&#365; viroj estigis pafadon da ekscititaj kaj
+   admiraj ekkrioj pri la strangaj eventoj de la rakonto. Kaj tio, kune
+   kun klakadanta fluego da demandoj kiu da&#365;re persistis &#285;is
+   &#265;iuj partneroj preska&#365; senspiri&#285;is. Tiam miaj amikoj
+   komencis renormali&#285;i kaj retiri&#285;i, sub&#349;irme de
+   kelkfojaj vortpafoj, en silenton kaj abisman revadon. Dum dek minutoj
+   nun a&#365;di&#285;is nur silento. Tiam Ro&#285;ero diris reveme:
+</p>
+
+<p>
+   "Dek mil dolaroj!" Aldonante, post pa&#365;zego:
+</p>
+
+<p>
+   "Dek mil. Tio estas vera monamaso."
+</p>
+
+<p>
+   Balda&#365; la poeto demandis:
+</p>
+
+<p>
+   "&#264;u vi celas sendi &#285;in al li tujege?"
+</p>
+
+<p>
+   "Jes," mi diris. "Tio estas stranga demando."
+</p>
+
+<p>
+   Nenia respondo. Post iom da tempo, Ro&#285;ero demandis heziteme:
+</p>
+
+<p>
+   "&#264;u la tutan sumon? Tio estas&mdash;mi volas diri&mdash;"
+</p>
+
+<p>
+   "Certege, la tutan sumon."
+</p>
+
+<p>
+   Mi estis dironta pli, sed haltis&mdash;haltis pro pensadsinsekvo
+   naski&#285;inta en mi. Tompsono parolis sed mia menso estis for
+   kaj mi ne a&#365;dkaptis lian dira&#309;on. Sed mi a&#365;dis
+   Ro&#285;eron respondi:
+</p>
+
+<p>
+   "Jes. Tia &#285;i &#349;ajnas al mi. Tio devus ege sufi&#265;i. Mi
+   opinias ke <i>li</i> nenion faris."
+</p>
+
+<p>
+   Balda&#365; la poeto diris:
+</p>
+
+<p>
+   "Kiam vi pripensas la aferon, tio <i>pli</i> ol sufi&#265;as. Vi
+   nur konsideru! Kvin mil dolaroj! Nu, li ne kapablus elspezi tion en
+   la da&#365;rotempo de sia vivo. Kaj tio lin difektus, aldone. Eble
+   e&#265; lin ruinigus. Vi konsideru tion. Post malmulte da tempo
+   li for&#309;etus la restintan monon, fermus sian butikon, eble
+   komencus drinkadi, mistraktus siajn senpatrinajn infanojn, sinkus en
+   ceterajn malboncelajn irvojojn, progresus la&#365;vice de malbono al
+   plimalbono&mdash;"
+</p>
+
+<p>
+   "Jes, vi pravas," interrompis Ro&#285;ero fervore. "Mi jam vidis tion
+   cent fojojn.
+
+<!-- File: 13.png -->
+
+   Jes, pli ol cent fojojn. Vi metu monon en la manojn de tia viro nur
+   se vi deziras lin detrui, tio estas fakto. Vi nur metu monon en liajn
+   manojn, necesas fari nenion ceteran. Kaj se tio ne malaltigas lin kaj
+   lin senutiligas kaj lin senigas je &#265;iu memestimo kaj &#265;io,
+   tiam mi ne konas la homan naturon&mdash;&#265;u ne, Tompsono? Kaj
+   e&#265; se ni transdonus al li <i>trionon</i> el &#285;i; nu, en
+   malpli ol ses monatoj&mdash;"
+</p>
+
+<p>
+   "Malpli ol ses <i>semajnoj</i>, vi diru," respondis mi,
+   eksciti&#285;ante kaj interrompante. "Escepte se li metus tiun
+   tri-mil-dolaran sumon en sekurajn manojn kie li ne povus &#285;in
+   ektu&#349;i, ne pli ol ses semajnoj forpasus anta&#365; ol&mdash;"
+</p>
+
+<p>
+   "<i>Certege</i>, ne pli ol ses semajnoj!" diris Tompsono. "Mi
+   redaktis librojn por tiuspecaj homoj kaj en la momento mem kiam
+   ili enmanigas sian tantiemon&mdash;eble temas pri tri mil, eble du
+   mil&mdash;"
+</p>
+
+<p>
+   "Kial tiu &#349;uisto rajtas disponi du mil dolarojn, pla&#265;us
+   al mi ekscii?" Ro&#285;ero interrompis serioze. "Viro eble nepre
+   kontenta nun, tie en Manhejmo, &#265;irka&#365;ate de samranguloj,
+   man&#285;ante sian panon kun tiu apetito kiun povas estigi nur
+   laborema entreprenado, &#285;uante sian modestan vivon, honesta,
+   justa, purkora, kaj <i>benita</i>! Jes, mi diru 'benita' super
+   la miriadoj &#265;irka&#365;irantaj en silkaj vesta&#309;oj,
+   la&#365;promenantaj la malplenan artefaritan rondvojon de socia
+   malsa&#285;eco. Sed vi nur metu <i>la koncernan</i> tenton anta&#365;
+   li nuran fojon! Vi nur metu dek kvin cent dolarojn anta&#365; tia
+   viro kaj diru&mdash;"
+</p>
+
+<p>
+   "Dek kvin cent diablojn!" mi protestis. "<i>Kvin</i> cent putrigus
+   liajn principojn, paralizus lian entreprenadon, trenus lin al
+   la rumvendejo, de tie &#285;is la defluilo, de tie &#285;is la
+   almozdomo, de tie &#285;is&mdash;"
+</p>
+
+<p>
+   "<i>Kial</i> trudi al ni mem tiun krimon, sinjoroj?" interrompis la
+   poeto serioze kaj alloge. "Li estas feli&#265;a tie kie li estas
+   ke tia kia li estas. &#264;iu sento pri honoro, &#265;iu sento pri
+   karitato, &#265;iu sento pri alta kaj sankta bonvolo nin avertas, nin
+   petegas, nin ordonas lin lasi en sen&#285;eno. Jen vera amikeco, jen
+   a&#365;tenta amikeco. Ni povus funkciigi aliajn rimedojn pli pompajn.
+   Sed nenian tiel vere komplezan kaj sa&#285;an, kredu min."
+</p>
+
+<p>
+   Post iom da da&#365;ra diskutado, evidenti&#285;is ke &#265;iu
+   el ni, en la profundo de sia koro, sentis kelkajn dubojn pri tiu
+   aran&#285;o pri la afero. Klarege estis ke &#265;iuj sentis la devon
+   sendi al la kompatinda &#349;uisto <i>ion</i>. Esti&#285;is longa kaj
+   pripensa diskuto pri tiu punkto kaj finfine ni elektis sendi al li
+   kolorlitografon.
+</p>
+
+<p>
+   Nu, post kiam &#265;io la&#365;&#349;ajne bonordi&#285;is por
+   &#265;iuj partoprenantoj, elstari&#285;is nova &#285;eno. Okazis
+   ke tiuj du viroj celis dividi la monon egalparte kun mi. Mi ne
+   samopiniis. Mi diris ke ili povos sin taksi bon&#349;ancaj se ili
+   kunricevos duonon el la mono. Ro&#285;ero diris:
+</p>
+
+<p>
+   "Kiu estintus <i>iel ajn</i> bon&#349;anca se ne partoprenintus en
+   la afero mi? Estis mi kiu faris la unuan sugeston. Sen mi &#265;io
+   irintus al la &#349;uisto."
+</p>
+
+<p>
+   Tompsono diris ke li mem pripensis la aferon jam en la sama momento
+   kiam Ro&#285;ero unue parolis.
+</p>
+
+<p>
+   Mi replikis ke la sugesto naski&#285;intus &#265;e mi sufi&#265;e
+   balda&#365; kaj sen la helpo de iu ajn. Mi estas malrapida pensanto
+   eble, sed fidinda.
+</p>
+
+<p>
+   La debato varmi&#285;is en kverelon, tiam en batalon. &#264;iu viro
+   ekvundi&#285;is iom forte. Post min iom kuraci, la&#365; mia maniero,
+   mi supreniris en malbona&#265;a humoro
+
+<!-- File: 14.png -->
+
+   al la uraganferdeko. Mi renkontis Kapitanon Makordon tie kaj diris,
+   tiel pla&#265;e kiel permesis mia humoro:
+</p>
+
+<p>
+   "Mi alvenas por adia&#365;i, Kapitano. Mi deziras alteri&#285;i
+   &#265;e Napoleono."
+</p>
+
+<p>
+   "Vi deziris alteri&#285;i kie?"
+</p>
+
+<p>
+   "&#264;e Napoleono."
+</p>
+
+<p>
+   La kapitano ekridis sed, ekkonsciinte ke mi ne estas en gaja humoro,
+   li &#265;esis ridi kaj diris:
+</p>
+
+<p>
+   "Sed &#265;u vi seriozas?"
+</p>
+
+<p>
+   "Mi jes ja tre seriozas."
+</p>
+
+<p>
+   La kapitano rigardis la supranivelan navigejon kaj diris:
+</p>
+
+<p>
+   "Li deziras elboati&#285;i &#265;e Napoleono!"
+</p>
+
+<p>
+   "&#264;u &#265;e Napoleono?"
+</p>
+
+<p>
+   "Tiel li diras."
+</p>
+
+<p>
+   "La&#365; la fantomego de Cezaro!"
+</p>
+
+<p>
+   Onklo Mumfordo alproksimi&#285;is la&#365; la ferdeko. La kapitano
+   diris:
+</p>
+
+<p>
+   "Onklo, jen amiko via kiu deziras elboati&#285;i &#265;e Napoleono!"
+</p>
+
+<p>
+   "Nu, la&#365;&mdash;!"
+</p>
+
+<p>
+   Mi diris:
+</p>
+
+<p>
+   "Bonvolu, pri kio temas &#265;io tio? &#264;u viro ne rajtas
+   alteri&#285;i &#265;e Napoleono se tion li deziras?"
+</p>
+
+<p>
+   "Nu, damnu, &#265;u vi ne scias? Ne plu ekzistas Napoleono. Jam
+   de jaroj kaj jaroj &#285;i ne plu ekzistas. Arkansaso-Rivero
+   &#285;in krevis, &#285;in &#265;ifonigis, &#285;in for&#349;ovis en
+   Misisipo-Riveron!"
+</p>
+
+<p>
+   "&#264;u forbalais la <i>tutan</i> urbon? &#264;u bankojn,
+   pre&#285;ejojn, malliberejojn, &#309;urnalajn redaktejojn, urbodomon,
+   teatron, fajrobrigadejon, lustablon&mdash;&#265;u <i>&#265;ion?</i>"
+</p>
+
+<p>
+   "&#264;ion. Nur dekkvinminuta tasko, a&#365; simila&#309;o. Postlasis
+   de la urbo nek ha&#365;ton nek haron, nek &#349;ira&#309;on
+   nek &#349;indon krom la malanta&#365;a ekstrema&#309;o de iu
+   doma&#265;eto kaj unu brika fumtubo. En la nuna momento nia boato
+   padelnavigas en la mezo mem de la anta&#365;a starloko de la urbo.
+   Jen fore estas la brika fumtubo&mdash;la ununura resta&#309;o de la
+   urbo. Tiu densa arbaro &#265;e la dekstra flanko situis anta&#365;e
+   mejlon for de la urbo. Rigardu malanta&#365; vi, kontra&#365;flue.
+   Nun vi komencas rekoni la pejza&#285;on, &#265;u ne?"
+</p>
+
+<p>
+   "Jes, mi jes ja &#285;in rekonas nun. Tio estas la plej mirinda afero
+   kiun mi iam pria&#365;dis. De multege la plej mirinda kaj la plej
+   neatendita."
+</p>
+
+<p>
+   S-ro Tompsono kaj S-ro Ro&#285;ero jam alvenis, intertempe, kun
+   valizoj kaj ombreloj kaj a&#365;skultis silente la nova&#309;on de
+   la kapitano. Tompsono metis duondolaron en mian manon kaj diris
+   malla&#365;te:
+</p>
+
+<p>
+   "Por mia porcio de la kolorlitografo."
+</p>
+
+<p>
+   Ro&#285;ero agis same.
+</p>
+
+<p>
+   Jes, mirindege estis vidi Misisipo-Riveron ruli&#285;i inter senhomaj
+   bordoj rekte super la loko kie anta&#365; dudek jaroj mi kutimis
+   vidi bonan grandan memkontentan urbeton. Urbeton kiu estis sidejo
+   de granda kaj grava konteo. Urbeton kun granda Usona marsoldatara
+   malsanulejo. Urbeton kiu havis sennombrajn batalojn kun &#265;iutaga
+
+<!-- File: 15.png -->
+
+   enketo. Urbeton kie anta&#365;e mi konis la plej belan kaj la plej
+   talentan knabinon de la tuta Misisipo-valo. Urbeton kie ni ricevis
+   la unuan presitan nova&#309;on pri la lamentinda katastrofo de
+   batal&#349;ipo Pensilvanio anta&#365; kvaronjarcento. Urbeton ne plu
+   ekzistantan, englutitan, forsinkintan nutradi la fi&#349;ojn. Urbeton
+   de kiu restas nenio krom ero de doma&#265;eto kaj dispeci&#285;anta
+   brika fumtubo!
+</p>
+
+<!-- File: 16.png -->
+
+<div id="rano" class="titolo">
+   LA FIFAMA SALTANTA RANO DE KALAVERO-KONTEO
+</div>
+
+<p>
+   Konforme al peto de amiko skribinta al mi el Oriento, mi vizitis
+   afablan paroleman maljunan Simonon Hveleron kaj enketis pri amiko
+   de mia amiko, Leonido V. Smilejo, responde al la peto, kaj mi
+   &#265;i tie alfiksas la rezulta&#309;on. Mi sentas ka&#349;itan
+   suspekton ke Leonido V. Smilejo estas mito; ke mia amiko neniam
+   konis tian personon; kaj ke li nur hipotezis ke se mi demandus al
+   Hvelero pri li, tio memorigus al la multa&#285;ulo sian fifaman
+   <i>Ja&#265;jon</i> <!-- Error in book: Jo&#265;jon --> Smilejon,
+   kaj li ekoficus, enuigante min per kelkaj agacantaj tiurilataj
+   rememora&#309;oj tiel longaj kaj tedaj kiel senutilaj por mi. Se tio
+   estis la celo, okazis sukceso.
+</p>
+
+<p>
+   Mi trovis Simonon Hveleron en komforta dormetado apud la
+   servo&#265;ambra stovo de la kadukinta drinkejo de mortanta mineja
+   kampadejo nomi&#285;anta &#264;e-An&#285;elo kaj konstatis ke li
+   estas dika kaj kalva kaj portas sur sia trankvila viza&#285;o mienon
+   de &#265;armaj mildeco kaj simpleco. Li veki&#285;is kaj salutis,
+   dezirante al mi bonan tagon. Mi diris al li ke amiko mia petis ke
+   mi enketu pri kara kamarado de lia knabeco nomi&#285;anta Leonido
+   V. Smilejo&mdash;Pastoro Leonido V. Smilejo, juna predikisto pri
+   la Biblia mesa&#285;o la&#365;raporte lo&#285;inta anta&#365;e en
+   &#264;e-An&#285;elo. Mi aldonis ke, se S-ro Hvelero scipovos informi
+   min pri tiu Pastoro Leonido V. Smilejo, mi &#349;uldos al li multajn
+   reciprokajn komplezojn.
+</p>
+
+<p>
+   Simono Hvelero malanta&#365;enirigis min en angulon kaj blokadis
+   min tie per sia se&#285;o, tiam sidi&#285;is kaj evoluadigis la
+   tedan rakonton sekvontan &#265;i tiun alineon. Li neniam ridetis,
+   neniam kuntiris la brovojn, neniam senigis la vo&#265;on je la
+   mildaritma tonalo al kiu li agordis sian komencan frazon, neniam
+   elmontris la plej etan indicon pri entuziasmo. Tamen la&#365; la
+   tuta longo de la senfina rakonto kuris vejno da imponaj seriozo
+   kaj sincero komprenigantaj klarscie al mi ke, anstata&#365; imagi
+   ke lia rakonto ampleksas ridindan a&#365; absurdan temaron, li
+   taksas &#285;in vere grava afero kaj admiras ties du heroojn kiel
+   virojn disponantajn transcendan genion pri altnivela <i>lerteco</i>.
+   Mi lasis lin da&#365;rigi siamaniere la rakontadon, neniam lin
+   interrompante ununuran fojon.
+</p>
+
+<p>
+   "Pastoro Leonido V.&mdash;Ho, nu, Pastoro Leo&mdash;Nu, foje
+   &#265;eestis &#265;i tie ulo nomi&#285;anta <i>Ja&#265;jo</i>
+   Smilejo, en la vintro de '49, a&#365; eble estis la printempo de
+   '50&mdash;mi ne memoras precize, iel, kvankam la kialo pro kiu mi
+   opinias ke estis unu a&#365; la alia estas tio ke mi memoras ke la
+   klintrogego ankora&#365; ne estis finkonstruita kiam li alvenis
+   la kampadejon. Tamen li estis la plej stranga ulo kiun oni iam
+   vidis kiam temis pri &#265;iam veti pri kio ajn sursceneji&#285;as
+   kondi&#265;e ke li sukcesu instigi iun veti pri la kontra&#365;a
+   flanko, kaj se ne, li mem &#349;an&#285;is vetflankon. Pla&#265;is
+   al li iu ajn aran&#285;o pla&#265;anta al la kontra&#365;vetanto. Se
+   li nur sukcesus starigi veton, <i>li</i> kontenti&#285;is. Tamen li
+   estis bon&#349;anca, malkutime bon&#349;anca. Preska&#365; &#265;iam
+   li venkis. Li estis &#265;iam preta kaj atendanta oportunon. Kion
+   ajn oni menciis, li proponis priveti &#285;in kaj priveti iun
+   ajn flankon, la&#365; via deziro, kiel mi &#309;us menciis. Se
+   okazis vetkuro por &#265;evaloj, je ties fini&#285;o vi trovis lin
+   multri&#265;igita a&#365; nepre senmonigita. Se okazis hundobatalo,
+   li vetis
+
+<!-- File: 17.png -->
+
+   pri &#285;i. Se okazis katbatalo, &#285;in li privetis. Se okazis
+   kokbatalo, li &#285;in privetis. Nu, se du birdoj sidis sur barilo,
+   li vetis pri kiu el ili forflugos anta&#365; la alia. Kaj se okazis
+   evangeliza kunveno, li &#265;eestis &#285;in senmanke por veti
+   pri Pastoro Valkero kiu estis, la&#365; lia takso, la plej bona
+   oratoro de la regiono, kaj tia li estis certe, kaj bona viro. Kaj
+   se li vidis krampkrur-insekton eksurvoji&#285;i en iu ajn direkto,
+   li vetis pri kiom da tempo la besteto bezonos por atingi sian
+   cellokon&mdash;kiu ajn estu la loko. Kaj se vi konsentis priveti
+   kontra&#365; li, li konsentis postsekvi tiun krampkrur-insekton
+   &#285;is Meksikio por ekscii kien &#285;i celas iri kaj dum kiom
+   da tempo &#285;i estos survoje. Multaj el la knaboj de &#265;i tie
+   vidis tiun Smilejon kaj kapablas raporti al vi pri li. Nu, entute
+   egalis al <i>li</i>&mdash;li bonvolis veti pri io <i>ajn</i>&mdash;la
+   la&#365;damne plej stranga ulo. La edzino de Pastoro Valkero malsanis
+   foje, dum multe da tempo, kaj &#349;ajnis ke oni ne sukcesos &#349;in
+   savi. Tamen iun matenon li eniris kaj Smilejo ekdemandis al li
+   kiel &#349;i fartas kaj li diris ke &#349;i fartas iom pli bone
+   nun&mdash;danke al Nia Sinjoro pro Lia senfina kompato&mdash;kaj
+   progresas tiel favore ke, kun la beno de Providenco, &#349;i finfine
+   resani&#285;os kaj Smilejo, anta&#365; ol pripensi la aferon, diris:
+   'Nu, mi vetas je du dolaroj kaj duono ke ne.' <!-- Changed
+   doublequotes to singlequotes for consistency. -->
+</p>
+
+<p>
+   "&#264;i tiu &#265;i Smilejo havis &#265;evalinon&mdash;la
+   knaboj kromnomis &#349;in la 'dekkvinminuta&#309;o' <!-- Changed
+   doublequotes to singlequotes for consistency. --> sed ili faris
+   tion nur por &#349;erci, vi scias, &#265;ar kompreneble &#349;i
+   estis pli rapida ol tio&mdash;kaj li ofte vetgajnis monon pri
+   tiu &#265;evalina&#265;o, malgra&#365; tio ke &#349;i estis tiel
+   malrapida kaj &#265;iam suferis pro astmo a&#365; tempro a&#365;
+   ftizo a&#365; io simila. Kutime ili &#265;iam cedis al &#349;i
+   du-tricent-jardan frustarton kaj tiam preterpasis &#349;in
+   survoje. Tamen &#265;e la finfini&#285;o de la konkurso &#349;i
+   eksciti&#285;is kaj fari&#285;is kvaza&#365; ur&#285;pelata kaj
+   komencis anta&#365;enkaprioli kaj lar&#285;e disapartigi la gambojn,
+   etendante la krurojn facilartike, foje en la aeron, foje vojoflanken
+   en la direkto al la bariloj kaj suprenlevante piedbate tr-o-o-n
+   da polvo kaj estigante tr-o-o-n da brua&#265;ego pro tusado kaj
+   ternado kaj mungado&mdash;kaj &#265;iam atingi la venkobudon kun
+   &#265;irka&#365; kololonga anta&#365;eco, la&#365; la plej bona
+   takso.
+</p>
+
+<p>
+   "Kaj li havis etan malgrandan buldogidon kiu, kiam vi &#285;in
+   rigardis, &#349;ajnis tute senvalora, kapabla nur sidadi kun feroca
+   aspekto, atendante bonan &#349;ancon por &#349;telpreni ion. Tamen
+   tuj post kiam oni privetis &#285;in, &#285;i fari&#285;is tute
+   alia hundo. &#284;ia submentono komencis elstari kiel vaporboata
+   te&#365;go kaj &#285;iaj dentoj malkovri&#285;is kaj ekbrilis kiel
+   altfornoj. Kaj se cetera hundo &#285;in atakis kaj &#285;in skuis
+   &#265;ifona&#265;e kaj mordis &#285;in kaj lan&#265;is &#285;in
+   du-trifoje trans la &#349;ultron, Andreo &#284;aksono&mdash;tio
+   estis la nomo de la hundido&mdash;Andreo &#284;aksono &#265;iam
+   &#349;ajnigis propran kontenti&#285;on, kvaza&#365; atendinte nenion
+   alian&mdash;rezulte de kio la vetoj da&#365;re kaj reda&#365;re
+   duobli&#285;is kaj reduobli&#285;is en la kontra&#365;a flanko,
+   &#285;is kiam &#265;iuj finvetis. Tiam subitege li alkro&#265;is
+   tiun alian hundon perbu&#349;e &#309;us <!-- Error in book: ju&#349;
+   --> &#265;e la artiko de ties malanta&#365;a kruro kaj tenis
+   &#285;in en seninterrompa frosti&#285;o. Li ne ma&#265;a&#265;is,
+   vi komprenu, nur bu&#349;tenis kaj persistegis &#285;is kiam ili
+   koncedis la venkon, e&#265; se temis pri tutjara da&#365;rotempo.
+   Smilejo &#265;iam gajnis la vetpremion helpe de tiu hundido &#285;is
+   kiam la besto devis konkursi kontra&#365; hundo perdinta siajn
+   malanta&#365;ajn krurojn forsegitajn per disksegilo, kaj kiam la
+   vetado atingis finan punkton kaj la mono jam ku&#349;is surgrunde
+   kaj Andreo &#284;aksono ekpretis efektivigi sian plej &#349;atatan
+   alkro&#265;manovron, tujege li konsciis kiel oni lin supertrompis kaj
+   kiel la alia
+
+<!-- File: 18.png -->
+
+   hundo lin kontra&#365;murenigis, por tiel diri, kaj li aspektis
+   surprizite kaj tiam li aspektis iom malkura&#285;igite kaj &#265;esis
+   penadi gajni la venkon kaj fini&#285;is tute fintrompite. Li direktis
+   rigardon al Smilejo, kvaza&#365; por diri ke lia koro estas rompita
+   kaj ke la kulpinto estis la mastro pro konsenti priveti kontra&#365;
+   hundo kiu ne havas malanta&#365;ajn krurojn al kiuj oni povas
+   alkro&#265;i, kio en batalo estis lia &#265;efa atakmanovro, kaj tiam
+   li iom foriris lampa&#349;e, sin ku&#349;igis kaj mortis. Bonega
+   hundido estis tiu Andreo &#284;aksono kiu sin famigintus se &#285;i
+   sukcesintus travivi, &#265;ar &#285;in enestis bona konsistiga&#309;o
+   kaj genio. Tion mi scias, &#265;ar anta&#365;e &#285;i disponis
+   neniajn apartajn priparolindajn oportunojn kaj estas mallogike ke
+   hundo povas batali tiel sukcese en tiaj cirkonstancoj se &#285;i ne
+   havas talenton. &#264;iam mi ekbeda&#365;ras pensante pri tiu lasta
+   batalo &#285;ia kaj ties fini&#285;o.
+</p>
+
+<p>
+   "Nu, &#265;i tiu &#265;i Smilejo havis rathundojn kaj virkokojn kaj
+   virkatojn kaj &#265;iujn tiajn speca&#309;ojn &#285;is senripozigi
+   vin kaj vi ne povus alporti al li priveta&#309;on kontra&#365;
+   kiu li ne kapablus kontra&#365;starigi sama&#309;on. Iun tagon li
+   kaptis ranon kaj hejmenportis &#285;in kaj diris intenci &#285;in
+   klerigi. Tial dum tri monatoj li faris nenion ceteran krom sidi
+   en sia malanta&#365;doma &#285;ardeno kaj lernigi saltadon al tiu
+   rano. Kaj estu certa ke li jes ja lernigis &#285;in. Li kutimis iom
+   &#349;oveti la ranon de malanta&#365;e kaj en la sekvinta minuto
+   vi vidis la ranon kirli&#285;adi en la aero kiel pastoringo, vin
+   vidis efektivigi transkapi&#285;on, a&#365; eble paron da ili, se li
+   sukcesigis bonan starton, kaj retereni&#285;i platpiede kaj bonsane,
+   kiel kato. Li alkutimigis la ranon al tiaspeca saltado lernante al
+   &#285;i kiel kapti mu&#349;ojn kaj trejnis &#285;in tiurilate tiel
+   konstante ke la besteto sukcesis trafi mu&#349;on &#265;iun fojon
+   kiam la insekto eniris &#285;ian vidkampon. Smilejo diris ke mankas
+   al la rano nur ta&#365;ga edukado por ke &#285;i povu fari ion
+   ajn&mdash;kaj mi kredas lin. Nu, mi vidis lin meti Danielon Vebsteron
+   &#265;i tien sur &#265;i tiun plankon&mdash;Danielo Vebstero estis
+   la nomo de la rano&mdash;kaj ekkriegi, 'Mu&#349;oj, Da&#265;jo,
+   mu&#349;oj!'&mdash;kaj pli rapide ol vi povas palpebrumi &#285;i
+   suprensaltis vertikallinie kaj forlekegis la mu&#349;on de sur la
+   tablo kaj refala&#265;is surplanken tiel solide kiel kotbulo kaj
+   komencis grati la kapoflankon kun malanta&#365;a piedo tute apatie
+   kvaza&#365; ne konsciante esti farinta pli ol kutimas fari iu ajn
+   rano. Vi neniam vidis ranon tiel modestan kaj honestan malgra&#365;
+   ties grandaj talentoj. Kaj kiam temis pri honesta kaj senruza saltado
+   sur ebena plata&#309;o, &#285;i kapablis atingi pli grandan distancon
+   en ununura salto ol iu ajn besto de sia speco iam vidita de vi.
+   Saltado sur ebena plata&#309;o estis &#285;ia speciala&#309;o, vi
+   komprenu, kaj kiam temis pri tio Smilejo bonvole vetis monon pri
+   &#285;i &#285;is restis al li nenia plua cendo. Smilejo fieregis pri
+   sia rano kaj li tute rajtis fieregi &#265;ar uloj voja&#285;intaj
+   &#265;ien kaj estintaj &#265;ie diris &#265;iuj senescepte ke la
+   besto superas &#265;iun ajn ranon iam viditan de <i>ili</i>.
+</p>
+
+<p>
+   "Nu, Smilejo tenis la beston en lata&#309;a skatoleto kaj foje
+   li kunportis &#285;in en la kampadejocentron kaj proponis
+   &#285;in kiel monvetobjekton. Iun tagon ulo&mdash;nekonato en la
+   kampadejo&mdash;renkontis lin kun lia skatoleto kaj diris:
+</p>
+
+<p>
+   "'Kio povus esti tio kion vi tenas en la skatoleto?'
+</p>
+
+<p>
+   "Kaj Smilejo respondas, iom indiferente, 'Povus esti papago, a&#365;
+   povus esti kanario, eble, tamen ne estas tia&#309;o. Nur rano &#285;i
+   estas.'
+</p>
+
+<p>
+   "Kaj la ulo prenis &#285;in kaj okulkontrolis &#285;in zorge kaj
+   turnis &#285;in en diversaj direktoj kaj diris: 'Nu, vi pravas. Do,
+   por kiu <i>&#285;i</i> utilas?'
+</p>
+
+<!-- File: 19.png -->
+
+<p>
+   "'Nu,' diris Smilejo, trankvile kaj senzorge, '&#285;i utilas por
+   <i>unu</i> afero, mi opinias. &#284;i kapablas pretersalti iun ajn
+   ranon de Kalavero-Konteo.'
+</p>
+
+<p>
+   "La ulo reprenis la skatolon, direktis novan longan apartan rigardon
+   al &#285;i, retransdonis &#285;in al Smilejo kaj diras meditege:
+   'Nu,' li diras, 'mi vidas neniajn ecojn &#265;e tiu rano kapablajn
+   plibonigi &#285;in rilate al aliaj ranoj.'
+</p>
+
+<p>
+   "'Eble vi ne vidas ilin,' diras Smilejo. 'Eble vi konas ranojn kaj
+   eble vi malkonas ilin. Eble vi estas spertulo pri tio kaj eble vi
+   ne estas nura amatoro tiurilate, por tiel diri. Tamen, opinion
+   <i>mian</i> mi havas kaj kura&#285;as veti kvardek dolarojn pri
+   &#285;ia kapablo pretersalti iun ajn ranon de Kalavero-Konteo.'
+</p>
+
+<p>
+   "Kaj la ulo primeditis momenton, tiam diras, en iom malfeli&#265;a
+   maniero, 'Nu, mi estas nur fremdulo &#265;i tie kaj ne havas ranon,
+   sed se ranon mi havus, mi bonvolus priveti kontra&#365; vi.'
+</p>
+
+<p>
+   "Kaj tiam Smilejo diras, 'Ne gravas&mdash;ne gravas&mdash;se vi
+   bonvolos teni mian skatoleton momenton, mi iros akiri ranon por vi.'
+   Tial la ulo prenis la skatolon kaj metis siajn kvardek dolarojn apud
+   tiujn de Smilejo kaj sidi&#285;is por atendi.
+</p>
+
+<p>
+   "Tial li sidis tie dum iom longa tempo pensante kaj repensante
+   pri la afero kaj tiam li eligis la ranon, levstangumis ties
+   bu&#349;on kaj prenis kafkuleron kaj plenigis la besteton je
+   koturnkugleta&#309;oj&mdash;&#285;in plenigis &#285;is preska&#365;
+   la mentono&mdash;kaj surplankenigis &#285;in. Smilejo, siaflanke,
+   aliris la mar&#265;on kaj vagser&#265;is dum longa tempo en la
+   kota&#265;o kaj finfine mankaptis ranon kaj &#285;in revenportis kaj
+   transdonis al la ulo, kaj diras:
+</p>
+
+<p>
+   "'Nu, se vi pretas, metu &#285;in apud Danielon, kun
+   &#285;iaj anta&#365;piedoj en paralela pozo kun tiuj de
+   Danielo, kaj mi diros la signalvorton.' Tiam li diras,
+   'Unu&mdash;du&mdash;tri&mdash;<i>eku</i>! kaj li kaj la ulo
+   ektu&#349;is la ranojn de malanta&#365;e kaj la nova rano
+   forsaltis vigle sed Da&#265;jo faris klopodegon kaj kuntiris
+   la &#349;ultrojn&mdash;tiel&mdash;kiel Franca viro&mdash;sed
+   sensukcese&mdash;li ne povis ekmovi&#285;i. Li restis fiksite tiel
+   solide kiel pre&#285;ejo kaj ne pli kapablis ekiri ol ankrita
+   &#349;ipo. Smilejo estis iom surprizita kaj e&#265; na&#365;zigita
+   sed kompreneble li havis nenian ideon pri kio temas.
+</p>
+
+<p>
+   "La ulo prenis la vetmonon kaj komencis foriri. Kaj kiam
+   li estis sur la pordosojlo li iom skumovis la dikfingron
+   trans&#349;ultren&mdash;tiel&mdash;en la direkto al Da&#265;jo, kaj
+   rediris, tre egalritme, 'Nu,' li diras, 'mi vidas neniajn ecojn
+   &#265;e tiu rano kapablajn plibonigi &#285;in rilate al aliaj ranoj.'
+</p>
+
+<p>
+   "Smilejo, li staris gratante la kapon kaj malsuprenrigardante
+   Da&#265;jon dum longa tempo, kaj finfine li diras, 'Mi jes ja
+   priscivolas kio ajn en la lando estus povinta malebligi tiun
+   ranon&mdash;mi scivolas &#265;u eble &#285;i spertas iuspecan
+   &#285;enon&mdash;&#349;ajnas al mi ke &#285;i estas iom pufigita.'
+   Kaj li alkro&#265;is Da&#265;jon per la kolnuko kaj levis &#285;in
+   kaj diras, 'Nu, kulpigu miajn katojn se &#285;i ne pezas kvin
+   funtojn!' kaj &#285;in renversis kaj la besteto elruktegis duoblan
+   manplenon da kugleta&#309;oj. Kaj tiam li komprenis kio okazis kaj
+   ege koleri&#285;is&mdash;li formetis la ranon kaj komencis postkuri
+   la ulon sed neniam lin atingis. Kaj&mdash;"
+</p>
+
+<p>
+   En tiu momento Simono Hvelero a&#365;dis iun alvoki lian nomon en
+   la anta&#365;doma &#285;ardeno kaj stari&#285;is por foriri ekscii
+   pri kio temas. Kaj turni&#285;ante al mi, dum li foriris, li diris:
+   "Restu tie kie vi estas, fremdulo, kaj mallacigu vin, mi estos for
+   nur
+
+<!-- File: 20.png -->
+
+   ununuran sekundeton."
+</p>
+
+<p>
+   Sed, kun via permeso, mi ju&#285;is ke da&#365;rigo de la historio
+   pri la entreprenema vagabondo <i>Ja&#265;jo</i> Smilejo ne povos
+   disponigi al mi multajn informa&#309;ojn pri Pastoro Leonido V.
+   Smilejo, kaj tial mi survoji&#285;is.
+</p>
+
+<p>
+   &#264;e la pordo mi renkontis la afablan Hveleron en revenado kaj li
+   alkro&#265;is min kaj rekomencis:
+</p>
+
+<p>
+   "Nu, &#265;i tiu &#265;i Smilejo havis flavan unuokulan bovinon kiu
+   havis nenian voston, nur mallongan bananaspektan stumpon, kaj&mdash;"
+</p>
+
+<p>
+   Tamen, disponante nek tempon nek deziron, mi ne restis por
+   a&#365;skulti pri la afliktita bovino sed adia&#365;is kaj foriris.
+</p>
+
+<!-- File: 21.png -->
+
+<div id="knabeto" class="titolo">
+   LA RAKONTO PRI LA MALBONKONDUTA KNABETO
+</div>
+
+<p>
+   Foje estis malbonkonduta knabeto nomi&#285;anta
+   Ja&#265;jo&mdash;tamen, se vi bonvolas tion konstati, okazas
+   ke malbonkondutaj knabetoj preska&#365; &#265;iam nomi&#285;as
+   Ja&#265;jo en viaj diman&#265;lernejaj instrulibroj. Strange estis,
+   tamen vere, ke &#265;i tiu knabeto nomi&#285;is Ja&#265;jo.
+</p>
+
+<p>
+   Anka&#365; li ne havis malsanan patrinon&mdash;malsanan patrinon
+   kiu estis pia kaj suferis pro ftizo kaj &#285;ojus ku&#349;i&#285;i
+   en la tombo kaj ripozadi se &#349;i ne sentis fortan amon al sia
+   knabo kaj anksiecon ke la mondo fari&#285;u kruela kaj malamikema
+   pri li post &#349;ia forpaso. Plejparte la malbonkondutaj knaboj de
+   la diman&#265;lernejaj instrulibroj nomi&#285;as Jakobo kaj havas
+   malsanajn patrinojn kiuj lernigas al ili kiel diri, "Nun mi min
+   ku&#349;igas," ktp., kaj dormigas ilin kantante kun dol&#265;aj
+   plendaj vo&#265;oj kaj tiam kise deziras al ili bonan nokton kaj
+   surgenui&#285;as apud la lito kaj ekploras. Sed pri tiu ulo estis
+   malsame. Li nomi&#285;is Ja&#265;jo kaj lia patrino estis tute
+   bonsana&mdash;suferis pro nenia ftizo nek alia ajn malsano. &#348;i
+   estis pli dika ol maldika, ne estis pia. Krome, &#349;i sentis nenian
+   anksiecon pri Ja&#265;jo. &#348;i diris ke se li rompigus al si la
+   kolon, la perdo ne estus granda. &#348;i &#265;iam deziris bonan
+   nokton al Ja&#265;jo pugfrape, neniam kise. Tute male, kiam &#349;i
+   estis preta lin postlasi, &#349;i tordis al li la orelojn.
+</p>
+
+<p>
+   Foje tiu malbonkonduta knabeto &#349;telprenis la &#349;losilon de
+   la man&#285;o&#349;ranko kaj eniris tien &#349;telpa&#349;e kaj
+   provizis sin per marmelado kaj plenigis la ujon je gudro por ke la
+   patrino neniam prikonsciu la diferencon. Sed subite horora sento
+   ne invadis lin kaj nenio &#349;ajnis flustri al li, "&#264;u estas
+   juste malobei mian patrinon? &#264;u fari tion ne estas peko? Kien
+   foriras malbonkondutaj knabetoj kiuj elman&#285;as la marmeladon
+   de sia bona afabla patrino?" kaj tiam li ne surgenui&#285;is tute
+   sole, promesante neniam plu malbonkonduti kaj stari&#285;is kun
+   malpeza feli&#265;a koro kaj iris konfesi &#265;ion al sia patrino
+   kaj petis ke &#349;i lin pardonu kaj ricevis &#349;ian benon dum
+   plenigis &#349;iajn okulojn larmoj de fiereco kaj dankemo. Ne. Tiel
+   la afero evoluas &#265;e &#265;iuj ceteraj malbonkondutaj knaboj en
+   libroj. Sed tute alimaniere &#285;i evoluis &#265;e tiu Ja&#265;jo,
+   malgra&#365; ties strango. Li man&#285;is la marmeladon kaj taksis
+   &#285;in &#265;efranga en sia peka kruda maniero; kaj li enigis
+   la gudron kaj taksis anka&#365; tion &#265;efranga kaj ridis kaj
+   rimarkis "ke la oldulino ekhenos" kiam &#349;i ekscios tion kaj kiam
+   &#349;i eksciis efektive tion, li malkonfesis havi informa&#309;ojn
+   pri &#285;i kaj &#349;i pugfrapis lin severe kaj estis li mem kiu
+   ekploris. &#264;iel tiu knabo estis stranga. &#264;io rezultis
+   malsame &#265;e li ol &#265;e la malbonkondutaj Jakoboj de la libroj.
+</p>
+
+<p>
+   Foje li suprengrimpis en la pomarbojn de Kultivisto Akorno por
+   &#349;telpreni pomojn kaj la bran&#265;ego ne rompi&#285;is kaj
+   li ne falis kaj rompigis al si la brakon, ne sin mordigis per la
+   hundego de la kultivisto, ne malviglis dum semajnoj sur malsanula
+   lito, ne pentis, ne entreprenis ekbonkonduti&#285;i. Ho, ne! Li
+   &#349;telprenis tiom da pomoj kiom li deziris kaj malsuprengrimpis
+   en bona stato. Kaj li estis nepre preta por la hundo anka&#365; kaj
+   renversis &#285;in per lan&#265;ita briko kiam tiu atakis lin. Estis
+   ege strange. Simila&#309;o neniam okazis en tiuj mildaj libretoj
+   havantaj jaspitajn kovrilojn kaj bildojn pri viroj
+
+<!-- File: 22.png -->
+
+   surportantaj hirundovosta&#309;ajn jakojn kaj sonorilkronitajn
+   &#265;apelojn kaj pantalonojn havantajn malsufi&#265;e longajn
+   krurumojn kaj virinoj kies robtalioj estas subbraknivelaj kaj
+   ne havas subjupajn ringegojn. Nenio simila en iu ajn el la
+   diman&#265;lernejaj libroj.
+</p>
+
+<p>
+   Foje li &#349;telprenis la po&#349;tran&#265;ilon de la instruisto
+   kaj kiam li timis ke la misfaro malkovri&#285;u kaj ke la instruisto
+   vipu lin, li &#349;telmetis &#285;in en la kaskedon de Georgo
+   Vilsono&mdash;la filo de la kompatinda Vidvino Vilsono, la morala
+   knabo, la bonkonduta knabeto de la vila&#285;o kiu &#265;iam obeis
+   al sia patrino, neniam diris mensogojn, &#349;atis siajn lecionojn,
+   &#349;ategis Diman&#265;-Lernejon. Kaj kiam la tran&#265;ilo
+   terenfalis el la kaskedo kaj la kompatinda Georgo klinis la kapon
+   kaj ru&#285;i&#285;is kvaza&#365; agnoskante sian kulpon, kaj la
+   &#265;agrenita instruisto taksis lin kulpa pri la &#349;telpreno
+   kaj kiam la viro staris apud la knabo, malsuprenigonte la vipon
+   sur la tremantajn &#349;ultrojn de tiu, subite aperis meze de ili
+   nenia blankhara malprobabla ju&#285;isto de la paco, prenante belan
+   starpozon kaj dirante: "Liberigu tiun noblan knabon! Jen staras
+   la ka&#365;ranta kulpinto! Mi preterpasis la lernejpordon dum la
+   interleciona ludpa&#365;zo kaj, malvidate mi mem, mi vidis fari la
+   &#349;telprenon!" Kaj tiam Ja&#265;jo ne ricevis pugbatadon kaj
+   la respektinda ju&#285;isto ne deklamis homilion al la plorema
+   lernejanaro kaj ne prenis la manon de Georgo kaj diris ke tia knabo
+   meritas la&#365;dadon kaj tiam ne invitis tiun veni lo&#285;i &#265;e
+   li kaj balai la oficejon kaj estigi fajrojn kaj fari irtaskojn
+   kaj haki lignon kaj studi la juron kaj helpi lian edzinon plenumi
+   domtaskojn kaj disponi pri la tuta postrestanta tempo por ludi kaj
+   ricevi &#265;iumonatan kvardekcendosalajron kaj esti feli&#265;a. Ne.
+   En la libroj okazintus tiel sed ne okazis tiel al Ja&#265;jo. Nenia
+   enmiksi&#285;ema maljuna pektenaspekta ju&#285;isto ekaperis por
+   estigi &#285;enojn kaj tial la modelknabo Georgo ricevis pugbatadon
+   kaj Ja&#265;jo feli&#265;is pro tio &#265;ar, vi scias, Ja&#265;jo
+   malamegis moralajn knabojn. Ja&#265;jo diris ke li "malestimas
+   tiajn mola&#265;ulojn." Tia estis la lingva&#309;a&#265;o de tiu
+   malbonkonduta malbonzorgata knabo.
+</p>
+
+<p>
+   Sed la plej stranga evento iam okazinta al Ja&#265;jo estis la fojo
+   kiam li iris boatadi en diman&#265;o kaj ne sin dronigis kaj tiu
+   cetera fojo kiam &#349;tormo kuratingis lin dum li fi&#349;kaptadis
+   en diman&#265;o kaj ne trafis lin fulmo. Ho, vi povus tralegi
+   &#265;iujn diman&#265;lernejajn instrulibrojn inter nun kaj
+   Kristnasko sen iam malkovri simila&#309;on. Ho, ne! Vi ekscius ke
+   &#265;iuj malbonkondutaj knaboj irantaj boatadi en diman&#265;o
+   senmanke dronas. Kaj &#265;iujn malbonkondutajn knabojn kuratingatajn
+   de &#349;tormoj dum ili fi&#349;kaptadas en diman&#265;o senmanke
+   fulmo trafas. Boatoj veturigantaj malbonkondutajn knabojn &#265;iam
+   renversi&#285;as en diman&#265;o kaj &#265;iam okazas &#349;tormoj
+   kiam malbonkondutaj knaboj fi&#349;kaptadas en diman&#265;o. Kiel tiu
+   Ja&#265;jo iam eskapis tian sorton mi taksas nepra mistero.
+</p>
+
+<p>
+   Tiu Ja&#265;jo &#285;uis sor&#265;itan vivon&mdash;devas esti
+   tiel. Nenio sukcesis lin difekti. Li e&#265; transdonis al
+   besto&#285;ardena elefanto tabakbulon kaj la elefanto ne forfaligis
+   al li la kapon per rostrobato. Li kontrolis la enhavon de la
+   man&#285;o&#349;ranko ser&#265;ante pipromentan esencon kaj ne eraris
+   trinkante brandon. Li &#349;telprenis la pafilon de sia patro kaj
+   iris &#265;asadi en diman&#265;o kaj ne forpafis tri-kvar fingrojn.
+   Li pugnebatis sian fratineton sur la tempion kiam li koleri&#285;is
+   kaj &#349;i ne restis en dolorego dum longaj somertagoj kaj ne mortis
+   kun dol&#265;aj surlipaj pardonvortoj kiuj duobligis la angoron de
+   lia rompi&#285;anta koro. Ne, &#349;i balda&#365; resani&#285;is. Li
+   forfu&#285;is kaj finfine surmari&#285;is kaj kiam li revenis li
+
+<!-- File: 23.png -->
+
+   ne estis malfeli&#265;a kaj sola en la mondo kaj liaj gekaruloj ne
+   dormis en la trankvila pre&#285;eja tombejo kaj la de grimpoplantoj
+   kovrata lo&#285;domo de lia knabeco ne falis en kadukecon
+   kaj ruina&#309;ojn. Ho, ne! Li hejmenrevenis tiel ebria kiel
+   sak&#349;almisto kaj tuj sukcesis ali&#285;i al la fajrobrigado.
+</p>
+
+<p>
+   Kaj li plenkreskuli&#285;is kaj edzi&#285;is kaj naskigis grandan
+   familion kaj sencerbigis ilin &#265;iujn iun nokton per hakilo
+   kaj sin ri&#265;igis uzante diversajn trompa&#309;ojn kaj ruzojn
+   kaj nun li estas la plej infera, plej malica kanajlo de sia
+   naski&#285;vila&#285;o kaj estas universale respektata parlamentano.
+</p>
+
+<p>
+   Tial vi konsciu ke neniam estis malbonkonduta Ja&#265;jo en
+   la diman&#265;lernejaj libroj &#285;uinta tian sinsekvon da
+   bon&#349;ancoj kiel tiu pekema Ja&#265;jo kun la sor&#265;ita vivo.
+</p>
+
+<!-- File: 24.png -->
+
+<div id="enhavo">
+
+   <hr align="center" width="62%" style="margin-top: 2em; margin-bottom: 1em">
+
+   <div class="grande dike centre" style="margin-top: 1em; margin-bottom: 1em">
+      ENHAVO
+   </div>
+
+   <center>
+      <table border="0" cellspacing="16" cellpadding="0" summary="">
+         <tr><td align="left">"<a href="#konfeso">Konfeso de Mortanto</a>"</td><td align="left">p. 1</td></tr>
+         <tr><td align="left">"<a href="#rano">La Fifama Saltanta Rano de Kalavero-Konteo</a>"</td><td align="left">p. 14</td></tr>
+         <tr><td align="left">"<a href="#knabeto">La Rakonto pri la Malbonkonduta Knabeto</a>"</td><td align="left">p. 19</td></tr>
+      </table>
+   </center>
+
+   <hr align="center" width="62%" style="margin-top: 1em; margin-bottom: 2em">
+
+</div>
+
+
+
+
+
+
+
+
+<pre>
+
+
+
+
+
+End of the Project Gutenberg EBook of Mark Twain: Tri Noveloj, by Mark Twain
+
+*** END OF THIS PROJECT GUTENBERG EBOOK MARK TWAIN: TRI NOVELOJ ***
+
+***** This file should be named 17945-h.htm or 17945-h.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/1/7/9/4/17945/
+
+Produced by Robert L. Read, William Patterson, Edwin GROBE
+and the Online Distributed Proofreading Team at
+http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+
+</pre>
+
+</body>
+
+</html>
+

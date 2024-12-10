@@ -1,0 +1,2285 @@
+<!DOCTYPE html>
+<html lang="eo">
+<head>
+<meta charset="utf-8"><style>
+#pg-header div, #pg-footer div {
+    all: initial;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+#pg-footer div.agate {
+    font-size: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-footer li {
+    all: initial;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: -0.6em;
+}
+#pg-footer div.secthead {
+    font-size: 110%;
+    font-weight: bold;
+}
+#pg-footer #project-gutenberg-license {
+    font-size: 110%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-header-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight:bold;
+}
+#pg-footer-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header p {
+    text-indent: -4em;
+    margin-left: 4em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: medium
+}
+#pg-header #pg-header-authlist {
+    all: initial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header strong {
+    font-weight: normal;
+}
+#pg-header #pg-start-separator, #pg-footer #pg-end-separator {
+    margin-bottom: 3em;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: center
+}
+
+    .xhtml_center {text-align: center; display: block;}
+    .xhtml_center table {
+        display: table;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        }</style><meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 13), see www.w3.org" name="generator">
+<link href="http://purl.org/dc/elements/1.1/" rel="schema.DC" id="id-9040677801612162595">
+<meta content="J. A. Mitchell" name="DC.Creator">
+<meta content="La lasta Usonano" name="DC.Title">
+<meta content="May 8, 2008" name="DC.Date">
+<meta content="Esperanto" name="DC.Language">
+<meta content="Project Gutenberg" name="DC.Publisher">
+<meta content="http://www.gutenberg.org/etext/25386" name="DC.Identifier">
+<meta content="This text is in the public domain." name="DC.Rights">
+<title>The Project Gutenberg EBook of La lasta Usonano by J. A.
+  Mitchell</title>
+<style>.tei {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal
+    }
+.block {
+    display: block
+    }
+.inline {
+    display: inline
+    }
+.floatleft {
+    float: left;
+    margin: 1em 2em 1em 0
+    }
+.floatright {
+    float: right;
+    margin: 1em 0 1em 2em
+    }
+.shaded {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #eee
+    }
+.boxed {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid black
+    }
+body.tei {
+    margin: 4ex 10%;
+    text-align: justify
+    }
+div.tei {
+    margin: 2em 0
+    }
+p.tei {
+    margin: 0 0 1em 0;
+    text-indent: 0
+    }
+blockquote.tei {
+    margin: 2em 4em
+    }
+div.tei-lg {
+    margin: 1em 0
+    }
+div.tei-l {
+    margin: 0;
+    text-align: left
+    }
+div.tei-tb {
+    text-align: center
+    }
+div.tei-epigraph {
+    margin: 0 0 1em 10em
+    }
+div.tei-dateline {
+    margin: 1ex 0;
+    text-align: right
+    }
+div.tei-salute {
+    margin: 1ex 0
+    }
+div.tei-signed {
+    margin: 1ex 0;
+    text-align: right
+    }
+div.tei-byline {
+    margin: 1ex 0
+    }
+div.tei-marginnote {
+    margin: 0 0 0 -12%;
+    width: 11%;
+    float: left
+    }
+div.tei-sp {
+    margin: 1em 0 1em 2em
+    }
+div.tei-speaker {
+    margin: 0 0 1em -2em;
+    font-weight: bold;
+    text-indent: 0
+    }
+div.tei-stage {
+    margin: 1em 0;
+    font-weight: normal;
+    font-style: italic
+    }
+span.tei-stage {
+    font-weight: normal;
+    font-style: italic
+    }
+div.tei-eg {
+    padding: 1em;
+    color: black;
+    background-color: #eee
+    }
+hr.doublepage {
+    margin: 4em 0;
+    height: 5px
+    }
+hr.page {
+    margin: 4em 0;
+    height: 2px
+    }
+ul.tei-index {
+    list-style-type: none
+    }
+dl.tei {
+    margin: 1em 0
+    }
+dt.tei-notelabel {
+    font-weight: normal;
+    text-align: right;
+    float: left;
+    width: 3em
+    }
+dd.tei-notetext {
+    margin: 0 0 1ex 4em
+    }
+span.tei-pb {
+    text-indent: 0;
+    font-size: 75%;
+    font-family: sans-serif;
+    color: #777;
+    position: absolute;
+    left: 1%;
+    width: 8%;
+    font-style: normal
+    }
+span.code {
+    font-family: monospace;
+    font-size: 110%
+    }
+ul.tei-castlist {
+    margin: 0;
+    list-style-type: none
+    }
+li.tei-castitem {
+    margin: 0
+    }
+table.tei-castgroup {
+    margin: 0
+    }
+ul.tei-castgroup {
+    margin: 0;
+    list-style-type: none;
+    padding-right: 2em;
+    border-right: solid black 2px
+    }
+caption.tei-castgroup-head {
+    width: 50%;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 2em
+    }
+*.tei-roledesc {
+    font-style: italic
+    }
+*.tei-set {
+    font-style: italic
+    }
+table.rules {
+    border-collapse: collapse
+    }
+table.rules caption, table.rules th, table.rules td {
+    border: 1px solid black
+    }
+table.tei {
+    border-collapse: collapse
+    }
+table.tei-list {
+    width: 100%
+    }
+th.tei-head-table {
+    padding: 0.5ex 1em
+    }
+th.tei-cell {
+    padding: 0 1em
+    }
+td.tei-cell {
+    padding: 0 1em
+    }
+td.tei-item {
+    padding: 0;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left
+    }
+th.tei-label, td.tei-label {
+    width: 3em;
+    padding: 0;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: right
+    }
+th.tei-label-gloss, td.tei-label-gloss {
+    text-align: left
+    }
+td.tei-item-gloss, th.tei-headItem-gloss {
+    padding-left: 4em
+    }
+img.tei-formula {
+    vertical-align: middle
+    }</style>
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="La lasta Usonano">
+<meta name="dc.language" content="eo">
+<meta name="dcterms.source" content="https://www.gutenberg.org/files/25386/25386-h/25386-h.htm">
+<meta name="dcterms.modified" content="2024-11-11T10:11:32.325314+00:00">
+<meta name="dc.rights" content="Public domain in the USA.">
+<link rel="dcterms.isFormatOf" href="http://www.gutenberg.org/ebooks/25386">
+<meta name="dc.creator" content="Mitchell, John Ames, 1845-1918">
+<meta name="marcrel.trl" content="Wendell, Lehman, 1878-1977">
+<meta name="dc.subject" content="Science fiction">
+<meta name="dcterms.created" content="2008-05-08">
+<meta name="generator" content="Ebookmaker 0.12.47 by Project Gutenberg">
+<meta property="og:title" content="La lasta Usonano">
+<meta property="og:type" content="Text">
+<meta property="og:url" content="https://www.gutenberg.org/cache/epub/25386/pg25386-images.html">
+<meta property="og:image" content="https://www.gutenberg.org/cache/epub/25386/pg25386.cover.medium.jpg">
+</head>
+<body class="tei"><section class="pg-boilerplate pgheader" id="pg-header" lang="en"><h2 id="pg-header-heading" title="">The Project Gutenberg eBook of <span lang="eo" id="pg-title-no-subtitle">La lasta Usonano</span></h2>
+    
+<div>This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at <a class="reference external" href="https://www.gutenberg.org">www.gutenberg.org</a>. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.</div>
+
+<div class="container" id="pg-machine-header"><p><strong>Title</strong>: La lasta Usonano</p>
+<div id="pg-header-authlist">
+<p><strong>Author</strong>: John Ames Mitchell</p>
+
+<p><strong>Translator</strong>: Lehman Wendell</p>
+</div>
+<p><strong>Release date</strong>: May 8, 2008 [eBook #25386]</p>
+
+<p><strong>Language</strong>: Esperanto</p>
+
+
+</div><div id="pg-start-separator">
+<span>*** START OF THE PROJECT GUTENBERG EBOOK LA LASTA USONANO ***</span>
+</div></section><div class="tei tei-text" style="margin-bottom: 2.00em; margin-top: 2.00em" lang="eo"><div class="tei tei-front" style="margin-bottom: 6.00em; margin-top: 2.00em"><div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em"><div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em"><pre class="pre tei tei-div" style="margin-bottom: 3.00em; margin-top: 3.00em"></pre>
+</div>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em"></div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<div class="block tei tei-docTitle">
+<div class="block tei tei-titlePart" style="text-align: left; margin-bottom: 3.46em">
+<span style="font-size: 173%">La lasta Usonano</span>
+</div>
+<div class="block tei tei-titlePart" style="text-align: left; margin-bottom: 2.88em">
+<span style="font-size: 144%">Fragmento el La Taglibro de Kan-Li,
+            Princo de Dimf-Ju-Ĉur kaj Admiralo en la Persa Maristaro.</span>
+</div>
+</div>
+<div class="block tei tei-byline" style="text-align: left; margin-bottom: 3.46em; margin-top: 3.46em">
+<span style="font-size: 173%">by</span> <span class="inline tei tei-docAuthor" style="text-align: left"><span style="font-size: 173%">J. A. Mitchell</span></span>
+</div>
+<div class="tei tei-div" style="text-align: left; margin-bottom: 5.76em; margin-top: 5.76em">
+<span class="tei tei-docEdition" style="text-align: left"><span class="tei tei-edition" style="text-align: left"><span style="font-size: 144%">Edition
+          1</span></span></span><span style="font-size: 144%">,
+          (</span><span class="tei tei-docDate" style="text-align: left"><span class="tei tei-date" style="text-align: left"><span style="font-size: 144%">May 8,
+          2008</span></span></span><span style="font-size: 144%">)</span>
+</div>
+</div>
+<hr class="page">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 120%">La libroj de
+        la</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 180%; font-style: normal; font-weight: 700">Esperanta
+        Biblioteko Internacia</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 120%">estas riceveblaj en:</span></span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Berlin</span></em> de
+        Esperanto Verlag Möller &amp; Borel, Lindenstrasse 18/19.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Paris</span></em> de Hachette
+        &amp; Co., 79 Boulevard St. Germain.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">London</span></em> de British
+        Esperanto Association, Museum Station Buildings, 133—6 High
+        Holborn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Washington</span></em> D. C.
+        de American Esperantist Company.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Kjöbenhavn</span></em> de
+        Andr.-Fred. Höst &amp; Sön, Bredgade 35.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Barcelona</span></em> de Juan
+        Rosals, Puerta Ferrisa 30.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Budapest</span></em> de Lajos
+        Kókai, Károly-Utca 1.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Warszawa</span></em> de M.
+        Arct, 53 Nowy Swiat.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Moskva</span></em> de Moskva
+        Librejo Esperanto, Tverskaja 28.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Genova</span></em> de Dro A.
+        Stromboli, Via Assarotti 54/15.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">s’Gravenhage</span></em> de
+        Ĝenerala Librejo <span class="tei tei-q">„Espero“</span>,
+        Prinsestraat 48.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Genève</span></em> de
+        Universala Esperantia Librejo, 10 rue de la Bourse.</p>
+<div class="tei tei-tb">
+<hr style="width: 20%">
+</div>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉiu numero de la
+        <em class="tei tei-emph"><span style="font-style: italic">Esperanta
+        Biblioteko Internacia</span></em> kostas <em class="tei tei-emph"><span style="font-style: italic">unu
+        spescenton</span></em> (0,100 Sm) = 25 centimoj, 20 pfenigoj, 2½
+        pencoj, 5 cendoj, 24 heleroj, 10 kopekoj, 10 oeroj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span style="font-style: italic">Serio de 12 numeroj (afrankite) 1,250
+        Sm.</span></p>
+</div>
+<hr class="page">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.80em"><span style="font-size: 180%">ESPERANTA</span><br>
+<span style="font-size: 180%">BIBLIOTEKO INTERNACIA</span></p>
+<div class="tei tei-tb">
+<hr style="width: 80%">
+</div>
+<p class="floatleft tei tei-p" style="text-align: center; margin-bottom: 1.00em">Tradukis<br>
+        Lehman Wendell.</p>
+<p class="floatright tei tei-p" style="text-align: center; margin-bottom: 1.00em">No. 20.<br>
+        Prezo 0,100 Sm.</p>
+<p class="tei tei-p" style="text-align: center; margin-top: 6.00em">
+<em class="tei tei-emph" style="text-align: center"><span style="font-size: 300%; font-style: normal; font-weight: 700">La lasta
+        Usonano</span></em></p>
+<p class="tei tei-p" style="text-align: center"><span style="font-size: 180%">Fragmento el La Taglibro de Kan-Li</span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 120%">Princo de Dimf-Ju-Ĉur</span><br>
+<span style="font-size: 120%">kaj Admiralo en la Persa
+        Maristaro.</span></span></p>
+<div class="tei tei-tb">
+<hr style="width: 10%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">Prezentita de J. A.
+        Mitchell.</p>
+<div class="tei tei-figure" style="text-align: center">
+<img alt="Ilustraĵo: ankro" src="images/ankro.png" id="img_images_ankro.png">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">BERLIN.<br>
+        Esperanto Verlag Möller &amp; Borel<br>
+        kaj korespondantoj en<br>
+        Paris, London, Washington, Kjöbenhavn, Warszawa, Barcelona, Budapest,
+        Moskva, Genova, s’Gravenhage, Genève.</p>
+</div>
+</div>
+<hr class="doublepage">
+<div class="tei tei-body" style="margin-bottom: 6.00em; margin-top: 6.00em">
+<span class="tei tei-pb" id="page3">[p. 3]</span> <a class="tei tei-anchor" id="p3"></a>
+<div class="tei tei-salute">
+        Al tiuj meditemaj Persoj, kiuj povas legi averton en la subita leviĝo
+        kaj neatendita formorto de malsaĝa popolo, tiu ĉi libro estas
+        dediĉita.
+      </div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em" id="foreword1">
+<span class="tei tei-pb" id="page4">[p. 4]</span> <a class="tei tei-anchor" id="p4"></a>
+<h1 class="tei tei-head" style="text-align: center; margin-bottom: 3.46em; margin-top: 3.46em">
+<span style="font-family: sans-serif; font-size: 173%">Klariga
+        Antaŭparolo.</span></h1>
+<div class="tei tei-tb">
+<hr style="width: 10%">
+</div>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉiuj propraj nomoj
+        en la originala rakonto estas vortludoj. Ekzemple en la angla rakonto
+        sin trovas la nomo <span class="tei tei-q">„Noful“</span>, kiu estas
+        kunmetita el la du vortoj <span class="tei tei-q">„no“</span> kaj
+        <span class="tei tei-q">„fool“</span>, kaj signifas en Esperanto
+        <span class="tei tei-q">„ne-malsaĝulo“</span>, alivorte <span class="tei tei-q">„saĝulo“</span>. Alia vorto estas <span class="tei tei-q">„Grip-til-lah“</span>, kunmetita el la vortoj
+        <span class="tei tei-q">„grip the tiller“</span>, kaj signifas
+        <span class="tei tei-q">„tenu la direktilon“</span>. Kompreneble oni
+        ne povas traduki tiujn nomojn en Esperanton kaj samtempe konservi
+        ilian Persan aspekton, kaj tial, laŭ plena konsento de la aŭtoro, mi
+        elektis verajn Persajn nomojn anstataŭ la vortludoj. La nomoj en la
+        traduko povus do plaĉi al ĉiuj legantoj, eĉ al Persoj.</p>
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em"><em class="tei tei-emph" style="text-align: right"><span style="font-family: sans-serif; font-style: normal; font-weight: 700">Lehman
+        Wendell</span></em><br>
+        Tacoma, Usono.</p>
+</div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em" id="foreword2">
+<span class="tei tei-pb" id="page5">[p. 5]</span> <a class="tei tei-anchor" id="p5"></a>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">Kelkaj vortoj de<br>
+<em class="tei tei-emph" style="text-align: center"><span style="font-family: sans-serif; font-size: 180%">Kasim.</span></em><br>
+        Nomita <span class="tei tei-q" style="text-align: center">„La Akso de
+        Saĝo“</span>.</p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">Kuratoro de Imperia Muzeo
+        en Ŝiraz. Aŭtoro de <span class="tei tei-q" style="text-align: center">„La Ĉiela Venko de Kalifornio“</span>, kaj de
+        <span class="tei tei-q" style="text-align: center">„Norda Ameriko sub
+        la Irlandaj Registoj“</span>.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La mirindaj
+        eltrovoj de Kan-li de Dimf-Ju-Ĉur klarigis multon pri la hejma vivo
+        de la Usonanoj. Li malmulte suspektis, kiam li venis al tiu dormanta
+        kontinento, kian grandan servon li faros al la historio, aŭ kian
+        entuziasmon liaj eltrovoj vekos inter la Persaj arĥeologiistoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉiu esploranto de
+        la antikveco konas tiujn ĉi faktojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed por la profito
+        de tiuj, kiuj ankoraŭ nenion konas pri tiu eksterordinara popolo,
+        unue mi konsilas: vizitu la Muzeon de Teheran, por ke vi interesiĝu
+        pri la temo; kaj due, legu librojn, kiel tiun de Abdul, <span class="tei tei-q">„Kion ni eltrovis en la Okcidento“</span>, kaj
+        <span class="tei tei-q">„Historio pri la Usonanoj“</span>, de
+        Ala-el-Kalaf. La lasta estas plena kaj fidinda historio pri tiu
+        popolo de post la Respubliko sub Georgo Vaŝington ĝis la jaro 1990,
+        kiam ili malaperis kiel nacio. Tamen mi devas konfesi, ke
+        Ala-el-Kalaf lasas la leganton tre konfuzata pri la periodo inter la
+        buĉado de la Protestantoj en 1927 kaj la ekregado de la Irlandanoj en
+        1940.</p><span class="tei tei-pb" id="page6">[p. 6]</span> <a class="tei tei-anchor" id="p6"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li opinias, same
+        kiel multaj aliaj historiistoj, ke la Usonanoj estis miksnaskita
+        raso, kiu havis malmulte da patriotismo kaj estis nur imitantoj; nur
+        pligrandigita kopio de aliaj nacioj ekzistantaj en tiu tempo. Li
+        konsideras ilin malklera, nerva, malŝparema popolo kaj donas al ili
+        nur iom da indaj ecoj. Tio ĉi, kompreneble, estas ĝusta; tamen, ili
+        ĉiam prezentos interesplenan studadon pro ilia rapida kreskado, ilia
+        granda nombro, ilia mirinda meĥanika sagaceco kaj ilia subita kaj
+        preskaŭ neklarigebla malapero.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Pri la riĉeco,
+        lukso kaj laŭgrada degenero de la enlanda loĝantaro; pri la teruraj
+        klimataj ŝanĝoj, kiuj tratranĉis la landon kiel ilo de falĉisto; pri
+        la rapida reiĝo de vasta kontinento, plenplena de milionoj da
+        plezur-amantaj homoj, en silentan dezerton, kie la suno kaj la luno
+        laŭvice rigardas centojn da ruiniĝintaj urboj,—ĉion ĉi priskribas
+        Ala-el-Kalaf kun efiko kaj precizeco.</p>
+</div><span class="tei tei-pb" id="page7">[p. 7]</span> <a class="tei tei-anchor" id="p7"></a>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em" id="taglibro">
+<h1 class="tei tei-head" style="text-align: center; margin-bottom: 3.46em; margin-top: 3.46em">
+<span class="tei tei-hi" style="text-align: center"><span style="font-family: sans-serif; font-size: 173%">Sur la ŝipo
+        Testudo</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 120%">en la jaro 2951.</span></span></h1>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 10an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tero antaŭe!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ab-i-Garm unue
+          ekvidis ĝin, kaj kiam li kriegis la novaĵon, mia koro rapide batis
+          de ĝojo. La malsataj maristoj jam forgesis siajn malplenajn
+          stomakojn kaj dancadis ĉirkaŭe sur la ferdeko. Mi certe ne
+          malpermesis al ili! Unu monaton da malpleneco sur maltrankvila maro
+          estas kaŭzo por ia malsaĝeco. Abdul sola estas sen entuziasmo. La
+          koro de la maljunulo ŝajnas senviva.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni klare vidas
+          la teron, nedifinitan strion laŭ la okcidenta horizonto. El la
+          nordokcidento blovas bona vento, sed kun kruela malhelpo ni naĝas
+          antaŭen, ĉar Testudo estas peza ŝipo, kies larĝa antaŭparto kaj
+          grandega malsupraĵo igas ĝin ne taŭga por rapideco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La tero, kiam la
+          ŝipo alproksimiĝas, ŝajnas kovrita de arboj, kaj la blankaj ondoj
+          laŭ la flava marbordo estas bonvena vidaĵo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 11an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiun ĉi
+          posttagmezon ni trovis bonegan havenon kaj nun en ĝi ankriĝas.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ab-i-Garm
+          opinias, ke ni estas atingintaj unu el la okcidentaj insuloj, kiun
+          Ali Baba mencias. Abdul, tamen, estas certa, ke ni estas pli
+          norde.</p>
+</div><span class="tei tei-pb" id="page8">[p. 8]</span> <a class="tei tei-anchor" id="p8"></a>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 12an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kia ŝanĝo en
+          Abdul! Li estas la plej juna homo surŝipe. Ni ĉiuj ĝojas kun li,
+          ĉar niaj eltrovoj certe estas mirindaj. Ĉi tiun matenon dum mi
+          ankoraŭ estis en mia lito, li enkuris en la kajuton kaj, forgesinte
+          pri nia diferenco de rango, li ekkaptis min ĉe la brako kaj penis
+          fortiri min el la lito. Lia eksciteco estis tiel granda, ke mi tute
+          ne komprenis liajn vortojn. Tamen, rapide irante post li, mi miris
+          kiam mi rimarkis, ke maljunaj membroj povas tiel rapide transporti
+          maljunulon. Li saltetis laŭ la mallarĝa ŝtuparo kiel katido, kaj
+          mi, kvankam juna, ne povis tiel rapide sekvi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed kia vidaĵo
+          kiam mi atingis la ferdekon! Hieraŭ ni tion ne vidis, ĉar kiam ni
+          ĵetis ankron la krepusko jam envolvis la ĉirkaŭaĵon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Rekte antaŭe,
+          meze de la haveno, altiĝis grandega statuo, multajn fojojn pli alta
+          ol la mastoj de nia ŝipo. Pli malproksime, transe de la statuo,
+          fluis la larĝa rivero sur kies akvo ni naĝis, kaj ĝia supraĵo
+          rebrilis pro la leviĝanta suno. Oriente, kien Abdul almontris per
+          de ekscito tremantaj fingroj, kuŝis ruinoj de senlima urbo. Tre
+          malproksimen ĝi etendiĝis en la landon transe, eĉ pli malproksimen
+          ol ni per la okuloj povis vidi. Kaj en la pli mallarĝa rivero
+          dekstre, du grandaj konstruaĵoj altiĝis en la aeron, kaj, similaj
+          al dunaskitaj fratoj, ili kvazaŭ gardis la stratojn malsupre. Nenia
+          sono venis al ni—nenia flosantaĵo maltrankviligis la supraĵon de la
+          akvo. Vere, la vidaĵo <span class="tei tei-pb" id="page9">[p.
+          9]</span> <a class="tei tei-anchor" id="p9"></a> similis
+          al la dormado de la Morto. Mi pleniĝis de mirego.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum ni rigardis,
+          ia stranga birdo, simila al ardeo, leviĝis kun raŭka ekkrio de sub
+          la granda figuro kaj flugis al la urbo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kian signifon havas ĉio ĉi?“</span> mi ekkriis.
+          <span class="tei tei-q">„Kie ni estas?“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Jes, kie!“</span> diris Abdul. <span class="tei tei-q">„Se mi nur tion konus, ho via princa moŝto, tiam mi
+          povus doni detalan priskribon. Neniu vojaĝanto iam menciis tiujn ĉi
+          ruinojn. La Persa historio ne enhavas priskribon pri tia popolo.
+          Alaĥo ordonis ke ni eltrovu novan mondon.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Post mallonga
+          tempo ni iris teren kaj trovis nin en antikva strato, kie la pavimo
+          estis kovrita de herbo kaj floroj, kune kreskantaj en sovaĝa
+          malordo. Altaj arboj de granda antikveco puŝis siajn branĉojn tra
+          fenestroj kaj tegmentoj kaj faris funebran vidaĵon. Tamen, ili
+          donis bonvenan ombron, ĉar ni trovis la aeron sur la tero treege
+          varma kaj malfacile tolerebla. La kuriozaj konstruaĵoj ambaŭflanke
+          estas mirinde konservitaj, eĉ platoj de vitro ankoraŭ staras en
+          multaj el la feraj fenestro-kadroj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni vagis antaŭen
+          tra la densa herbo, Abdul kaj mi, tre ekscititaj de niaj eltrovoj
+          kaj ĉarmitaj de la stranga vidaĵo. La sunlumo havas blindigan
+          brilecon, la birdoj ĉie kantadas, kaj la ruinoj estas gajaj per
+          belegaj floroj. Ni baldaŭ trovis nin en loko kiu iam estis publika
+          parko, sed nun plejparte nur ombra bosko.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum ni sidis sur
+          defalinta kornico kaj rigardis la altajn konstruaĵojn ĉirkaŭ ni, mi
+          <span class="tei tei-pb" id="page10">[p. 10]</span> <a class="tei tei-anchor" id="p10"></a> demandis Abdulon, ĉu li
+          ankoraŭ ne scias kie ni estas, kaj li respondis:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ankoraŭ mi ne scias. La arĥitekturo multe similas tiun
+          de antikva Eŭropo, sed ĝi klarigas al ni nenion.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiam mi diris al
+          li ŝerce: <span class="tei tei-q">„Ĉi tiu instruu al ni, ho Abdul!
+          la malsaĝecon de tro multe da saĝo. Kiu el viaj lernantoj de la
+          Imperia Kolegio en Ispahan povus pensi ke ilia respektinda
+          instruisto pri la historio kaj lingvoj povus viziti la plej grandan
+          urbon en la mondo kaj tiel malmulte koni pri ĝi!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Viaj vortoj estas saĝaj, mia Princo,“</span> li
+          respondis; <span class="tei tei-q">„nemultaj infanoj povus malpli
+          koni.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum ni foriris
+          de la bosko mi ekvidis ŝtonplaton, kiu ŝajnis havi ian signifon. Ĝi
+          kuŝis ĉe niaj piedoj, parte kaŝita per la alta herbo, kien ĝi estis
+          falinta for de la kolonoj kiuj ĝin subtenis. Sur ĝia supraĵo sin
+          trovis strangaj literoj en akra reliefo, tiel videblaj kaj
+          perfektaj kiel ili estis, kiam faritaj antaŭ dek jarcentoj. Mi
+          montris ĝin al Abdul, kaj ni kliniĝis super ĝi kun avidaj
+          okuloj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jen ĝi estas:
+          <span class="tei tei-q">„Astor House.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„La surskribaĵo estas antikva angla lingvo,“</span> li
+          diris.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„ <span class="tei tei-q">‚House‘</span> signifas domo,
+          sed la vorton <span class="tei tei-q">‚Astor‘</span> mi ne
+          komprenas. Eble ĝi estis la nomo de iu diaĵo, kaj tie ĉi staris lia
+          templo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu ĉi klarigo
+          estis sufiĉe bona, kaj ni ĉirkaŭrigardis pri aliaj signoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Niaj paŝoj
+          kondukis nin en alian straton, kaj dum ni promenadis, mi esprimis
+          mian <span class="tei tei-pb" id="page11">[p. 11]</span> <a class="tei tei-anchor" id="p11"></a> surprizon pro la mirinda
+          konservo de la ŝtonoj, kiuj ŝajnis kvazaŭ hakitaj hieraŭ.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„En tia atmosfero ruiniĝo estas malrapida,“</span>
+          diris Abdul. <span class="tei tei-q">„Mil jaroj almenaŭ pasis de
+          post la tempo kiam tiuj ĉi domoj estis okupataj. Rigardu la kverkon
+          tie, ekzemple; la arbo mem estas kreskinta dum almenaŭ cent jaroj,
+          kaj ni scias pro la amaso da falaĵoj sub ĝi ke jarcentoj pasis
+          antaŭ ĝia naskiĝo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li ĉesis paroli,
+          ekvidinte surskribaĵon super pordo, parte kaŝita per unu el la
+          branĉoj de la kverko.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Subite sin
+          turnante al mi kun rigardo de triumfo, li ekkriis: <span class="tei tei-q">„Estas la nia!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kio estas la nia?“</span> mi demandis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„La informo kiun ni serĉis.“</span> Kaj li almontris al
+          la surskribaĵo: <span class="tei tei-q">„New York Stock
+          Exc….“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li tremis de
+          ĝojo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Vi estas aŭdinta pri Nu-Jok, ho mia
+          Princo?“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi respondis ke
+          mi legis pri ĝi en la lernejo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Vi estas nun en ĝi!“</span> li diris. <span class="tei tei-q">„Ni staras sur la Okcidenta Kontinento. Ne miro ke ni
+          konsideris nian vojaĝon longa!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kaj kio estis Nu-Jok?“</span> mi demandis.
+          <span class="tei tei-q">„Mi legis pri ĝi en la kolegio, sed memoras
+          malmulton. Ĉu ĝi ne estis la ĉefurbo de la antikvaj
+          Usonanoj?“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ne la ĉefurbo,“</span> li respondis; <span class="tei tei-q">„sed ilia plej granda urbo. Ĝi enhavis kvar milionojn
+          da loĝantoj.“</span></p><span class="tei tei-pb" id="page12">[p.
+          12]</span> <a class="tei tei-anchor" id="p12"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kvar milionojn!“</span> mi ekkriis. <span class="tei tei-q">„Vere, ho Fonto de Saĝo, tio estas granda nombro por
+          unu urbo!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Tia estas la historio, mia Princo! Plie, kiel vi
+          scias, por trairi tiun ĉi urbon oni devas marŝi multajn
+          tagojn.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Jes, ĝi estas senfina.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li daŭrigis:
+          <span class="tei tei-q">„Strange, ke nur unu vorto povas tiel multe
+          klarigi! Tiuj feraj konstruaĵoj, la granda statuo en la haveno, la
+          temploj kun pinthavaj turoj, ĉiuj estas skribitaj en la
+          historio.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Je kio mi
+          rediris ke mi konas malmulton pri la Usonanoj krom tio, kion mi
+          lernis en la kolegio, senatenta nedaŭra kono, ĉar ili estis popolo
+          kiu havis por mi ne multe da intereso.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ni sidiĝu en la ombro,“</span> diris Abdul;
+          <span class="tei tei-q">„kaj mi rakontos al vi pri ili.“</span> Ni
+          sidiĝis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Jam en la daŭro de dek unu jarcentoj, la urboj de tiu
+          ĉi dormanta kontinento ruiniĝis en soleco. Eĉ ilian ekzistadon oni
+          forgesis. La homoj kiuj ilin konstruis jam de longe malaperis, kaj
+          ilia civilizacio estas nur ombreca tradicio. La historiistoj
+          miregas tial, ke nacio, konsistanta el cent milionoj da loĝantoj,
+          povis malaperi for de la mondo kiel nebulo, kaj lasi post si tiel
+          malmulte. Sed por tiuj, kiuj konas iliajn vivmanierojn kaj
+          karakteron, surprizo estas neebla. Estis nenio, kion ili povis
+          postlasi. La Usonanoj posedis nek literaturon, nek arton, nek
+          muzikon proprajn. Ĉio estis prunteprenita. Eĉ la vestoj kiujn ili
+          portis estis kopiitaj per ridinda precizeco laŭ la modeloj de
+          <span class="tei tei-pb" id="page13">[p. 13]</span> <a class="tei tei-anchor" id="p13"></a> aliaj nacioj. Ili estis vigla,
+          movema, sprita, avida raso, dediĉita korpe kaj anime al la
+          kolektado de riĉaĵoj. Ilia plej ĉefa pasio estis la vendado kaj la
+          aĉetado. Eĉ virinoj, de alta kaj malalta rango, pasigis multe da
+          tempo ĉe marĉandoj, puŝante unu la alian, ĉar iliaj vestoj estis
+          malsimplaj kaj bezonis plejmulton de ilia tempo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kia malnobleco!“</span> mi ekkriis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Tia ĝi sendube estis,“</span> diris Abdul;
+          <span class="tei tei-q">„sed ili ne estis sen virtoj. Ilia hejma
+          vivo estis feliĉa. Viro havis nur unu edzinon kaj konsideris ŝin
+          egala al si mem.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Tio estas stranga! Sed laŭ mia memoro ili estis popolo
+          kun elasta honoro.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Tiaj oni konsideris ilin,“</span> diris Abdul;
+          <span class="tei tei-q">„ilia komerca honoro estis ŝerco. Ili estis
+          pli sagacaj ol la Turkoj. La estonteco estis ilia dio, kies
+          profetoj estis la ruzo kaj la elpensado. Ilian febran aktivecon
+          neniu Perso povas kompreni. Ilia vasta lando estis plena de bruaj
+          industrioj. La nervaj Usonanoj veturis treege rapide de unu urbo al
+          alia per sistemo de movado, pri kiu ni povas nur imagi. Sin trovis
+          vojoj kun feraj reloj, sur kiuj malgrandaj domoj kun radoj kuris
+          tiel rapidege, ke tutan tagvojaĝon ili faris en unu horo. Grandegaj
+          ŝipoj sen veloj, antaŭen puŝataj per mistera povo, portis centojn
+          da homoj samtempe al la plej malproksimaj punktoj de la
+          mondo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kaj ĉu tiuj ĉi aferoj estas perditaj?“</span> mi
+          demandis.</p><span class="tei tei-pb" id="page14">[p. 14]</span>
+<a class="tei tei-anchor" id="p14"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ni konas multajn el la povoj,“</span> diris Abdul;
+          <span class="tei tei-q">„sed la manieron apliki ilin ni ne havas.
+          Ŝajnas ke eĉ la elementoj estis iliaj sklavoj. Urbojn ili lumigis
+          nokte per artefaritaj lunoj, kies brileco superis la lunon supre.
+          Strangajn elpensaĵojn ili uzis per kiuj ili povis interparoli
+          kvankam malproksime unu de la alia je vojaĝo da multaj tagoj.
+          Kelkaj el tiuj ĉi elpensaĵoj ekzistas hodiaŭ en la Persa muzeo. Pro
+          la superstiĉoj de niaj prapatroj tiuj sekretoj perdiĝis dum tiuj
+          mallumaj jarcentoj el kiuj ni fine vekiĝas.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">En tiu momento
+          ni aŭdis malproksime la voĉon de Josafa Hason; ili estis trovintaj
+          rivereton kaj ili nin alvokis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tian varmon ni
+          ankoraŭ neniam sentis. Apud la rivero, kie nia ŝipo naĝis, estis
+          pli komforte, sed eĉ tie ĉi la ŝvito elstaris sur ni en grandaj
+          gutoj. Niaj vizaĝoj brilis kiel fiŝoj. Estis nia deziro plue
+          esplori sed la stratoj similis al forno, kaj ni revenis al
+          Testudo….</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum mi hodiaŭ
+          posttagmeze sidis sur la ferdeko enskribante la okazintaĵojn de la
+          mateno en tiun ĉi taglibron, Josafa Hason kaj Jafar-el-Beg
+          alproksimiĝis, kaj petis permeson preni malgrandan boaton por
+          viziti la grandan statuon. Tiam Abdul informis nin ke tiu ĉi statuo
+          en antikvaj tempoj tenis alte torĉon, kiu lumigis la tutan havenon,
+          kaj petis Jafar-el-Beg, ke li penu eltrovi kiel la lumo estis
+          farita.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ili revenis
+          ĉirkaŭ vespere kun la jena informo, ke la statuo ne estas el solida
+          bronzo sed kava, ke ili supreniris laŭ fera ŝtuparo en <span class="tei tei-pb" id="page15">[p. 15]</span> <a class="tei tei-anchor" id="p15"></a> la korpon de la figuro, kaj el la supro
+          de ĝi rigardis la ŝipon; ke Jafar-el-Beg en la mallumo sidiĝis por
+          ripozi sur neston da flavaj muŝoj kun nigraj strioj; ke tiuj ĉi
+          muŝoj enmetis pikilojn en la korpon de Jafar-el-Beg, ĝis li laŭte
+          ekkriis kaj malsupreniris la ŝtuparon per neatendita lerteco; ke
+          Josafa Hason kaj aliaj supreniris la levitan brakon kaj fine staris
+          sur la torĉo mem; kaj ke la urbo kuŝis malsupre kiel geografia
+          karto, kovrante la landon mejlojn kaj mejlojn laŭ ambaŭ flankoj de
+          la rivero. Pri la lumigado de la haveno, Josafa Hason diras ke
+          Abdul eraras; ne estas eĉ signo de io, kio povus doni lumon—nenia
+          ujo por oleo aŭ postsigneto de fajro.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul diras ke
+          Josafa estas idioto; ke li mem iros.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 13an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Timigan eltrovon
+          ni havis hodiaŭ matene.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Veturante iom
+          laŭ la rivero ni esploris parton de la urbo kie la konstruaĵoj
+          malsimilas tiujn, kiujn ni hieraŭ vidis. Abdul opinias ke ili estis
+          la domoj de la riĉuloj. Ilia formo similas al briko staranta; ĉiuj
+          estas tre similaj, neinteresaj kaj tedaj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni rimarkis unu
+          kies fenestraj kovriloj kaj pordoj ankoraŭ staras, sed kiuj
+          rustiĝas for de la kuriozaj ĉarniroj kiuj subtenas ilin. Per kelkaj
+          fortaj batoj ni faligis la eksterajn pordojn en amason da polvo,
+          kaj kiam mi enpaŝis sur la marmoran plankon interne miaj okuloj
+          ekvidis neatenditan vidaĵon. Mebloj, statuoj, <span class="tei tei-pb" id="page16">[p. 16]</span> <a class="tei tei-anchor" id="p16"></a> malhelaj pentraĵoj en polviĝantaj
+          kadroj, figuroj el bronzo kaj arĝento, speguloj, kurtenoj, ĉiuj
+          estis tie, sed en ĉia stato de ruiniĝo. Ni forbatis la ferajn
+          ŝirmilojn kaj enlasis la lumon en la jam dum jarcentoj fermitajn
+          ĉambrojn. En la unua ĉambro kuŝis tapiŝo el Persujo! Kolorperdinta,
+          de tineoj mordita, jam detruita en lokoj, ĝi kvazaŭ petegis nin per
+          mortantaj okuloj ke ni portu ĝin for. Mia koro moliĝis pro la
+          antikva tapiŝo, kaj mi rimarkis infanan elrigardon en la okuloj de
+          Omar.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam mi
+          supreniris la ŝiman ŝtuparon al la etaĝo supre mi esprimis
+          surprizon tial ke drapo kaj ligno restas preskaŭ perfektaj dum tiom
+          da jarcentoj, kaj aldonis:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„La Usonanoj ne estis tiel malindaj, kiel ni
+          opinias.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Povus esti,“</span> diris Omar; <span class="tei tei-q">„sed la Persa tapiŝo estas ja la plej freŝa objekto,
+          kiun ni jam vidis, kaj ĝi eble estis antikva kiam ili aĉetis
+          ĝin.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sur tiu ĉi etaĝo
+          ni eniris malhelan ĉambron, vastan kaj iam lukse meblitan. Kiam
+          Omar malfermis la fenestrajn kovrilojn kaj fortiris la ĉifonajn
+          kurtenojn ni eksaltis de surprizo pro la vidaĵo antaŭ ni. Sur larĝa
+          lito en la centro de la ĉambro kuŝis homa estaĵo, kun la longaj
+          haroj ankoraŭ sur la kapo. Ĝi pli similis al mumio ol al skeleto.
+          Ĉirkaŭe, sur la lito, kuŝis ŝimaj fragmentoj de la iam blankaj
+          tukoj kiuj kovris ĝin. Sur la fingroj de la maldekstra mano brilis
+          du ringoj, kiuj altiris nian atenton. Unu tenis diamanton de alta
+          valoro, la alia <span class="tei tei-pb" id="page17">[p. 17]</span>
+<a class="tei tei-anchor" id="p17"></a> havis safirojn
+          kaj diamantojn plej strange aranĝitajn. Ni staris momenton
+          silentaj, kaj malĝoje rigardis la estaĵon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kompatinda virino,“</span> mi diris; <span class="tei tei-q">„kiun ili tie ĉi lasis sola.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Estas pli eble,“</span> diris Abdul; <span class="tei tei-q">„ke ŝi jam estis senviva, kaj la amikoj, foririnte eble
+          urĝe, ne havis la tempon bruligi la kadavron.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ĉu ili bruligis la mortintojn?“</span> mi demandis.
+          <span class="tei tei-q">„En mia historio estas skribite, ke ili
+          enterigis ilin kiel terpomojn, kaj lasis ilin putriĝi.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj Abdul
+          respondis: <span class="tei tei-q">„Iam estis tiel, sed poste, kiam
+          ili pli civiliziĝis, ili forlasis la kutimon.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ĉu estas kredeble?“</span> mi demandis; <span class="tei tei-q">„ke tiu ĉi virino jam kuŝis tie ĉi preskaŭ mil jarojn
+          kaj spite tio estas tiel bone konservita?“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Mi, ankaŭ, estas surprizita,“</span> diris Abdul.
+          <span class="tei tei-q">„Mi povas klarigi la aferon nur pro la
+          granda sekeco de la aero, kiu sorbas la fluidaĵojn de la korpo kaj
+          tiel malrapidigas putradon.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiam levante
+          karese en la mano iom de ŝiaj flavaj haroj, li diris:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ŝi sendube estis juna, ankoraŭ ne
+          dudekjara.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ĉu iliaj virinoj estis belaj?“</span> mi demandis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ili estis tre belaj,“</span> li respondis;
+          <span class="tei tei-q">„kun graciaj formoj kaj belaj vizaĝoj;
+          plezuro al la okulo; ankaŭ ili estis gajaj kaj spritaj kun multe da
+          viveco.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Je tio ekkriis
+          Omar:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Jen estas la unuaj vortoj de vi elparolitaj, ho Abdul,
+          kiuj kaŭzas min bedaŭri la malaperon <span class="tei tei-pb" id="page18">[p. 18]</span> <a class="tei tei-anchor" id="p18"></a> de tiu ĉi popolo! Estas ĉiam loko en mia koro
+          por ruĝiĝanta virgulino!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Lasu do vian doloron mallonge vivi,“</span> respondis
+          Abdul; <span class="tei tei-q">„ĉar la Usonaj virgulinoj ne estis
+          el tiu speco. Ruĝiĝo estis arto kiun ili malofte uzis. La modesteco
+          kiun vi amas en Persa virgulino estis inter ili nekonata. Niaj
+          timemaj filinoj tute ne similas tiujn produktaĵojn de la Okcidento.
+          Ili paŝadis laŭ la stratoj kun vagemaj okuloj kaj malruĝiĝantaj
+          vizaĝoj, libere parolante kun viroj kaj virinoj, maltimaj en parolo
+          kaj liberaj en maniero, irante kaj venante laŭ plaĉo. Ili multe
+          konis pri la mondo, direktis siajn proprajn aferojn, kaj aranĝis
+          siajn proprajn edziniĝojn; ofte ŝanĝante siajn opiniojn ili
+          edziniĝis kun alia ol la fianĉo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kiel abomene! Kaj ĉu homoj vere povis ami tiujn ĉi
+          aferojn?“</span> diris Omar tuŝite de malplezuro.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ŝajnas tiel.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Sed la Usona novedzino havis ja la freŝecon de
+          sekigita figo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ŝi havis,“</span> diris Abdul; <span class="tei tei-q">„sed tiuj kiuj konas nur la sekigitan frukton ne sentas
+          la mankon de la freŝa frukto. Sed la virgulinoj mem ne estis
+          kulpaj. Edukitaj kiel knaboj, kun la samaj studoj kaj intelekta
+          disvolviĝo, la virineca parto de ilia naturo iom post iom malaperis
+          laŭ la intelekta kreskado de iliaj cerboj. Intelekta forto estis la
+          celo de la virina edukiteco.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiam ekkriis
+          Omar malplezure:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Laŭdu Alaĥon pro lia helpo en la ekstermo <span class="tei tei-pb" id="page19">[p. 19]</span> <a class="tei tei-anchor" id="p19"></a> de tia popolo!“</span> kaj li foriris
+          de la lito, kaj komencis ĉirkaŭrigardi en la ĉambro. Post momento
+          li revenis al ni, dirante:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Jen estas plu da juveloj; ankaŭ da mono.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul avide
+          prenis la monerojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Mono!“</span> ekkriis li. <span class="tei tei-q">„Mono donos al ni pli da informo ol paĝoj da
+          historio.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Estis arĝentaj
+          moneroj de diversaj grandecoj kaj du malgrandaj moneroj el kupro.
+          Abdul atente studis ilin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„La lasta dato estas 1957,“</span> li diris;
+          <span class="tei tei-q">„iom malpli ol mil jarojn; sed la monero
+          eble rondiris kelkajn jarojn antaŭ ol la virino mortis; ankaŭ eble
+          ili fabrikis ĝin en la sama jaro kiam ŝi mortis. Ĝi portas la kapon
+          de Dennis, la lasta el la Irlandaj diktatoroj. Laŭ supozo, la raso
+          malaperis antaŭ la jaro 1990 de ilia epoko.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi tiam
+          diris:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Vi neniam rakontis al ni, ho Abdul, la kaŭzon de ilia
+          malapero.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Estis multe da kaŭzoj,“</span> li respondis.
+          <span class="tei tei-q">„La Usonanoj mem estis origine el Angla
+          deveno, sed popoloj el ĉiuj partoj de Eŭropo venis tien ĉi
+          grandanombre. Kvankam la unuaj kiuj venis estis fortikaj kaj
+          harditaj, la rezulto de la klimato sur la posteulojn estis fatala.
+          Ili fariĝis plat-brustaj kaj malgrasaj, kun malmulte da hararo,
+          rompeblaj dentoj, kaj malfortaj digestoj. Nervmalsanoj al ni
+          nekonataj mortigis multajn. Infanoj malfacile naskiĝis. Inter 1945
+          kaj 1960, kiam okazis la lasta homsumigo pri kiu ni havas raporton,
+          la loĝantaro malpliiĝis de naŭdek milionoj ĝis dek du milionoj.
+          <span class="tei tei-pb" id="page20">[p. 20]</span> <a class="tei tei-anchor" id="p20"></a> Klimataj ŝanĝoj, neniam
+          vidataj en aliaj landoj, komenciĝis en tiu tempo, kaj finis en la
+          daŭro de malpli ol dek jaroj, la laboradon jam faritan facila per
+          nervaj malsanoj kaj malmodera vivado. La temperaturo ofte dum unu
+          tago malleviĝis de brulanta varmo ĝis vintra malvarmo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Multon similan
+          li rakontis al ni, sed mi estas tro dormema por skribi plu. Ni
+          esploris la reston de la domego, kaj trovis multajn interesajn
+          aferojn. Laŭ mia deziro ni portis kelkajn objektojn al
+          Testudo.<a href="#note_1" id="noteref_1" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">1</span></span></a></p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 14an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Pli varme ol
+          hieraŭ. En la posttagmezo ni estis remataj laŭ la rivero kaj
+          surteriris por mallonga promenado. Estas danĝere ne timi la
+          sunon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ju pli mi lernas
+          pri tiuj ĉi Usonanoj, des malpli interesaj ili fariĝas. Abdul havas
+          la saman opinion, kiel mi juĝas laŭ la interparolo hodiaŭ, dum ni
+          kune promenadis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Estis
+          tiamaniere:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Kiel
+          similaj estas la domoj! Kiel tedaj!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Tiel
+          ankaŭ estis la loĝantoj. Ili simile pensadis, simile laboradis,
+          manĝadis; sin vestadis kaj interparoladis simile. Ili legis la
+          samajn librojn; ili modelis siajn vestojn laŭ ordono, sen ia penso
+          pri la grandeco aŭ formo <span class="tei tei-pb" id="page21">[p.
+          21]</span> <a class="tei tei-anchor" id="p21"></a> de la
+          individuo, kaj precize imitis la modojn de Eŭropanoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Sed la
+          mallarĝaj vestoj de la Eŭropanoj certe estis tre nekomfortaj en la
+          varmego de Usona somero.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Tiel ili
+          eble estis. Rigidaj skatoloj de diversaj formoj ornamis la kapojn
+          de la viroj. Kuriozaj jakoj kun malvastaj manikoj kunpremis la
+          korpon. La piedoj pulsobatis kaj brulis en malvastaj kovriloj el
+          rigida ledo, kaj tolo rigidigita laŭ ia artefarita maniero sidis
+          streĉita ĉirkaŭ la kolo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Alaĥo!
+          Kiaj idiotoj!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Tiaj oni
+          konsideris ilin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Ĉu vi
+          scias kial ili amis tian nebezonan suferadon?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Estis
+          ilia deziro esti similaj al aliaj. Tio estas natura sento de
+          vulgara popolo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 15an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Bona vento
+          blovas hodiaŭ el la okcidento. Ni levis la ankron kaj naĝis laŭ la
+          orienta flanko de la urbo. Mi tion faris ĉar Abdul trovas la supran
+          parton de la urbo pli riĉa pri restaĵoj ol la malsupran, kiu ŝajnas
+          dediĉita al komercaj aferoj. Ni naĝis proksime de kaj sub unu el la
+          grandaj monumentoj en la rivero, kaj ni ne povis diveni ĝian
+          signifon. Multaj feraj vergoj ankoraŭ pendas el la pintoj de ĉiu el
+          la konstruaĵoj. Tial ke ili staras laŭ linio, unu post alia, ni
+          unue opiniis, ke eble ili iam estis kunligitaj kaj utilis kiel
+          ponto, sed ni <span class="tei tei-pb" id="page22">[p. 22]</span>
+<a class="tei tei-anchor" id="p22"></a> baldaŭ vidis ke
+          ili staras tro malproksime unu de la alia.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni ĵetis ankron
+          je ĉirkaŭ tri mejloj malproksime de nia antaŭa ankriĝo. Supre kaj
+          malsupre laŭ la rivero, al la sudo, nordo, oriento, kaj okcidento,
+          la ruinoj etendiĝas nedifinite, ŝajne sen fino.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi
+          maltrankviliĝas pri Omar. Li iris surteren kaj ankoraŭ ne revenis.
+          Estas nun post noktomezo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 16an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Gloru Alaĥon,
+          mia kamarado vivas! Hodiaŭ matene ni frue surteriris kaj komencis
+          serĉi lin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam ni
+          preteriris la konstruaĵon kiu portas la surskribaĵon <span class="tei tei-q">„… Dorf Astoria“</span> sur ĝia antaŭa flanko, ni
+          ekaŭdis lian voĉon el la interno responde al niaj vokoj. Ni eniris,
+          kaj suprenirinte la ruiniĝantan ŝtuparon ni trovis lin sidantan sur
+          la planko supre. Li havis ŝvelintan kruron pro forte vundita
+          artiko, kaj diversajn kontuzojn li ankaŭ havis. Dum niaj amikoj
+          konstruis ilon por porti lin for, ni interparolis. La postsignoj
+          sur la muroj montris al ni ke iam la ĉambro estis bela. Dum mi
+          ĉirkaŭe vagis en la ĉambro mi malfermis la ruiniĝantan pordon de
+          malnova kamero kaj sur la putriĝantaj bretoj sin trovis vitraĵoj
+          kaj argilaj potoj lerte faritaj. Prenante unu, malgrandan vintason
+          el vitro, mi alproksimiĝis mian kamaradon, montrante al li ĝian
+          maldikan tenilon kaj kuriozan formon. Kiam lia rigardo falis sur
+          ĝin, liaj okuloj tute malfermiĝis de surprizego. <span class="tei tei-pb" id="page23">[p. 23]</span> <a class="tei tei-anchor" id="p23"></a> Mi ankaŭ rimarkis ektremon en liaj
+          manoj kiam li etendis la brakon por ĝin tuŝi. Tiam li rakontis al
+          mi pri sia mirinda aventuro de la hieraŭa nokto, sed diris antaŭ ol
+          li komencis:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Vi scias, ho Princo, ke mi ne kredas viziojn, kaj mi
+          neniam rakontus la aferon se vi ne estus trovinta la tason. Mi
+          trinkis la estintan nokton el tia, donita al mi per fantoma
+          mano.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi estus
+          ridinta, se li ne estus tiel serioza. Kiam mi faris movon por
+          sidiĝi apud li, li diris:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Gustumu unue, ho mia majstro, la vinberojn, kiuj
+          pendas de la tiea muro.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi tion faris,
+          kaj je mia granda surprizo mi trovis ilin treege bongustaj, pli
+          bonaj ol la kulturitan frukton de Persujo, pli dolĉaj kaj
+          delikataj, malsimilaj al la sovaĝaj vinberoj, kiujn ni manĝas
+          hejme. Mia surprizego ŝajne plaĉis al li, kaj kun rido li
+          diris:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„La vinberoj estas neeblaj, sed ili ekzistas; eĉ pli
+          absurda estas mia rakonto!“</span> kaj tiam li rakontis sian
+          aventuron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Estis jene:</p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span style="letter-spacing: 0.15em">Pri tio, kion Omar vidis.</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Hieraŭ, post
+          noktiĝo, dum li rapidis al Testudo, li falis sur kelkajn
+          ŝtonblokojn, vundante sian maleolon kaj tre kontuzante sin. Ne
+          povante piediri, li lamiris en tiun ĉi konstruaĵon por tie ĉi
+          atendi nian alvenon la morgaŭan tagon. La blekado de lupoj kaj
+          aliaj sovaĝaj bestoj, kiuj ŝteliris en la urbo, igis lin, por trovi
+          <span class="tei tei-pb" id="page24">[p. 24]</span> <a class="tei tei-anchor" id="p24"></a> rifuĝejon, grimpi la ruinojn
+          de la ŝtuparo al la etaĝo supre. Kiam li sidiĝis en angulo de la
+          ĉambrego venis al lia nazo bongusta odoro de la vinberoj ĉirkaŭ lia
+          kapo. Li trovis ilin treege bongustaj, kaj manĝis kun bona apetito.
+          Li baldaŭ poste falis en dormon kiu daŭris kelkajn horojn, ĉar kiam
+          li vekiĝis la luno estis alte en la ĉielo, la voĉoj de la lupoj ne
+          plu aŭdiĝis kaj silenta estis la urbo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum li kuŝis
+          revante, tre okupata pri siaj propraj pensoj, li iom post iom
+          rimarkis misterajn ŝanĝojn kiuj kvazaŭ okazis sen lia vido. Ŝajnis
+          ke ornamita plafono sin etendis super la ĉambro. Speguloj kaj
+          koloritaj muroj malrapide anstataŭis la hederon kaj peciĝintajn
+          brikojn. Malforta lumo fariĝis pli kaj pli forta, ĝis ĝi plenigis
+          la ĉambron per blindiga lumo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiam aperis
+          kviete tablo de kurioza formo, sur kiu sin trovis floroj kaj amaso
+          da manĝiloj el vitro kaj porcelano, kvazaŭ por festeno.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li vidis
+          gravmienajn virojn kun senbarbaj vizaĝoj starantajn ĉirkaŭe en la
+          ĉambro. Ĉiuj estis nigre vestitaj, kaj iliaj vestoj havis
+          triangulajn malfermaĵojn sur la brusto por montri la ĉemizon sube.
+          Li baldaŭ trovis ke tiuj ĉi homoj estas servistoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum li konfuze
+          rigardegis, eniris aliaj figuroj duope, kiuj prenis siajn lokojn
+          ĉirkaŭ la tablo. Tiuj ĉi poste alvenintoj, sesdek pli malpli, estis
+          viroj kaj virinoj irantaj brako en brako; la virinoj estis riĉe
+          vestitaj laŭ nekonata modo, kaj brilis per multekostaj ŝtonoj. La
+          viroj estis vestitaj simile al la servistoj.</p><span class="tei tei-pb" id="page25">[p. 25]</span> <a class="tei tei-anchor" id="p25"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ili manĝis kaj
+          trinkis kaj ridis, kaj prezentis brilan vidaĵon. Omar stariĝis, kaj
+          movite de scivolo kiun li ne povis kontraŭstari,—ĉar li estas
+          senzorgulo kaj ne konas la timon,—li lamiris for de la muro.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ili rigardis lin
+          kun surprizo, kaj lia ĉeesto ŝajnis tre amuzi ilin. Unu el la
+          gastoj, alta junulo kun flavaj lipharoj, alproksimiĝis kaj
+          prezentis delikatan kristalan ujon plenan de briletanta
+          fluidaĵo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Omar prenis
+          ĝin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La junulo levis
+          alian for de la tablo kaj signante kvazaŭ salute, li diris per
+          vortoj, kiujn mia kamarado komprenis, kvankam li ĵuras ke li ne
+          konis la lingvon:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ni eble renkontos unu la alian je la kvara de la
+          venonta Julio.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li tiam trinkis
+          la vinon, kaj Omar faris la samon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Je tio ĉiuj
+          ridetis kvazaŭ pro la spriteco de la kamarado, ĉiuj escepte la
+          virinoj, kies kompatemaj vizaĝoj parolis pli pri kompato ol pri
+          sprito. La vino iris al lia cerbo kiam li ĝin trinkis kaj la
+          objektoj ĉirkaŭ li ŝajnis danci kaj turniĝi. Kanteroj de fantazia
+          muziko aŭdiĝis: tiam, laŭ ritmo, ĉiuj virinoj kun siaj akompanantoj
+          tre malpeze ekturniĝadis. Kaj, dum li moviĝis laŭ la muziko, lia
+          cerbo kvazaŭ eldancis el la kapo. La ĉambro mem, svingante kaj
+          tremante kun la melodio, malheliĝis kaj grade malaperis. La muziko
+          mallaŭte ĉesis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ree estis
+          silento kaj la luno supre rigardis la per hedero kovritajn
+          murojn.</p><span class="tei tei-pb" id="page26">[p. 26]</span>
+<a class="tei tei-anchor" id="p26"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li falis kvazaŭ
+          ebria sur la plankon, kaj ne vekiĝis ĝis niaj voĉoj lin vokis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tia estis lia
+          rakonto.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li havas klaran
+          cerbon kaj ne estas mensogulo, sed tiom da vinberoj en malplena
+          stomako kune kun la febro de la ŝvelinta kruro facile klarigas la
+          okazintaĵon.</p>
+<div class="tei tei-tb">
+<hr style="width: 10%">
+</div>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉe tagmanĝo ni
+          havis viandon de urso.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Hodiaŭ ĉirkaŭ
+          tagmeze Mulai, la dua oficisto, foriris antaŭ la aliaj kaj eniris
+          grandan konstruaĵon, ĉasante leporon. Li estis malsupren ironta al
+          la kelo, kiam li ekvidis tre proksime de li, urson kiu malrapide
+          malsupreniris laŭ la marmora ŝtuparo. Mulai ne estas timulo, sed li
+          turniĝis kaj kuris pli rapide ol iam antaŭe. La urso, kiu ŝajnis
+          havi ludeman naturon, ankaŭ kuris, kaj en proksima persekutado.
+          Bonŝance por nia amiko ni estis proksime, alie anstataŭ manĝi
+          viandon de urso, eble la urso trankvile estus manĝinta Mulaion en
+          la ombraj koridoroj de Kvin-avenua Hotelo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 17an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Hodiaŭ la
+          tropika varmego bruligas la pulmojn. Ni ekiris en la mateno
+          preparitaj resti dum la nokto surtere, kaj esplori la nordan parton
+          de la urbo. La promeno tra la mola herbo estis agrabla, sed en la
+          lokoj ne ŝirmitaj kontraŭ la suno ni estis kiel fiŝoj en poto.
+          Aliajn konstruaĵojn ni vidis, eĉ pli grandajn kaj imponajn ol tiu,
+          kiun ni hieraŭ eniris. Ni volis <span class="tei tei-pb" id="page27">[p. 27]</span> <a class="tei tei-anchor" id="p27"></a> ilin esplori, sed Omar saĝe kontraŭe konsilis
+          nin, dirante ke la tago fariĝos pli varma je ĉiu horo kaj ke ni
+          povus esplori ilin dum nia reveno.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">En la norda
+          parto de la urbo sin trovas multaj religiaj temploj, kies altaj
+          turoj simile al piramidoj konusiĝas ĝis pinto. Ili estas kuriozaj
+          aferoj, kaj mirige konservitaj. La interno de tiuj ĉi temploj estas
+          neinteresa. Abdul diras ke la religiaj ceremonioj de la Usonanoj ne
+          havis distingajn ecojn. Estis multe da religiaj kredoj, ĉiuj
+          komplikaj kun sensignifaj diferencoj inter si. Ĉiu sekto havis sian
+          propran templon kaj rifuzis kredi kiel la aliaj. Al Perso tio ĉi
+          estas ridinda, sed eble al ili ĝi estis serioza afero. Unu tagon en
+          ĉiu semajno ili kunvenis; la pastroj legis longajn moralajn
+          skribaĵojn de ili mem verkitajn, tiam sekvis muziko de dungitaj
+          kantistoj. Post la Diservo ili disiĝis, kaj ne pensis pri la templo
+          aŭ la pastro dum ankoraŭ sep tagoj. Abdul diras ke ili ne estis
+          religia popolo. Li ankaŭ diras ke en la temploj sin trovis pleje
+          virinoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Posttagmeze ni
+          transiris vastan plezurkampon, kiu nun estas sovaĝa arbaro, sed kun
+          signoj ankoraŭ videblaj de vastaj promenejoj kaj veturejoj<a href="#note_2" id="noteref_2" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">2</span></span></a>. Restas
+          avenuo kun bronzaj statuoj, el kiuj multaj ankoraŭ staras en bona
+          stato, sed ili estas tre ridindaj. Omar kaj mi <span class="tei tei-pb" id="page28">[p. 28]</span> <a class="tei tei-anchor" id="p28"></a> ankoraŭ rigardas ilin kiel
+          karikaturojn, sed Abdul estas certa ke ili estas seriozaj klopodoj,
+          kaj diras ke la Usonanoj facile kontentiĝis pri artaj aferoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni perdis la
+          vojon en la parko, ne havante gvidilon kiel en la stratoj de la
+          urbo. Tio ĉi estis plej bonŝanca afero, ĉar pro tio ni faris
+          mirigan eltrovon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Okazis laŭ tia
+          maniero:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Iom venkitaj de
+          la varmego, ni haltis sur monteto por ripozi. Dum ni kuŝis sub la
+          arbo mi rimarkis kuriozajn skulptaĵojn sur grandega bloko al kiu
+          Omar apogis sian dorson. Ili tute malsimilis tiujn, kiujn ni jam
+          vidis, kaj tamen ili ne estis nekonataj. Dum mi tie kuŝis kaj
+          senzorge rigardis ilin subite venis al mi en la kapon ke ili estas
+          Egiptaj. Ni tuj komencis studi ilin, kaj trovis je nia surprizo
+          obeliskon el Egipta granito, kovrita per hieroglifoj pli antikvaj
+          je miljaro ol la plej antikvaj monumentoj de la lando.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Vere, ni estis
+          konfuzataj!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kiam la Egiptoj invadis Usonon?“</span> demandis
+          Josafa Hason, kun solena elrigardo, kvazaŭ li volis rememorigi sin
+          pri dato.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Neniu Egipto iam aŭdis pri Usono,“</span> diris Abdul.
+          <span class="tei tei-q">„Tiu ĉi obelisko finiĝis dudek jarcentojn
+          antaŭ ol la unua Usonano ĉesis suĉi. Sendube ili alportis ĝin tien
+          ĉi kiel kuriozaĵon, same kiel ni alportos al Persujo la bronzan
+          kapon de Georgo Vaŝington.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni longe studis
+          la monumenton, kaj mi <span class="tei tei-pb" id="page29">[p.
+          29]</span> <a class="tei tei-anchor" id="p29"></a>
+          pensis ke Abdul malkontentiĝis tial ke li ne povis porti ĝin
+          for.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ankaŭ dum ni
+          estis en tiu ĉi parko ni venis al alta turo, sole staranta, kaj
+          grimpis al la supro, kie ni ĝuis vastegan vidaĵon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La grandeco de
+          la urbo estis miriga.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mejlojn
+          malproksime en la rivero naĝis Testudo, blanka ero sur la akvo. Ĉie
+          ĉirkaŭe ĝis la limo de nia vido estis ruinoj, kaj ruinoj, kaj
+          ruinoj. Pli melankolia vidaĵo neniam ekzistis. La blua ĉielo, la
+          hela sunbrilo, la bonodora aero kun la belaj floroj kaj kantantaj
+          birdoj nur igis ĝin pli malĝoja. Ili ŝajnis mokaĵo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni nun starigis
+          nian tendon por nokti kaj mi ne plu povas skribi. Nekalkulebla
+          amaso da flugantaj insektoj kolektiĝas ĉirkaŭ ni kun malaminda
+          zumado, kaj mordas nin preter nia tolero. Ili estas pesto trifoje
+          malbenita.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi diris al
+          Abdul, ke lia teorio pri la ekstermo de la Usonanoj estas fabelo
+          por tiuj, kiuj neniam estis tie ĉi. Neniu homo sen leda haŭto povas
+          travivi duan nokton.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 18an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kompatinda Hason
+          estas pli ol malsana. Li renkontis en la estinta nokto nekonatan
+          beston, kaj lia malvenko estis malnobla. La besto, beleta estaĵo,
+          tre simila al katido, sin trovis proksime, kaj Hason, kun malofta
+          kuraĝo, lerte ĵetis sin sur ĝin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj tion, kio do
+          okazis, neniu el ni povas precize diri. Kaj Hason! Mankas vortoj.
+          Li <span class="tei tei-pb" id="page30">[p. 30]</span> <a class="tei tei-anchor" id="p30"></a> portas kun si odoron
+          sufiĉe fortan por dezertigi tutan provincon. Ni devis lasi lin
+          surtere kaj sendi al li novajn vestojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Vere, tiu ĉi
+          estas lando de surprizoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Niaj manoj kaj
+          vizaĝoj ankoraŭ doloras pro la mordantaj insektoj, kaj ŝajnas ke la
+          parfumo de la odora katido neniam forlasos nin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul estas
+          feliĉa. Ni trovis centojn da metalaj blokoj, el kiuj la plej
+          malbona laŭ lia diro estos la gemo de muzeo. Ili estis trovitaj de
+          Taki-u-Din en la subetaĝo de alta konstruaĵo, ĉiuj zorge metitaj
+          sur ferajn bretojn. La klarigo kiun ili donas al ni pri la moroj
+          kaj kutimoj de ĉi tiu ridinda popolo igas ilin plej altvaloraj al
+          historiistoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ŝajnas al mi ke
+          Abdul iom ĝuas sidi sur la malvarmeta ferdeko de Testudo kaj
+          rigardi Josafa’ Hason’ piedirantan tien ĉi kaj tien sur la ruinoj
+          de malproksima kajo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 19an de Majo</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La aero estas
+          pli malvarmeta. Ab-i-Garm pensas ke ventego minacas.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Eĉ Abdul estas
+          konfuzita pri la ligna figuro kiun ni hieraŭ alportis al la
+          ŝipo<a href="#note_3" id="noteref_3" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">3</span></span></a>. Ĝi
+          estas bone konservita, kun la barbaraj koloroj ankoraŭ freŝaj sur
+          ĝi. Ili trovis ĝin starantan en malgranda butiko.</p><span class="tei tei-pb" id="page31">[p. 31]</span> <a class="tei tei-anchor" id="p31"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiamaniere la
+          Usonanoj adoris tiujn ĉi idolojn, kaj kial ili staris en malgrandaj
+          butikoj kaj neniam en la grandaj temploj, estas mistero. Ĝi portas
+          sur la kapo diademon el plumoj, kaj dum ni sidis kaj fumis sur la
+          ferdeko tiun ĉi vesperon mi diris al Abdul ke eble ĝi estas la
+          bildo de iu Usona nobelo. Je kio li diris ke ili ne havis
+          nobelojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Sed la Usonanoj de altranga sango,“</span> mi
+          demandis, <span class="tei tei-q">„ĉu ili ne havis
+          titolojn?“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Nek titolojn nek altrangan sangon,“</span> li
+          respondis. <span class="tei tei-q">„Kaj tial ke ili ĉiuj havis la
+          saman devenon kaj venis al tiu ĉi lando nur por pli bone prosperi
+          ol hejme, ĉiu el ili estis estimata aŭ malestimata laŭ sia riĉaĵo.
+          Tial ke ili multe respektis monon, tio estis kontentiga distingilo.
+          La rezulto estis ke la familioj, kiuj posedis riĉaĵon dum kelkaj
+          generacioj, kvazaŭ fariĝis aristokratoj. Tiu ĉi supera klaso
+          pasigis multe da tempo ĉe sportoj kaj amuzaĵoj kaj elspezis multe
+          da mono, ĉar ili treege ŝatis la paradon. Ilia intelekta kresko
+          estis malforta, kaj ili havis malgrandan influon ekster socialaj
+          aferoj. Ili imitis la manierojn de eksterlandaj aristokratoj. Ili
+          estis tre atentaj al vagantaj nobeloj el fremdaj landoj. Eĉ
+          parencojn de titoluloj ili salutis kun plej varma
+          entuziasmo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiam mi diris al
+          li: <span class="tei tei-q">„Sed klarigu al mi, ho Abdul, kiel tiu
+          ĉi malprofunda nacio povis fariĝi tiel potenca.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ili estis potencaj nur laŭ nombro kaj ne sufiĉe fortaj
+          por porti la sukceson. En la komenco de la dudeka jarcento—laŭ ilia
+          <span class="tei tei-pb" id="page32">[p. 32]</span> <a class="tei tei-anchor" id="p32"></a> kalkulo—grandegaj riĉaĵoj
+          amasiĝis en unu tago, kaj la Usonanoj ebriiĝis de mono.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Je kio mi
+          ekkriis: <span class="tei tei-q">„Ho lando de plezurego! Ĉar multe
+          da mono ĝojigas!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed la maljunulo
+          skuis la kapon: <span class="tei tei-q">„Tre vere, ho princo; sed
+          la rezulto estis treege malfeliĉa. La grandegaj riĉaĵoj regis ĉion,
+          eĉ la registaron de la lando kaj la juristaron. Per financaj ruzoj
+          ili amasigis fablajn monsumojn. Junuloj senmoraliĝis, ĉar honesta
+          industrio kun moderaj profitoj estis por ili ridindaĵo.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Vere, tio estas laŭ la naturo!“</span> mi diris.
+          <span class="tei tei-q">„Sed en lando kie ĉiuj estis riĉaj, ĉu sin
+          trovis iuj, kiuj volis fari la malaltajn laborojn? Ĉar neniu volas
+          ŝoveli koton kiam la poŝoj estas plenaj de oro.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Ĉiuj ne estis riĉaj. Kaj kiam la malriĉuloj ankaŭ
+          fariĝis avaraj tiam ili fariĝis batalemaj. Tiam komenciĝis socialaj
+          malpacoj kun sangoverŝo kaj ruiniĝo.“</span></p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 20an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Glacia vento kun
+          pluvego el la nordoriento. Hieraŭ ni spasme spiris pro la varmega
+          aero. Hodiaŭ ni tremas en vintraj vestoj.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 21an de Majo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Same kiel
+          hieraŭ. Al la plimulto de ni estas malvarme. Miaj dentoj tremas kaj
+          mi estas kaj varma kaj malvarma. Ventego pli malbona neniam ĝemis
+          ĉirkaŭ ŝipo. Omar nomas ĝin la kriegantaj voĉoj de la cent milionoj
+          da Usonanoj kiuj sendube pereis en simila vetero.</p>
+</div><span class="tei tei-pb" id="page33">[p. 33]</span> <a class="tei tei-anchor" id="p33"></a>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 16an de Junio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Estas multaj
+          tagoj de kiam mi tuŝis ĉi tiun taglibron. Abomenan malsanon mi
+          havis, kiu detruis energion kaj kuraĝon. Ĝi kvazaŭ similis al
+          febro, kaj tamen miaj membroj estis malvarmaj. Mi ne povus ĝin
+          priskribi eĉ se mi volus.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul eniris la
+          kajuton hodiaŭ vespere kun kelke da metalaj platoj kaj parolis pri
+          ili. Li tute ne respektas la intelektojn de la antikvaj Usonanoj.
+          Mi pensis momenton ke li kontraŭdiris sin, sed li estis prava kiel
+          kutime. Estis jene:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Ili multe
+          legis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Vi jam
+          diris al ni ke ili ne havis literaturon. Ĉu ili multe legis
+          nenion?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Vere, vi
+          estas ĝin dirinta! Ĉiutage ili publikigis vastajn paperfoliojn en
+          kiuj ili plej detale priskribis ĉiujn krimojn. Ju pli terura la
+          krimo, des pli preciza la priskribo. Teruroj estis ilia ĉefa ĝojo.
+          Skandalojn ili englutis kun malsataj okuloj. Ĉi tiujn kronikojn pri
+          krimo kaj abomenaĵoj ili eldonis cent-milope. Preskaŭ ĉiu familio
+          en la lando legis ilin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Kaj ĉu
+          tio anstataŭis la literaturon?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Jes.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 20an de Junio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ree ni estas sur
+          la maro; malproksime de Nu-Jok je dutaga vojaĝo. Nia decido estis
+          subita. Abdul, en malfeliĉa momento, trovis inter tiuj malbenitaj
+          platoj geografian karton de la lando, kaj sekve de tio li sentis
+          fortegan <span class="tei tei-pb" id="page34">[p. 34]</span>
+<a class="tei tei-anchor" id="p34"></a> deziron viziti
+          unu urbon nomitan <span class="tei tei-q">„Washington“</span>. Mi
+          ŝanceliĝis kaj fine konsentis, malsaĝe mi pensas, ĉar la ŝipanaro
+          sopiras al Persujo. Kaj tiu ĉi urbo kuŝas enlande apud rivero. Li
+          diras ke ĝi estis ilia plej belega urbo, la registara sidejo, la
+          ĉefurbo de la lando. Ab-i-Garm ĵuras ke li ĝin povos trovi se la
+          karto estas vera.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Hason ankoraŭ
+          manĝas sola.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Hodiaŭ
+          posttagmeze ni ripozis sur la ferdeko, dum Testudo kviete naĝis
+          suden. Tero vidiĝis laŭ la dekstra flanko de la ŝipo, nedifinita
+          strio laŭ la okcidenta horizonto.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Iom post
+          tagmezo, dum ni preternaĝis la ruinon de giganta turo—eble
+          lumturo—Abdul subite ekstaris kaj ĉirkaŭrigardis. Tiam li alparolis
+          Ab-i-Garmon, demandante je kiom da mejloj ni estas malproksime de
+          la Nu-Joka haveno. La respondon mi jam forgesis, sed ĝi treege
+          ekscitis la maljunulon. Mi rimarkis nekutiman brilon en liaj
+          okuloj, ankaŭ ektremon de la fingroj dum li almontris la maron
+          ĉirkaŭan, kaj ekparolis:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Sub ni, la fundo de l’ maro estas kovrita de feraj
+          ŝipoj—ruinoj de grandiozaj militŝiparoj—la plej potencaj en la homa
+          historio!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tuj ni ĉiuj
+          interesiĝis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„Kiuj militŝiparoj?“</span> mi demandis. <span class="tei tei-q">„Kaj kio detruis ilin. Ĉu estis batalo?“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Batalo,
+          grandega ekster la koncepto de iu Perso; konflikto en kiu la maro
+          skuiĝis kaj la ĉielo disŝiriĝis per la tondrado de feraj
+          <span class="tei tei-pb" id="page35">[p. 35]</span> <a class="tei tei-anchor" id="p35"></a> monstroj. Unu el ili estis
+          sufiĉe potenca por dispecigi en atomojn tutan aron da Testudoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jafar-el-Beg:
+          Vere! Tio estas rakonto facile dirita, sed ĝi tute ne estas
+          kredinda. En Testudo mi sentus min sufiĉe forta por kontraŭstari
+          iujn el viaj infan-fabelaj mirindaĵoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Saĝa vi
+          estas. Ĉar la perdo de via cerbo, Jafar-el-Beg, ne povus influi
+          vian parolon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Je kio ĉiuj
+          ridegis, kaj Jafar-el-Beg silentis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Rakontu
+          al ni pri tiu ĉi batalo, ho Abdul. Mi memoras nun ke mi iam legis
+          pri ĝi en la kolegio. Tiujn ĉi detalojn pri la antikva historio mi
+          forgesas. Kiamaniere ĝi okazis?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Mi jam
+          diris ke la Usonanoj estis avaraj. Kaj ilia avareco, fine, okazigis
+          tiun ĉi militon. Per partiaj leĝoj ili havigis al si la leonan
+          parton de la komerco de la mondo. Tio haltigis la prosperon de
+          aliaj nacioj, ĝis fine la plej potencaj nacioj de Eŭropo kombiniĝis
+          por memdefendo kontraŭ ĉi tiu ĉion-sorbanta avideco. Ili amasigis
+          mararmeon plej grandegan. Tiam, trans la oceano, venis la fera
+          malamiko. Kaj tie ĉi, sur la loko kie ni nun naĝas, ili renkontis
+          la Usonajn ŝipojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Kiom da
+          ŝipoj entute?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: La
+          Usonanoj havis okdek grandajn ŝipojn el fero, kaj multajn pli
+          malgrandajn ŝipojn. La malamikaro havis ducent kvardek grandajn
+          ŝipojn, ĉiuj el fero. Ankaŭ pli malgrandajn ŝipojn por diversaj
+          celoj ili havis.</p><span class="tei tei-pb" id="page36">[p.
+          36]</span> <a class="tei tei-anchor" id="p36"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Alaĥo!
+          Malbona afero por niaj avaraj amikoj! Kaj tial ke ili estis nacio
+          da komercistoj ili eble malŝatis la militon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Pri tio
+          la historiistoj malkonsentas. Laŭ la Usonanoj mem ili estis
+          potencaj militistoj. Sed iuj tiamaj verkistoj donas alian ideon.
+          Ala-el-Kalaf estas certa ke ili estis timuloj, malfortaj en korpo
+          kaj spirito, sed ofte tre bonŝancaj. Laŭ mia opinio ĉi tiu batalo
+          ĵetas plenan lumon sur la aferon. Tago simila al tiu ĉi ĝi estis,
+          ankaŭ en Junio, kiam la Eŭropanoj, naĝante norden laŭ la marbordo
+          por kapti Nu-Jokon, renkontis la Usonan admiralon Bedford kun liaj
+          okdek ŝipoj. Kaj la batalo ne longe daŭris.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Vere, mi
+          kredas vin! Tial ke la Eŭropanoj havis po tri ŝipoj kontraŭ unu mi
+          donus al ili ĉirkaŭ duonan tagon, posttagmezon similan al ĉi tiu,
+          por sendi la avarulojn al la fundo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Via
+          konjekto estas bona, ho princo, rilate al la daŭro de la milito. Ĝi
+          daŭris ĝuste someran posttagmezon. Sed estis la Usonanoj kiuj
+          sendis la malamikojn al la fundo. Kaj la maro sub niaj piedoj estas
+          kovrita de feraj korpoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Diablo!
+          Se tio estas vera rakonto, kaj mi ne dubas, la avaruloj ne estis
+          tute malindaj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Omar: Kiam tio
+          ĉi okazis?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: En la
+          frua parto de la dudeka jarcento. Mi ne memoras la daton, sed ĝin
+          neniam forgesis la Usonanoj. Certe ili juste fieris, ĉar
+          <span class="tei tei-pb" id="page37">[p. 37]</span> <a class="tei tei-anchor" id="p37"></a> en tiu tago ili faris
+          mirindaĵojn. Admiralo Bedford foje estis ĉirkaŭata de dekduo da
+          Germanaj militŝipoj. Kaj jen! li detruis ĉiujn! Kaj el Franca kaj
+          Rusa ŝiparoj li detruis egalan nombron; ankaŭ kelkajn Britajn kaj
+          Italajn ŝipojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Omar: Diablo!
+          Bonega afero!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Jes.
+          Aliajn miraklojn faris la Usonanoj en tiu tago. Teksas, ŝipeto kun
+          pinta antaŭparto, enpremegis truojn en dudekon da grandaj ŝipoj,
+          kaj la akvo englutis ilin. Ankaŭ alia ŝipeto, longa kaj mallarĝa,
+          kaj de la Usonanoj elpensita, faris grandajn difektojn. Tiu ĉi
+          mirinda maŝino naĝis tien ĉi kaj tien inter la fremdaj ŝipoj kaj
+          ilin difektegis. Multe da gloro la komandanto havigis al si.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ab-i-Garm: Kaj
+          kiom da ŝipoj perdis la Usonanoj?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Raportoj
+          estas kontraŭdiraj. Laŭ iu Usonano ili ne perdis iun ŝipon, sed laŭ
+          aliaj aŭtoritatoj ili perdis kelkajn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kan-Li: Bonega
+          batalo! Sed ĉu vi povas klarigi kiel tia malsupera popolo povis
+          subite fariĝi heroa?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Abdul: Laŭ
+          Barnes, frua Brita historiisto, ili estis mirige bonŝancaj sur la
+          akvo. Kaj tiun diron subtenas iu Hispana admiralo, Molino, kiu
+          opinias ke la Usonanoj, pro tio ke ili estis malpia popolo, estis
+          helpataj de la diablo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 2an de Julio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni estas en la
+          rivero kiu kondukas al <span class="tei tei-q">„Washington“</span>.
+          Ab-i-Garm diras ke ni vidos ĝin morgaŭ. La rivero havas malpuran
+          koloron.</p>
+</div><span class="tei tei-pb" id="page38">[p. 38]</span> <a class="tei tei-anchor" id="p38"></a>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 3an de Julio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni vidas antaŭ
+          ni la ruinojn de granda kupolo, ankaŭ tre altan kolonon. Eble ili
+          apartenas al la urbo kiun ni serĉas.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 4an de Julio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Neniam ni
+          forgesos ĉi tiun daton. En plej gaja humoro ni forlasis Testudon
+          tiun ĉi matenon, sen ia ideo pri la teruraj okazontaĵoj, kiuj
+          atendis nin. Ĉirkaŭ tagmezo mi surteriris, akompanata de Abdul,
+          Omar, Josafa Hason, Jafar-el-Beg, Mulai la unua oficiro, Amad la
+          kuiristo, Taki-u-Din, kaj du maristoj. Nia marŝo ĵus komenciĝis,
+          kiam maltrankviliga eltrovo konsternis nin. Ni estis haltintaj laŭ
+          peto de Abdul, por studi iujn surskribaĵojn sur ŝtono, kiam Omar,
+          kiu ĵus ekiris, subite haltis kun surprizita ekkrio. Ni rapidis al
+          li, kaj tie, en la mola tero, sin trovis postsignoj de homaj
+          piedoj!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi ne povas
+          priskribi nian surprizon. Ni decidis sekvi la postsignojn, kaj
+          baldaŭ trovis, ke ili kondukas nin al la granda kupolo pli rekte ol
+          ni mem povus iri. Nia eksciteco estis neesprimebla. Tiuj el ni,
+          kiuj portis defendilojn, tenis ilin pretaj. La vojeto estis nemulte
+          uzata, sed ĝi estis klare videbla. Ĝi serpentis inter defalintaj
+          fragmentoj kaj ruiniĝantaj statuoj, kaj kondukis nin laŭ larĝa
+          avenuo inter konstruaĵoj de vasta grandeco kaj solideco, kiuj multe
+          superis iujn, kiujn ni vidis en Nu-Jok. Ĝi aspektis kiel urbo da
+          monumentoj.</p><span class="tei tei-pb" id="page39">[p. 39]</span>
+<a class="tei tei-anchor" id="p39"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum ni
+          supreniris la monteton al la granda templo kaj vidis ĝin tra la
+          arboj, kiuj sin levis super ni, ni miris pro ĝia grandeco kaj
+          belegeco. Niaj okuloj vagis kun plezuro super la masivajn kolonojn.
+          Ĉiu estis hakita el unu bloko, kaj ili estis ankoraŭ blankaj kaj
+          freŝaj kvazaŭ nove faritaj. La vojeto kondukis nin sub unu el la
+          malsupraj arkaĵoj de la konstruaĵo, kaj ni alvenis al la alia
+          flanko. Tiun ĉi flankon ni trovis eĉ pli belega ol la alian. Ĉe la
+          meza parto sin trovis ŝtuparo de admirinda vasteco, nun disfalanta
+          kaj en multaj lokoj havanta kreskantajn florojn kaj herbon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Silente
+          suprenirante tiun ĉi ŝtuparon, dum la aliaj sekvis, mi ekvidis du
+          homajn piedojn kun la plandoj al ni, lokitajn sur la balustrado
+          supre. Per signo mi atentigis Abdul’ pri ili, kaj la okuloj de la
+          maljunulo ekbrilis de ĝojo. Ĉu ĝi estas Usonano? Mi konfesas
+          ekscitecon pro la ebla renkonto. Kiom de ili estis tie? kaj
+          kiamaniere ili akceptos nin?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Rigardinte mian
+          areton por vidi ĉu ĉiuj estas tie, mi kuraĝe supreniris la aliajn
+          ŝtupojn kaj staris antaŭ li.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li ripozis sur
+          stranga kvarpieda seĝeto, kaj tenis siajn piedojn sur la
+          balustrado, nivele kun la kapo. Vestita de feloj kaj maldelikata
+          ŝtofo li multe similis al ĉasisto, kaj li trankvile rigardis min,
+          kvazaŭ Persa nobelo estus ĉiutaga gasto. Tia akcepto ne plaĉis al
+          mi, precipe ĉar li restis sidanta, kaj eĉ ne demetis la piedojn. Li
+          skuis la kuriozan kapon kelkajn fojojn kvazaŭ tio estus sufiĉa
+          saluto.</p><span class="tei tei-pb" id="page40">[p. 40]</span>
+<a class="tei tei-anchor" id="p40"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Por konservi
+          mian propran indecon antaŭ miaj kamaradoj mi ne povis permesi ke la
+          barbaro sidu, kaj per signo mi petis lin ke li stariĝu. Li
+          respondis neĝentile kraĉante el la buŝo brunan fluidaĵon trans la
+          balustradon antaŭ li. Tiam rigardante min per kvazaŭ ridonta, sed
+          samtempe serioza vizaĝo, li diris ion per nemuzika voĉo, kion mi ne
+          komprenis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Je tio Abdul kiu
+          komprenis unu aŭ du vortojn rapide alproksimiĝis kaj alparolis lin
+          en lia propra lingvo. Sed la barbaro malfacile komprenis, precipe
+          pro la elparolo de Abdul. Tiu ĉi poste diris al mi ke la lingvo de
+          la viro nemulte malsimilas la lingvon de la Usonanoj, kiel ili ĝin
+          skribis antaŭ dek unu jarcentoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam fine li
+          stariĝis parolante kun Abdul, mi povis pli bone observi lin. Li
+          estis alta kaj osteca, kun malgracia nuko, kaj aspektis ĉe la unua
+          rigardo, kiel viro kvardekjara. Ni decidis poste ke li havis malpli
+          ol tridek jarojn. Lia flava haŭto kaj manko da haroj igis lin
+          aspekti multe pli maljuna ol li estis. Lia mieno ankaŭ surprizis
+          min. Ĝi esprimis profundan malĝojecon, tamen liaj okuloj estis
+          plenaj de gajeco, kaj lia buŝo senĉese esprimis mokadon. Mi mem ne
+          ŝatis lian manieron. Li ne ŝajnis impresata de tiom da fremduloj,
+          kaj tenis sin kvazaŭ estus negrave ĉu ni lin komprenas aŭ ne. Sed
+          Abdul poste informis min, ke li faris tre multe da demandoj pri
+          ni.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jen kio Abdul
+          eksciis: Tiu ĉi Usonano kun lia edzino kaj unu maljuna viro estis
+          la solaj, kiuj restis el lia raso. Tridek unu mortis tiun
+          <span class="tei tei-pb" id="page41">[p. 41]</span> <a class="tei tei-anchor" id="p41"></a> ĉi someron. En antikvaj tempoj
+          la lando enhavis multajn milionojn de liaj samlandanoj. Ili estis
+          la plej potenca nacio en la mondo. Li ne povis legi. Li havis du
+          nomojn, unu estis <span class="tei tei-q">„Jon“</span>, la alian li
+          jam forgesis. Ili loĝis en ĉi tiu templo, ĉar ĝi estas malvarmeta.
+          Kiam la templo estis konstruita, kaj por kia celo, li ne povis
+          diri. Li almontris al la Okcidento, kaj diris ke la lando tie estas
+          kovrita de ruiniĝintaj urboj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam Abdul diris
+          al li, ke ni estas amikoj, kaj donacis al li belegan
+          ĉasist-tranĉilon, li etendis al li sian dekstran manon kaj tie
+          tenis ĝin. Momente Abdul rigardis ĝin mire, kiel faris ĉiuj, tiam
+          kun subita inteligenteco li ekkaptis la etenditan manon en sian
+          propran, kaj movis ĝin supren kaj malsupren. Tio ĉi estis interesa,
+          ĉar Abdul informas nin, ke tiamaniere la Usonanoj salutis unu la
+          alian.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum ĉio tio ĉi
+          okazis, ni eniris grandan rondan salonon sub la kupolo. Tiu ĉi
+          salono estis vastega, kaj ankoraŭ restis signoj de antaŭa belegeco.
+          Laŭ la muroj sin trovis marmoraj statuoj ĉirkaŭitaj de hedero, kaj
+          ili rigardis nin per melankoliaj okuloj. Tie ĉi ni ankaŭ renkontis
+          maldikan maljunulon, kies senhara kapo kaj senbarba vizaĝo preskaŭ
+          igis min ridi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Laŭ peto de
+          Abdul nia mastro kondukis nin en kelkajn el la pli malgrandaj
+          ĉambroj por montri al ni la vivmanieron de la Usonanoj, kaj estas
+          neeble imagi pli patosan miksaĵon de gloro kaj ruiniĝo, de riĉeco
+          kaj malriĉeco, de <span class="tei tei-pb" id="page42">[p.
+          42]</span> <a class="tei tei-anchor" id="p42"></a>
+          civilizacio kaj barbareco. Malnovaj mebloj, pladoj el arĝento,
+          bronzaj figuroj, eĉ altvaloraj pentraĵoj estis disĵetitaj en la
+          ĉambroj, flanke de la plej primitivaj iloj. Estis klare, ke la
+          antikvaj artoj jam de longe estis forgesitaj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam ni revenis
+          al la ronda salono nia mastro momente malaperis en ĉambron, kiun li
+          ne estis montrinta al ni. Li revenis portante ŝtonan vazon kun
+          malgranda kolo, kaj lin sekvis knabino, kiu portis pokalojn el
+          kupro kaj stano. Tiujn ĉi ŝi metis sur defalintan parton de la
+          kupolo, kiun ili uzis kiel tablon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La knabino estis
+          interesa. Ŝi havis belan kapon, delikatajn trajtojn, flavan
+          hararon, bluajn okulojn, kaj paceman malgajan mienon, kiu tuŝis
+          mian koron. Se ŝi estus estinta malbela, la tago estus havinta tute
+          alian finon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni ĉiuj salutis
+          ŝin, kaj la Usonano diris kelkajn vortojn, kiujn ni prenis kiel
+          prezentajn vortojn. Li plenigis la pokalojn el la ŝtona vazo, kaj
+          tiam dirante ion, kion Abdul ne komprenis, li etendis sian pokalon
+          kun stranga moveto kaj metis ĝin al siaj lipoj. Kiam li tion faris
+          Omar ekkaptegis mian brakon kaj diris:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">„La ĝusta gesto de la fantomo!“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj tiam kvazaŭ
+          al si mem. <span class="tei tei-q">„Kaj hodiaŭ estas la kvara de
+          Julio.“</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed li trinkis,
+          kiel faris ĉiuj, ĉar nia soifo estis forta kaj la odoro de la ora
+          fluidaĵo estis plej alloga. Ĝi havis pli varmegan guston ol la
+          fajroj de la infero. Ĝi ankaŭ estis tre potenca kaj tre gajigis la
+          sentojn. Ni tuj fariĝis feliĉaj.</p><span class="tei tei-pb" id="page43">[p. 43]</span> <a class="tei tei-anchor" id="p43"></a>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj estis tiam
+          ke Hason faris senprudentan agon. Estante proksime de la knabino
+          kaj tre impresita de ŝia beleco, li alparolis ŝin kiel <span class="tei tei-hi"><span style="letter-spacing: 0.15em">Hura-al-missan</span></span><a href="#note_4" id="noteref_4" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">4</span></span></a>, kion,
+          kompreneble, ŝi ne komprenis. Sed tio ne sufiĉis al li; li poste
+          metis siajn brakojn ĉirkaŭ ŝian talion kun la intenco kisi ŝin. Tre
+          timigita, ŝi penis liberigi sin. Sed Hason, tenante ŝian belan
+          mentonon per la alia mano, estis preskaŭ metinta siajn lipojn al
+          ŝiaj, kiam la maljuna viro levis sian pezan bastonon kaj faligis
+          ĝin kun kruela rapideco sur la kapon de nia kamarado. La frapo de
+          la bastono sur la fortan kranion sonadis en la kupolo kaj eĥis tra
+          la malplenaj koridoroj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Josafa Hason
+          palpebrumis kaj ŝanceliĝis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiam, kun
+          furiozeco en la vizaĝo, li kuregis sur la maljunulon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed tiam la juna
+          Usonano enmiksiĝis. Li rapide alproksimiĝis, forte fermis sian
+          ostecan manon kaj kun miriga rapideco ŝovegis ĝin antaŭen, tiel
+          rekte ke ĝi renkontis la vizaĝon de Hason, kaj li, je nia surprizo,
+          subite kaj neĝentile sidiĝis sur la marmoran pavimon, kaj la sango
+          elkuregis el la nazo. Li estis kompatinda vidaĵo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Pro tio ke
+          tiamaniera batalo estis por ni nekonata, ni estis tre konsternitaj,
+          kaj opiniis ke li estas mortigita. Jafar-el-Beg, fortega luktisto,
+          kun potenca korpo, furioze kuregis sur la Usonanon por kiu mi
+          tremis. Sed la brakon li ree elŝovegis, kaj Jafar-el-Beg ankaŭ
+          <span class="tei tei-pb" id="page44">[p. 44]</span> <a class="tei tei-anchor" id="p44"></a> sidiĝis. Malĝoja spektaklo ĝi
+          estis, kaj la koro de ĉiu Perso forte ekbatis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉe tiu ĉi tempo
+          Hason ree staris, purpura de kolero. Kun levita glavo li kuregis
+          sur nian mastron. La maljuna viro metis sin inter ilin. Hason kun
+          senpripensa krueleco, frapegis la kapon, kaj streĉis lin sur la
+          plankon. Momenton la junulo staris konsternita, tiam ekkaptante la
+          bastonon de la maljunulo—peza bastono kun fera pinto—li saltegis
+          antaŭen, kaj, pli rapide ol vortoj povas diri, donis teruran frapon
+          sur la kapon de Hason, kiu falegis al la planko kun rompita
+          kranio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉio tio ĉi
+          okazis en momento, kaj freneza konfuzo sekvis. Miaj kamaradoj
+          eltiris siajn defendilojn kaj kuregis kontraŭ la Usonano. La
+          knabino kuris antaŭen aŭ de teruro aŭ por protekti sian amanton, mi
+          ne scias, kiam sago el la pafarko de maristo trapikis ŝian
+          koron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tio donis al la
+          Usonano la energion de dekdu homoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li senkonsciigis
+          bravan Mulai’ per frapo, kiu mortigus bovon. Pri tia furiozeco mi
+          ne havis koncepton. Li malaltigis sian bastonon kiel fulmofajron el
+          la ĉielo sur la kraniojn de la Persoj, tamen li ĉiam alproksimiĝis
+          la pordon por malhelpi siajn malamikojn ĉirkaŭi lin. Kvar el nia
+          nombro, en tiom da minutoj, sekvis Hason al la planko. Mulai,
+          Jafar-el-Beg, Taki-u-Din, kaj Zenjan, maristo, kuŝis streĉitaj sur
+          la pavimo, ĉiuj mortintaj aŭ treege vunditaj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiel subite
+          okazis tio ĉi, ke por mi ĝi preskaŭ ne ŝajnis realaĵo. Mi kuregis
+          antaŭen <span class="tei tei-pb" id="page45">[p. 45]</span>
+<a class="tei tei-anchor" id="p45"></a> por haltigi la
+          batalon, sed li malkomprenis mian celon, kaj per potenca frapo
+          faligis mian glavon el mia mano, kaj estis ĵus levinta la bastonon
+          por doni al mi la duan frapon, kiam brava Omar enpaŝis por savi
+          min, kaj subite puŝegis sian glavon al la viro. Sed ho ve! la
+          Usonano defendis sin per frapo eĉ pli rapida, kaj malaltigis sian
+          bastonon tiel rapidege sur la kapon de mia kamarado ke ĝi kuŝigis
+          lin kun la aliaj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam Omar falis,
+          mi rimarkis ke la Usonano havis multajn vundojn, ĉar miaj kamaradoj
+          faris multajn sovaĝajn atakojn. Li ŝanceliĝis kiam li movis sin al
+          la pordo, kaj li apogis sin al la muro momenton, dum la okuloj
+          renkontis la niajn kun elrigardo de batalemo kaj malestimo, kiun mi
+          volonte forgesus. Tiam la bastono falis el lia mano; li ŝanceliĝe
+          iris al la granda portiko, kaj falis peze al la pavimo. Abdul kuris
+          al li, sed li estis senviva.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam li falis,
+          mirinda afero okazis—neebla afero, kiam mi pensas pri ĝi, sed Abdul
+          kaj mi vidis ĝin klare.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Antaŭ la vasta
+          ŝtuparo kaj sidanta kontraŭ tiu ĉi pordo estas granda statuo de
+          Georgo Vaŝington. Kiam la Usonano ŝanceliĝe falis sur la portiko,
+          kun manoj etenditaj kaj kun la Morto en la koro, tiam ĉi tiu statuo
+          malrapide mallevis la kapon kvazaŭ por danki pro kuraĝa batalo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Eble ĝi estis la
+          malĝoja akcepto de maldolĉa fino.</p>
+</div><span class="tei tei-pb" id="page46">[p. 46]</span> <a class="tei tei-anchor" id="p46"></a>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<p class="tei tei-p" style="text-align: right; margin-bottom: 1.00em">La 7an de Julio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ree sur la
+          maro.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiuĉifoje al
+          Persujo, portante niajn vunditojn kaj la cindrojn de la mortintoj;
+          la cindroj de la enlanduloj kuŝas sub la Granda Templo. La kranion
+          de la lasta Usonano mi donacos al la muzeo de Teheran.</p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">Fino.</p>
+</div>
+</div>
+</div>
+<hr class="doublepage">
+<div class="tei tei-back" style="margin-bottom: 2.00em; margin-top: 6.00em">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em" id="footnotes">
+<h1 class="tei tei-head" style="text-align: center; margin-bottom: 3.46em; margin-top: 3.46em">
+<span style="font-size: 173%">Notoj</span></h1>
+<dl class="tei tei-list-footnotes">
+<dt class="tei tei-notelabel"><a href="#noteref_1" id="note_1" class="pginternal">1.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiuj ĉi
+            objektoj estas nun en la muzeo de Imperia Kolegio en Teheran.</p>
+</dd>
+<dt class="tei tei-notelabel"><a href="#noteref_2" id="note_2" class="pginternal">2.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">Malik kredas
+            ke tiu ĉi sendube estas <span class="tei tei-q">„Central
+            Park“</span> iafoje menciita en la Usona literaturo.</p>
+</dd>
+<dt class="tei tei-notelabel"><a href="#noteref_3" id="note_3" class="pginternal">3.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">La
+            <span class="tei tei-q">„ligna figuro“</span> estis skulptaĵo
+            reprezentanta Indianon. En Usono tiaj skulptaĵoj, laŭ malnova
+            kutimo, ofte troviĝas antaŭ la pordoj de cigar-vendejoj.—Rim. de
+            la tradukinto.</p>
+</dd>
+<dt class="tei tei-notelabel"><a href="#noteref_4" id="note_4" class="pginternal">4.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">La plej anĝela
+            el virinoj.</p>
+</dd>
+</dl>
+</div><span class="tei tei-pb" id="page47">[p. 47]</span> <a class="tei tei-anchor" id="p47"></a>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.20em"><span style="font-size: 120%; font-style: normal; font-weight: 700">Esperanto
+        Verlag Möller &amp; Borel</span><br>
+<span style="font-size: 120%; font-style: normal; font-weight: 700">Berlin SW.,
+        Lindenstrasse 18/19.</span></p>
+<div class="tei tei-tb">
+<hr style="width: 80%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.80em"><span style="font-size: 180%">Verkoj tute en Esperanto.</span></p>
+<table class="tei tei-table" style="border-spacing: 0px;margin-bottom: 1.00em; margin-left: 1.50em;" data-summary="This is a table">
+<colgroup span="2"></colgroup>
+<tbody>
+<tr class="tei tei-row">
+<td class="tei tei-cell"></td>
+<td class="tei tei-cell"><span style="font-style: italic">Sm</span></td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Aoro, stenografio
+              internacia.</span></em> Lernolibro por uzo en la lingvoj
+              Esperanto, angla, franca, germana, rusa kaj hispana de Rudolf
+              Sprotte</td>
+<td class="tei tei-cell">0,20</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Ĉu unu lingvo internacia
+              aŭ tri?</span></em> Respondo al S<span class="tei tei-hi"><span style="font-size: 80%; vertical-align: super">ro</span></span> Prof.
+              Diels, de Prof. Louis Couturat, Paris</td>
+<td class="tei tei-cell">0,10</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Elektitaj Fabeloj de
+              Fratoj Grimm</span></em>, tradukis el la germana lingvo
+              D<span class="tei tei-hi"><span style="font-size: 80%; vertical-align: super">ro</span></span>
+              Kabe</td>
+<td class="tei tei-cell">0,75</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Kiel ni plibeligos la
+              vivon</span></em>, originale verkita de <span class="tei tei-q">„Saĝulo“</span></td>
+<td class="tei tei-cell">0,25</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">La kormalsanoj, iliaj
+              kaŭzoj kaj kontraŭbatalo.</span></em> Priskribo populara de
+              D<span class="tei tei-hi"><span style="font-size: 80%; vertical-align: super">ro</span></span> O.
+              Burwinkel, esperantigis D<span class="tei tei-hi"><span style="font-size: 80%; vertical-align: super">ro</span></span>
+              Kunschert, kuracisto en Wiesbaden</td>
+<td class="tei tei-cell">0,50</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Solvo de la problemo de
+              lingvo internacia</span></em>, de *<span class="tei tei-hi"><span style="vertical-align: super">*</span></span>*, kun germana traduko
+              de Prof. P. Christaller</td>
+<td class="tei tei-cell">0,40</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Sub la neĝo</span></em>,
+              taglibro de juna loĝanto de la Jura montaro, de J. J. Porchat,
+              esperantigis J. Borel</td>
+<td class="tei tei-cell">0,50</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Tri unuaktaj
+              Komedioj:</span></em> <span class="tei tei-q">„La
+              malfeliĉuloj“</span> de A. v. Kotzebue.—<span class="tei tei-q">„Tie-ĉi oni parolas esperante“</span> de T.
+              Williams.—<span class="tei tei-q">„La Renkonto“</span> de M.
+              Hankel</td>
+<td class="tei tei-cell">0,40</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Unua
+              Legolibro</span></em>, gradigitaj legaĵoj kun frazlibro kaj
+              modeloj de leteroj, de D<span class="tei tei-hi"><span style="font-size: 80%; vertical-align: super">ro</span></span>
+              Kabe</td>
+<td class="tei tei-cell">0,75</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-indent: -1.5em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Esperanta
+              Sintakso</span></em>, laŭ verkoj de D<span class="tei tei-hi"><span style="font-size: 80%; vertical-align: super">ro</span></span>
+              Zamenhof kaj aliaj aŭtoroj. En Esperanto verkita de Paul
+              Fruictier</td>
+<td class="tei tei-cell">0,70</td>
+</tr>
+</tbody>
+</table>
+</div><span class="tei tei-pb" id="page48">[p. 48]</span> <a class="tei tei-anchor" id="p48"></a>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.80em"><span style="font-size: 180%; font-style: normal; font-weight: 700">LA
+        INSTRUANTO</span></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.20em"><span style="font-size: 120%; font-style: normal; font-weight: 700">5a JARO
+        DE</span> <span class="tei tei-q" style="text-align: center"><span style="font-size: 120%; font-style: normal; font-weight: 700">„</span><span style="font-size: 120%; font-style: normal; font-weight: 700">LIBERAJ
+        HOROJ</span><span style="font-size: 120%; font-style: normal; font-weight: 700">“</span></span></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.20em"><span style="font-size: 120%; font-style: normal; font-weight: 700">Ĉiumonata
+        organo por lernantoj de Esperanto.</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">REDAKCIO KAJ
+        ADMINISTRACIO: Esperanto Verlag Möller &amp; Borel, Berlin SW. 68,
+        Lindenstrasse 18–19.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">JARA ABONPREZO: 2
+        M. (1 Sm) Por abonantoj de <span class="tei tei-q">„Germ.
+        Esperantisto“</span> kaj anoj de G. E. A. 1,50 M. afrankite.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu ĵurnalo,
+        eliranta la 15<span class="tei tei-hi"><span style="font-size: 80%; vertical-align: super">an</span></span> de ĉiu
+        monato, celas prezenti al esperantistoj facilajn kaj instruajn
+        legaĵojn. Ĝi estas daŭrigo de la multe ŝatataj <span class="tei tei-q">„Liberaj Horoj“</span>, antaŭa aldono al <span class="tei tei-q">„Germana Esperantisto“</span>. Lerta kunlaborantaro
+        helpas la redakcion, liveri al lernantoj facilan, sed tamen interesan
+        kaj bonstilan literaturon. La praktikan uzon de nia lingvo instruas
+        dialogoj, modeloj de leteroj, tekstoj kun apuda nacilingva traduko
+        ktp.; amuza parto liveras interesajn problemojn kaj humoraĵojn.</p>
+<div class="tei tei-tb">
+<hr style="width: 80%">
+</div>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jara abonprezo 2
+        M. (1 Sm). Por abonantoj de <span class="tei tei-q">„Germana
+        Esperantisto“</span> kaj membroj de G.E.A. en Germanujo kaj
+        Aŭstrio-Hungarujo nur 1,50 M. (0,75 Sm). Por la cetera eksterlando
+        senescepte 2.— M. (1 Sm).</p>
+<div class="tei tei-tb">
+<hr style="width: 80%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span style="font-family: sans-serif">Esperanto Verlag Möller &amp; Borel, Berlin
+        SW., Lindenstr. 18–19.</span></p>
+</div><span class="tei tei-pb" id="page49">[p. 49]</span> <a class="tei tei-anchor" id="p49"></a>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.80em"><span style="font-size: 180%; font-style: normal; font-weight: 700">Esperanta
+        Biblioteko Internacia</span></p>
+<div class="block tei tei-quote" style="margin-bottom: 1.80em; margin-left: 3.60em; margin-top: 1.80em; margin-right: 3.60em">
+<span style="font-size: 90%">Tiu-ĉi biblioteko enhavas facilajn
+        legaĵojn de ĉiulandaj eminentaj Esperantistoj. Ĝi tial bonege taŭgas
+        por ekzercado de la lingvo, ĉu dum la grupaj kunvenoj, ĉu per privata
+        legado.</span>
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span style="letter-spacing: 0.15em">Ĝis nun aperis:</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        1. Legolibreto,</span></em> de J. <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Borel</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        2. Fabeloj de Andersen,</span></em> tradukitaj el dana lingvo, de
+        <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Fr.
+        Skeel-Giŏrling</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        3. Bona Sinjorino,</span></em> novelo de E. Orzeszko, tradukita el
+        pola lingvo de <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Kabe</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        4. Rusaj Rakontoj,</span></em> de Mamin Sibirjak, tradukitaj el rusa
+        lingvo de N. <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Kabanov</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        5. Don Kiĥoto en Barcelono,</span></em> tradukita el hispana lingvo
+        de <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Fr.
+        Pujulà y Vallès</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        6. El la Biblio,</span></em> trad. Dro L. L. <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Zamenhof</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        7. El Dramoj</span></em> (fragmentoj) tradukitaj el germana lingvo,
+        de Dro L. L. <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Zamenhof</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        8. El Komedioj</span></em> (fragmentoj), esperantigitaj de Dro L. L.
+        <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Zamenhof</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        9. Praktika Frazaro,</span></em> Dialogoj de la ĉiutaga vivo,
+        kunmetis J. <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Borel</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        10/11</span></em> (duobla numero)<em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">.
+        Japanaj Rakontoj.</span></em> El japana lingvo, kunmetis <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Ĉif
+        Toŝio</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        12. Reaperantoj.</span></em> Familia dramo de Henrik Ibsen (la akto),
+        trad. el norvega lingvo de O. <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Bünemann</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        13. Bulgaraj Rakontoj,</span></em> el bulgara lingvo tradukis At. D.
+        <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Atanasov</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        14/15.</span></em> (duobla numero) <em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">Amoro kaj Psiĥe</span></em> de
+        Lucius Apulejus el latina lingvo tradukis <em class="tei tei-emph"><span style="letter-spacing: 0.15em">Emilo
+        Pfeffer</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        16. Komerca Korespondo,</span></em> kunmetis J. Borel.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        17. Konsiloj pri Higieno,</span></em> tradukis J. Borel.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        18. La Reĝo de la Ora Rivero,</span></em> de John Ruskin, el la angla
+        lingvo tradukis Ivy Kellerman, A. M., Ph. Dr.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        19. Sinjoro Herkules.</span></em> Unuakta burleskaĵo de Georg Belly,
+        el germana lingvo tradukis H. Arntz kaj M. Butin</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">No.
+        20. La lasta Usonano</span></em> de J. A. Mitchell, el la angla
+        lingvo tradukis Lehman Wendell.</p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">(La kolekto estas
+        daŭrigota.)</p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.20em"><span style="font-size: 120%; font-style: italic">Prezo po kajero 0,100 Sm (0,20
+        M.)</span><br>
+<span style="font-size: 120%; font-style: italic">Serio de 12 volumoj
+        (afrankite) 1,250 Sm (2,50 M.)</span><br>
+<span style="font-size: 120%; font-style: italic">Ĉiu libreto enhavas
+        40–50 paĝojn.</span></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.80em"><em class="tei tei-emph" style="text-align: center"><span style="font-size: 180%; font-style: normal; font-weight: 700">Esperanto
+        Verlag Möller &amp; Borel</span></em><br>
+<span style="font-size: 180%">Berlin S.W., Linden-Strasse
+        18–19.</span></p>
+</div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em" id="pgfooter">
+<pre class="pre tei tei-div" style="margin-bottom: 3.00em; margin-top: 3.00em"></pre></div></div></div></div><section class="pg-boilerplate pgheader" id="pg-footer" lang="en">
+<div id="pg-end-separator">
+<span>*** END OF THE PROJECT GUTENBERG EBOOK LA LASTA USONANO ***</span>
+</div>
+
+    
+<div>
+Updated editions will replace the previous one—the old editions will
+be renamed.
+</div><div>
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+</div>
+
+<div id="project-gutenberg-license">START: FULL LICENSE</div>
+
+<h2 id="pg-footer-heading">THE FULL PROJECT GUTENBERG LICENSE</h2>
+
+<div class="agate">PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+</div><div>
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+</div><div class="secthead">
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+</div><div>
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+</div><div>
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+</div><div>
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+</div><div>
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+</div><div>
+1.E. Unless you have removed all references to Project Gutenberg:
+</div><div>
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+</div><blockquote><div>
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  </div></blockquote><div>
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+</div><div>
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+</div><div>
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+</div><div>
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+</div><div>
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+</div><div>
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+</div><div>
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+</div><ul>
+    <li>• You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    </li>
+    <li>• You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    </li>
+    <li>• You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    </li>
+    <li>• You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    </li>
+</ul><div>
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+</div><div>
+1.F.
+</div><div>
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+</div><div>
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+</div><div>
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+</div><div>
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+</div><div>
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+</div><div>
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+</div><div class="secthead">
+Section 2. Information about the Mission of Project Gutenberg™
+</div><div>
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+</div><div>
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+</div><div class="secthead">
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+</div><div>
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+</div><div>
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+</div><div class="secthead">
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+</div><div>
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+</div><div>
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit <a href="https://www.gutenberg.org/donate/">www.gutenberg.org/donate</a>.
+</div><div>
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+</div><div>
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+</div><div>
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+</div><div class="secthead">
+Section 5. General Information About Project Gutenberg™ electronic works
+</div><div>
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+</div><div>
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+</div><div>
+Most people start at our website which has the main PG search
+facility: <a href="https://www.gutenberg.org">www.gutenberg.org</a>.
+</div><div>
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+</div>
+
+</section></body>
+</html>

@@ -1,0 +1,1572 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<!--
+
+Some comments about the postprocessing of this ebook, which might be
+useful someday for other postprocessors, or for me when I work on
+another such book and can't remember how I did something before...
+
+I've retained some proofers' comments (and added some more during
+postprocessing!) in this HTML version, commented of course, related
+to things like errors in the book which I hope nobody ever "fixes"
+back to the way it is in the original!
+
+Words which have been corrected in this Gutenberg etext are marked
+by the comment "Error in book:" or some such.
+
+I used Vim (http://www.vim.org/) for most editing, but I used UniRed
+(http://www.esperanto.mv.ru/UniRed/) for spellchecking and conversion
+between iksismo, numerical character entities, and utf8 ascii. Be
+aware of some UniRed features I discovered: 1) All hexadecimal Unicode
+entities are converted to decimal (*throughout the file*) when it is
+saved. That may be good or bad, depending on your personal preference.
+I prefer hexadecimal, but decimal doesn't bother me too much, and one
+can still enter them as hexadecimal. 2) Windowy ASCII characters with
+the high bit set, that is, in the range [128..255] may be corrupted. For
+example, "naive" with an i-dieresis is converted to "na&#64933;". Be
+sure to convert such characters to Unicode *before* your first UniRed
+save!
+
+Note concerning HR width: 38% = 1 - GoldenRatio.
+
+Notes to myself inre dashes:
+   Validator doesn't like &#151; Use &mdash; or Unicode &#8212;
+   Unicode nonbreaking hyphen: &#8209;
+   Also, &ndash; = Unicode &#8211;
+
+                                  - William W. Patterson, AKA Ailanto
+
+-->
+
+<head>
+   <title>LA FALO DE U&#348;ERO-DOMO</title>
+   <!-- Apparently the W3C HTML Validator *requires* Content-Type
+   tag or one of the other comparable things now. -->
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <style type="text/css">
+      body { margin-left: 5%; margin-right: 5% }
+      p.centre, div.centre, td.centre { text-align: center }
+      p.tutdekstre, div.tutdekstre, td.tutdekstre { text-align: right }
+      p.tutlive, div.tutlive, td.tutlive, blockquote.tutlive { text-align: left }
+      p.dekstre, div.dekstre, td.dekstre, blockquote.dekstre { text-align: left; margin-left: 2em }
+      p.live, div.live, td.live { text-align: right; margin-right: 2em }
+      .dike { font-weight: bold }
+      .grandege { font-size: 300% }
+      .grande { font-size: 150% }
+      .grandete { font-size: 115% }
+      .mezgrande { font-size: medium }
+      .malgrandete { font-size: 85% }
+      .malgrande { font-size: 70% }
+      .malgrandege { font-size: 55% }
+      .pligrande { font-size: larger }
+      .plimalgrande { font-size: smaller }
+   </style>
+</head>
+
+<body>
+
+
+<pre>
+
+The Project Gutenberg EBook of La Falo de Usxero-Domo, by Edgar Poe
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: La Falo de Usxero-Domo
+       The Fall of the House of Usher
+
+Author: Edgar Poe
+
+Translator: Edwin Grobe
+
+Release Date: January 31, 2006 [EBook #17425]
+
+Language: Esperanto
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK LA FALO DE USXERO-DOMO ***
+
+
+
+
+Produced by Robert L. Read, William Patterson and the
+Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+</pre>
+
+
+
+
+<!-- File: 01.png -->
+
+<div class="grandege dike centre" style="margin-bottom: 2em">
+   LA<br>
+   FALO<br>
+   DE<br>
+   U&#348;ERO-DOMO
+</div>
+
+<div class="grande centre" style="margin-top: 2em; margin-bottom: 0">
+   NOVELO<br>
+   DE<br>
+   USONA VERKISTO
+</div>
+
+<div class="grande dike centre" style="margin-top: 0; margin-bottom: 2em">
+   EDGAR ALLAN POE<br>
+   (1809-1849)
+</div>
+
+<div class="grande centre" style="margin-top: 2em; margin-bottom: 2em">
+   Esperantigis<br>
+   EDWIN GROBE
+</div>
+
+<div class="grandete centre" style="margin-top: 2em; margin-bottom: 4em">
+   Arizona-Stelo-Eldonejo<br>
+   1620 North Sunset Drive<br>
+   Tempe, Arizona 85281-1550, Usono<br>
+   2000
+</div>
+
+<!-- File: 02.png -->
+
+<div class="centre" style="margin-top: 4em; margin-bottom: 2em">
+   Edgar Allan Poe:<br>
+   "LA FALO DE U&#348;ERO-DOMO"
+</div>
+
+<div class="centre" style="margin-top: 2em; margin-bottom: 3em">
+   Origina Anglalingva Titolo:<br>
+   "THE FALL OF THE HOUSE OF USHER"
+</div>
+
+<!-- File: 03.png -->
+
+<hr align="center" width="62%" style="margin-top: 2em; margin-bottom: 2em">
+
+<div class="dike centre" style="margin-top: 2em; margin-bottom: 2em">
+   LA FALO DE U&#348;ERO-DOMO
+</div>
+
+<p>
+   Dum la tuta da&#365;ro de teda, malhela, sensona tago en
+   la a&#365;tuno de la jaro, kiam la nuboj pendis preme kaj
+   malalte en la &#265;ielo, mi pasis sola, sur &#265;evalo, tra
+   malkutime morna kamparregiono; kaj finfine min trovis, dum
+   esti&#285;is la vesperaj ombroj, &#265;e vidpunkto pri la
+   melankolia U&#349;ero-Domo. Mi malscias la kialon de tio&mdash;sed
+   je la unua ekvido pri la konstrua&#309;o, sento de netolerebla
+   malfeli&#265;o invadis mian spiriton. Mi diras "netolerebla"
+   &#265;ar trankviligis tiun senton nenia duonplezuriga (&#265;ar
+   poezia) sensaco kiun kutime registras la menso alfronte al la
+   plej severaj naturaj bildoj pri sova&#285;eco a&#365; teruro.
+   Mi rigardis la scenon anta&#365; mi&mdash;la nuran domon kaj
+   la simplajn pejza&#285;trajtojn de la bieno&mdash;la mornajn
+   murojn&mdash;la malplenajn okulaspektajn fenestrojn&mdash;kelkajn
+   fetorajn kareksojn&mdash;kaj kelkajn blankajn trunkojn de
+   putrintaj arboj&mdash;kun nepra depremo de animo kiun mi
+   scipovas kompari kun nenia surtera sensaco pli ta&#365;ge ol
+   kun la postrevo de opiofestinto&mdash;la amara replon&#285;o
+   en &#265;iutagan vivadon&mdash;la malbelega forfalo de la
+   vualo. Ekestis glacii&#285;o, sinkado, malsani&#285;o de
+   la koro&mdash;senkompensa morneco de pensado kiun sukcesis
+   survojigi &#285;is sublimeco nenia premego de la imagpovo.
+   Kio&mdash;mi pa&#365;zis por primediti la temon&mdash;kio min
+   tiom maltrankviligis dum mi rigardis U&#349;ero-Domon? Estis
+   mistero nepre nesolvebla; cetere mi malsukcesis barakti kun la
+   ombraj fantazioj kiuj min kunpremis dum mi meditadis. Mi devis min
+   turni al la malta&#365;ga konkludo ke, dum sendube ja ekzistas
+   kombinoj de tre simplaj naturaj objektoj havantaj la povon nin
+   tiel afekcii, tamen la analizo de tiu povo nombri&#285;as inter
+   konsideradoj preterpasantaj nian komprenon. Eblas, mi pensis,
+   ke simpla malsama aran&#285;o de la trajtoj de la sceno, de la
+   detaloj de la bildo, sufi&#265;os por aliigi a&#365; e&#265;
+   entute nuligi ties kapablon fari malfeli&#265;an efekton; kaj,
+   responde al tiu hipotezo, mi bridrimenis mian &#265;evalon &#265;e
+   la kruta bordo de nigra kaj nebularda lageto ku&#349;anta en
+   senbrua heleco apud la lo&#285;ejo kaj subenrigardis&mdash;sed
+   kun tremego e&#265; pli ekscitanta ol anta&#365;e&mdash;la
+   rearan&#285;itajn kaj inversigitajn bildojn pri la griza karekso
+   kaj la makabraj arbotrunkoj kaj la okulsimilaj fenestroj.
+</p>
+
+<p>
+   Tamen en &#265;i tiu domego de morneco mi nun celis gastadi dum
+   kelkaj semajnoj. &#284;ia proprietanto, Roderiko U&#349;ero,
+   estis unu el miaj plej intimaj amikoj dum nia knabeco; tamen
+   multaj jaroj forpasis ekde nia lasta renkonti&#285;o. Letero,
+   tamen, atingintis min en fora regiono de la lando&mdash;letero
+   de li&mdash;kiu, pro sia senbride petema karaktero, invitis
+   nur vivpersonan respondon. La manuskripto vidigis indicojn pri
+   nervoza maltrankvilo. La leterinto priparolis seriozegan korpan
+   malsanon&mdash;mensan malsanon kiu lin premas&mdash;kaj pri
+   sincera deziro vidi min, kiel lian plej bonan, kaj efektive
+
+<!-- File: 04.png -->
+
+   solan amikon, kun la celo, pere de la plezuro de mia kompanio,
+   iom malpligrandigi lian malsanon. Estis la maniero en kiu
+   diritis &#265;io tio, kaj multe pli&mdash;estis la &#349;ajna
+   <i>koreco</i> kiu akompanis la peton&mdash;kiu malpermesis min
+   heziti; rezulte mi obeis tujege kion mi da&#365;re konsideris ege
+   malkutima alvoko.
+</p>
+
+<p>
+   Kvankam, kiel knaboj, ni estis e&#265; intimaj kunirantoj, mi
+   malmulte sciis tamen pri mia amiko. Lia distancemo estis &#265;iam
+   ekscesa kaj konstanta. Mi konsciis tamen ke lia ege antikva
+   familio estis fama, jam en forpasintaj epokoj, por aparta sensivo
+   de temperamento sin montranta, dum longaj periodoj, en multaj
+   verkoj de la&#365;deginda arto kaj, pli lastatempe, en ripetitaj
+   faroj de malavarega sed senfanfarona almozo, kaj cetere en pasia
+   sindedi&#265;o al la komplika&#309;oj, eble e&#265; pli ol al la
+   tradiciaj kaj facile rekoneblaj belecoj, de la muzikaj sciencoj.
+   Mi eksciis anka&#365; la ege rimarkindan fakton ke la tigo de la
+   U&#349;era gento, kvankam &#285;uante longtempajn honorojn, neniam
+   fondis da&#365;ran bran&#265;on; alivorte, ke la tuta familio sin
+   limigis al rekta devenlinio kaj &#265;iam, krom ege malgravaj kaj
+   ege provizoraj varioj, ade sin limigas tiel. Estis tiu manko, mi
+   konsideris, primeditante la perfektan mantenadon de la lokalo kaj
+   la agnoskatan karakteron de la gento, kaj spekulativante pri la
+   ebla influo kiun la unua, dum la longa preterpaso de jarcentoj,
+   povintus trudi al la alia&mdash;estis tiu manko, eble, de akcesora
+   idaro, kaj la rezultinta sendevia transdono, de patro al filo,
+   de la hereda poseda&#309;o kun la nomo, kiu, finfine, tiomagrade
+   kunidentigis la du ke la origina nomo de la bieno alii&#285;is en
+   la kuriozan kaj dubasencan nomon "U&#349;ero-Domo"&mdash;nomon
+   &#349;ajnantan ampleksi en la mensoj de la kamparanaro &#285;in
+   uzanta, kaj la familion kaj la familian domon.
+</p>
+
+<p>
+   Mi diris ke la sola rezulto de mia iom knabeca
+   eksperimento&mdash;mia subenrigardado en la lageton&mdash;estis
+   pliprofundigo de la unua malkutima efekto. Estas
+   sendube ke la konscio pri la rapida pligrandigo de mia
+   supersti&#265;o&mdash;&#265;ar kial mi hezitu &#285;in nomi
+   tia?&mdash;utilis &#265;efe por plirapidigi tiun pligrandigon
+   mem. Jam de longa tempo mi konscias ke tia estas la paradoksa
+   le&#285;o pri &#265;iuj sentoj bazitaj sur la teruro. Kaj eble
+   pro tiu sola kialo okazis ke, kiam denove mi levis la rigardon
+   &#285;is la domo mem, for de ties bildo en la lageto, ekkreskis
+   en mia menso stranga fantazio&mdash;fantazio tiel ridinda
+   ke mi konsentas &#285;in mencii nur por elmontri la viglan
+   forton de la sensacoj kiuj min premis. Mi tiel aktivigintis
+   mian imagpovon ke mi komencis pensi efektive ke super la tutaj
+   domego kaj bieno pendas etoso propra nur al ili kaj al ilia
+   &#265;irka&#365;ejo&mdash;etoso havanta nenian rilaton kun la aero
+   de la &#265;ielo, sed levi&#285;inta el la putrintaj arboj kaj la
+   griza muro kaj la silenta lageto&mdash;pesta kaj mistika vaporo,
+   malhela, malenergia, apena&#365; videbla, plumba.
+</p>
+
+<p>
+   Forskuinte de sur mia spirito tion kio povintus esti nur
+   son&#285;o, mi
+
+<!-- File: 05.png -->
+
+   rigardis pli proksimdetale la veran aspekton de la
+   konstrua&#309;o. &#284;ia &#265;efa trajto &#349;ajnis esti
+   tiu de ekscesa antikveco. La miskolori&#285;o ka&#365;zita de
+   la forpasintaj epokoj estis granda. Etaj fungoj sin sternintis
+   sur la tutan ekstera&#309;on kaj pendis el la aleroj en
+   subtila, implikita reta&#309;o. Malgra&#365; tio videblis tamen
+   nenia eksterordinara kadukeco. Forfalintis nenia parto de la
+   masona&#309;o; <!-- Error in book: masonado --> kaj &#349;ajnis
+   esti sova&#285;a malkonformeco inter ties da&#365;re perfekta
+   kunligo de eroj kaj la dispeci&#285;anta stato de la unuopaj
+   &#349;tonoj. Tiurilate la situacio multe memorigis al mi la
+   &#349;ajnigan tutecon de malnova ligna&#309;o putrinta dum
+   longaj jaroj en iu forgesita kelo sen difekti&#285;i pro la
+   interrompa spirado de la ekstera aero. Krom tiu indika&#309;o pri
+   vastskala putreco, tamen, la konstrua&#309;o elmontris malmultajn
+   signojn pri malstabileco. Eble la rigardo de kontrolanta
+   observanto konstatintus apena&#365; percepteblan fendeton, kiu,
+   etendi&#285;ante ekde la tegmento de la domo sur la fasado,
+   estigis vojon suben la&#365; la muro en zigzaga direkto, &#285;is
+   sin perdigi en la morozajn akvojn de la lageto.
+</p>
+
+<p>
+   Rimarkinte tiujn aspekta&#309;ojn, mi rajdis trans mallongan
+   digvojon &#285;is la domo. Atendanta servanto ricevis mian
+   &#265;evalon kaj mi eniris la gotikan arkopasejon de la halo.
+   &#348;telpa&#349;a valeto kondukis min de tie, en silento, tra
+   multaj malhelaj kaj kompleksaj koridoroj &#285;is la laborejo
+   de sia mastro. Multe da tio kion mi renkontis survoje helpis,
+   mi malscias kiel, pligrandigi la malklarajn sentojn pri kiuj mi
+   jam parolis. Dum la objektoj min &#265;irka&#365;antaj&mdash;dum
+   la &#265;iza&#309;oj de la plafonoj, la sombraj tapiserioj sur
+   la muroj, la ebona nigreco de la plankoj, kaj la fantasmagoriaj
+   armoriaj trofeoj kiuj klakadis dum mi preterpasis, estis
+   nur aferoj al kiuj, a&#365; similaj al tiuj al kiuj mi jam
+   alkutimi&#285;is ekde mia infaneco&mdash;dum mi malkura&#285;is
+   malagnoski kiom konata estas &#265;io tio&mdash;tamen mi miris
+   ekkonsciante kiom malkonataj estas la fantazioj kiujn estigis
+   tiuj kutimaj bildoj. Sur unu el la &#349;tuparoj mi renkontis la
+   familian kuraciston. Lia mieno, mi pensis, elmontris kunmiksitan
+   aspekton de malnobla ruzado kaj perplekseco. Li salutis min timege
+   kaj preterpasis. &#308;etgeste nun la servanto malfermis pordon
+   kaj min kondukis anta&#365; sian mastron.
+</p>
+
+<p>
+   La &#265;ambro en kiu mi min trovis estis ege granda kaj alta.
+   La fenestroj estis longaj, mallar&#285;aj kaj pintigitaj kaj
+   situis tiom for disde la nigra kverka planko ke nepre maleblis
+   ilin atingi de interne. Malfortaj briletoj de ru&#285;igita
+   lumo malfermis vojon tra la pergoligitaj vitroj kaj helpis
+   sufi&#265;e distingigi la plej elstarantajn objektojn de la
+   &#265;irka&#365;ejo; la rigardo penadis sensukcese tamen
+   atingi la plej malproksimajn angulojn de la &#265;ambro kaj la
+   ka&#349;anguletojn de la volbigita kaj fretigita plafono. Malhelaj
+   drapa&#309;oj surpendis la murojn. La &#285;enerala meblaro estis
+   abunda, senkomforta, antikva kaj &#265;ifona. Multaj libroj kaj
+   muzikiloj &#265;irka&#365;ku&#349;is en sporada aran&#285;o, sed
+   sen
+
+<!-- File: 06.png -->
+
+   vigligi la scenon. Mi sentis min kvaza&#365; enspiri etoson de
+   mal&#285;ojo. Aspekto de severa, profunda kaj nerea&#265;etebla
+   melankolio surpendis kaj trapenetris &#265;ion.
+</p>
+
+<p>
+   Je mia eniro, U&#349;ero stari&#285;is el sofo sur kiu li
+   ku&#349;is plenlonge kaj min salutis kun vigla varmeco kiu
+   enhavis, la&#365; mia unua takso, iom troigitan afablecon&mdash;la
+   retenitan agon de enuigita mondcivitano. Ekrigardeto tamen sur
+   lian viza&#285;on min konvinkis pri lia nepra sincereco. Ni
+   sidi&#285;is kaj dum kelkaj momentoj, dum li diris nenian vorton,
+   mi lin spektadis kun sento duonkompata, duonmira. Efektive,
+   neniam anta&#365;e viro tiom multe &#349;an&#285;i&#285;is en
+   tiom mallonga periodo kiom Roderiko U&#349;ero! Nur malfacile
+   mi sukcesis rekoni en la pala esta&#309;o sidanta anta&#365;
+   mi la kunulon de mia frua knabeco. Tamen la karaktero de lia
+   viza&#285;o estintis en &#265;iuj momentoj rimarkinda. Kadavera
+   ha&#365;tkoloro; okuloj grandaj, likva&#309;aj, preterkompare
+   lumaj; lipoj iom maldikaj kaj ege palaj, sed havantaj belegan
+   kurbi&#285;on; nazo de delikata hebrea formo, sed kun lar&#285;eco
+   de spirtruoj malkutima en similaj korperoj; gracie muldita
+   mentono, indikanta pro sia manko de prominenco mankon de morala
+   energio; hararo de pli ol retaspekta moleco kaj maldenseco; tiuj
+   trajtoj, kun preterkutima etendi&#285;o super la regionoj de la
+   tempio, kunkonsistigis viza&#285;on malfacile forgesotan. Kaj
+   nun en la nura troigo de la reganta karaktero de tiuj trajtoj,
+   kaj de la mieno kiun ili kutimis elmontri, vidi&#285;is tioma
+   &#349;an&#285;i&#285;o ke mi malcertis al kiu mi parolis. La
+   nun makabra paleco de la ha&#365;to, kaj la nun mirakla heleco
+   de la okuloj, anta&#365; &#265;io surprizis kaj e&#265; mirigis
+   min. Cetere la silkan hararon li permesintis kreski senatente,
+   kaj dum, en sia sova&#285;a filandra teksturo, &#285;i ne falis,
+   sed &#349;vebis &#265;irka&#365; la viza&#285;o, mi malscipovis,
+   e&#265; strebegante, rilatigi tiun arabeskan mienon kun iu ajn
+   koncepto pri simpla humaneco.
+</p>
+
+<p>
+   En la maniero de mia amiko tujege mirigis min ioma nekohereco,
+   ioma nekonstanteco; kaj balda&#365; mi konsciis ke tio fontas
+   el sinsekvo da malfortaj kaj malutilaj baraktoj supervenki
+   kutiman trepidadon&mdash;troabundan nervozan maltrankvilon. Por
+   io de tiu speco efektive jam min pretigis ne nur lia letero,
+   sed anka&#365; memora&#309;oj pri kelkaj knabecaj trajtoj,
+   kaj konkludoj estigitaj de liaj strangaj fizika strukturo kaj
+   temperamento. Lia farado estis alterne viveca kaj pa&#365;ta. Lia
+   vo&#265;o &#349;an&#285;i&#285;is rapide de trema hezitado (kiam
+   liaj animalaj spiritoj &#349;ajnis stari en nepra kadukeco) al tiu
+   speco de energia precizado&mdash;tiu abrupta, peza, senur&#285;a,
+   kavernsona eldirmaniero&mdash;tiu plumba, memekvilibrita kaj
+   sendifekte modulita guturala eldirarto kiun ni konstatas &#265;e
+   la perdita ebriulo a&#365; la malrevalorigebla opiman&#285;anto,
+   dum la periodoj de lia plej intensa eksciti&#285;o.
+</p>
+
+<p>
+   Estis tial ke li parolis pri la celo de mia vizito, pri sia
+   sincera deziro
+
+<!-- File: 07.png -->
+
+   vidi min, kaj la konsolo kiun li atendis ke mi liveru al li. Li
+   diskutis, iom longadetale, kion li konsideris esti la karaktero
+   de lia malsano. Temis, li diris, pri konstitucia kaj familia
+   malico pri kiu li malesperas malkovri solvon&mdash;simpla nervoza
+   kondi&#265;o, li aldonis tujege, kiu balda&#365; sendube forpasos.
+   Tio sin elmontris en arego da kontra&#365;naturaj sensacoj. Kelkaj
+   el tiuj, dum li priskribis ilin, min interesis kaj mistifikis;
+   kvankam, eble, la terminoj kaj la &#285;enerala maniero de la
+   rakontado min surpezis. Li multe suferis pro morba akreco de la
+   sensoj; nur la plej sensaporaj man&#285;a&#309;oj tolereblis al
+   li; lia korpo konsentis surporti nur vesta&#309;ojn havantajn
+   specialan teksturon; lin &#285;enis la odoroj de &#265;iuj floroj;
+   torturis liajn okulojn e&#265; la plej malforta lumo; kaj nur
+   kelkaj apartaj sonoj, tiuj de kordinstrumentoj, malsukcesis
+   plenigi lin je hororo.
+</p>
+
+<p>
+   De anomalia terurspecio mi taksis lin servodevigita sklavo.
+   "Mi pereos," li diris, "<i>devige</i> mi pereos en tiu
+   lamentinda frenezio. Tiel, tiel, kaj en nenia alia maniero, mi
+   finperdi&#285;os. Mi timegas la eventojn de la estonteco, ne pro
+   ili mem, sed pro iliaj rezultoj. Mi tremegas anta&#365; la penso
+   pri iu ajn okazonta&#309;o, e&#265; la plej sensignifa, povonta
+   estigi premon sur tiun netolereblan maltrankvilon de animo. Mi
+   spertas, efektive, nenian malamon al dan&#285;ero, krom rilate al
+   ties nepra rezulto&mdash;teruro. En tiu senkura&#285;a&mdash;en
+   tiu beda&#365;rinda stato&mdash;mi pensas ke balda&#365; a&#365;
+   post balda&#365; alvenos la periodo kiam necesos ke mi forlasu
+   mian vivon kaj mian mensan sanon kune, okaze de iu lukto kun la
+   makabra fantomo: TIMO."
+</p>
+
+<p>
+   Mi eksciis, aldone, iom post iom, kaj pere de interrompitaj kaj
+   dubasencaj indicoj, ceteran malkomunan trajton de lia mensa
+   stato. Katenis lin kelkaj supersti&#265;aj efektoj rilate al
+   la domo kiun li enlo&#285;is kaj kiun, jam de multaj jaroj,
+   li neniam eliris&mdash;pro influo kies supozita potenco li
+   priskribis al mi en terminoj tro malklaraj por ke mi ilin ripetu
+   &#265;i-tie&mdash;influo efektivigita sur lian spiriton, rezulte
+   de longa suferado, li diris, far kelkaj stranga&#309;oj de la
+   nuraj formo kaj substanco de lia familia domego&mdash;efekto kiun
+   la <i>fizika</i> aspekto de la grizaj muroj kaj turetoj, kaj de la
+   malklara lageto kiun enrigardis tiuj &#265;iuj, trudis finfine al
+   la <i>spirito</i> de lia ekzisto.
+</p>
+
+<p>
+   Li agnoskis tamen, kvankam hezite, ke granda parto de la stranga
+   mal&#285;ojo kiu lin tiel torturis devenis sendube de pli
+   natura kaj ege pli palpebla fonto&mdash;de la severa kaj longe
+   da&#365;ranta malsano&mdash;efektive de la ver&#349;ajne okazonta
+   dissi&#285;o&mdash;de tenere amata fratino&mdash;lia sola
+   kunestanto dum longaj jaroj&mdash;lia lasta kaj sola parenco en
+   la mondo. "&#348;ia forpaso," li diris, kun amareco kiun neniam
+   mi forgesos, "lin postlasos (lin la senesperan kaj la malfortan)
+   la lasta de la antikva U&#349;ero-gento." Dum li parolis, Damo
+   Madelino (&#265;ar tiel &#349;i nomi&#285;is) trapasis malrapide
+   foran parton de la &#265;ambro
+
+<!-- File: 08.png -->
+
+   kaj, sen konscii pri mia &#265;eesto, malaperis. Mi rigardis
+   &#349;in kun nepra surprizo kunmiksita kun timego&mdash;tamen
+   mi malsukcesis ekspliki tiajn sentojn. Sensaco de stuporo
+   ekpremis min dum mia rigardo postsekvis &#349;iajn forirantajn
+   pa&#349;ojn. Kiam iu pordo fermi&#285;is finfine post &#349;i,
+   mia rigardo ser&#265;is instinkte kaj avide la viza&#285;on de
+   la frato&mdash;sed li ka&#349;intis &#285;in en la manoj kaj mi
+   rimarkis nur tion ke pli ol kutima paleco sterni&#285;is sur la
+   marasmaj fingroj tra kiuj gutetis multaj pasiaj larmoj.
+</p>
+
+<p>
+   La malsano de Damo Madelino jam longan tempon rezistis la lertecon
+   de &#349;iaj kuracistoj. Konstanta apatio, iompostioma forvelkado
+   de la persono, kaj oftaj kvankam efemeraj tendencoj de parte
+   katalepsia karaktero estis la malkutima diagnozo. &#284;is nun
+   &#349;i kontra&#365;staris senmanke la premon de sia malsano
+   kaj malkonsentis finfine sin enlitigi; sed dum la vespero de
+   mia alveno &#265;e la domo, &#349;i cedis (kiel &#349;ia frato
+   min informis en la nokto kun nedirebla maltrankvilego) al la
+   sterna potenco de la detruanto; kaj mi eksciis ke la ekvido
+   &#285;uita de mi pri &#349;ia persono estos sendube la lasta kiun
+   mi &#285;uos&mdash;ke la damon, almena&#365; en viva stato, mi ne
+   plu vidos.
+</p>
+
+<p>
+   Dum pluraj sekvintaj tagoj &#349;ian nomon menciis nek U&#349;ero
+   nek mi; kaj dum tiu periodo mi min okupis pri seriozaj klopodoj
+   mildigi la melankolion de mia amiko. Ni kunpentris kaj kunlegis;
+   a&#365; mi a&#365;skultis, kvaza&#365; en son&#285;o, la
+   sova&#285;ajn improvizadojn de lia parolanta gitaro. Kaj tial,
+   dum pli kaj pli intima proksimeco kondukis min pli kaj pli
+   senrezerve en la ka&#349;ejojn de lia spirito, des pli amare
+   mi konsciis la senutilon de &#265;iu klopodo feli&#265;igi
+   menson el kiu malheleco, kvaza&#365; iminenta pozitiva valoro,
+   elver&#349;i&#285;is sur &#265;iujn objektojn de la morala kaj la
+   fizika universo, en unu sen&#265;esa radiado de mal&#285;ojo.
+</p>
+
+<p>
+   &#264;iam mi retenos memora&#309;on pri la multaj solenaj
+   horoj kiujn mi pasigis tiumaniere en soleco kun la mastro de
+   U&#349;ero-Domo. Tamen malsukcese mi entreprenus transliveri ideon
+   pri la preciza karaktero de la studoj a&#365; la okupadoj en kiuj
+   li min aktivigis a&#365; al kiuj li malfermis al mi la vojon.
+   Eksciti&#285;ema kaj ege kolerema idealismo &#309;etis sulfuran
+   glaceon sur &#265;ion. Liaj longaj improvizitaj lamentokantoj sin
+   a&#365;digos &#265;iam en miaj oreloj. Inter aliaj kantoj, mi
+   retenas dolorige en la menso apartan malkutiman perversa&#309;on
+   kaj ampleksa&#309;on pri la sova&#285;a melodio de la lasta
+   valso de Fon-Vebero. El la pentra&#309;oj pri kiuj meditadis lia
+   komplika fantazio, kaj kiuj kreskis, tu&#349;on post tu&#349;o,
+   en svagecon pri kiu mi tremegis des pli entuziasme, &#265;ar
+   mi tremegis sen konscii la kialon;&mdash;el la pentra&#309;oj
+   (tiom vivecaj iliaj bildoj postrestas nun anta&#365; mi) vane
+   mi penadis eligi pli ol eta parto disponebla al la traktopovo
+   de nuraj vortoj. Pro la nepra simpleco, pro la nudeco de siaj
+   desegna&#309;oj, li altiris kaj mirigis atenton. Se iam homa
+   esta&#309;o
+
+<!-- File: 09.png -->
+
+   pentris ideon, tiu esta&#309;o estis Roderiko U&#349;ero.
+   Por mi almena&#365;&mdash;en la cirkonstancoj tiam min
+   &#265;irka&#365;antaj&mdash;ellevi&#285;is el la puraj
+   abstrakta&#309;oj kiujn la hipokondriulo penadis &#309;eti sur
+   sian drelikon, intenseco de netolerebla mirego, de kiu nenian
+   ombron mi sentis e&#265; &#285;is nun starante en kontemplado
+   anta&#365; la agnoskite brilaj tamen tro konkretaj reva&#309;oj de
+   Fuselio.
+</p>
+
+<p>
+   Unu el la fantasmagoriaj koncepta&#309;oj de mia amiko,
+   partoprenantan malpli rigide en la spirito de abstraktado, mi
+   penadu priskribi, kvankam nur ombrakopie, en vortoj. Malgranda
+   pentra&#309;o bildigis la interna&#309;on de ege longa kaj
+   ortangula volbo a&#365; tunelo, kun malaltaj muroj, glataj,
+   blankaj, seninterrompaj, senaparataj. Kelkaj akcesoraj trajtoj
+   de la desegna&#309;o bone agis por komprenigi ke &#265;i tiu
+   elfosa&#309;o situas je ege profunda distanco sub la surfaco
+   de la tero. Nenia elirejo videblis en iu ajn parto de ties
+   vasta etenda&#309;o, kaj vidi&#285;is nenia tor&#265;o nek
+   alia artefarita lumfonto; tamen tajdego de intensaj radioj
+   transruli&#285;is &#265;ie kaj banis la tuta&#309;on en makabra
+   kaj maldeca pompo.
+</p>
+
+<p>
+   Mi &#309;us parolis pri tiu morba stato de la a&#365;dnervo kiu
+   netolerebligis al la suferanto &#265;iun muzikon, krom kelkaj
+   efektoj de kordinstrumentoj. Estis, eble, la mallar&#285;aj
+   etendoj al kiuj li sin limigis sur la gitaro kiuj naskigis,
+   grandaparte, la fantazian karakteron de liaj prezentadoj. Sed la
+   arda <i>facileco</i> de liaj <i>improvizadoj</i> maleksplikeblis.
+   Ili fontis, ver&#349;ajne, kaj en la notoj kaj en la vortoj
+   de liaj strangaj fantazia&#309;oj (&#265;ar ne malofte li sin
+   akompanis per vortrimaj improviza&#309;oj) el tiuj intensaj
+   mensaj sinatento kaj koncentrado kiujn mi menciis anta&#365;e,
+   observeblajn, la&#365; mia dira&#309;o, nur dum apartaj momentoj
+   de la plej alta artefarita eksciti&#285;o. La vortojn de unu el
+   tiuj rapsodioj mi facile memoras. &#284;i imponis al mi des pli
+   forte, eble, tia kian li &#285;in havigis al mi, &#265;ar en la
+   suba a&#365; mistika fluo de ties signifo mi kredis percepti,
+   kaj je la unua fojo, plenan konscion &#265;e U&#349;ero pri la
+   &#349;anceli&#285;ado de lia altnivela racio sur ties trono.
+   La versoj, kiuj titoli&#285;is "La Hantita Palaco," tekstis
+   proksimume, se ne la&#365;vorte, jene:
+</p>
+
+<!-- File: 10.png -->
+
+<!-- File: 11.png -->
+
+<center>
+
+   <table cellpadding="0" cellspacing="16" border="0" summary="poezio">
+
+      <tr><td class="centre">I</td></tr>
+
+      <tr><td nowrap class="tutlive">
+         En la plej verda el niaj valoj,<br>
+         De bonaj an&#285;eloj enlo&#285;ata,<br>
+         Foje bela kaj eleganta palaco&mdash;<br>
+         Radianta palaco&mdash;levis la kapon.<br>
+         En la dominio de monarko Penso&mdash;<br>
+         &#284;i staris tie!<br>
+         Neniam serafo etendis flugilon<br>
+         Super teksa&#309;o e&#265; duone tiel bela.
+      </td></tr>
+
+      <tr><td class="centre">II</td></tr>
+
+      <tr><td nowrap class="tutlive">
+         Standardoj flavaj, gloraj, orkoloraj,<br>
+         Sur ties tegmento flirtis kaj &#349;vebis;<br>
+         (Tio&mdash;&#265;io tio&mdash;okazis en la antikva<br>
+         Tempo de multanta&#365;aj tagoj)<br>
+         Kaj &#265;iu delikata venteto kiu lantis,<br>
+         En tiu dol&#265;a tiamo,<br>
+         La&#365; la remparoj, plumhava kaj pala,<br>
+         Foriris esti&#285;inte flugilhava odoro.
+      </td></tr>
+
+      <tr><td class="centre">III</td></tr>
+
+      <tr><td nowrap class="tutlive">
+         Vagpromenantoj en tiu feli&#265;a valo<br>
+         Tra du brillumaj fenestroj vidis<br>
+         Spiritojn movi&#285;antajn muzike<br>
+         La&#365; bone agordita liutle&#285;o,<br>
+         &#264;irka&#365; trono, kie sidante<br>
+         (Nova Porfirio!)<br>
+         En majesteco konforma kun lia gloro,<br>
+         Videblis la estro de la regno.
+      </td></tr>
+
+      <tr><td class="centre">IV</td></tr>
+
+      <tr><td nowrap class="tutlive">
+         Kaj tute perl- kaj rubenbrila<br>
+         Estis la bela palacopordego,<br>
+         Tra kiu alvenis fluante, fluante, fluante<br>
+         Kaj sen&#265;ese scintilante,<br>
+         E&#293;oaro kies sola pla&#265;a<br>
+         Tasko estis la&#365;dkanti,<br>
+         En vo&#265;oj de supera beleco,<br>
+         La spriton kaj la sa&#285;econ de sia rego.
+      </td></tr>
+
+      <tr><td class="centre">V</td></tr>
+
+      <tr><td nowrap class="tutlive">
+         Sed malica&#309;oj, en roboj de mal&#285;ojo,<br>
+         Atakis la altan bienon de la monarko;<br>
+         (Ho, ni lamentu, &#265;ar neniam nova mateno<br>
+         Tagi&#285;os super li, &#265;agrenito!)<br>
+         Kaj, &#265;irka&#365; lia lo&#285;ejo, la gloro<br>
+         Kiu ru&#285;i&#285;is kaj ekfloris<br>
+         Estas nur malhele memorita legendo<br>
+         Pri enterigitaj tempoj.
+      </td></tr>
+
+      <tr><td class="centre">VI</td></tr>
+
+      <tr><td nowrap class="tutlive">
+         Kaj hodia&#365;aj voja&#285;antoj en tiu valo,<br>
+         Tra la ru&#285;lumaj fenestroj, vidas<br>
+         Vastajn formojn kiuj movi&#285;as fantazie<br>
+         La&#365; disonanca melodio;<br>
+         Dum, kvaza&#365; rapida makabra rivero,<br>
+         Tra la pala pordego,<br>
+         Malbelega esta&#309;aro elhastas sen&#265;ese,<br>
+         Kaj ridas&mdash;sed ne plu ridetas.
+      </td></tr>
+
+   </table>
+
+</center>
+
+<p>
+   Mi bone memoras ke sugestoj estigitaj de tiu balado nin kondukis
+   en pensvojon sur kiu evidenti&#285;is opinio de U&#349;ero kiun
+   mi mencias malpli pro ties noveco (&#265;ar aliaj homoj tiel
+   opiniis) ol pro la persisto kun kiu li &#285;in proponis. Tiu
+   opinio, en ties &#285;enerala formo, asertis la sensivecon de
+   &#265;iuj vegeta&#309;oj. Sed, en lia malbonordita fantazio la
+   opinio alprenis pli a&#365;dacan karakteron kaj transpa&#349;is,
+   en kelkaj kondi&#265;oj, en la regnon de aferoj neorganikaj.
+   Mankas al mi vortoj por esprimi la tutan etendon a&#365;
+   la sinceran <i>entuziasmon</i> de lia konvinko. La kredo
+   tamen rilatis (kiel mi sugestetis anta&#365;e) al la grizaj
+   &#349;tonoj de la lo&#285;ejo de liaj anta&#365;patroj. La
+   kondi&#265;oj de la sensiveco plenumi&#285;is, li imagis, en
+   la aran&#285;sistemo de tiuj &#349;tonoj&mdash;en la ordo
+   la&#365; kiu ili estis apudmetitaj, kaj anka&#365; en tiu de
+   la multaj fungoj sternitaj sur ili kaj de la putrintaj arboj
+   &#265;irka&#365;starantaj&mdash;anta&#365; &#265;io en la
+   longtempa seninterrompa da&#365;ro de tiu aran&#285;o kaj en ties
+   duobligo en la trankvilaj akvoj de la lageto. La indicaro&mdash;la
+   indicaro pri tiu sensiveco&mdash;videblis, li diris, (kaj &#265;i
+   tie mi eksaltetis dum li parolis) en la iompostioma tamen neprega
+   kondensado de propra atmosfero ilia &#265;irka&#365; la akvoj kaj
+   la muroj. La rezulto elmontri&#285;is, li aldonis, en tiu silenta,
+   tamen &#285;enega kaj terura influo forminta dum jarcentoj la
+   sortojn de lia familio, kaj farinta de <i>li</i> tion kion mi
+   vidis&mdash;tion kio li nun estis. Komentadon tiaj opinioj
+   malbezonas kaj neniajn komentojn mi faru.
+</p>
+
+<p>
+   Niaj libroj&mdash;la libroj konsistingintaj dum jaroj ne
+   malgrandan parton de la mensa ekzisto de la malsanulo&mdash;nepre
+   ta&#365;gis, kiel oni rajtas supozi, al tiu fantoma karaktero. Ni
+   kunstudis atentege verkojn kiel <i>Verdverdo kaj Verdflavo</i>
+   de Graseto; <i>Belfegoro</i> de Makjavelio; <i>&#264;ielo kaj
+   Infero</i> de Svedenborgo; <i>La Subtera Voja&#285;o de Nikolao
+   Klimo</i> de Holbergo; <i>Kiromancio</i> de Roberto Fludo,
+   tiun de Johano de Inda&#285;ineo, kaj tiun de Dela&#265;ambro;
+   <i>Voja&#285;o en la Bluan Distancon</i> de Tiko, kaj <i>Urbo
+   de la Suno</i> de Kampanelo. Nia plej &#349;atata volumo estis
+   malgranda oktava eldono de <i>Directorium Inquisitorium</i>, de
+   la Dominikano Ejmeriko de &#284;irono; kaj estis parta&#309;oj
+   de <i>Pomponius Mela</i>, pri la malnovaj afrikaj satirusoj kaj
+   egipta&#309;oj super kiuj U&#349;ero
+
+<!-- File: 12.png -->
+
+   sidis en primeditado dum horoj. Plejmulte pla&#265;is
+   al li tamen tralegi precipe raran kaj kuriozan libron
+   en kvartaj gotika&#309;oj&mdash;manlibron de forgesita
+   eklezio&mdash;<i>Vigiliae Mortuorum Chorum Ecclesiae
+   Maguntinae</i>.
+</p>
+
+<p>
+   Mi malsukcesis malpensi pri la sova&#285;a ceremoniaro de tiu
+   verko kaj ties probabla influo sur la hipokondriulon kiam, iun
+   vesperon, dirinte abrupte al mi ke Damo Madelino ne plu ekzistas,
+   li deklaris sian intencon konservi &#349;ian kadavron dum du
+   semajnoj (anta&#365; ties fina enterigo) en unu el la multaj keloj
+   situantaj interne de la &#265;efmuroj de la konstrua&#309;o.
+   La praktikan kialon tamen por tiu malkutima procedo mi pensis
+   malhavi la rajton kontra&#365;stari. Kondukis la fraton al tiu
+   decido (tiel li diris al mi) lia konsiderado pri la malkutima
+   karaktero de la malsano de la mortinto, kelkaj maldiskretaj kaj
+   avidaj demandoj flanke de &#349;iaj kuracistoj, kaj la fora
+   kaj malka&#349;ita loko de la familia tombejo. Mi malneu ke,
+   rememorante la sinistran mienon de la homo kiun mi renkontis
+   sur la &#349;tuparo en la tago de mia alveno &#265;e la domo,
+   mi sentis nenian deziron malaprobi kion mi taksis plej favore
+   maldan&#285;era kaj neniel kontra&#365;natura anta&#365;zorgo.
+</p>
+
+<p>
+   Responde al la peto de U&#349;ero, personamane mi helpis lin
+   aran&#285;i la provizoran entombigon. Kiam la kadavro ekestis
+   en la &#265;erko, ni amba&#365;, kaj nur ni, &#285;in alportis
+   al ties ripozejo. La kelo en kiu ni &#285;in deponis (kaj kiu
+   dum tiom longa tempo restintis en fermado ke niaj tor&#265;oj,
+   duonsufokite en &#285;ia prema atmosfero, disponigis al ni
+   malmultan oportunon por kontrolado) estis malgranda, malseka kaj
+   nepre malhavis rimedon per kiu enirigi lumon; loki&#285;ante, je
+   granda profundeco, neprege sub tiu parto de la konstrua&#309;o
+   kiun enestis mia persona &#265;ambraro. &#284;i plenumis,
+   ver&#349;ajne, en foraj fe&#365;daj epokoj, la malbonegan rolon de
+   karcero kaj, en postaj tagoj, tiun de deponejo por pulvo a&#365;
+   alia ege bruliva materio, &#265;ar parto de ties planko, kaj
+   la tuta interna&#309;o de longa arkopasejo tra kiu ni &#285;in
+   atingis, estis zorge tegita je kupro. La pordego, farite el
+   masiva fero, estis simile &#349;irmita. &#284;ia pezego faris
+   malkutime akutan raspan sonon dum &#285;i movi&#285;is sur siaj
+   &#265;arniroj.
+</p>
+
+<p>
+   Subenmetinte nian mal&#285;ojigan &#349;ar&#285;on sur stablojn
+   en tiu regiono de hororo, ni iom flankenturnis la ankora&#365;
+   mal&#349;ra&#365;bitan kovrilon de la &#265;erko kaj rigardis
+   la viza&#285;on de la enlo&#285;anto. Rimarkinda simileco inter
+   frato kaj fratino nun je la unua fojo altiris mian atenton; kaj
+   U&#349;ero, diveninte eble miajn pensojn, elmurmuris kelkajn
+   vortojn informantajn ke la mortinto kaj li estis ge&#285;emeloj
+   kaj ke &#265;iam ekzistis inter ili simpatioj de apena&#365;
+   komprenebla karaktero. Niaj rigardoj restis tamen malmultlonge
+   sur la virino&mdash;&#265;ar maleblis &#349;in rigardi senmire.
+   La malsano tiel entombiginta &#349;in en la pleneco de la
+   juneco, postlasis, kiel ofte okazas en &#265;iuj malsanoj de ege
+   katalepsia
+
+<!-- File: 13.png -->
+
+   karaktero, la simila&#309;on de pala ru&#285;i&#285;o sur la
+   brusto kaj la viza&#285;o, kaj sur la lipoj tiun suspektinde
+   lantan rideton kiu estas tiel terura en la morto. Ni remetis kaj
+   &#349;ra&#365;bfiksis la kovrilon kaj, &#349;losinte la feran
+   pordegon, sekvis nian vojon, penadege, &#285;is la apena&#365;
+   malpli malgajajn &#265;ambrarojn de la supra parto de la domo.
+</p>
+
+<p>
+   Kaj nun, post kelkaj tagoj de amara lamentado, videbla
+   &#349;an&#285;i&#285;o agis sur la trajtojn de la mensa malsano de
+   mia amiko. Lia kutima maniero malaperis. Siajn ordinarajn okupojn
+   li malatentis a&#365; forgesis. Li vagiradis de &#265;ambro
+   al &#265;ambro kun hasta, malkonstanta kaj sencela pa&#349;o.
+   La paleco de lia viza&#285;o alprenis, se tia&#309;o eblas,
+   pli makabran koloron&mdash;sed la lumeco de liaj okuloj nepre
+   estingi&#285;intis. La anta&#365;e malofta ra&#365;keteco de
+   lia vo&#265;o ne plu a&#365;di&#285;is; kaj tremega vibradeto,
+   kvaza&#365; ka&#365;zite de nepra teruro, karakterizis
+   seninterrompe lian eldiradon. Estis momentoj, efektive, kiam mi
+   pensis ke lia sen&#265;ese agitata menso baraktas sub la pezo
+   de iu premega sekreto por malkovri kiun li penadas naskigi la
+   bezonatan kura&#285;on. Alifoje mi devis konkludi ke &#265;io nur
+   fontas el la malklarigeblaj kapricoj de la frenezio, &#265;ar
+   mi vidis lin spektadi malplenejojn dum horoj, en pozo de la
+   plej profunda atento, kvaza&#365; a&#365;skultante iun imagan
+   sonon. Malmirinde estas ke lia kondi&#265;o min teruris&mdash;min
+   infektis. Mi sentis supervenketi min, &#349;telpa&#349;e sed
+   konstantaritme, la sova&#285;ajn influojn de liaj personaj
+   fantaziaj tamen imponegaj supersti&#265;oj.
+</p>
+
+<p>
+   Estis precipe, kiam mi enliti&#285;is malfruhore en la nokto
+   de la sep-oka tago post kiam ni deponis Damon Madelinon en la
+   karceron, ke mi spertis la plenan potencon de tiaj sentoj. La
+   dormo malkonsentis alproksimi&#285;i mian liton&mdash;dum pli kaj
+   pli forlantis la horoj. Mi penadis nuligi per logika rezonado la
+   nervozecon kiu min regis. Mi strebis kredi ke pri granda parto,
+   se ne pri la tuta&#309;o de tio kion mi sentis, respondecas la
+   mistifika influo de la morna meblaro de la &#265;ambro&mdash;la
+   malhelaj kaj &#265;ifonigitaj drapa&#309;oj kiuj, torture
+   ekvigligite far la spirado de levi&#285;anta &#349;tormo,
+   &#349;anceli&#285;is maltrankvile tien kaj reen sur la muroj kaj
+   susuris malcerte inter la ornama&#309;oj de la lito. Sed miaj
+   klopodoj vanis. Malbridebla tremado invadis iom post iom mian
+   korpon; kaj, finfine, sur mian koron mem sidi&#285;is inkubo de
+   nepre senkiala timo. Forskuante tion per anhelo kaj luktogesto, mi
+   min levis sur la kusenoj kaj, sincerege fiksrigardante la intensan
+   malhelon de la &#265;ambro, a&#365;skultis&mdash;mi malscias
+   la kialon, sed instinkta spirito min instigis&mdash;kelkajn
+   malla&#365;tajn kaj malklarajn sonojn devenantajn, tra la
+   pa&#365;zoj de la &#349;tormo, kaj je longaj intertempoj, mi
+   malsciis de kie. Supervenkite de intensa sento de hororo,
+   neklarigebla kaj netolerebla, &#309;ethaste mi vesti&#285;is
+   (&#265;ar mi pensis ne plu povi dormi dum la nokto) kaj strebis
+   min eligi el la lamentinda kondi&#265;o en kiun mi falintis, per
+   rapida &#265;irka&#365;promenado, tien kaj reen <!-- Error in
+   book: rien -->, en la &#265;ambraro.
+</p>
+
+<!-- File: 14.png -->
+
+<p>
+   Mi plenumis nur kelkajn &#265;irka&#365;iradojn en tiu maniero
+   kiam malpeza pa&#349;sono sur najbara &#349;tuparo min atentigis.
+   Balda&#365; mi &#285;in rekonis kiel tiun de U&#349;ero. La
+   sekvintan momenton li frapsonis, kun delikata tu&#349;o,
+   &#265;e mia pordo kaj eniris, portante lampon. Lia viza&#285;o
+   estis, kiel kutime, kadavre pala&mdash;sed aldone enestis lian
+   rigardon speco de freneza &#285;ojego&mdash;en lia tuta konduto
+   vidi&#285;is speco de ver&#349;ajne retenita <i>histerio</i>.
+   Lia maniero min konsternegis&mdash;sed io ajn prefereblis al la
+   soleco kiun mi tolerintis dum tiom longa tempo, kaj mi e&#265;
+   anta&#365;&#285;uis lian kuneston kiel konsolon.
+</p>
+
+<p>
+   "Kaj &#265;u vi &#285;in ne vidis?" li diris abrupte,
+   &#265;irka&#365;rigardinte fikse en silento dum kelkaj
+   momentoj&mdash;"&#265;u tial vi ne vidis &#285;in?&mdash;nu,
+   atendu! &#285;in vi ja vidos." Tiel parolinte, kaj zorge
+   &#349;irminte sian lampon, li hastis al unu el la fenestroklapoj
+   kaj &#309;etgeste malfermis &#285;in libere anta&#365; la
+   &#349;tormo.
+</p>
+
+<p>
+   La impeta kolerego de la eniranta vento preska&#365; nin levis
+   de sur la piedoj. Temis, efektive, pri &#349;torma tamen severe
+   bela nokto, nokto sova&#285;e aparta pro sia teruro kaj sia
+   beleco. Ver&#349;ajne kirlventego kunamasigintis sian potencon
+   en nia &#265;irka&#365;ejo; &#265;ar okazis oftaj kaj fortegaj
+   &#349;an&#285;i&#285;oj de la blovdirekto de la vento; kaj la
+   preterkutima denseco de la nuboj (kiuj pendis tiel malsupre ke
+   ili premis la turetojn de la domo) ne malhelpis nin percepti la
+   vivecan viglecon je kiuj ili flugis de &#265;iuj punktoj unuj
+   kontra&#365; la aliajn, sen foriri en la distancon. Mi diras
+   ke e&#265; ilia preterkutima denseco ne malhelpis nin percepti
+   tion&mdash;tamen ni &#285;uis nenian ekvidon pri la luno a&#365;
+   la steloj&mdash;nek okazis iu ajn ekbrilo de fulmo. Sed la subaj
+   surfacoj de la enormaj kunamasoj de agitita vaporo, aldone al
+   &#265;iuj surteraj objektoj nin proksime &#265;irka&#365;antaj,
+   ardis en la kontra&#365;natura lumo de malklare scintila kaj klare
+   videbla gasa elspira&#309;o kiu &#265;irka&#365;pendis kaj vualis
+   la domegon.
+</p>
+
+<p>
+   "Vi malrigardu&mdash;vi nepre malrigardu tion!" mi diris,
+   tremegante, al U&#349;ero, dum mi lin kondukis, kun delikata
+   perforto, de la fenestro &#285;is se&#285;o. "&#264;i tiuj
+   apera&#309;oj, kiuj vin konsternas, estas nur ne malkutimaj
+   elektraj fenomenoj&mdash;a&#365; povas esti ke ilia makabra
+   naski&#285;o fontas el la fetora miasmo de la lageto. Ni fermu
+   tiun klapon; la aero estas malvarmiga kaj minacas vian korpon. Jen
+   estas unu el viaj plej &#349;atataj aventurromanoj. Mi legu kaj
+   vi a&#365;skultu; kaj tiel kune ni forpasigu &#265;i tiun teruran
+   nokton."
+</p>
+
+<p>
+   La antikva volumo enmanigita de mi estis <i>Freneza Rendevuo</i>
+   de Kavaliro Lanceloto Kaningo; sed pli por malta&#365;ga
+   &#349;erco ol por serioza aserto mi nomis &#285;in plej
+   &#349;atata libro de U&#349;ero; &#265;ar, efektive, &#285;ia
+   maldeca kaj senimaga longeco enhavis malmulton povantan interesi
+   la altan kaj spiritan idealecon de mia amiko. &#284;i estis tamen
+   la sola &#265;emana libro; kaj mi nutris svagan esperon ke en la
+   ekstremismo mem de la malsa&#285;a&#309;o kiun mi deziris
+
+<!-- File: 15.png -->
+
+   legi (&#265;ar la historio de mensaj malsanoj plenas <!--
+   The apparent bolding of some words here was just a scanning
+   quirk. --> je similaj anomalioj) trovos malstre&#265;i&#285;on
+   la eksciti&#285;o nun agitanta la hipokondriulon. Se mi
+   kura&#285;intus taksi la situacion, efektive, la&#365; la freneza
+   trostre&#265;ita mieno de entuziasmo kun kiu li a&#365;skultis,
+   a&#365; &#349;ajnigis a&#365;skulti, la vortojn de la rakonto,
+   eble mi rajtintus min gratuli pri la sukceso de mia procedo.
+</p>
+
+<p>
+   Mi alvenintis tiun bone konatan parton de la rakonto kie Etelredo,
+   heroo de la Rendevuo, malsukcesinte peti pacan eniron en la
+   lo&#285;ejon de la ermito, entreprenas eniri perforte. &#264;i
+   tie, oni memoru, la rakonto tekstas jene:
+</p>
+
+<p>
+   "Kaj Etelredo, kiu havis nature kura&#285;an koron kaj kiu estis
+   nun des pli forta pro la potenco de la vino kiun li trinkintis,
+   ne plu prokrastis alparoli la ermiton, kiu havis, verdire,
+   obstinan kaj malican karakteron, sed, sentante la pluvon sur siajn
+   &#349;ultrojn, kaj timante pligrandi&#285;on de la &#349;tormo,
+   levis senhezite sian klabon, kaj, per batoj, rapide faris
+   malferma&#309;on por sia gantita mano en la ligna&#309;oj de
+   la pordo; kaj nun tirante fortege, li tiel fendis kaj frakasis
+   kaj disigis &#265;ion ke la bruo de la seka kaj kavsona ligno
+   forsendis e&#293;oan alarmsignalon en la tutan arbaron."
+</p>
+
+<p>
+   Je la fino de tiu frazo mi eksaltetis kaj, dum momento,
+   pa&#365;zis; &#265;ar &#349;ajnis al mi (kvankam tujege mi
+   konkludis ke mia ekscitita fantazio min trompis)&mdash;&#349;ajnis
+   al mi ke, el iu forega parto de la domego atingis, malklare,
+   miajn orelojn, io povanta esti, en sia preciza simileco de
+   karaktero, la e&#293;ado (tamen sufokita kaj malla&#365;ta,
+   kompreneble) de la krak- kaj frakassonoj mem kiujn Kavaliro
+   Lanceloto tiom zorgadetale priskribis. Estis, sendube, nur la
+   koincido kiu fikstenis mian atenton; &#265;ar, inter la klakado
+   de la fenestroklapoj kaj la kutimaj kunmiksitaj bruoj de la ade
+   pliforti&#285;anta &#349;tormo, la sono enhavis en si mem nenion,
+   certe, rajtantan min interesi a&#365; perturbi. Mi da&#365;rigis
+   la rakonton:
+</p>
+
+<p>
+   "Sed la brava &#265;ampiono Etelredo, nun trairinte la pordon, ege
+   koleri&#285;is kaj mistifiki&#285;is perceptante nenian signon
+   pri la malica ermito; sed, anstata&#365;e, renkontante drakon de
+   skvama kaj granddimensia aspekto kaj fajra lango, sidantan en
+   gardpozo anta&#365; palaco de oro, kun planko de ar&#285;ento; kaj
+   sur la muro pendis &#349;ildo de brila latuno surportanta tiun
+   surskribon:
+</p>
+
+<center>
+   <table cellpadding="0" cellspacing="16" border="0" summary="surskribo">
+      <tr><td nowrap class="tutlive">
+         Konkerinto estas kiu &#265;i-tien eniras;<br>
+         Gajnos la &#349;ildon kiu pereigos la drakon;
+      </td></tr>
+   </table>
+</center>
+
+<p>
+   kaj Etelredo levis la klabon kaj frapis la kapon de la drako, kiu
+   falis anta&#365;
+
+<!-- File: 16.png -->
+
+   li, kaj liveris sian pestan spiradon kun &#349;irkriego tiel
+   terura kaj ra&#365;ka, kaj krome tiel penetranta, ke Etelredo
+   sentis la deziron manfermi la orelojn kontra&#365; ties timigega
+   bruo, kies ekvivalento neniam anta&#365;e a&#365;di&#285;is."
+</p>
+
+<p>
+   &#264;i tie denove mi pa&#365;zis <!-- The apparent bolding of
+   some words here was just a scanning quirk. --> abrupte, kaj
+   spertis nun senton de sova&#285;a mirego&mdash;&#265;ar nepre
+   maleblis dubi, en la nuna kazo, ke efektive mi a&#365;dis (kvankam
+   el kiu direkto &#285;i fontis mi malsukcesis diri) malla&#365;tan
+   kaj &#349;ajne foran, tamen ra&#365;kan, da&#365;ran kaj
+   preterkutiman kri- a&#365; gratsonon&mdash;la nepran ekvivalenton
+   de tio kion mia imago jam naskigis por la kontra&#365;natura
+   kriego de la drako tia kian priskribis la rakontisto.
+</p>
+
+<p>
+   Premite, kiel mi ja estis, je la okazo de la dua kaj
+   eksterordinarega koincido, far mil kontra&#365;starantaj sensacoj,
+   en kiuj superis miro kaj terurego, mi retenis tamen sufi&#265;an
+   spiritopretecon por eviti eksciti, per iu ajn komento, la
+   sentivan nervozecon de mia kunestanto. Mi nepre malcertis &#265;u
+   li rimarkis la koncernajn sonojn; kvankam, efektive, dum la
+   lastaj kelkaj minutoj okazis stranga &#349;an&#285;i&#285;o en
+   lia konduto. De pozicio alfrontinta la mian, iom post iom li
+   &#265;irka&#365;movis sian se&#285;on &#285;is &#285;in postenigi
+   en alfrontado al la &#265;ambropordo; tial mi &#285;uis nur
+   duonvidon pri liaj trajtoj kvankam mi konsciis ke liaj lipoj
+   tremetas, kvaza&#365; en nea&#365;debla murmurado. Lia kapo
+   falintis sur sian bruston&mdash;sed mi certis ke li ne estas
+   en la dormo, pro la lar&#285;a kaj rigida malferma&#309;o de
+   la okulo kiam mi ekvidetis &#285;in en profilo. La emocio de
+   lia korpo, cetere, malakordis kun tiu pensado&mdash;&#265;ar
+   li &#349;anceli&#285;is de flanko al flanko kun delikata tamen
+   konstanta kaj sen&#349;an&#285;a svingado. Rapide konsciinte pri
+   &#265;io tio, mi reprenis la rakonton de Lanceloto, kiu tekstis
+   jene:
+</p>
+
+<p>
+   "Kaj nun la &#265;ampiono, eskapinte el la terura furiozo de la
+   drako, pripensante la latunan &#349;ildon kaj la rompon de la
+   &#265;armo &#285;in surku&#349;anta, forigis la kadavron de sur
+   la vojo anta&#365; si kaj alproksimi&#285;is kura&#285;e trans la
+   ar&#285;entan pavimon de la kastelo &#285;is la muro kie pendis
+   la &#349;ildo; kiu verdire ne atendis lian finalvenon, sed sin
+   faligis &#265;e liaj piedoj sur la ar&#285;entan plankon kun
+   grandega kaj sonorega brua&#265;o."
+</p>
+
+<p>
+   Tujege post kiam tiuj silaboj trapasis miajn
+   lipojn&mdash;kvaza&#365; efektive en tiu momento latuna &#349;ildo
+   falis peze sur ar&#285;entan plankon&mdash;mi perceptis
+   distingan, kavsonan, metalan kaj sonoregan, sed &#349;ajne
+   dampitan ree&#293;adon. Entute maltrankviligite, mi stari&#285;is
+   eksalte; sed la konstanta sinlulado de U&#349;ero da&#365;ris
+   seninterrompe. Mi alhastis la se&#285;on sur kiu li sidis.
+   Lia rigardo estis fiksfleksita anta&#365; li kaj tra lia tuta
+   viza&#285;o regis &#349;tona rigideco. Sed, dum mi metis la manon
+   sur lian &#349;ultron, forta tremego skuis lian tutan korpon;
+   malsaneca rideto tremetis &#265;irka&#365; liaj lipoj; kaj mi
+   vidis ke li parolas
+
+<!-- File: 17.png -->
+
+   en malla&#365;ta, hasta, galimatia murmurado, kvaza&#365;
+   malkonsciante pri mia &#265;eesto. Klini&#285;ante proksime super
+   li, finfine mi komprenis la teruran signifon de liaj vortoj.
+</p>
+
+<p>
+   "Mala&#365;di &#285;in?&mdash;tute kontra&#365;e, mi ja
+   a&#365;das &#285;in kaj jam anta&#365;e &#285;in a&#365;dis.
+   De longaj&mdash;longaj&mdash;longaj&mdash;multaj minutoj,
+   multaj horoj, multaj tagoj, mi a&#365;das &#285;in&mdash;tamen
+   mi malkura&#285;is&mdash;ho, kompatu min, mizeran mizerulon
+   kiu mi estas!&mdash;mankis al mi la kura&#285;o&mdash;mankis
+   la <i>kura&#285;o</i> ekparoli! <i>Ni entombigis &#349;in
+   viva!</i> &#264;u mi ne diris ke miaj sensoj estas akutaj?
+   Mi <i>nun</i> diru al vi ke mi a&#365;dis &#349;iajn unuajn
+   malfortajn movi&#285;ojn en la kava &#265;erko. Mi a&#365;dis
+   ilin&mdash;anta&#365; multaj, multaj tagoj&mdash;tamen mankis al
+   mi la kura&#285;o&mdash;<i>mankis la kura&#285;o ekparoli</i>!
+   Kaj nun&mdash;hodia&#365;nokte&mdash;Etelredo&mdash;ho!
+   ho!&mdash;la rompo de la pordo de la ermito, kaj la mortokriego
+   de la drako, kaj la sonorego de la &#349;ildo!&mdash;ni diru,
+   anstata&#365;e, la frakaso de &#349;ia &#265;erko kaj la grincado
+   de la feraj &#265;arniroj de la karcero kaj &#349;iaj baraktoj
+   interne de la latuntegita arkopasejo de la kelo! Ho, kien mi
+   forrapidu? &#264;u balda&#365;ege &#349;i ne aperos &#265;i
+   tie? &#264;u &#349;i ne hastas por ripro&#265;i min pri mia
+   senkonsiderado? &#264;u mi ne a&#365;dis &#349;iajn pa&#349;ojn
+   sur la &#349;tuparo?&mdash;&#264;u mi ne perceptas tiun pezan
+   kaj teruran batadon de &#349;ia koro? FRENEZULO!" &#264;i tie li
+   saltstari&#285;is furioze, elkriegante siajn silabojn, kvaza&#365;
+   en la strebado li rezignus sian animon. "FRENEZULO! MI DIRAS AL VI
+   KE &#348;I NUN STARAS ALIFLANKE DE LA PORDO!"
+</p>
+
+<p>
+   Kvaza&#365; en la preterhoma energio de lia eldiro eltrovi&#285;is
+   la potenco de iu sor&#265;o&mdash;la grandegaj antikvaj paneloj
+   kiujn la parolinto indikis pergeste, malfermis malrapide, en
+   tiu momento, siajn pezegajn kaj ebonajn makzelojn. Tio estis
+   la faro de la hastega ekblovo&mdash;sed tiam ekstere de tiuj
+   pordoj ja staris la alta kaj envolvita figuro de Damo Madelino
+   de U&#349;ero. Estis sango sur &#349;iaj blankaj roboj kaj la
+   indicoj de kruela luktado sur &#265;iu ha&#365;tero de &#349;ia
+   marasmigita framo. Dum momento &#349;i restis tremante kaj
+   &#349;anceli&#285;ante de flanko al flanko sur la sojlo, tiam, kun
+   malla&#365;ta &#285;emanta krio, enfalis pezege sur la korpon de
+   sia frato kaj en siaj perfortaj kaj nun finaj mortodoloregoj, lin
+   faligis surplanken, kadavron kaj viktimon de la teruroj kiujn li
+   anta&#365;timis.
+</p>
+
+<p>
+   El tiu &#265;ambro kaj el tiu domego mi fu&#285;is konsternigite.
+   La &#349;tormo da&#365;re agis kun sia tuta furiozo dum mi min
+   trovis transiranta la malnovan digvojon. Subite pafiris la&#365;
+   la vojo sova&#285;a lumo kaj mi turni&#285;is por vidi de kie
+   devenis tiel malkutima brilego; &#265;ar restis malanta&#365;
+   mi nur la vasta domo kaj ties ombroj. La brilego fontis el
+   plena, subi&#285;anta, sangoru&#285;a luno kiu nun scintilis
+   klarege tra tiu anta&#365;e apena&#365; videbla fendi&#285;o
+   kiu, la&#365; mia pli frua priskribo, etendi&#285;is ekde la
+   tegmento de la konstrua&#309;o, en zigzaga direkto, &#285;is ties
+   bazo. Dum mi spektadis, tiu fendi&#285;o plilar&#285;i&#285;is
+   rapidege&mdash;senti&#285;is
+
+<!-- File: 18.png -->
+
+   feroca ekspiro de la kirlvento&mdash;la tuta orbo de la
+   satelito aperis subite anta&#365; mia rigardo&mdash;mia cerbo
+   &#349;anceli&#285;is dum mi vidis disi&#285;i hastege la potencajn
+   murojn&mdash;a&#365;di&#285;is longa tumulta kriegado kvaza&#365;
+   la sono de mil akvoj&mdash;kaj la profunda kaj mucida lageto
+   &#265;e miaj piedoj fermi&#285;is moroze kaj silente sur la eroj
+   de "<b>U&#348;ERO-DOMO</b>."
+</p>
+
+<!-- File: 19.png -->
+
+<!-- File: 20.png -->
+
+<hr align="center" width="62%" style="margin-top: 4em; margin-bottom: 4em">
+
+<div class="centre" style="margin-top: 4em; margin-bottom: 2em">
+   <b>NOVELOJ DE USONAJ VERKISTOJ</b><br>
+   Esperantigitaj de EDWIN GROBE<br>
+   kaj<br>
+   Haveblaj &#265;e ELNA LIBROSERVO<br>
+   P.O. Box 1129, El Cerrito, CA 94530, Usono
+</div>
+
+<b>ALCOTT, LOUISA MAY</b>: MIA KONTRABANDULO<br>
+
+<b>ANDERSON, SHERWOOD</b>: TRI NOVELOJ ("La Morto en la Arbaro,"
+"La Reveno," "La Perdita Romano")<br>
+
+<b>FITZGERALD, F. SCOTT</b>: LA DIAMANTO TIEL GRANDA KIEL
+RIC-HOTELO<br>
+
+<b>HAWTHORNE, NATHANIEL</b>: TRI NOVELOJ ("La Eksperimento de
+D-ro Hejdegero," "La Nigra Vualo de la Pastoro," "Juna Bonulo
+Bra&#365;no")<br>
+
+<b>IRVING, WASHINGTON</b>: LA LEGENDO DE DORM-VALETO<br>
+
+<b>IRVING, WASHINGTON</b>: TRI NOVELOJ ("Ripo van-Vinklo," "Al la
+Leganto," "Aventuro de la Germana Studento")<br>
+
+<b>JAMES, HENRY</b>: LA TURNO DE LA &#348;RA&#364;BO (en tri
+libretoj: I, II, III)<br>
+
+<b>POE, EDGAR ALLAN</b>: LA FALO DE U&#348;ERO-DOMO<br>
+
+<b>POE, EDGAR ALLAN</b>: LA MURDOJ DE KADAVREJO-STRATO<br>
+
+<b>POE, EDGAR ALLAN</b>: TRI NOVELOJ ("La Barelo de Amontilado,"
+"La Denuncema Koro," "Manuskripto Trovita en Botelo")<br>
+
+<b>TWAIN, MARK</b>: TRI CETERAJ NOVELOJ ("La Amaventuro de
+la Eskimoa Fra&#365;lino," "Kanibalismo en la Vagonoj,"
+"Bon&#349;anco")<br>
+
+<b>TWAIN, MARK</b>: TRI NOVELOJ ("Konfeso de Mortanto," "La
+Fifama Saltanta Rano de Kalavero-Konteo," "La Rakonto pri la
+Malbonkonduta Knabeto")<br>
+
+<b>WHARTON, EDITH</b>: ALIAJ TEMPOJ<br>
+
+<b>WHARTON, EDITH</b>: LA LONGA DA&#364;RO<br>
+
+
+
+
+
+
+
+
+
+
+
+
+<pre>
+
+
+
+
+
+End of the Project Gutenberg EBook of La Falo de Usxero-Domo, by Edgar Poe
+
+*** END OF THIS PROJECT GUTENBERG EBOOK LA FALO DE USXERO-DOMO ***
+
+***** This file should be named 17425-h.htm or 17425-h.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/1/7/4/2/17425/
+
+Produced by Robert L. Read, William Patterson and the
+Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+
+</pre>
+
+</body>
+
+</html>
+
+

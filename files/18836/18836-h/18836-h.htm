@@ -1,0 +1,2490 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<!--
+
+Some comments about the postprocessing of this ebook, which might be
+useful someday for other postprocessors, or for me when I work on
+another such book and can't remember how I did something before...
+
+For consistency, I've used the same styles as I did in the other
+GROBE books. The originals are all formatted similarly.
+
+I've retained some proofers' comments (and added some more during
+postprocessing!) in this HTML version, commented of course, related
+to things like errors in the book which I hope nobody ever "fixes"
+back to the way it is in the original!
+
+Words which have been corrected in this Gutenberg etext are marked
+by the comment "Error in book:" or some such.
+
+In two places I substituted ticks for quotes, where something was
+quoted within a quote.
+
+I used Vim (http://www.vim.org/) for most editing, but I used UniRed
+(http://www.esperanto.mv.ru/UniRed/) for spellchecking and conversion
+between iksismo, numerical character entities, and utf8 ascii. Be
+aware of some UniRed features I discovered: 1) All hexadecimal Unicode
+entities are converted to decimal (*throughout the file*) when it is
+saved. That may be good or bad, depending on your personal preference.
+I prefer hexadecimal, but decimal doesn't bother me too much, and one
+can still enter them as hexadecimal. 2) Windowy ASCII characters with
+the high bit set, that is, in the range [128..255] may be corrupted. For
+example, "naive" with an i-dieresis is converted to "na&#64933;". Be
+sure to convert such characters to Unicode *before* your first UniRed
+save!
+
+Note concerning HR width: 38% = 1 - GoldenRatio.
+
+Notes to myself inre dashes:
+   Validator doesn't like &#151; Use &mdash; or Unicode &#8212;
+   Unicode nonbreaking hyphen: &#8209;
+   Also, &ndash; = Unicode &#8211;
+
+                                  - William W. Patterson, AKA Ailanto
+
+-->
+
+<head>
+   <title>Edith WHARTON : Aliaj Tempoj</title>
+   <!-- Apparently the W3C HTML Validator *requires* Content-Type
+   tag or one of the other comparable things now. -->
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <style type="text/css">
+      body { margin-left: 5%; margin-right: 5% }
+      p.centre, div.centre, td.centre { text-align: center }
+      p.tutdekstre, div.tutdekstre, td.tutdekstre { text-align: right }
+      p.tutlive, div.tutlive, td.tutlive, blockquote.tutlive { text-align: left }
+      p.dekstre, div.dekstre, td.dekstre, blockquote.dekstre { text-align: left; margin-left: 2em }
+      p.live, div.live, td.live { text-align: right; margin-right: 2em }
+      .titolo { font-size: 125%; font-weight: bold; text-align: center; margin-top: 4em; margin-bottom: 1em }
+      .subtitolo { font-size: 110%; font-weight: bold; text-align: center; margin-top: 1em; margin-bottom: 1em }
+      .partotitolo { font-size: 110%; text-align: center; margin-top: 2em; margin-bottom: 2em }
+      .dike { font-weight: bold }
+      .italike { font-style: italic }
+      .grandege { font-size: 225% }
+      .grande { font-size: 125% }
+      .grandete { font-size: 115% }
+      .mezgrande { font-size: medium }
+      .malgrandete { font-size: 85% }
+      .malgrande { font-size: 70% }
+      .malgrandege { font-size: 55% }
+      .pligrande { font-size: larger }
+      .plimalgrande { font-size: smaller }
+   </style>
+</head>
+
+<body>
+
+
+<pre>
+
+The Project Gutenberg EBook of Aliaj Tempoj, by Edith Wharton
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Aliaj Tempoj
+
+Author: Edith Wharton
+
+Translator: Edwin Grobe
+
+Release Date: July 16, 2006 [EBook #18836]
+
+Language: Esperanto
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK ALIAJ TEMPOJ ***
+
+
+
+
+Produced by Robert L. Read, William Patterson and the
+Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+</pre>
+
+
+<!-- File: 01.png -->
+
+<div class="grande centre italike" style="margin-top: 0; margin-bottom: 2em">
+   KLASIKAJ USONAJ NOVELOJ
+</div>
+
+<div class="grande italike centre" style="margin-bottom: 2em">
+   EDITH WHARTON<br>
+   (&#265;.1861-1937)
+</div>
+
+<div class="grandege dike centre italike" style="margin-bottom: 1em">
+   ALIAJ TEMPOJ
+</div>
+
+<div class="italike centre" style="margin-bottom: 4em">
+   Esperantigis<br>
+   EDWIN GROBE
+</div>
+
+<div class="italike centre" style="margin-bottom: 4em">
+   1999<br>
+   Eldonejo-Arizona-Stelo<br>
+   1620 North Sunset Drive<br>
+   Tempe, Arizona 85281-1550<br>
+   Usono
+</div>
+
+<!-- File: 02.png -->
+
+<div class="malgrandete centre" style="margin-bottom: 2em">
+   EDITH WHARTON<br>
+   "ALIAJ TEMPOJ"<br>
+   Unua Eldono: Februaro 1999
+</div>
+
+<div class="malgrandete centre" style="margin-bottom: 4em">
+   Origina Anglalingva Titolo:<br>
+   "AUTRES TEMPS"
+</div>
+
+<!-- Removed copyright notice; S-ro. Grobe released this book into public domain. -->
+
+<!-- File: 03.png -->
+
+<div class="titolo">
+   ALIAJ TEMPOJ
+</div>
+
+<p>
+   S-rino Lidkoto, dum la giganta minaca Nov-Jork-amaso sin difinis
+   transakve, retiri&#285;is ka&#365;re en sian angulon de la ferdeko kaj
+   sidis a&#365;skultante kun speco de mallogika teruro la konstantan
+   anta&#365;enirantan peladon de la helicoj.
+</p>
+
+<p>
+   Komence, &#349;i survoji&#285;is sufi&#265;e trankvile&mdash;en sinteno kiun &#349;i nomis
+   "bonsenca"&mdash;sed la surmara semajno disponigis al &#349;i tro da tempo por
+   pripensi aferojn kaj lasis &#349;in dum tro longa tempo en soleco kun la
+   pasinteco.
+</p>
+
+<p>
+   Kiam &#349;i estis sola, &#265;iam estis la pasinteco kiu altiris &#349;ian
+   atenton. &#348;i ne kapablis sin distancigi de &#285;i kaj ne plu deziris
+   fari tion. Dum siaj longaj ekziljaroj &#349;i sukcesis akordi&#285;i kun &#285;i,
+   lernis konsenti pri tio ke &#285;i estos &#265;iam tie, kolosa, obstrukca,
+   &#285;enpeza, pli granda kaj pli impona ol io ajn elvokota far la
+   estonteco. Kaj, &#265;iuokaze, &#349;i certis pri &#285;i, komprenis &#285;in,
+   scipovis &#285;in pritrakti. &#348;i jam lernis kiel kamufli kaj prizorgi kaj
+   &#349;irmi &#285;in same kiel oni agas pri suferanta samfamiliano.
+</p>
+
+<p>
+   La eblo ke &#349;i forgesu la pasintecon neniam bon&#349;ancis sin prezenti
+   al &#349;i. &#284;i rigardis &#349;in el la viza&#285;o de &#265;iu konato, &#285;i
+   aperis subite en la okuloj de nekonatoj kiam ununura vorto ilin
+   komprenigis: "Jes, <i>tiu</i> S-rino Lidkoto, &#265;u vi ne scias?" &#284;i
+   elstari&#285;is salte anta&#365; &#349;i en la unua surmara tago kiam, trans
+   la man&#285;&#265;ambro <!-- Error in book: mangxcambro -->, ekde
+   la tablo de la kapitano, &#349;i vidis pa&#365;zi la migrantan lorneton de
+   S-rino Lorino Bul&#285;ero kaj blanki&#285;i kiel faligitan rolkurtenon la
+   okulon malanta&#365; &#285;i. La sekvintan tagon, kompreneble, la kapitano
+   demandis: "&#264;u vi konas vian ambasadorinon, S-rinon Bul&#285;eron?" kaj
+   &#349;i respondis ke ne, &#349;i malofte forlasas Florencon kaj ne vizitis
+   Romon dum pli ol unu tago ekde kiam Ges-roj Bul&#285;ero atingis sian
+   Italian postenon. &#348;i tiel alkutimi&#285;is al tiuj frazoj ke &#349;i ripetis
+   ilin sen&#285;ene. Kaj la kapitano tuj &#349;an&#285;is la temon.
+</p>
+
+<p>
+   Ne, kutime ne &#285;enis &#349;in pripensi la pasintecon &#265;ar &#349;i jam
+   alkutimi&#285;is al &#285;i kaj &#285;in komprenis. &#284;i estis granda konkreta
+   fakto staranta sur &#349;ia vojo kiun necesis ke &#349;i &#265;irka&#365;iru &#265;iun
+   fojon kiam &#349;i movi&#285;is en iu ajn direkto. Sed nun, la&#365; la lumo de
+   la malfeli&#265;a evento &#349;in alvokinta el Italio&mdash;la subita neatendita
+   anonco pri la eksedzi&#285;o de &#349;ia filino kaj Horaco Pur&#349;o kaj la
+   reedzini&#285;o de tiu filino kun Vilburo Barklejo&mdash;la pasinteco, &#349;ia
+   aparta mizera pasinteco, elstari&#285;is anta&#365; &#349;i kun akuzaj okuloj,
+   fari&#285;is, la&#365; &#349;ia senordigita fantazio, kiel afliktita parenco
+   subite eskapinta de la flegistinoj kaj prizorgantoj kaj paradiganta
+   publike la hororon kaj mizeron kiujn, dum la longaj jaroj, &#349;i tiom
+   pacience &#349;irmis kaj izolis.
+</p>
+
+<p>
+   Jes, jen &#285;i staris anta&#365; &#349;i dum la agititaj semajnoj post la
+   alveno de la nova&#309;o&mdash;dum &#349;ia senfina voja&#285;o el Hindio kie atingis
+   &#349;in la informletero de Leilino kaj la febra halto &#265;e &#349;ia lo&#285;ejo
+   de Florenco kie necesis ke &#349;i pa&#365;zu kaj amasigu siajn hava&#309;ojn
+   por komenci novan survoji&#285;on&mdash;jen &#285;i staris mokridetante al &#349;i
+   kun nova malbona&#365;guro &#349;ajnanta diri: "Ho, sed <i>nun</i> vi devas
+   min rigardi, &#265;ar mi estas ne nur via propra pasinteco sed anka&#365; la
+   nuntempo de Leilino."
+</p>
+
+<p>
+   Certe estis majstra tu&#349;o de tiuj &#265;efironiistinoj de tondilo kaj
+   &#349;pinilo kiam ili elektis duobligi la sorton de la patrino en tiu de
+   la filino. S-rino Lidkoto &#265;iam imagis
+
+<!-- File: 04.png -->
+
+   iom makabre ke, tiel rimarkinde malsukcesinte utili al Leilino en
+   aliaj manieroj, almena&#365; &#349;i povos roli kiel avertilo. &#348;i e&#265;
+   malkonsentis sin defendi, prezenti sian kazon en la plej bona lumo,
+   stoike malbonvolis priparoli mildigintajn cirkonstancojn, por ke la
+   senpripensa kompato de Leilino ne naskigu konkludojn povantajn efiki
+   katastrofe sur &#349;ian propran vivon. Kaj nun okazis tia&#309;o mem kaj
+   S-rino Lidkoto imagis a&#365;di la tutan Nov-Jorkon diri unuvo&#265;e: "Jes,
+   Leilino faris la sama&#309;on kiun faris &#349;ia patrino. Kun tia ekzemplo
+   &#265;u oni rajtas esperi alia&#309;on?"
+</p>
+
+<p>
+   Tamen se &#349;i estis ekzemplo, kompatindulino, &#349;i estis a&#265;a ekzemplo.
+   &#348;i estintus, la&#365;supoze, pli utila kiel deturnilo ol cent senkulpaj
+   patrinoj kiel stimuliloj. &#264;ar kiel kura&#285;intus ripeti eksperimenton
+   tiel katastrofan iu ajn vidinta ajnan eron de &#349;ia vivo de la dek ok
+   pasintaj jaroj?
+</p>
+
+<p>
+   Nu, en tiaj kazoj malgravas logiko, malgravas ekzemplo, gravas nenio
+   probable krom havi la samajn impulsojn en la sango; kaj jen estis la
+   malhela hereda&#309;o kiun &#349;i donacis al sia filino. Leilino ne imitis
+   &#349;in konscie, &#349;i nur "postsimilis" &#349;in, estis projekcia&#309;o de &#349;ia
+   propra forpasinta ribelado.
+</p>
+
+<p>
+   S-rino Lidkoto beda&#365;regis, en la komenco de la voja&#285;o, ke la
+   &#349;ipo "Utopio" estas malrapida vaporveturilo kaj bezonos ok tutajn
+   tagojn por &#349;in alvenigi al &#349;ia malfeli&#265;a filino. Sed nun, kiam
+   alproksimi&#285;is la momento de rerenkonti&#285;o, bonvole &#349;i re&#285;irintus
+   la boaton kaj revenfu&#285;intus sur la altajn marojn. Temis ne nur
+   pri tio ke &#349;i sentis sin malpreta por alfronti la estontecon &#349;in
+   atendantan en Nov-Jorko sed anka&#365; ke &#349;i bezonis pli da tempo por
+   aran&#285;i kion "Utopio" jam havigis al &#349;i. La pasinteco estis jam
+   sufi&#265;e malbona sed la nuna tempo kaj la estonteco estis pli malbonaj
+   &#265;ar ili estis malpli kompreneblaj kaj &#265;ar, dum &#349;i pli a&#285;i&#285;is,
+   surprizoj kaj senkonsekvencoj &#285;enis &#349;in pli ol la plej malbonaj
+   certa&#309;oj.
+</p>
+
+<p>
+   Estis, ekzemple, S-rino Bul&#285;ero. La&#365; la helo, a&#365;
+   anstata&#365;e la malhelo, de novaj okazinta&#309;oj, la vero povus
+   esti ke S-rino Bul&#285;ero ne intencis &#349;in malagnoski, sed
+   nur malsukcesis &#349;in rekoni. S-rino Lidkoto konceptis tiun
+   hipotezon a&#365;skultante la konversacion de la personoj sidantaj
+   apud &#349;i sur la ferdeko&mdash;du viglaj junaj virinoj portantaj
+   surkape la plej lastatempajn Parizajn &#265;apelojn kaj enkape
+   la plej lastatempajn Nov-Jorkajn ideojn. Tiuj virinoj, pri kiuj
+   maleblintus al homo havanta la malnovtempajn kategoriojn de S-rino
+   Lidkoto taksi &#265;u ili estas edzinoj a&#365; fra&#365;linoj,
+   &#265;u bonkondutaj a&#365; malbonkondutaj, &#265;u ili havas iujn
+   ajn el la ceteraj precizaj trajtoj kiujn junaj virinoj de &#349;iaj
+   juneco kaj socia rango devis havi, elmontris konon pri la Nov-Jorka
+   mondo kiu denove la&#365; la tradicioj de S-rino Lidkoto, devintus
+   sugesti sekuran rangon en &#285;i. Sed en la fluida stato de la
+   aktuala socia etiketo, kion sugestis io ajn krom tio kion sugestis
+   iliaj &#265;apeloj&mdash;ke neniu scipovas anta&#365;scii kio estas
+   okazonta poste?
+</p>
+
+<p>
+   Ili &#349;ajnis, almena&#365;, frekventi aron da senokupaj kaj ri&#265;egaj homoj
+   estigantaj la samajn gestojn kaj girantaj sur la samaj pivotoj kiel
+   la filino de S-rino Lidkoto kaj la amikinoj de tiu: iliaj Korinoj
+   kaj Matinoj kaj Mabelinoj &#349;ajnis esti balda&#365; malka&#349;ontaj konatajn
+   familinomojn kaj foje unu el la parolantinoj, resumante diskutadon
+   kies komencon S-rino Lidkoto ne a&#365;dis, proklamis kun impeta memfido:
+   "&#264;u Leilino?
+
+<!-- File: 05.png -->
+
+   Ho, <i>Leilino</i> bonfartas."
+</p>
+
+<p>
+   &#264;u povus temi pri <i>&#349;ia</i> Leilino, scivolis la patrino kun
+   akra tremeto de anksieco? Se ili nur konsentus mencii familinomojn!
+   Sed ilia interparolado saltetis elipse de aludo al aludo, iliaj
+   interrompitaj frazoj pendis super senfundaj fosa&#309;oj da konjektado
+   kaj ili naskigis en sia perpleksigita a&#365;skultanto la senton ke ili
+   parolas malpli pri siaj intimaj amikoj ol pri la tuta vivanta homaro.
+</p>
+
+<p>
+   &#348;ia malnova amiko Franklino Ido povintus informi &#349;in eble. Sed jen
+   estis la lasta tago de la voja&#285;o kaj &#349;i ne ankora&#365; estigis la
+   kura&#285;on peti tion de li. Kiom ajn grandega estis la &#285;ojo kiun &#349;i
+   spertis ekvidinte lian nomon sur la pasa&#285;erlisto kaj lian amikan
+   barbhavan viza&#285;on en la homamaso staranta apud la ferdeka balustrado
+   &#265;e &#264;erburgo, ankora&#365; &#349;i nenion diris al li krom en la momento de
+   ilia renkonti&#285;o: "Kompreneble, mi iras &#265;e Leilino."
+</p>
+
+<p>
+   &#348;i diris nenion al Franklino Ido &#265;ar &#265;iam &#349;i hezitis instinkte
+   enigi lin en sian intimularon. &#348;i certis ke li kompatas &#349;in, pli
+   kompatas &#349;in eble ol iu ajn alia. Sed &#265;iam li honoris &#349;in plej
+   altagrade malkonsentante elmontri tiun kompaton. Lia sinteno permesis
+   &#349;in imagi ke tiu kompato ne estas la bazo de lia sento pri &#349;i kaj
+   parto de &#349;ia &#285;ojo pri lia amikeco kun &#349;i konsistis el tio ke
+   la&#365;&#349;ajne tio estis &#349;ia ununura socia rilato ne dependanta de &#349;ia
+   socia stato, la ununura rilato en kiu &#349;i povis pensi kaj senti kaj
+   konduti kiel iu ajn alia virino.
+</p>
+
+<p>
+   Nun, tamen, dum la problemo de Nov-Jorko pliproksimi&#285;is, &#349;i
+   komencis beda&#365;ri ne esti parolinta, almena&#365; ne esti pridemandinta
+   lin pri la aludoj suba&#365;ditaj de &#349;i survoje. Li ne konis la du
+   virinojn apud &#349;i, li e&#265; neniam bon&#349;ancis ekkoni S-rinon Lorinon
+   Bul&#285;eron. Tamen li konis Nov-Jorkon kaj Nov-Jorko estis la sfinkso
+   kies enigmon necesus al &#349;i eklegi por ne perei.
+</p>
+
+<p>
+   En preska&#365; la sama momento kiam la penso trapasis &#349;ian menson, liaj
+   klini&#285;antaj &#349;ultroj kaj grizhara kapo reliefi&#285;is kontra&#365; la lumo
+   brileganta en la okcidento kaj li promenetis la&#365; la malplena ferdeko
+   kaj sin faligis en la &#349;in apudantan se&#285;on.
+</p>
+
+<p>
+   "Vi atendas ke la Barklejoj alvenu renkonti vin, &#265;u mi rajtas
+   supozi?" li demandis.
+</p>
+
+<p>
+   Neniam anta&#365;e &#349;i a&#365;dis iun eldiri la novan nomon de &#349;ia filino
+   kaj eniris &#349;ian menson la subita penso ke &#349;ia amiko, kiu estis
+   timida kaj malklaresprima, jam dum la tuta voja&#285;o klopodis eldiri
+   &#285;in kaj finfine eligis &#285;in pafritme anta&#365; &#349;i supozante ke se ne
+   okazas nun la ta&#365;ga momento, &#285;i okazos neniam.
+</p>
+
+<p>
+   "Mi ne scias. Kompreneble, mi kablogramis. Sed mi opinias ke &#349;i&mdash;ke
+   ili&mdash;estas ie &#265;e <i>li</i>."
+</p>
+
+<p>
+   "Ho, &#265;e Barklejo. Jes, proksime al Lenokso, &#265;u ne? Sed certe &#349;i
+   alvenos la urbon por vin renkonti."
+</p>
+
+<p>
+   Li diris tion tiel facile kaj nature ke mildi&#285;is &#349;ia propra
+   malkomforto kaj subite, anta&#365; ol scii kion &#349;i intencas fari, &#349;i
+   ekhipotezis: "Povas esti ke ne pla&#265;as al &#349;i intermiksi&#285;i kun
+   homoj."
+</p>
+
+<p>
+   Ido, kies malatenta miopa rigardo fiksi&#285;is sur la malrapide fluantan
+   akvon, turni&#285;is sur sia se&#285;o por rigardi sian kunulinon.
+</p>
+
+<!-- File: 06.png -->
+
+<p>
+   "Kiu? &#264;u Leilino?" li diris kun nekredema rido.
+</p>
+
+<p>
+   S-rino Lidkoto ru&#285;i&#285;is &#285;is sia senkolori&#285;inta
+   hararo kaj repali&#285;is. "Necesis al <i>mi</i> multe da
+   tempo&mdash;por alkutimi&#285;i al &#285;i," &#349;i diris.
+</p>
+
+<p>
+   Lia rigardo kompati&#285;is milde, "Miaopinie, vi ekscios"&mdash;li pa&#365;zis
+   ser&#265;ante ta&#365;gan vorton&mdash;"ke la situacio estas alia nun&mdash;nepre pli
+   facila."
+</p>
+
+<p>
+   "Jen pri kio mi scivolas&mdash;jam ekde nia survoji&#285;o." Nun &#349;i
+   nepre intencis paroli. &#348;i pliproksimi&#285;is, pro kio iliaj brakoj
+   intertu&#349;i&#285;is kaj &#349;i rajtis malla&#365;tigi la vo&#265;on &#285;is nura
+   murmurado. "Vi vidu, mi &#265;ion komprenis en fulmrapida ekpenso.
+   Mia foriro al Hindio kaj Siamo por tiu longa voja&#285;o min senigis
+   je leteroj dum sinsekvaj semajnoj. Kaj &#349;i ne deziris informi min
+   anta&#365; la voja&#285;o. Ho, <i>tion</i> mi komprenas, kompatinda knabino!
+   Vi scias kiom komplezema &#349;i estis &#265;iam por mi, kiel &#349;i strebis
+   indulgi min. Kaj &#349;i sciis, kompreneble, en kia horora mensostato
+   mi estos. &#348;i sciis ke mi dezirus ekhasti tujege &#285;is &#349;i kaj
+   entrepreni haltigi la aferon. Tial &#349;i havigis al mi neniam ajnan
+   indicon pri io ajn kaj &#349;i e&#265; sukcesis silentigi la bu&#349;on al Suzino
+   Suferno&mdash;vi scias ke Suzino estas tiu aparta familiano kiu tenas min
+   en sciado pri &#265;ehejmaj okazinta&#309;oj. Mi &#285;is nun ne komprenas kiel
+   &#349;i malebligis ke Suzino informu min. Sed tion &#349;i faris. Kaj &#349;ia
+   unua letero&mdash;tiu kiun mi ricevis en Bankoko&mdash;diris nur ke la afero
+   finplenumi&#285;is&mdash;la eksedzi&#285;o, mi voldiras&mdash;kaj ke en la sekvonta
+   tago mem &#349;i klopodos&mdash;nu, mi supozas ke ne utilis atendi. Kaj
+   <i>li</i> &#349;ajne kondutis kiel eble plej bone, dezirinte edzi&#285;i kun
+   &#349;i tiom kiel&mdash;"
+</p>
+
+<p>
+   "Kiu? &#264;u Barklejo?" li helpis &#349;in. "Mi diru ke jes! Nu kion vi
+   supozas&mdash;?" Li sin interrompis. "Li estos sindona por &#349;i, mi vin
+   certigu."
+</p>
+
+<p>
+   "Ho, kompreneble. Mi certas pri tio. Li skribis leteron al mi&mdash;vere
+   belegan leteron. Sed tia&#309;o trudas peze al la sindono de tia viro. Mi
+   ne certas ke Leilino konscias&mdash;"
+</p>
+
+<p>
+   Denove Ido a&#365;digis sian etan trankviligan ridon. "Mi ne certas ke
+   konscias vi. <i>Ili</i> bonfartas."
+</p>
+
+<p>
+   Tio estis la sama frazo kiun aplikis al la nekonata "Leilino" la juna
+   virino sidanta en la apuda se&#285;o kaj &#285;ia reveno sur la lipoj de Ido
+   ru&#285;igis la vangojn de S-rino Lidkoto je fre&#349;a kura&#285;o.
+</p>
+
+<p>
+   "Pla&#265;us al mi ekscii precize kion vi volas diri. La du junaj virinoj
+   sidantaj apud mi&mdash;tiuj surportantaj la mirindajn &#265;apelojn&mdash;parolis
+   en la sama maniero."
+</p>
+
+<p>
+   "Kio? &#264;u pri Leilino?"
+</p>
+
+<p>
+   "Pri <i>iu</i> Leilino. Mi imagis ke povas temi pri la mia. Kaj pri
+   la socio, &#285;eneralmaniere. &#264;iuj iliaj amikinoj &#349;ajne eksedzini&#285;is.
+   Iuj el ili &#349;ajne anoncas novan fian&#265;ini&#285;on anta&#365; la oficiala
+   plenumo de sia eksedzini&#285;o. Unu el ili&mdash;<i>&#349;i</i> nomi&#285;is
+   Mabelino&mdash;se mi bone komprenis, &#349;ia edzo eksciis ke &#349;i celas
+   eksedzini&#285;i disde li kiam li rimarkis novan fian&#265;ini&#285;ringon sur
+   &#349;ia fingro."
+</p>
+
+<p>
+   "Nu, vi vidas ke Leilino faris &#265;ion <!-- I substitute ticks
+   for quotes because the following bit was quoted within a quote: -->
+   'la&#365;regule', kiel diras la Francoj," respondis Ido.
+</p>
+
+<p>
+   "Jes. Sed &#265;u tiuj homoj agadas en sociaj rondoj? &#264;u tiuj homoj pri
+   kiuj parolas miaj najbarinoj?"
+</p>
+
+<!-- File: 07.png -->
+
+<p>
+   Li kuntiris la &#349;ultrojn. "Necesus al arbitracikomisiono multe da
+   kunsidoj por determini la limojn de la hodia&#365;a socio. Sed almena&#365;
+   ili estas en Nov-Jorko, kaj tie vi <i>ne</i> estas. Vi estas pli kaj
+   pli for de &#285;i."
+</p>
+
+<p>
+   "Sed me revenis tien plurajn fojojn por viziti Leilinon." &#348;i hezitis
+   kaj rigardis kontra&#365;direkten. Tiam &#349;i eligis malrapide: "Kaj neniam
+   mi rimarkis&mdash;la plej etan &#349;an&#285;on&mdash;en&mdash;en mia aparta situacio&mdash;"
+</p>
+
+<p>
+   "Ho," li diris malla&#365;de, kaj &#349;i tremetis, timante esti tro dirinta.
+   Sed jam forpasis la horo kiam tiaj skrupuloj kapablis &#349;in bremsi.
+   Necesis ekscii kie &#349;i situas kaj kie situas Leilino. "S-rino
+   Bul&#285;ero ankora&#365; malagnoskas min," &#349;i eligis kun embarasita rido.
+</p>
+
+<p>
+   "&#264;u vi certas? Eble vi malagnoskis <i>&#349;in</i>. Se ne nun, eble en
+   pasinta tempo. Kaj kiam temas pri malagnoskado, se vi ne malagnoskas
+   la unua, vi atingas nenion. Jen kio da&#365;rigas tiom da kvereloj."
+</p>
+
+<p>
+   La vorto naskigis en S-rino Lidkoto denovan senton pri reala&#309;oj.
+   "Sed la Pur&#349;oj," &#349;i diris, "la Pur&#349;oj estas tiel fortaj! Ili
+   estas tiel multnombraj kaj &#265;iuj ili sin apogas unu la alian, same
+   kiel faris la familio de mia edzo. Mi scias kion tio signifas kiam
+   oni estas kontra&#365;starata de iu tuta klano. Ili estas pli fortaj ol
+   iu ajn kvanto da apartaj amikoj. La Pur&#349;oj <i>neniam</i> pardonos
+   Leilinon por &#349;ia foriro disde Horaco. Nu, lia patrino kontra&#365;staris
+   lian edzi&#285;on kun &#349;i pro&mdash;pro mi. &#348;i klopodis instigi Leilinon
+   promesi ne vidi min okaze de ilia mielmonata voja&#285;o al E&#365;ropo. Kaj
+   nun &#349;i diros ke okazis la&#365; mia ekzemplo."
+</p>
+
+<p>
+   &#348;ia kunulo, karesante la barbon malprecize, primeditis tion dum
+   momento, tiam demandis, kun &#349;ajna malrilato, "Kion diris Leilino
+   kiam vi skribis ke vi alvenos?"
+</p>
+
+<p>
+   "&#348;i diris ke tute ne necesas, sed ke pli bone estos ke mi venu, &#265;ar
+   tio estos la sola rimedo por konvinki min pri la malneceso."
+</p>
+
+<p>
+   "Nu, tial, tio pruvas ke &#349;i ne timas la Pur&#349;ojn."
+</p>
+
+<p>
+   &#348;i eligis longan suspiron de memorado. "Ho, nur en la komenco, vi
+   scias&mdash;oni neniam timas."
+</p>
+
+<p>
+   Li metis sian manon sur la &#349;ian kun gesto de kompreno kaj kompato.
+   "Vi vidos, vi vidos," li diris.
+</p>
+
+<p>
+   Ombro plilongi&#285;is la&#365; la ferdeko anta&#365; ili kaj stevardo ekstaris
+   tie, transdonante Markoni-gramon.
+</p>
+
+<p>
+   "Ho, nun mi ekscios!" &#349;i proklamis.
+</p>
+
+<p>
+   &#348;i malfermis &#349;irgeste la mesa&#285;on, tiam &#285;in faligis surgenuen,
+   silente metante la manojn sur la paperon.
+</p>
+
+<p>
+   La demando de Ido &#349;in ekvigligis: "&#264;u &#265;io bonfartas?"
+</p>
+
+<p>
+   "Ho, &#265;io ege bonfartas. Nepre. &#348;i ne povas alveni sed &#349;i sendas
+   Suzinon Sufernon. &#348;i diras ke Suzino klarigos la aferon." Post
+   cetera silento &#349;i aldonis kun subita fluego da amareco: "Supozante
+   ke mi bezonas klarigon!"
+</p>
+
+<p>
+   &#348;i sentis atingi &#349;in la heziteman rigardon de Ido. "&#348;i estas en la
+   kamparo, &#265;u?"
+</p>
+
+<p>
+   "Jes. 'Lastaminuta malhelpo. Sopirante al vi, atendante vin. Amba&#365;
+   sendas
+
+<!-- File: 08.png -->
+
+   amon.' &#264;u vi ne <i>komprenas</i>? La kompatinda karulino ne povas
+   alfronti tion."
+</p>
+
+<p>
+   "Ne, mi ne komprenas." Li atendis. "&#264;u vi intencas aliri &#349;in
+   tujege?"
+</p>
+
+<p>
+   "La horo estas tro malfrua por trafi trajnon hodia&#365;vespere. Sed mi
+   veturos per la unua morga&#365;matena trajno." &#348;i meditis momenton.
+   "Eble tio estas pli bona. Mi bezonas paroli kun Suzino unue. &#348;i
+   renkontos min &#265;edoke kaj mi veturigos &#349;in rekte al la hotelo kun
+   mi."
+</p>
+
+<p>
+   Dum &#349;i evoluigis tiun planon, &#349;i spertis la senton ke Ido ankora&#365;
+   &#349;in rigardas, penseme, e&#265; seriozege. Kiam &#349;i finparolis, li restis
+   senparola dum momento. Tiam li diris, preska&#365; ceremonie: "Se via
+   interparolado kun Fra&#365;lino Suferno ne da&#365;ras &#285;is tro malfrua horo,
+   &#265;u mi rajtas alveni vin viziti post &#285;i? Mi vesperman&#285;os &#265;e mia
+   klubo kaj mi telefonos al vi je &#265;irka&#365; la deka, se vi permesos.
+   Mi survoji&#285;os morga&#365;matene, cele al &#264;ikago, por negocoj, kaj
+   pla&#265;us al mi ekscii, anta&#365; mia foriro, ke via kuzino sukcesis vin
+   trankviligi, pri kio mi jam anta&#365;certas."
+</p>
+
+<p>
+   Li parolis kun timida zorgo kiu, e&#265; por la maltrankvilaj
+   perceptoj de S-rino Lidkoto, sonigis sentonoton dum longa tempo
+   silentigitan. Eble la faligo de la barilo de silentemeco anta&#365;e ilin
+   disapartiginta nun liberigis &#265;e amba&#365; nesuspektitajn emociojn. La
+   tono de lia peto afekciis &#349;in kurioze kaj malstre&#265;is la fortan
+   premon de &#349;iaj timoj.
+</p>
+
+<p>
+   "Ho, jes, bonvolu alveni!" &#349;i diris, stari&#285;ante. La grandega
+   minaco kiu estis Nov-Jorko pligrandi&#285;is nun, nanigante, sub longaj
+   etenda&#309;oj da enbataligitaj masonadoj, la vastan ferdekon sur kiu
+   &#349;i staris kaj &#265;iujn estuletojn kiujn &#285;i veturigis. Unu el tiuj,
+   drivante pli proksime, prenis la formon de &#349;ia servistino, sekvata
+   de stevardoj portantaj valizojn, kaj signalanta al &#349;i ke estas
+   la horo subferdeki&#285;i. Dum ili descendis al la &#265;efa ferdeko, la
+   homamaso &#349;in balais kontra&#365; la &#349;ultron de S-rino Lorino Bul&#285;ero,
+   kaj &#349;i a&#365;dis la ambasadorinon alvoki al iu, super la &#265;agrenita
+   &#265;apelmaro: "Mi ege beda&#365;ras! Tio multe pla&#265;intus al mi sed mi
+   promesis pasigi diman&#265;on &#265;e kelkaj geamikoj en Lenokso."
+</p>
+
+<div class="partotitolo">
+   II
+</div>
+
+<p>
+   La klarigo de Suzino Suferno fini&#285;is nur post la deka horo kaj &#349;i
+   &#309;us foriris kiam Franklino Ido, kiu, konforme al malnova Nov-Jorka
+   tradicio, sin anoncis per longa blanka skatolo da rozoj, alvenis
+   kondukite en la salonon de S-rino Lidkoto.
+</p>
+
+<p>
+   Li anta&#365;enpa&#349;is kun sia timida duonhumura rideto kaj, prenante al
+   &#349;i la manon, &#349;in rigardis dum momento sen paroli.
+</p>
+
+<p>
+   "&#264;io bonfartas," li proklamis tiam.
+</p>
+
+<p>
+   S-rino Lidkoto revensendis lian rideton. "Estas eksterordinare.
+   &#264;io &#349;an&#285;i&#285;is. E&#265; Suzino
+   &#349;an&#285;i&#285;is. Kaj vi <!-- Error in book: vis --> scias
+   &#285;is kiom Suzino reprezentis anta&#365;e la malnovan Nov-Jorkon.
+   La malnova Nov-Jorko malaperis, &#349;ajne. &#348;i parolis en
+   la plej mirinda maniero. &#348;i klakigas la fingrojn pri la
+   Pur&#349;oj. &#348;i diris al mi&mdash;al <i>mi</i>&mdash;ke &#265;iu
+   virino rajtas esti feli&#265;a kaj ke memesprimado estas la plej
+   alta devo. &#348;i kulpigis min dirante ke mi miskomprenas Leilinon,
+   ke mia vidpunkto estas konvencia! &#348;i kvaza&#365; eksplodis pro
+   fiero pri sia partoprenado en la sekreto kaj surportis bro&#265;on
+   kiun donacis al &#349;i
+
+<!-- File: 09.png -->
+
+   Vilburo Barklejo!"
+</p>
+
+<p>
+   Franklino Ido sidi&#285;is en la fotelo kiun &#349;i anta&#365;en&#349;ovis por li
+   sub la elektra lustro. Li malanta&#365;en&#309;etis la kapon kaj ridis. "Kion
+   mi diris al vi?"
+</p>
+
+<p>
+   "Jes, sed mi ne povas kredi ke Suzino ne eraras. Kompatinda karulino,
+   &#349;i kutimas interesi&#285;i pri sensukcesaj motivoj. Kaj eble &#349;i opinias
+   devi, restinte lojala pri mi, agi egale pri Leilino."
+</p>
+
+<p>
+   "Sed &#349;i ne kontra&#365;staris malka&#349;e, &#265;u ne? la mondon por vi? &#348;i ne
+   klakadis la fingrojn pri la Lidkotoj, &#265;u?"
+</p>
+
+<p>
+   S-rino Lidkoto kapneis, ankora&#365; ridetante. "Ne. Sufi&#265;is
+   kontra&#365;stari <i>mian</i> familion. Dum iom da tempo dubinde estis
+   ke ili permesu &#349;in frekventi min kaj preska&#365; necesis ke &#349;i sin
+   desinfektu post &#265;iu vizito. Mi opinias ke en la unuaj tempoj mia
+   bofratino ne permesis ke &#349;iaj filinoj descendu al la man&#285;&#265;ambro
+   kiam Suzino vesperman&#285;is &#265;e &#349;i."
+</p>
+
+<p>
+   "Nu, &#265;u la nuna sinteno de via kuzino ne estas la la&#365;eble plej bona
+   pruvo ke la tempoj &#349;an&#285;i&#285;is?"
+</p>
+
+<p>
+   "Jes, jes, mi scias." &#348;i anta&#365;enklini&#285;is el sia sofo-angulo,
+   fiksante sian rigardon sur lian magran amikeman viza&#285;on kiu
+   brilis malklare sur &#349;in tra &#349;iaj larmoj. "Se tio veras, &#285;i&mdash;&#285;i
+   mirindegas. &#348;i diras ke Leilino nepre feli&#265;adas. &#348;ajnas ke
+   an&#285;elo kvaza&#365; rondiradis levante tombo&#349;tonojn kaj la enterigitoj
+   remar&#349;adas kaj la vivantoj ne ektimas anta&#365; ili."
+</p>
+
+<p>
+   "Vio iom pravas," li konsentis.
+</p>
+
+<p>
+   &#348;i enigis longan spiradon kaj sidis rigardante kontra&#365;direkte al
+   li la&#365; la longa perspektivo de la lampfran&#285;itaj stratoj kiujn
+   superpendis &#349;iaj fenestroj.
+</p>
+
+<p>
+   "Mi povas kompreni kiom feli&#265;a vi devas esti," li komencis post iom
+   da tempo.
+</p>
+
+<p>
+   &#348;i turni&#285;is al li impete. "Jes, jes. Mi estas feli&#265;a. Sed aldone
+   mi estas soleca, pli soleca ol iam. Jam anta&#365;e mi ne okupis grandan
+   spacon en la mondo. Sed nun&mdash;kie estas starangulo por mi? Ho, &#265;ar
+   mi jam komencis min konfesi, kial ne da&#365;rigi? Diri tion al vi levas
+   tombo&#349;tonon de sur <i>mi</i>! Vi vidu, anta&#365; &#265;i tio, Leilino
+   bezonis min. &#348;i estis malfeli&#265;a kaj mi konsciis pri tio, kaj
+   kvankam preska&#365; neniam ni priparolis tion mi sentis ke, iumaniere,
+   la scio ke mi jam traspertis la saman okazinta&#309;on, e&#265; &#285;is ties
+   plej suba fe&#265;o, &#349;in helpis. Kaj helpis <i>min</i> &#349;ia bezono
+   pri mi. Kaj kiam alvenis la nova&#309;o pri &#349;ia edzini&#285;o, mia unua
+   pensado estis tio ke eble nun &#349;i bezonos min e&#265; pli, ke &#349;i havos
+   neniun krom mi al kiu peti helpon. Jes, sub mia tuta &#265;agreno ku&#349;is
+   arda &#285;ojo pri tio. Estis tiel malkutime kaj mirinde eksenti denove
+   ke estas unu persono ne scipovanta bonfarti sen mi! Kaj nun tio
+   kion diras al mi vi kaj Suzino &#349;ajnas esti forpreninta de mi mian
+   filinon. Kaj en tiuj unuaj momentoj estas nur tio kion mi kapablas
+   senti."
+</p>
+
+<p>
+   "Kompreneble estas nur tio kion vi kapablas senti." Li rigardis &#349;in
+   mediteme. "Kial Leilino ne alvenis vin renkonti?"
+</p>
+
+<p>
+   "Efektive, la kulpo estis mia. Vidu, mi kablogramis ke ne certas
+   ke mi sukcesos trafi <!-- I substitute ticks for quotes because
+   the following bit was quoted within a quote: -->'Utopion' kaj
+   ver&#349;ajne mia dua kablogramo malfrui&#285;is kaj kiam &#349;i
+   &#285;in
+
+<!-- File: 10.png -->
+
+   ricevis, &#349;i jam invitis kelkajn personojn gasti&#285;i &#265;e &#349;i en
+   diman&#265;o&mdash;unu, du longatempajn geamikojn, diras Suzino. Mi &#285;ojas ke
+   ili tuj konsentis iri &#265;e &#349;i sed kompreneble mi preferintus esti
+   sola kun &#349;i."
+</p>
+
+<p>
+   "Tial, &#265;u vi da&#365;re intencas iri tien?"
+</p>
+
+<p>
+   "Ho, mi devas. Suzino deziris treni min al Ri&#285;fildo kun si &#285;is
+   lundo kaj Leilino sendis mesa&#285;on informantan ke mi rajtas iri tien
+   se mi deziras kaj ke mi ne devas pripensi &#349;in. Sed mi scias kiom &#349;i
+   malkontenti&#285;us. Suzino diris ke Leilino timis ke mi kolereti&#285;os
+   pro tio ke &#349;i invitis gastojn kaj ke, se mi malaprobos tion, &#349;i ne
+   insistos ke mi venu. Sed se <i>ili</i> ne malaprobas, kial malaprobu
+   mi? Kaj kompreneble, se ili bonvolas iri &#265;e Leilino, tio devas
+   signifi&mdash;"
+</p>
+
+<p>
+   "Kompreneble, mi &#285;ojas ke vi rekonas tion," Franklin Ido asertis
+   abrupte. Li stari&#285;is kaj transiris al &#349;i, prenante &#349;ian manon per
+   unu el siaj rapidaj gestoj. "Estas io kiun mi deziras diri al vi," li
+   komencis&mdash;
+</p>
+
+<hr align="center" width="38%">
+
+<p>
+   La sekvintan matenon, en la trajno, tra &#265;iuj ceteraj interluktantaj
+   pensadoj en la menso de S&mdash;rino Lidkoto, kuris la varmeta subfluo de
+   tio kion Franklin Ido deziris diri al &#349;i.
+</p>
+
+<p>
+   Li jam deziris diri tion, &#349;i sciis, apartan pasintan fojon kiam,
+   preska&#365; ok jarojn anta&#365;e, hazarda renkonti&#285;o en la fino de pluva
+   a&#365;tuno &#265;e senhoma Svislanda hotelo ilin kunigis dum du semajnoj
+   en malkutima apudeco. Ili piedpromenis kaj interparolis kune,
+   prunteprenis &#265;iu la librojn kaj &#309;urnalojn de la alia, pasigis la
+   longajn malvarmetojn vesperojn apud la fajro en la malklara lamplumo
+   de &#349;ia eta pe&#265;pinsalono kaj mirinde kontentigis &#349;in lia &#265;eesto
+   kaj fandi&#285;is malmolaj glaciejoj de &#349;ia personeco kaj &#349;i konsciis
+   ke kiam li foriros &#349;i tion beda&#365;ros senespere. Kaj tiam, en la
+   lasta minuto, en sia stranga malrekta maniero, li lasis &#349;in kompreni
+   ke dependas de &#349;i &#265;u li restu. &#348;i memoris ankora&#365; tiun sendorman
+   nokton kiun &#349;i pasigis post la malkovro. Estis absurde, kompreneble,
+   konsideri kompensi lian lojalecon konsentante pri tia ofero, sed kiel
+   eltrovi kialojn por lin konvinki? &#348;i ne toleris la ideon permesi
+   ke li taksu &#349;in malpli afekciita, malpli inklina pri li ol &#349;i
+   estas. La malavareco de lia amo meritis ke &#349;i &#285;in repagu per la
+   vero. Tamen kiel vidigi al li kion &#349;i sentis sed malakcepti kion li
+   proponis? Kiel konfesi al li tion kio estis sur &#349;iaj lipoj kiam li
+   faris la proponon? "Mi vidis kion tio faris al unu viro kaj necesas
+   ke neniam, neniam estu cetera." La senparola malatento pri &#349;ia
+   pasinteco estis la medio en kiu vivis ilia amikeco kaj &#349;i ne povis
+   subite, al li el &#265;iuj viroj, komenci paroli pri si kiel kulpinta
+   virino en teatra&#309;o. Iel, tempofine, &#349;i sukcesigis la aferon, evitis
+   rektan klarigon, komprenigis al li ke &#349;ia vivo jam fini&#285;is, ke
+   &#349;i nun ekzistas nur por sia filino kaj ke pli preciza liaflanka
+   propono estintus preska&#365; malrespekti la ta&#365;gan socian delikatecon.
+   &#348;i tiel alkutimi&#285;is al konduti kvaza&#365; &#349;ia vivo jam fini&#285;is!
+   Kaj, &#265;iuokaze, li rekonis &#349;iaflankan indicon, rezulte de kio &#349;i
+   sukcesis &#349;irmi kaj sian kaj lian sentivecon. La sekvintan jaron,
+   kiam li alvenis Florencon por viziti &#349;in, ili rerenkonti&#285;is en la
+   malnova amikema maniero kaj &#285;is nun tio da&#365;ris esti la kvalito de
+   ilia intimeco.
+</p>
+
+<!-- File: 11.png -->
+
+<p>
+   Kaj nun, subite kaj neatendite, li starigis la proponon denove,
+   &#265;i-foje senpere, kaj en tia formo ke &#349;i ne povis &#285;in eviti;
+   bazante la restarigon de la peto, post tiom longa intervalo, sur tion
+   ke, la&#365; propra elmontrado &#349;ia, &#349;ia &#265;efa argumento kontra&#365; &#285;i ne
+   plu ekzistis.
+</p>
+
+<p>
+   "Vi diras al mi ke Leilino estas feli&#265;a. Se &#349;i estas feli&#265;a, &#349;i
+   ne bezonas vin&mdash;ne bezonas vin, tio estas, sammaniere kiel anta&#365;e.
+   Vi deziris, mi scias, esti &#265;iam atingebla, libera kaj disponebla
+   se subite &#349;i petus vin alveni &#349;in a&#365; alvenus enazili&#285;i &#265;e
+   vi. Mi komprenis tion&mdash;tion mi respektis. Mi ne trudis al vi mian
+   deziron &#265;ar mi konsciis &#285;in esti senutila. Vi ne taksintus vin
+   libera, tion mi komprenis sufi&#265;e bone, elprofiti tian &#285;ojon kian
+   havigintus al vi kunvivado kun mi dum &#349;i estis malfeli&#265;a kaj, kiel
+   vi &#349;in imagis, malhavanta la esperon sin liberigi. E&#265; tiam mi ne
+   havis la saman senton pri tio kiel vi. Mi komprenis pli bone ol vi
+   la evoluantan etoson &#265;i tie. Sed anta&#365; dek jaroj la &#349;an&#285;i&#285;o
+   ankora&#365; ne okazis kaj mi maldisponis la kapablon vin konvinki pri
+   ties alveno. Tamen mi imagis &#265;iam la eblon ke Leilino ne ju&#285;u sian
+   kazon finaran&#285;ita pro kio mi elektis opinii ke anka&#365; nia kazo
+   ankora&#365; ne finaran&#285;is. Permesu ke mi da&#365;re opinii tiel, almena&#365;
+   &#285;is vi vidos &#349;in kaj konfirmos per propra rigardo kion diras al vi
+   Suzino Suferno."
+</p>
+
+<div class="partotitolo">
+   III
+</div>
+
+<p>
+   La&#365;longe de la tuta raportado-reraportado kiun Suzino Suferno faris
+   al &#349;i dum ilia kvarhora fu&#285;ado al la montetaro, tiu peto de Ido ade
+   revenis al la menso de S-rino Lidkoto. &#348;i ankora&#365; ne sciis kion
+   senti rilate al ties influo sur &#349;ian apartan sorton, sed la peto
+   estis io sur kion &#349;iaj konfuzitaj pensadoj povus sin apogi meze de
+   la amaso da novaj efektoj kaj &#349;i estis nedireble &#285;oja ke li diris
+   kion li diris kaj &#285;in diris en tiu aparta momento. Tio helpis &#349;in
+   alkro&#265;i solide al sia identeco meze de la ekfluo da strangaj nomoj
+   kaj novaj kategorioj kiujn elver&#349;is sur &#349;in la parolado de &#349;ia
+   kuzino.
+</p>
+
+<p>
+   La&#365; la progreso de la voja&#285;o la komunika&#309;oj de Fra&#365;lino Suferno
+   pli kaj pli eksterordinari&#285;is. &#348;i kondutis kiel &#265;i&#265;erono
+   pretiganta la menson de sensperta voja&#285;anto por la mirinda&#309;oj
+   balda&#365; eksplodontaj sur &#285;in.
+</p>
+
+<p>
+   "Vi ne rekonos Leilino. &#348;i remuntigis siajn perlojn. Johano
+   Sar&#285;ento pentros &#349;in. Ho, kaj &#349;i petis ke mi diru al vi ke &#349;i
+   esperas ke vi ne maltoleros esti iom kunpremata dum la semajnfino. La
+   domon konstruigis la patro de Vilburo, vi scias, kaj &#285;i estas iom
+   malnovmoda&mdash;&#285;i havas nur dek porgastajn dorm&#265;ambrojn. Kompreneble
+   tio estas malgranda afero rilate al tio kion ili intencas fari.
+   Ilia propono estas konservi la nunan domon kiel alon. &#348;i petis ke
+   mi klarigu&mdash;&#349;i ege beda&#365;ras la malpovon disponigi al vi apartan
+   saloneton en la komenco. Ili konsideras Egiption por la venonta
+   vintro escepte, kompreneble, se Vilburo ricevos sian komision. Ho,
+   &#265;u &#349;i ne skribis al vi pri tio? Nu, li deziras Romon, vi scias&mdash;la
+   duan sekretariecon. A&#365;, anstata&#365;e, li deziris Anglion. Sed Leilino
+   insistis ke, se ili iros eksterlanden, &#349;i postulas esti proksime al
+   vi. Kaj kompreneble tio kion &#349;i diras havas le&#285;an forton. Ho, ili
+   ege deziras ricevi &#285;in. Vi komprenu, la onklo de Horaco estas en
+   Kabineto&mdash;ia adjunkta sekretario&mdash;kaj
+
+<!-- File: 12.png -->
+
+   miaopinie li disponas ege influajn rilatojn&mdash;"
+</p>
+
+<p>
+   "&#264;u la onklo de Horaco? Mi supozas ke vi volas diri tiun de
+   Vilburo," interrompis S-rino Lidkoto, eligante anhelon el kiu parton
+   instigis la frivola lingvouzado de Fra&#365;lino Suferno.
+</p>
+
+<p>
+   "&#264;u tiu de Vilburo? Ne, mi ne volas diri lin. Tiun de Horaco mi
+   volas diri. Neniaj malbonvolaj deziroj kontra&#365;starigas ilin, mi
+   certigu vin. Ekde la anonco pri la fian&#265;i&#285;o de Horaco&mdash;&#265;u vi ne
+   sciis ke Horaco fian&#265;i&#285;is? Nu, li edzi&#285;as kun unu el la filinoj
+   de Episkopo Torburjo: la ru&#285;harulino verkinta la romanon kiun &#265;iuj
+   priparolas: <i>&#264;i Tiu Karno Mia</i>. Ili geedzi&#285;os en la katedralo.
+   Kompreneble, Horaco <i>rajtas</i>, &#265;ar estis Leilino kiu&mdash;sed, kiel
+   mi diras, ne estas la plej <i>eta</i> rankoro kaj Horaco mem skribis
+   al sia onklo pri Vilburo."
+</p>
+
+<p>
+   La pensadoj de S-rino Lidkoto refu&#285;is al tio kion &#349;i diris al Ido
+   la anta&#365;an tagon sur la ferdeko de "Utopio". "Anta&#365;e mi ne okupis
+   grandan spacon sed kie estas angulo por mi nun?" Kie, efektive, en
+   tiu homplena renversita mondo, kun ties impetaj &#349;an&#285;oj kaj pelmelaj
+   real&#285;ustigoj, ties novaj toleremoj kaj apatioj kaj kompleza&#309;oj,
+   estis spaco por karaktero formita de pli severaj procedoj kaj vivo
+   rompita sub ilia nedeturnebla premo? Tiam, fulmrapide, &#349;i ekvidis la
+   &#293;aoson la&#365; nova angulo kaj ordo &#349;ajnis ekmovi&#285;i sur la malplenon.
+   Se la malnovaj procedoj &#349;an&#285;i&#285;is, &#349;ia kazo &#349;an&#285;i&#285;is kun ili.
+   Anka&#365; &#349;i estis parto de la &#285;enerala real&#285;ustigo, eta ero de la
+   nova kondutmodelo evoluigita en pli a&#365;dacaj, pli liberaj akordoj.
+   &#264;ar &#349;ia filino havis nenian punon por pagi, &#265;u anka&#365; &#349;i mem ne
+   liberi&#285;is pro la sama influo? La ri&#265;aj postlasita&#309;oj de juneco
+   kaj &#285;ojo jam foriris. Sed &#265;u ne restis sufi&#265;e da tempo por kunigi
+   novajn provizojn da feli&#265;o? Tion, kompreneble, Franklino Ido sentis
+   kaj deziris ke &#349;i sentu. Li jam tuj vidis kiel la &#349;an&#285;o en la
+   situacio de la filino estigos &#349;an&#285;on en la koncepto de la patrino
+   pri &#349;ia aparta situacio. Preska&#365; &#349;ajnis&mdash;sufi&#265;e mirinde!&mdash;ke la
+   malsa&#285;eco de Leilino fari&#285;is rimedo por senkulpigi la malsa&#285;econ
+   de &#349;i mem.
+</p>
+
+<hr align="center" width="38%">
+
+<p>
+   &#264;ion alian S-rino Lidkoto forgesis dummomente en la varmo de la
+   filina &#265;irka&#365;brako. Malnature estis, preska&#365; terure, ekstari
+   sur stranga sojlo, sub nekonata tegmento, en granda halo plena je
+   pentra&#309;oj, floroj, fajrolumo kaj hastantaj servistoj kaj en tiu
+   vasta malkutima konfuzo ekvidi Leilinon, sen&#265;apelan, ridantan,
+   a&#365;toritatan, dum stranga juna viro &#285;oje e&#293;adis &#349;ian saluton
+   kaj transkomunikis &#349;iajn ordonojn. Tamen ekde kiam S-rino Lidkoto
+   tenis sian filinon kontra&#365;brusten kaj a&#365;dis la filinon diri
+   kontra&#365;orelen "&#264;io en ordo, vi maljuna karulino!", &#265;iu cetera
+   sento perdi&#285;is en la profunda efekto de bonfarto kiun estigis la
+   nura &#265;irka&#365;brako de Leilino.
+</p>
+
+<p>
+   La efekto restis ankora&#365; &#265;e &#349;i, varmigante &#349;iajn vejnojn kaj
+   tremetigante pla&#265;e &#349;ian koron dum &#349;i supreniris al sia &#265;ambro
+   post la tagman&#285;o. Iom limigite pro la &#265;eesto de vizitantoj, kaj
+   ne tro beda&#365;rante la bezonon prokrasti dum kelkaj horoj la "longan
+   interparoladon" kun sia filino pri kiu &#349;i sentis sin iel tremete
+   malpreta, &#349;i retiri&#285;is, pretekstante laci&#285;on, al la helluma luksa
+   dorm&#265;ambro en kiun Leilino foje kaj refoje pardonpetis pri la bezono
+   &#349;in kunpremi. La &#265;ambro estis pli granda kaj pli luksa ol iu ajn el
+   &#349;ia Florenca apartamenteto. Sed &#265;efe imponis al &#349;i ne la nivelo de
+   ri&#265;eco
+
+<!-- File: 13.png -->
+
+   sugestita per la vo&#265;tono de &#349;ia filino kiam &#349;i aludis la &#265;ambron
+   nek la finpretigo kaj la komplekso de ties mebla&#309;oj. Temis pri la
+   aspekto kiun la &#265;ambro kunhavis kun la cetero de la domo, kaj kun
+   la perspektivo de la subfenestraj &#285;ardenoj, tiu &#349;ajna apartenado
+   al aparta "establa&#309;o"&mdash;al io solida, agnoskita, fondita sur
+   sakramentoj kaj precedentoj kaj principoj. Nek la loko nek Leilino
+   nek Vilburo elmontris ion ajn sugestantan pasion a&#365; dan&#285;eron. Ilia
+   interrilataro &#349;ajnis tiel komfortiga kiel ilia meblaro kaj tiel
+   respektinda kiel ilia banksaldo.
+</p>
+
+<p>
+   Estis tio, el la tuta konfuza sperto, kio plej konfuzis S-rinon
+   Lidkoton, kiu havigis al &#349;i samtempe la plej profundan senton de
+   sekureco por Leilino kaj la plej fortan senton de anta&#365;timo pro
+   &#349;i mem. Jes, estis en la kompleto kaj la kompakto de la bonfarto
+   de Leilino io kiu premis. Ido pravis. &#348;ia filino ne bezonis &#349;in.
+   Leilino, en la momento de sia unua &#265;irka&#365;brako, senkonscie pravigis
+   la fakton uzante la saman frazon kiel Ido mem, kaj la du junaj
+   virinoj kun la &#265;apeloj. "&#264;io estas en ordo, vi maljuna karulino!"
+   &#349;i diris. Kaj &#349;ia patrino sidis sole, penadante sin situigi en la
+   novan aferaran&#285;on bildigitan de tia certeco.
+</p>
+
+<p>
+   &#348;ia unua distinga sento estis senlogika rankoro. Se tia &#349;an&#285;i&#285;o
+   jam estis alvenonta, kial &#285;i ne alvenis pli frue? Jen &#349;i estis,
+   virino ne ankora&#365; maljuna, kiu kompensis preze de la plej bonaj
+   jaroj de sia vivo la &#349;telprenon de la feli&#265;o kiun la sama&#285;ulinoj
+   de &#349;ia filino ju&#285;is ilia merita&#309;o. Estis nenia senco, nenia
+   sinsekvo en tio. &#348;i havigis al si kion &#349;i deziris sed la a&#265;etprezo
+   estis tro alta. Necesis al &#349;i pagi la lastan, plej amaran prezon por
+   lerni ke amo havas prezon: ke &#285;i valoras tiom sed ne plu. &#348;i konis
+   la angoron kiun sentas virino vidinte la viron amatan de &#349;i malkovri
+   tion pli frue ol &#349;i kaj leginte la malkovron en liaj okuloj. Estis
+   parto de &#349;ia historio kiun dum longa pasinta tempo &#349;i ne kura&#285;is
+   pripensi. &#264;iam &#349;i &#265;irka&#365;iradis grandapa&#349;e tiun hantitan angulon.
+   Sed nun, kiam &#349;i vidis la junulon strateta&#285;e, apartenantan tiel
+   malferme kaj &#285;oje al Leilino, stuporigis &#349;in la sensenca mal&#349;paro
+   de &#349;ia aparta aventuro kaj tordis &#349;in la ironia percepto ke la
+   sukceso a&#365; malsukceso de la plej profundaj homaj spertoj povas
+   dependi de hazarda kronologio.
+</p>
+
+<p>
+   Tiam iom post iom la pensado de Ido revenis al &#349;i. "Mi elektis
+   opinii ke nia kazo ne estas fermita," li diris. Profunde afekciis
+   &#349;in tio. Por &#265;iuj ceteraj &#349;ia kazo estis jam de longe fermita.
+   <i>Finita</i> estis skriba&#265;ita &#265;ie sur &#349;i. Sed jen estis unu viro
+   kiu kredis kaj atendis. Kaj kion fari se reali&#285;us tio kion li kredis
+   kaj atendis? Se la "en ordo" de Leilino a&#365;gurus la "en ordo"-n de
+   &#349;i mem?
+</p>
+
+<p>
+   &#284;is nun, kompreneble, maleblis anta&#365;scii. &#348;i jam imagis, efektive,
+   enirinte la man&#285;&#265;ambron anta&#365; la tagman&#285;o, ke tro subita silento
+   surfalis la kunigitan geamikaron de Leilino, la sveltajn parolemajn
+   junajn virinojn kaj la lantajn golf&#349;trumphavajn junajn virojn. &#264;iuj
+   akceptis &#349;in dece, kun tiu speco de &#349;tonigita deco kiu povas esti
+   a&#365; agnosko pri a&#285;o a&#365; protesto pri sendisciplino. Sed la&#365; ili,
+   kompreneble, &#349;i devas esti maljunulino &#265;ar &#349;i estas la patrino de
+   Leilino kaj en socio tiel superregata de juneco la nura &#265;eesto de
+   matureco estas retenilo.
+</p>
+
+<p>
+   Unu el la junulinoj tamen balda&#365; elvenis la aron kaj, sin apudigante
+   al S-rino Lidkoto, &#349;in a&#365;skultis kun blua rigardo de admiro kiu
+   estigis en la pli a&#285;a virino subite
+
+<!-- File: 14.png -->
+
+   feli&#265;an konscion pri &#349;iaj de longe forgesitaj sociaj gracioj.
+   Pla&#265;e estis konscii ke &#349;i allogis tiun junan &#264;arlotinon Vinon
+   kies patrino nombri&#285;is inter &#349;iaj plej intimaj amikinoj kaj en kiu
+   travivis iom de la sobreco kaj mildeco de la pli frua etiketo. Sed la
+   kolokveto, interrompite de la tagman&#285;oanonco, sukcesis efektivigi
+   nenian pli definitivan ol tiu rememorigan emocion.
+</p>
+
+<p>
+   Ne, ankora&#365; &#349;i ne komprenis kiel &#349;ia aparta <!-- Error
+   in book: aparto --> kazo akordi&#285;os en la nova socia ordo. Sed ceteraj
+   homoj&mdash;"pli a&#285;aj homoj" diris Leilino&mdash;alvenus per la posttagmeza
+   trajno kaj tiun vesperon je la vesperman&#285;horo sendube &#349;i scipovus
+   fintaksi la situacion. &#348;i komencis scivoli nervoze kiuj estos
+   la novalvenontoj. Sendube ne necesus al &#349;i alfronti embarasajn
+   renkontojn kun anta&#365;aj konatoj. Tamen strange estis ke &#349;ia filino
+   menciis neniajn nomojn.
+</p>
+
+<p>
+   Leilino proponis ke poste, en la posttagmezo, Vilburo &#349;in veturigu
+   en promenado. &#348;i anoncis la deziron ke ili estigu "bonan trankvilan
+   interparoladon." Sed S-rino Lidkoto volis ke anta&#365;iru la promenadon
+   &#349;ia parolado kun Leilino kaj, cetere, jam dum la tagman&#285;o,
+   suba&#365;dis hazardajn aludojn pri okazonta tenismat&#265;o en kiu estas
+   partoprenonta &#349;ia bofilo. &#348;ia laci&#285;o estis sufi&#265;a pretekso por
+   malakcepti la promenadinviton kaj &#349;i petegis ke Leilino permesu &#349;in
+   ripozi trankvile en sia &#265;ambro &#285;is ili povos ek&#285;ui trankvilan
+   kunbabilmomenton.
+</p>
+
+<p>
+   "Anta&#365; la tehoro, tial, vi anasino," Leilino decidi&#285;is kun lasta
+   kiso kaj balda&#365; S-rino Lidkoto, tra sia malfermita fenestro, a&#365;dis
+   la fre&#349;ajn la&#365;tajn vo&#265;ojn de la gastoj de sia filino sonoradi
+   trans la &#285;ardenojn ekde la tenisejo.
+</p>
+
+<div class="partotitolo">
+   IV
+</div>
+
+<p>
+   Leilino jam alvenis kaj foriris kaj ili jam okazigis sian
+   interparoladon. &#284;i ne da&#365;ris tiel longe kiel S-rino Lidkoto deziris
+   &#265;ar meze de &#285;i Leilino estis vokita al la telefono por ricevi
+   gravan mesa&#285;on de la urbo kaj sendis informa&#309;on al la patrino pri
+   sia maleblo reveni &#309;us tiam &#265;ar unu el la junaj virinoj ricevis
+   neatenditan alvokon kaj oni devis aran&#285;i &#349;ian foriron. Sed patrino
+   kaj filino pasigis preska&#365; unu horon kune kaj S-rino Lidkoto estis
+   feli&#265;a. Neniam &#349;i vidis Leilinon en tiel dol&#265;a, tiel atenta
+   animstato. La nura maltrankviliga&#309;o estas la troeco mem de tiu
+   atento, la troigita deklaro de la &#285;eno sentita de la filino kiam
+   iliajn unuajn momentojn da kunesto difektis la &#265;eesto de nekonatoj.
+</p>
+
+<p>
+   "Ili ne estas nekonatoj por mi, karulino, &#265;ar ili estas amikoj de
+   vi," la patrino &#349;in certigis.
+</p>
+
+<p>
+   "Jes, sed mi konas viajn sentojn, vi stranga sova&#285;a patrino. Mi
+   scias kiel ekde &#265;iam vi malamas homojn." (&#264;u <i>malamas homojn</i>?
+   &#264;u Leilino forgesis kial?) "Kaj jen la kialo pro kio mi diris al
+   Suzino ke se vi preferas aliri Ri&#285;fildon kun &#349;i en diman&#265;o, mi
+   nepre komprenos kaj atendos pacience nian bonan &#265;irka&#365;brakon. Sed
+   vi ne sentis veran &#285;enon inter ili dum la tagman&#285;horo, &#265;u ne,
+   karulino?"
+</p>
+
+<p>
+   S-rino Lidkoto, je tio, subite direktis surprizitan rigardon al sia
+   filino. "Ne plu &#285;enas min tia&#309;oj," &#349;i respondis simple.
+</p>
+
+<!-- File: 15.png -->
+
+<p>
+   "Sed tio ne min konsolas por esti alfrontiginta vin al la &#285;eno
+   de tio, por esti permesinta vin alveni &#265;i tien kiam mi devintus
+   <i>postuli</i> ke vi iru al Ri&#285;fildo kun Suzino. Se Suzino ne
+   stulti&#285;intis, &#349;i kunirigintus vin tien kun &#349;i. Malpla&#265;egas al mi
+   pripensi vin &#265;i-supre en tuta soleco."
+</p>
+
+<p>
+   Denove S-rino Lidkoto penadis legi ion pli ol iom obtuzan amon en
+   la brilega rigardo de sia filino. "Mi &#285;ojas povinte malstre&#265;i&#285;i
+   hodia&#365;posttagmeze, karulino. Kaj poste&mdash;"
+</p>
+
+<p>
+   "Ho, jes, poste, kiam &#265;i tiu tuta afera&#265;o finfini&#285;os, ni kompensos
+   &#285;in duoble, &#265;u ne, vi &#349;atata karulino?" Kaj en tiu momento oni
+   alvokis Leilinon al la telefono, kio soligis S-rinon Lidkoton inter
+   &#349;iaj konjektoj.
+</p>
+
+<p>
+   Tiuj ankora&#365; &#349;vebis anta&#365; &#349;i en nuba malcerteco kiam Fra&#365;lino
+   Suferno frapetis &#265;e &#349;ia pordo.
+</p>
+
+<p>
+   "&#264;u vi alvenas por min konduki malsupren al la teservo? Mi forgesis
+   kiom malfrua estas la horo," S-rino Lidkoto ekkrietis.
+</p>
+
+<p>
+   Fra&#365;lino Suferno, diketa fiksrigarda virineto kun modesta
+   hararan&#285;o kaj akordi&#285;ema rideto, nervoze al&#285;ustigis la pendantajn
+   klarionbidojn de sia komplika nigra robo. Fra&#365;lino Suferno estis
+   &#265;iam en funebra lamentado kaj &#265;iam en memorhonorado pri la forpaso
+   de malproksimaj parencoj &#349;i surportis la for&#309;etitajn vesta&#309;ojn de
+   iliaj intimaj familianoj. "&#284;i ne estas <i>precize</i> funebra," &#349;i
+   kutimis diri, "sed &#285;i estas la ununura nigra vesta&#309;ero kiun posedis
+   la kompatinda &#284;ulino&mdash;kaj kompreneble Georgo estis nur la duonkuzino
+   de mia patrino."
+</p>
+
+<p>
+   Dum la fra&#365;lino anta&#365;envenis S-rino Lidkoto sin surprizis
+   scivolante humure &#265;u la virino lamentas la eksedzi&#285;on de Horaco
+   Pur&#349;o surportante unu el la malnovaj nigraj satena&#309;oj de lia
+   patrino.
+</p>
+
+<p>
+   "Ho, &#265;u vi <i>deziris</i> malsupreniri por la tehoro?" Suzino
+   Suferno fiksrigardis &#349;in, iom konfuzite. "Leilino suprensendis min
+   por resti apud vi. &#348;i opiniis ke vi estos pli komforta restante &#265;i
+   tie. &#348;i timis ke vi vin sentu iom laca."
+</p>
+
+<p>
+   "Laca mi estis. Sed mi disponis la tutan posttagmezon por mallaci&#285;i.
+   Kaj &#265;i tiun mirindan sofon por min helpi."
+</p>
+
+<p>
+   "Leilino petis ke mi diru al vi ke &#349;i suprenhastos dummomente anta&#365;
+   la vesperman&#285;o post la alveno de &#265;iuj. Sed la trajno &#265;iam alvenas
+   terure malfrue. &#348;i beda&#365;regas la maleblon disponigi al vi apartan
+   sid&#265;ambron. &#348;i deziris ekscii &#265;u mi opinias ke tio vin &#285;enas."
+</p>
+
+<p>
+   "Kompreneble, tio spertigas al mi nenian &#285;enon. Strange estas ke
+   Leilino povus supozi la kontra&#365;on." S-rino Lidkoto sin apartigis por
+   liberigi spacon por la domservistino kiu aperis sursojle kunportante
+   tableton sur kiu sterni&#285;is perpleksiganta variaro da tekuketoj.
+</p>
+
+<p>
+   "Leilino mem aran&#285;is tion," murmuretis Fra&#365;lino Suferno dum la
+   pordo fermi&#285;is. "&#348;ia ununura deziro estas ke vi vin sentu feli&#265;a
+   &#265;i tie."
+</p>
+
+<p>
+   S-rino Lidkoto ju&#285;is unu plua indika&#309;o pri la subfosita aferstato
+   tion ke la prizorgo de &#349;ia filino elmontri&#285;as en la multobleco da
+   sandvi&#265;oj kaj la fornovarmo de
+
+<!-- File: 16.png -->
+
+   kuketoj. Tamen &#265;io okazinta ekde &#349;ia alveno &#349;ajnis pligrandigi
+   &#349;ian konfuzon.
+</p>
+
+<p>
+   Veturilkorno soninta sur la eniraleo &#349;an&#285;is la direkton de &#349;iaj
+   pensadoj. "&#264;u jam alvenas la novaj gastoj?" &#349;i demandis.
+</p>
+
+<p>
+   "Ho, certege, ne. Ili ne alvenos anta&#365; la sepa horo." Fra&#365;lino
+   Suferno stre&#265;is la kolon el la fenestro por okulkapti la veturilon.
+   "Devas esti &#264;arlotino en forirado."
+</p>
+
+<p>
+   "&#264;u estis la Vin-familia knabino kiun oni ur&#285;e forvokis? Mi esperas
+   ke ne temas pri malsano."
+</p>
+
+<p>
+   "Ho, ne. Mi opinias ke temis pri dateraro. &#348;ia patrino telefonis
+   dironte ke oni atendas &#349;in &#265;e Staplejo-familio de Fi&#349;kilo kaj oni
+   devis veturigi &#349;in haste al Albanio por ke &#349;i tie entrajni&#285;u."
+</p>
+
+<p>
+   S-rino Lidkoto meditis. "Mi beda&#365;ras. &#348;i estas &#265;armulineto.
+   Mi esperis ekpovi paroleti kun &#349;i denove hodia&#365;vespere post la
+   vesperman&#285;o."
+</p>
+
+<p>
+   "Jes. Ege doma&#285;e estas!" La rigardo de Fra&#365;lino Suferno svagi&#285;is.
+   "Vi aspektas ja lace, vi sciu," &#349;i da&#365;rigis, sidi&#285;ante &#265;e la
+   tetablo kaj preti&#285;ante disdoni ties bongusta&#309;etojn. "Vi reiru
+   al via sofo kaj lasu min servi al vi. La &#265;irka&#365;hastado estigis
+   en vi pli grandan efikon ol vi konscias kaj necesas ke vi ne
+   plu kontra&#365;baraktu &#285;in. Vi nur restu trankvile &#265;i-supre kaj
+   malstre&#265;i&#285;u. Vi disponos pri Leilino tute sole en lundo."
+</p>
+
+<p>
+   S-rino Lidkoto alprenis la tetason kiun transdonis &#349;ia kuzino sed
+   elmontris nenian ceteran emon obei al &#349;iaj ordonoj. Dummomente &#349;i
+   kulerumis sian teon silente. Tiam &#349;i demandis: "&#264;u estas via opinio
+   ke mi restu trankvile &#265;i-supre &#285;is lundo?"
+</p>
+
+<p>
+   Fra&#365;lino Suferno demetis sian tason per gesto tiel abrupto ke &#285;i
+   endan&#285;erigis apudan teleron da skonoj. Kiam &#349;i sin certigis pri
+   la bonfarto de la skonoj, &#349;i suprenrigardis kun tremetanta rido.
+   "Karulino, eble morga&#365; vi sentos vin en alia stato. La aero &#265;i tie,
+   vi scias&mdash;"
+</p>
+
+<p>
+   "Jes, mi scias." S-rino Lidkoto anta&#365;enklini&#285;is por servi skonon al
+   si. "Kiu alvenos hodia&#365;vespere?" &#349;i demandis.
+</p>
+
+<p>
+   Fra&#365;lino Suferno tiris la brovojn kaj fiksrigardis. "Vi scias ke mia
+   beda&#365;rinda kapa&#265;o ne bone memoras nomojn. Leilino diris al mi. Sed
+   estas tiom multaj&mdash;"
+</p>
+
+<p>
+   "&#264;u tiom multaj? &#348;i ne diris al mi ke &#349;i atendas multhoman
+   gastaron."
+</p>
+
+<p>
+   "Ho, ne multhoman. Sed iom preterirantan &#349;ian intiman amikorondeton.
+   Kaj, kompreneble, &#265;ar estas la unua fojo, &#349;i iom eksciti&#285;as pri la
+   alveno de la plia&#285;ularo."
+</p>
+
+<p>
+   "&#264;u la plia&#285;ularo? &#264;u vi aludas niajn sama&#285;ulojn?"
+</p>
+
+<p>
+   "Nu, jes." Fra&#365;lino Suferno pa&#365;zis, kvaza&#365; dezirante sin kunigi
+   por eksalti. "La A&#349;tono &#284;ilesoj," &#349;i eligis.
+</p>
+
+<p>
+   "&#264;u la A&#349;tono &#284;ilesoj? &#264;u vere? Pla&#265;os al mi revidi Marnjon
+   &#284;ileson. Devas esti dek ok jaroj ekde kiam mi lastan fojon vidis
+   &#349;in," diris S-rino Lidkoto konstantaritme.
+</p>
+
+<p>
+   "Jes," Fra&#365;lino Suferno anhelis, subitege replenigante sian tason.
+</p>
+
+<p>
+   "La A&#349;tono &#284;ilesoj. Kaj kiuj aliaj?"
+</p>
+
+<p>
+   "Nu, la Sam&#265;jo Fresbijoj. Sed la plej grava gasto, kompreneble,
+   estas S-rino Lorino Bul&#285;ero."
+</p>
+
+<!-- File: 17.png -->
+
+<p>
+   "&#264;u S-rino Bul&#285;ero? Leilino ne diris al mi ke &#349;i alvenas."
+</p>
+
+<p>
+   "&#264;u ne? Mi supozas ke &#349;i &#265;ion forgesis kiam &#349;i vidis vin. Sed la
+   festenon oni estigis por S-rino Bul&#285;ero. Vidu, estas tre grave ke
+   &#349;i&mdash;nu, ke &#349;i ekaprobu Leilinon kaj Vilburnon. Lia komisii&#285;o al
+   Romo nepre dependas de tio. Kaj vi scias ke Leilino postulas Romon
+   por esti proksima al vi. Tial &#349;i demandis al Marnjo &#284;ileso, kiu
+   estas intima amikino de la Bul&#285;eroj, &#265;u eble oni ne povus aran&#285;i
+   la viziton? Kaj la kablogramo de Marnjo trafis S-rinon Bul&#285;eron &#265;e
+   &#264;erburgo. &#348;i pasigos nur du semajnojn en Usono kaj alvenigi &#349;in
+   &#265;i-tien estis vera triumfo."
+</p>
+
+<p>
+   "Jes, mi konscias pri tio," diris S-rino Lidkoto.
+</p>
+
+<p>
+   "Vi scias, &#349;i estas iom&mdash;iom elektema; kaj Marnjo estis iom dubema
+   &#265;u&mdash;"
+</p>
+
+<p>
+   "&#264;u &#349;i konsentos, pro Leilino?" murmuretis S-rino Lidkoto.
+</p>
+
+<p>
+   "Nu, jes. Pro &#349;ia oficiala posteno. Sed feli&#265;e &#349;i estas amikino
+   de la Barklejoj. Kaj renkonti &#265;i tie la &#284;ilesojn kaj la Fresbijojn
+   &#285;ustigos la aferon. La tempoj &#349;an&#285;i&#285;is!" Suzino Suferno indulge
+   resumis.
+</p>
+
+<p>
+   S-rino Lidkoto ridetis. "Jes. Anta&#365; kelkaj jaroj &#349;ajnintus
+   malprobable ke iam denove mi vesperman&#285;u kun Marnjo &#284;ileso kaj
+   Harjetino Fresbijo kaj S-rino Lorino Bul&#285;ero."
+</p>
+
+<p>
+   Fra&#365;lino Suferno dummomente ne &#349;ajnis voli ellabori la temon
+   kaj post intervalo da silento S-rino Lidkoto subite reparolis:
+   "Tiurilate, &#265;u ili scias ke mi estas &#265;i tie?"
+</p>
+
+<p>
+   La efiko de &#349;ia demando estis estigi &#265;e Fra&#365;lino Suferno troigitan
+   atakon de fiksrigardado kaj brovokuntirado. &#348;i rearan&#285;etadis
+   la tea&#309;ojn, tu&#349;etadis siajn klarionbidojn kaj, rigardante la
+   horlo&#285;on, diris mirege: "La&#365;kompate! &#264;u estas jam la sepa?"
+</p>
+
+<p>
+   "Mi supozas ke estas tute egale," da&#365;rigis S-rino Lidkoto. "Sed &#265;u
+   Leilino diris al ili ke mi alvenas?"
+</p>
+
+<p>
+   Fra&#365;lino Suferno rigardis &#349;in dolore. "Nu, vi ne povas supozi,
+   karulino, ke Leilino farus ion ajn&mdash;"
+</p>
+
+<p>
+   S-rino Lidkoto da&#365;rigis. "&#264;ar, kompreneble, ege gravas, kiel vi
+   diras, ke S-rino Lorino Bul&#285;ero spertu favoran efekton por ke
+   Vilburo havu la plej bonajn &#349;ancojn atingi Romon."
+</p>
+
+<p>
+   "Mi <i>diris</i> al Leilino ke vi reagos tiel, karulino. Vi vidu,
+   estas &#265;efe nome de <i>vi</i>&mdash;por obteni postenon proksiman al
+   vi&mdash;ke Leilino invitis S-rinon Bul&#285;eron."
+</p>
+
+<p>
+   "Jes, tion mi komprenas." S-rino Lidkoto, abrupte stari&#285;ante,
+   direktis sian rigardon al la horlo&#285;o. "Sed, kiel vi diras, la horo
+   malfruas. &#264;u ni ne ekvesti&#285;u por la vesperman&#285;o?"
+</p>
+
+<p>
+   Anka&#365; Fra&#365;lino Suferno, reage al la propono, stari&#285;is, tu&#349;ante
+   nervoze siajn klarionbidojn. "Ege pla&#265;us al mi povi konvinki vin
+   resti &#265;i-supre &#265;i-vespere. Mi certas ke Leilino estus pli feli&#265;a
+   se vi ja restus. Efektive, vi estas ege tro laca por malsuprenveni."
+</p>
+
+<p>
+   "Kia stulta&#309;o, Suzino!" S-rino Lidkoto parolis kun subita akro,
+   etendante la mano &#285;is la sonorilo. "Kiam ni vesperman&#285;os? &#264;u je la
+   oka kaj duono? Tial mi nepre
+
+<!-- File: 18.png -->
+
+   devas vin forsendi. Je mia a&#285;o oni bezonas tempon por vesti&#285;i."
+</p>
+
+<p>
+   Fra&#365;lino Suferno, tiel propulsite &#285;is la sojlo, lantis tie por
+   ripeti: "Leilino neniam sin pardonos se vi agos preter via fizika
+   kapablo." Sed S-rino Lidkoto ridetis al &#349;i senresponde kaj la glacia
+   lum-ondo &#349;in forpelis tra la pordo.
+</p>
+
+<div class="partotitolo">
+   V
+</div>
+
+<p>
+   S-rino Lidkoto, kvankam &#349;i iniciatis geston por alvoki la
+   &#265;ambroservistinon, ne &#285;in finfaris.
+</p>
+
+<p>
+   Kiam la pordo fermi&#285;is, &#349;i da&#365;re staris senmove meze de la
+   dol&#265;aluma grandspaca &#265;ambro. La fajro, ekbruligite je la krepuska
+   horo, dancadis sur la brileco de ar&#285;ento kaj speguloj kaj sobraj
+   ora&#309;oj. Kaj la sofo &#285;is kiu ur&#285;is &#349;in Fra&#365;lino Suferno
+   amasigis siajn kusenojn en invita proksimeco al tablo &#349;ar&#285;ita je
+   novaj libroj kaj &#309;urnaloj. &#348;i ne memoris esti iam anta&#365;e pli
+   lukse lo&#285;ata a&#365; spertinta tiel strangan senton de esti ekstere,
+   solapersone, sub la nokto, sur vendobatita ebena&#309;o. &#348;i sidi&#285;is
+   apud la fajro kaj meditadis.
+</p>
+
+<p>
+   &#264;eporda frapeto instigis &#349;in levi la kapon kaj &#349;i vidis sian
+   filinon sur la sojlo. La komplika aran&#285;o de la bela hararo de
+   Leilino kaj la flugantaj falda&#309;oj de &#349;ia tualetrobo komprenigis
+   ke &#349;i interrompis sian tualeton por hasti al sia patrino. Sed post
+   eniri la &#265;ambron &#349;i pa&#365;zis momenton, ridetante malcerte, kvaza&#365;
+   forgesinte la celon de sia hasto.
+</p>
+
+<p>
+   S-rino Lidkoto stari&#285;is. "&#264;u estas la vesti&#285;horo, karulino? Ne min
+   ripro&#265;u. Mi ne malfruos."
+</p>
+
+<p>
+   "&#264;u la vesti&#285;horo?" Leilino staris anta&#365; &#349;i kun mistifikita
+   rigardo. "Nu, mi supozis, karulino&mdash;mi volas diri, mi esperis ke vi
+   decidi&#285;is resti &#265;i tie en trankvila ripozado."
+</p>
+
+<p>
+   &#348;ia patrino ridetis. "Sed mi jam estis en ripozado la tutan
+   posttagmezon!"
+</p>
+
+<p>
+   "Jes, tamen&mdash;vi scias, vi jes ja aspektas lace. Kaj kiam Suzino &#309;us
+   diris al mi ke vi intencas klopodi&mdash;"
+</p>
+
+<p>
+   "&#264;u vi alvenis por haltigi min?"
+</p>
+
+<p>
+   "Mi alvenis dezirante diri ke vi sentu nenietan devon&mdash;"
+</p>
+
+<p>
+   "Efektive. Tion mi komprenas."
+</p>
+
+<p>
+   Okazis pa&#365;zo dum kiu Leilino, svage evitante la patrinan
+   okulkontroladon, driviris al la tualetotablo kaj komencis malmunti
+   la simetrion de la brosiloj kaj boteloj aran&#285;itaj sur &#285;i. "&#264;u
+   viaj vizitantoj scias ke mi estas &#265;i tie?" S-rino Lidkoto subite
+   da&#365;rigis.
+</p>
+
+<p>
+   "&#264;u ili&mdash;kompreneble&mdash;nu, efektive," Leilino respondis, tute
+   absorbite per siaj klopodoj turni la &#349;topilon de botelo da salo
+   de Epsomo. <!-- Removed extra period -->
+</p>
+
+<p>
+   "Tial ili ne surprizi&#285;os se mi ne aperos, &#265;u?"
+</p>
+
+<p>
+   "Ho, tute ne, karulino. Mi certigu al vi ke <i>&#265;iuj</i> komprenos."
+   Leilino demetis la botelon kaj returni&#285;is al sia patrino dum &#349;ia
+   viza&#285;o ekbrilis je retrankvili&#285;o.
+</p>
+
+<p>
+   S-rino Lidkoto staris senmove, kun la kapo en rektalinia pozo, dum
+   kiu tempo
+
+<!-- File: 19.png -->
+
+   &#349;iaj okuloj rigardis ridetante la filinon. "&#264;u ili opinios tion
+   stranga se mi jes ja aperos?"
+</p>
+
+<p>
+   Leilino haltis abrupte, kun la lipoj jam duonapertaj por respondi.
+   Dum &#349;i pa&#365;zis, ru&#285;o &#349;telfarbetis &#349;ian nudan kolon, atingis
+   balailmove &#349;ian gor&#285;on, ekflami&#285;is en &#349;iaj vangoj. De tie la
+   koloro suprensendis sian katastrofan karmezinon &#285;is &#349;iaj tempioj
+   mem, &#285;is &#349;iaj orelloboj, &#285;is la randoj de &#349;iaj palpebroj,
+   pulsante sur la tuta viza&#285;o en fajraj ondoj, kvaza&#365; ventumate far
+   iu neperceptebla vento.
+</p>
+
+<p>
+   S-rino Lidkoto spektadis la konflagracion silente. Tiam &#349;i forturnis
+   la rigardon, iom ridante. "Mi nur volis diri ke mi timis ke mia
+   mal&#265;eesto difektos la sidaran&#285;on de via man&#285;tablo. Se vi povas
+   certigi al mi ke ne, mi elektos kredi vin kaj revenos al tiu
+   nerezistebla sofo." &#348;i pa&#365;zis, kvaza&#365; atendante ke &#349;ia filino
+   parolu. Tiam &#349;i etendis la brakojn. "Forkuru kaj vin vestu,
+   karulino. Kaj ne maltrankvili&#285;u pri mi." &#348;i &#265;irka&#365;brakis Leilinon
+   intime, premis longan kison sur la lastan postbrila&#309;on de &#349;ia
+   malpligrandi&#285;anta ru&#285;i&#285;o. "Efektive, mi sentas min iomete laca,
+   kaj se ne &#285;enos vin ke mi mal&#265;eestu la aferon, mi opinias preferi
+   malbonkondute enliti&#285;i kaj resti tie &#285;is via kompanio disi&#285;os. Kaj
+   nun <!-- Error in book: non --> forkuru, se ne, vi malfruos, kaj pardonpetu
+   por mi al &#265;iuj."
+</p>
+
+<div class="partotitolo">
+   VI
+</div>
+
+<p>
+   La gastoj de la Barklejoj disi&#285;is kaj S-rino Lidkoto, nepre
+   renormali&#285;inte post sia dutaga ripozado, sin trovis en la sekvinta
+   lundo, en soleco kun siaj gefiloj kaj Fra&#365;lino Suferno.
+</p>
+
+<p>
+   Estis etoso de jubilado en la aero &#265;ar la festeno "disvolvi&#285;is"
+   tiel eksterordinare bone, tiel ege kontentige, &#349;ajne, por S-rino
+   Lorino Bul&#285;ero, ke la balda&#365;a komisii&#285;o de Vilburo al Romo estis
+   preska&#365; nepra certeco. Tiel certa tio &#349;ajnis ke la anticipo de frua
+   rekuni&#285;o mildigis la &#265;agrenon kiun Leilino sentis eksciinte la
+   decidon de sia patrino reiri Italion preska&#365; tuj. Neniu komprenis
+   tiun decidon. &#348;ajnis al Leilino nepre nekredeble ke S-rino Lidkoto
+   malkonsentu resti &#265;e ili &#285;is la fiksi&#285;o de ilia aparta sorto kaj
+   Vilburo e&#293;is &#349;ian miregon.
+</p>
+
+<p>
+   "Kiel vi ne atendu &#265;i tie, la&#365; la propono de Leilino, &#285;is ni povos
+   &#265;iuj kunfari niajn valizojn kaj kuniri?"
+</p>
+
+<p>
+   S-rino Lidkoto ridetis pro dankemo dum &#349;i anoncis sian malkonsenton.
+   "Malgra&#365; &#265;io, ne estas certe ke vi faros la valizojn."
+</p>
+
+<p>
+   "Ho, vi devintus vidi Vilburon kun S-rino Bul&#285;ero," Leilino diris
+   triumfe.
+</p>
+
+<p>
+   "Ne, vi devintus vidi Leilinon kun &#349;i," &#285;ojegis la edzo de Leilino.
+</p>
+
+<p>
+   Fra&#365;lino Suferno aldonis entuziasme: "Mi ja opinias ke inviti
+   Harjetinon Fresbion estis genia manovro!"
+</p>
+
+<p>
+   "Ho, ni estos kun vi balda&#365;," ridis Leilino. "Tiel balda&#365; ke estas
+   vere sensence disi&#285;i."
+</p>
+
+<p>
+   Sed S-rino Lidkoto eltenis kun la senbrua firmeco pri kiu &#349;ia filino
+   konsciis ke estos sentutile &#285;in kontra&#365;stari. Post &#349;iaj longaj
+   monatoj en Hindio, nepre devigis,
+
+<!-- File: 20.png -->
+
+   &#349;i postulis, ke &#349;i revenu al Florenco kaj kontrolu kio okazas al
+   &#349;ia eta tiea lo&#285;ejo. Kaj &#349;i jam estis tiel komforta sur "Utopio"
+   ke &#349;i eksentas la deziron tien reveni per la sama &#349;ipo. Tial estis
+   devige ke la filino konsentu pri &#349;ia decido kaj da&#365;re gastigi &#349;in
+   &#285;is la posttagmezo de la anta&#365;tago de la surmari&#285;o de "Utopio".
+   Tiu aran&#285;o konvenis al kelkaj projektoj kiujn, dum sia dutaga
+   izoli&#285;o, S-rino Lidkoto silente maturigis. Foriri la plej balda&#365;
+   kiel eble fari&#285;is por &#349;i nepra grava&#309;o kaj la Florenca lo&#285;ejeto,
+   kiu enhavis &#349;ian pasintecon en &#265;iu falda&#309;o de siaj kurtenoj kaj
+   inter &#265;iu pa&#285;o de siaj libroj, &#349;ajnis al &#349;i nun la ununura loko
+   de kie estus tolereble rigardi tiun pasintecon.
+</p>
+
+<p>
+   &#348;i ne estis malfeli&#265;a dum la intervenaj tagoj. Vidi la bonfarton
+   de Leilino, senti la tenerecon de Leilino estis, malgra&#365; &#265;io,
+   la kialoj de &#349;ia alveno kaj plena&#309;on da tio &#349;i jam ja ricevis.
+   Leilino neniam anta&#365;e estis pli feli&#265;a, nek pli tenera, kaj
+   kontempladi &#349;ian &#285;ojegon kaj &#285;uadi &#349;ian karecon estis absorba
+   agado por &#349;ia patrino. Tamen ili anka&#365; iom surpremis kelkajn
+   kvaza&#365; tro stre&#265;itajn muzikakordojn kaj S-rino Lidkoto, kiam
+   finfine &#349;i soli&#285;is en la Nov-Jorka hotelo al kiu &#349;i revenis la
+   nokton anta&#365; ol en&#349;ipi&#285;i, spertis la senton esti &#309;us eskapinta
+   vivkorpe el la kaptotenado de giganta mano.
+</p>
+
+<p>
+   &#348;i malpermesis la filinon alveni la urbon kun &#349;i. &#348;i e&#265;
+   malakceptis la kompanion de Suzino Suferno. &#348;i deziris nenian
+   viatikon krom tiu de siaj apartaj pensadoj. Kaj &#349;i permesis ke tiuj
+   &#349;in alvenu sen ka&#365;ri anta&#365; ili dum &#349;i sidis en la sama altplafona
+   salono en kiu, anta&#365; nur unu semajno, &#349;i kaj Franklino Ido estigis
+   sian memorindan interparoladon.
+</p>
+
+<p>
+   &#348;i promesis al sia amiko havigi al li nova&#309;ojn pri si, sed &#349;i ne
+   tenis la promeson. &#348;i sciis ke li sendube revenis de &#264;ikago kaj ke
+   se li ekscius &#349;ian subitan decidon reveni Italion, ne eblus al &#349;i
+   eviti vidi lin anta&#365; la surmeri&#285;o. Kaj &#265;ar anta&#365; &#265;io &#349;i deziris
+   ne vidi lin, &#349;i silentadis, celante alsendi leteron al li ekde la
+   &#349;ipo.
+</p>
+
+<p>
+   Estis nenia kialo pro kiu atendi &#285;is tiam por skribi al li. La nuna
+   momento estis pli favora kaj la tasko, kvankam ne pla&#265;a, almena&#365;
+   plenigus horon de &#349;ia soleca vespero. &#348;i aliris la skribtablon,
+   eltiris paperfolion kaj komencis skribi lian nomon. Kaj en tiu
+   momento la pordo malfermi&#285;is kaj li eniris.
+</p>
+
+<p>
+   La vortoj per kiuj &#349;i salutis lin estis la lastaj kiujn &#349;i povintus
+   sin imagi diri kiam ili adia&#365;is anta&#365;e. "Kiel eternamonde vi
+   eksciis ke mi estas &#265;i tie?"
+</p>
+
+<p>
+   Tujege li scikaptis &#349;ian voldiradon. "Tial vi ne volis ke
+   mi eksciu?" Li staradis, &#349;in rigardante. "Mi supozas ke mi
+   devintus interpreti vian silenton kiel havantan tiun signifon. Sed
+   la&#365;hazarde mi renkontis S-rinon Vinon, kiu gastas &#265;i tie kaj
+   &#349;i invitis min vesperman&#285;i kun &#349;i kaj &#264;arlotino kaj la juna
+   amkandidato de &#264;arlotino. Ili diris al mi esti vidintaj vin alveni
+   hodia&#365;posttagmeze kaj mi ne toleris la ideon ne suprenveni."
+</p>
+
+<p>
+   Okazis pa&#365;zo inter ili kiun S-rino Lidkoto finfine interrompis,
+   deklarante: "Ho, tial &#349;i jes ja min rekonis!"
+</p>
+
+<p>
+   "&#264;u vin rekonis?" Li fiksrigardis. "Nu&mdash;"
+</p>
+
+<p>
+   "Ho, mi prikonsciis &#349;ian rekonon pri mi, kvankam &#349;i ne movis
+   e&#265; ununuran palpebron. Tion mi prikonsciis pro la ru&#285;i&#285;o de
+   &#264;arlotino. La knabino havas ege belan
+
+<!-- File: 21.png -->
+
+   ru&#285;i&#285;kapablon. Mi konsciis ke &#349;ia patrino malpermesis ke &#349;i
+   alparolu min."
+</p>
+
+<p>
+   Ido demetis sian &#265;apelon kun malpacienca rido. "&#264;u Leilino ne
+   kuracis al vi viajn iluziojn?"
+</p>
+
+<p>
+   &#348;i rigardis lin fikse. "Tial vi ne opinias ke Margaretino Vino celis
+   min malagnoski, &#265;u?"
+</p>
+
+<p>
+   "Mi opinias ke viaj opinioj estas absurdaj."
+</p>
+
+<p>
+   &#348;i pa&#365;zis percepteblan momenton sen da&#365;rigi la temon. Tiam &#349;i
+   diris tan&#285;ante: "Mi eknavigos morga&#365; frumatene. Mi intencis skribi
+   al vi. Jen la letero kiun mi jam komencis."
+</p>
+
+<p>
+   La rigardo de Ido sekvis &#349;ian geston, tiam atingis &#349;ian viza&#285;on.
+   "Tial &#265;u vi ne intencis vidi min nek e&#265; sciigi al mi ke vi foriros
+   &#285;is post la foriro?"
+</p>
+
+<p>
+   "Mi opiniis ke estos pli bone klarigi &#265;ion al vi en letero&mdash;"
+</p>
+
+<p>
+   "Kion Dionome vi havas por klarigi?" &#348;i ne respondis kaj li
+   da&#365;rigis ur&#285;e: "Ne povas esti ke vi maltrankvili&#285;as pri Leilino,
+   &#265;ar &#264;arlotino Vino diris al mi ke &#349;i estis tie pasintsemajne
+   kaj multhoma kompanio alvenis en la momento mem de &#349;ia foriro:
+   la Fresbijoj, la &#284;ilesoj kaj S-rino Lorino Bul&#285;ero&mdash;la tuta
+   kontrolantaro! Se Leilino sukcesigis <i>tiun</i> ekzamenon, tiam &#349;i
+   alju&#285;igis al si sian diplomon."
+</p>
+
+<p>
+   S-rino Lidkoto sin faligetis en la saman angulon de la sofo kie
+   &#349;i jam sidis dum ilia interparolado de la anta&#365;a semajno. "Mi
+   stulti&#285;is," &#349;i komencis abrupte. "Mi devintus iri al Ri&#285;fildo kun
+   Suzino. Mi konsciis nur poste ke oni atendis ke mi iru."
+</p>
+
+<p>
+   "&#264;u atendis ke vi iru?"
+</p>
+
+<p>
+   "Jes. Ho, la kulpo ne estis de Leilino. &#348;i suferis, kompatinda
+   karulino. &#348;ia atento tiri&#285;is dise. Sed &#349;i jam invitis sian
+   gastaron anta&#365; ol ekscii pri mia alveno."
+</p>
+
+<p>
+   "Ho, rilate al tio&mdash;" Ido entiris profundan spiron de senzorgigo. "Mi
+   povas kompreni ke estis la&#365;necese malkura&#285;ige ne rajti disponi pri
+   &#349;i solapersone je la komenco. Sed, malgra&#365; &#265;io, vi estis inter
+   malnovaj amikoj a&#365; iliaj infanoj: la &#284;ilesoj kaj la Fresbijoj&mdash;kaj
+   eta &#264;arlotino Vino." Li pa&#365;zis momenton anta&#365; la lasta nomo kaj
+   heziteme &#349;in kontrolrigardis. "E&#265; se ili alvenis en malta&#365;ga
+   momento, vi estis certe feli&#265;a bon&#349;ancinte revidi ilin &#265;iujn &#265;e
+   Leilino."
+</p>
+
+<p>
+   &#348;i revenigis lian rigardon kun apena&#365; videbla rideto. "Ilin mi ne
+   vidis."
+</p>
+
+<p>
+   "&#264;u ilin vi ne vidis?"
+</p>
+
+<p>
+   "Ne. Tio estas, mi vidis nur etan &#264;arlotinon Vinon. Tiu infano estas
+   ekskvizita! Ni estigis interparoladon en la tago de mia alveno. Sed
+   kiam &#349;ia patrino eksciis ke mi gastas en la domo, &#349;i telefonis al
+   &#349;i, postulante ke &#349;i tuj foriru. Tial mi ne revidis &#349;in."
+</p>
+
+<p>
+   La senkolora viza&#285;o de Ido ru&#285;i&#285;is. "Mi ne scias de kie vi
+   alprenas tiajn ideojn."
+</p>
+
+<p>
+   &#348;i da&#365;rigis, kvaza&#365; ne lin a&#365;dinte. "Ho, kaj mi vidis anka&#365;
+   Marnjon &#284;ileson dum momento. Suzino Suferno alvenigis &#349;in al mia
+   &#265;ambro la lastan vesperon, post la vesperman&#285;o, kiam la aliaj &#265;iuj
+   ludis bri&#285;on. &#348;i havas bonvolan intencon&mdash;sed ne helpis multe."
+</p>
+
+<p>
+   "Sed kion vi faris en via &#265;ambro vespere post la man&#285;o?"
+</p>
+
+<!-- File: 22.png -->
+
+<p>
+   "Nu, vidu, kiam mi konsciis ke alveni estis eraro&mdash;kiom embarasa por
+   Leilino estis mia alveno, mi volas diri&mdash;mi nur diris al &#349;i ke mi
+   estas tre laca kaj preferos resti supreta&#285;e &#285;is la foriro de la
+   gastoj."
+</p>
+
+<p>
+   Ido, &#285;emante, frapigis la manon kontra&#365; la brakon de sia fotelo.
+   "Mi scivolas kiom da &#265;io tio vi nur imagis!"
+</p>
+
+<p>
+   "Mi ne imagis tion ke Harjetino Fresbio ne petis vidi min, kvankam
+   sciante ke mi estas en la domo. Nek tion ke Marnjo &#284;ileso instigis
+   Suzinon, je la dek unua horo, suprenkontrabandi &#349;in &#285;is mia &#265;ambro
+   kiam la aliaj ne scius kien &#349;i malaperis. Nek la teruran timon de
+   mia kompatinda Leilino ke S-rino Lorino Bul&#285;ero, honore de kiu la
+   festeno estis aran&#285;ita, divenu ke mi estas en la domo kaj malhelpu
+   ke &#349;ia edzo alju&#285;u al Vilburo la duan sekretaripostenon pro la
+   kialo ke oni devigis &#349;in tranokti sub la sama tegmento kiel lia
+   bopatrino!"
+</p>
+
+<p>
+   Ido da&#365;re tamburumis sur sian fotelbrakon per maltrankviligitaj
+   fingroj. "Vi ne <i>scias</i> ke iuj ajn el la agoj kiujn vi
+   priskribas fontis el la ka&#365;zoj kiujn vi supozas."
+</p>
+
+<p>
+   S-rino Lidkoto pa&#365;zis anta&#365; ol respondi, kvaza&#365; honeste strebante
+   taksi la pezon de lia argumentado. Tiam &#349;i diris en malla&#365;ta vo&#265;o,
+   "Mi scias ke Leilino suferegis timante ke mi malsuprenvenu al la
+   vesperman&#285;o la unuan nokton. Kaj estis por mi, ne por si, ke &#349;i
+   timis. Leilino neniam timas por si."
+</p>
+
+<p>
+   "Sed la konkludoj kiun vi eltiras estas nepre sensencaj. Estas
+   mallar&#285;pensaj virinoj &#265;ie sed la virinoj alvenintaj &#265;e Leilino
+   konsciis nepre bonege ke ilia tiea &#265;eesto havigus al &#349;i specon de
+   socia rajtigo kaj se ili konsentis ke &#349;i havu &#285;in, kial mondo-nome
+   <!-- I decided to leave this hyphenated. It's really a matter of
+   personal preference. --> ili dezirus malaprobi tion por vi?"
+</p>
+
+<p>
+   "Tiun sama&#309;on mem mi diris al mi anta&#365; unu semajno en la nuna
+   &#265;ambro post mia unua interparolado kun Suzino Suferno." &#348;i
+   levis nebuletan rideton al liaj maltrankvilaj okuloj. "Jen kial
+   mi a&#365;skultis kion vi diris al mi la saman vesperon kaj kial viaj
+   argumentadoj min duonkonvinkis kaj instigis min ekesperi ke ne
+   maleblos por mi kio eblis por Leilino. Se jam alvenis la nova
+   liberigo, kial ne por mi same kiel por la aliaj? Mi ne scipovas diri
+   al vi kian flugvojon malfermis mia imago!"
+</p>
+
+<p>
+   Franklino Ido stari&#285;is el sia fotelo kaj transiris la &#265;ambron &#285;is
+   se&#285;o staranta proksime al la sofo-angulo. "Mi interesi&#285;is&mdash;en tiu
+   momento&mdash;nur pri kiel via imago &#349;ajnis proksimigi vin al mi," li
+   diris.
+</p>
+
+<p>
+   "Anka&#365; mi interesi&#285;is pri tio. Jen kial mi celis foriri sen vidi
+   vin." Ili inter&#349;an&#285;is reciprokajn seriozajn rigardojn. "&#264;ar, vi
+   vidu, mi eraris," &#349;i da&#365;rigis. "Ni amba&#365; eraris. Vi diras ke estas
+   sensence ke la virinoj konsentintaj agnoski la gastecon de Leilino
+   samtempe malkonsentis min renkonti sub &#349;ia tegmento. Kaj tiel tio
+   estas. Sed mi komencas kompreni la kialon de tio. Temas nur pri tio
+   ke la socio ege tro okupi&#285;as por revizii siajn decidojn. Sendube
+   neniu en la domo pa&#365;zis por konsideri ke mia kazo kaj tiu de Leilino
+   estas samegaj. Ili nur memoris ke mi faris ion kion, en la momento
+   de la farado, la socio kondamnis. Mian kazon oni ju&#285;is kaj klasis.
+   Mi estas la virino kiun jam de dudek jaroj oni malagnoskas. La pli
+   maljunaj homoj jam duonforgesis la kialon, kaj la pli junaj neniam
+   sciis la veran kialon. Malagnoski min nur fari&#285;is tradicio. Kaj la
+   tradicioj perdintaj sian signifon estas la plej malfacilaj por
+
+<!-- File: 23.png -->
+
+   detrui."
+</p>
+
+<p>
+   Ido sidis senmove dum &#349;i parolis. Kiam &#349;i silentis, li
+   stari&#285;is, ridante mallonge, kaj transiris la &#265;ambron
+   &#285;is la fenestro. Ekstere, la vasta nigra Nov-Jorko-perspektivo,
+   striite per siaj multegaj lumvicoj, etendi&#285;is foren en la fumajn
+   randojn de la nokto. Pergeste li indikis &#285;in al &#349;i.
+</p>
+
+<p>
+   "Kion signifas al la tuta tiea ekstera vivo, la&#365; via supozo, tiaj
+   vortoj kiajn vi &#309;us uzis&mdash;'socio,' 'tradicio' kaj la ceteraj?"
+</p>
+
+<p>
+   &#348;i alvenis ekstari apud li &#265;e la fenestro. "Malpli ol nenio,
+   kompreneble. Sed vi kaj mi ne estas ekstere. Ni estas fermitaj en eta
+   stre&#265;ita rondo de kutimo kaj asocii&#285;o, same kiel ni estas fermitaj
+   en &#265;i tiu &#265;ambro. Memoru, mi opiniis esti sukcesinta eliri &#285;in
+   iun fojon, sed verfakte estis la aliaj homoj kiuj &#285;in eliris dum mi
+   restis en la sama eta &#265;ambro. La sola diferenco estis ke mi restis
+   tie solapersone. Ho, mi &#285;in lo&#285;ebligis nun, mi alkutimi&#285;is al &#285;i.
+   Sed mi perdis &#265;iuj iluziojn pri an&#285;elo bonvolonta alveni malfermi
+   la pordon."
+</p>
+
+<p>
+   Denove Ido ridis malpacience. "Nu, se la pordo ne malfermeblas, kial
+   ne permesi eniri ceteran malliberulon? Almena&#365; la soleco estus
+   malpli granda&mdash;"
+</p>
+
+<p>
+   &#348;i forturni&#285;is de la malhela fenestro en la brile lumigitan
+   &#265;ambron.
+</p>
+
+<p>
+   "Sed la malliberejo estus pli fortika. Vi forgesas ke mi estas bonege
+   informita pri tio. Ni estas &#265;iuj malliberuloj, kompreneble&mdash;ni &#265;iuj
+   ordinaraj homoj malkunportantaj nian liberecon en la cerbo. Sed ni
+   nin alkutimigis al niaj apartaj &#265;eloj kaj se oni nin translokigas
+   subite en la novajn, povas okazi ke ni renkontu &#349;tonmuron tie kie ni
+   atendis renkonti maldensan aeron kaj ke ni nin sensencigu frapegante
+   la kapon kontra&#365; &#285;in. Iun fojon mi vidis viron tiel agi."
+</p>
+
+<p>
+   Ido, sin apogante kun falditaj brakoj kontra&#365; la fenestrokadron,
+   &#349;in spektadis silente dum &#349;i vagiradis maltrankvile en la &#265;ambro,
+   kunamasigante kelkajn dis&#309;etitajn librojn kaj lan&#265;ante manplenon
+   da &#349;iritaj leteroj en la for&#309;eta&#309;ujon. Kiam &#349;i finfaris, li
+   reparolis: "&#264;io kion vi diras bazi&#285;as sur anta&#365;konceptitaj
+   teorioj. Kial vi ne elprovis ilin malsuprenirante renkonti viajn
+   anta&#365;ajn amikojn? &#264;u vi ne prikonscias kiun konkludon ili povus
+   nature koncepti pro via elekto vin ka&#349;i kiam ili alvenis? &#348;ajnis
+   ke vi timas ilin&mdash;a&#365; ke vi ne pardonis ilin. Amba&#365;maniere, vi
+   malpravigis ilin anstata&#365; atendi ke ili pravigu vin. Se Leilino
+   sin enterigintus en la dezerto, &#265;u vi supozas ke la socio tien
+   irintus por &#349;in revenigi? Vi diras ke vi timis nome de Leilino kaj
+   ke &#349;i timis nome de vi. &#264;u vi ne komprenas kion signifas &#265;iuj
+   tiuj komplikaj sentoj? Nur ke vi estis tro nervoza en la koncerna
+   momento por lasi la aferon evolui nature, same kiel vi estas tro
+   nervoza nun por ilin taksi racie." Li pa&#365;zis kaj turnis la rigardon
+   al &#349;ia viza&#285;o. "Ne klopodu ektaksi nun. Alju&#285;u al vi iom pli da
+   tempo. Alju&#285;u al <i>mi</i> iom plu da tempo. De &#265;iam mi konscias ke
+   bezonatos tempo."
+</p>
+
+<p>
+   Li alproksimi&#285;is kaj &#349;i permesis ke li alprenu &#349;ian manon. Pro la
+   serioza afableco de lia viza&#285;o situanta tiel proksime super &#349;i, &#349;i
+   sentis sin kvaza&#365; infanon vekitan el timigaj son&#285;oj kaj trovantan
+   lumon en sia &#265;ambro.
+</p>
+
+<p>
+   "Eble vi pravas&mdash;" &#349;i a&#365;dis sin komenci. Tiam ia interna&#309;o retiris
+   &#349;in kvaza&#365; alkro&#265;e kaj &#349;ia mano forfalis de li.
+</p>
+
+<!-- File: 24.png -->
+
+<p>
+   "Mi scias ke mi pravas; fidu al mi. Ni priparolos tion balda&#365; en
+   Florenco."
+</p>
+
+<p>
+   &#348;i staris anta&#365; li, sentante kun malespero lian bonecon, lian
+   paciencon kaj lian malrealecon. Lia tuta dira&#309;o &#349;ajnis pentrita
+   gazo mallevita inter &#349;i kaj la veraj faktoj de la vivo kaj
+   kaptoprenis &#349;in subita deziro dispecegigi la gazon.
+</p>
+
+<p>
+   &#348;i retiri&#285;is kaj lin rigardis kun rideto de supra&#309;a trankviligo.
+   "Vi ja pravas&mdash;rilate al &#265;esi paroli nun. Mi estas nervoza kaj laca
+   kaj da&#365;ra parolado ne helpus. Mi tro meditas pri eventoj. Kiel vi
+   diras, mi devas penadi ne retiri&#285;i en ka&#365;rado anta&#365; homoj." &#348;i
+   flankenturni&#285;is kaj rigardis la horlo&#285;on. "Ho, estas nur la deka!
+   Se mi forsendas vin, mi komencos tro meditadi denove. Kaj se vi
+   restas, ni da&#365;re parolos pri la sama temo. Kial ni ne malsupreniru
+   viziti Margaretinon Vinon dum duonhoro?"
+</p>
+
+<p>
+   &#348;i parolis malpeze kaj rapide dum &#349;iaj brilaj okuloj rigardis lian
+   viza&#285;on, kiun, dum &#349;i spektadis, &#349;i vidis &#349;an&#285;i&#285;i, kvaza&#365; &#349;ia
+   rideto &#309;etintus sur &#285;in tro klaran lumon.
+</p>
+
+<p>
+   "Ho, ne&mdash;ne hodia&#365;vespere!" li asertis.
+</p>
+
+<p>
+   "&#264;u ne hodia&#365;vespere? Nu, kiun alian vesperon mi havos kiam mi
+   foriros je la tagi&#285;o? Krome, mi deziras vidigi al vi ke mi celas
+   esti pli racia&mdash;ke mi celas ne plu timi homojn. Kaj tre pla&#265;us
+   al mi ekvidi novan fojon la malgrandan &#264;arlotinon." Li staris
+   anta&#365; &#349;i kun la mano en la barbo, ripetante la geston kiun li
+   efektivigis &#265;iam en momentoj de perpleksi&#285;o. "Venu!" &#349;i ordonis
+   &#285;oje, turni&#285;ante &#285;is la pordo.
+</p>
+
+<p>
+   Li sekvis &#349;in kaj metis manon sur &#349;ian brakon. "&#264;u vi ne
+   opinias&mdash;&#265;u ne estus pli bone ke mi anta&#365;iru kaj kontrolu? Ili
+   diris al mi ke ili pasigis lacigan tagon &#265;e la robtajloro. Mi
+   kura&#285;as sugesti ke ili jam enliti&#285;is."
+</p>
+
+<p>
+   "Se vi diris ke junulo de &#264;arlotino vesperman&#285;as kun ili. Certe li
+   ne foririntus anta&#365; la deka, &#265;u? Malgra&#365; tio, mi malsupreniros
+   kaj kontrolos kun vi. Oni mal&#349;paras tiom da tempo anta&#365;sendante
+   serviston." &#348;i flankenmetis lin mildageste, tiam pa&#365;zis dum frapis
+   &#349;in nova pensado. "A&#365; atendu. Mia servistino enestas la apudan
+   &#265;ambron. Mi petos ke &#349;i iru demandi &#265;u Margaretino konsentos min
+   akcepti. Jes, jen estas certe la plej bona rimedo."
+</p>
+
+<p>
+   &#348;i turni&#285;is malanta&#365;en kaj iris &#285;is la pordo kondukanta al &#349;ia
+   dorm&#265;ambro. Sed anta&#365; ol povi &#285;in malfermi, denove &#349;i sentis la
+   rapidan tu&#349;geston de Ido.
+</p>
+
+<p>
+   "Mi opinias&mdash;nun mi memoras&mdash;la junulo de &#264;arlotino proponis ke ili
+   foriru &#265;iuj&mdash;al muzikhalo a&#365; simila ejo. Mi certas&mdash;mi nepre certas
+   ke vi ne sukcesos renkonti ilin."
+</p>
+
+<p>
+   &#348;ia mano forfalis de la pordo, la lia forfalis de &#349;ia brako kaj
+   dum ili retiri&#285;is kaj alfrontis unu la alian, &#349;i vidis la sangon
+   levi&#285;i malrapide tra lia palflava ha&#365;to, ru&#285;igi liajn kolon kaj
+   orelojn, sin trudi al la randoj de lia barbo kaj senmovi&#285;i en
+   malklarajn makula&#309;ojn sub liaj amikemaj &#265;agrenitaj okuloj. &#348;i jam
+   vidis la saman ru&#285;i&#285;on sur alia viza&#285;o kaj la sama impulso de
+   kompato sentita tiam denove &#349;in instigis forturni la viza&#285;on.
+</p>
+
+<p>
+   &#264;eporda frapsono rompis la silenton kaj portisto enigis la kapon en
+   la &#265;ambron.
+</p>
+
+<p>
+   "Estas nur por ekscii kiom da valizoj foriros al la &#349;ipo
+   morga&#365;matene."
+</p>
+
+<!-- File: 25.png -->
+
+<p>
+   &#348;i sentis ke tiuj vortoj dispecigis &#349;irrapide la vualon de pentrita
+   gazo kaj ke denove &#349;i movi&#285;as inter la sova&#285;aj randoj de la
+   realeco.
+</p>
+
+<p>
+   "Ho, ve!" &#349;i ekkriis. "Mi neniam sukcesas memori! Atendu momenton.
+   Necesas ke mi informi&#285;u &#265;e mia servistino."
+</p>
+
+<p>
+   &#348;i malfermis sian dorm&#265;ambran pordon kaj alvokis: "Anetino!"
+</p>
+
+<!-- File: 26.png -->
+
+<!-- File: 27.png -->
+
+<!-- File: 28.png -->
+
+
+
+
+
+
+
+
+<pre>
+
+
+
+
+
+End of the Project Gutenberg EBook of Aliaj Tempoj, by Edith Wharton
+
+*** END OF THIS PROJECT GUTENBERG EBOOK ALIAJ TEMPOJ ***
+
+***** This file should be named 18836-h.htm or 18836-h.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/1/8/8/3/18836/
+
+Produced by Robert L. Read, William Patterson and the
+Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+
+</pre>
+
+</body>
+</html>
+

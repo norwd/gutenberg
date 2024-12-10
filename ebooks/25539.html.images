@@ -1,0 +1,2889 @@
+<!DOCTYPE html>
+<html lang="eo">
+<head>
+<meta charset="utf-8"><style>
+#pg-header div, #pg-footer div {
+    all: initial;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+#pg-footer div.agate {
+    font-size: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-footer li {
+    all: initial;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: -0.6em;
+}
+#pg-footer div.secthead {
+    font-size: 110%;
+    font-weight: bold;
+}
+#pg-footer #project-gutenberg-license {
+    font-size: 110%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-header-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight:bold;
+}
+#pg-footer-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header p {
+    text-indent: -4em;
+    margin-left: 4em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: medium
+}
+#pg-header #pg-header-authlist {
+    all: initial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header strong {
+    font-weight: normal;
+}
+#pg-header #pg-start-separator, #pg-footer #pg-end-separator {
+    margin-bottom: 3em;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: center
+}
+
+    .xhtml_center {text-align: center; display: block;}
+    .xhtml_center table {
+        display: table;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        }</style><meta content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 13), see www.w3.org" name="generator">
+<link href="http://purl.org/dc/elements/1.1/" rel="schema.DC" id="id-8760502279685688499">
+<meta content="Xavier de Maistre" name="DC.Creator">
+<meta content="Vojaĝo interne de mia ĉambro" name="DC.Title">
+<meta content="May 12, 2008" name="DC.Date">
+<meta content="Esperanto" name="DC.Language">
+<meta content="Project Gutenberg" name="DC.Publisher">
+<meta content="http://www.gutenberg.org/etext/25539" name="DC.Identifier">
+<meta content="This text is in the public domain." name="DC.Rights">
+<title>The Project Gutenberg EBook of Vojaĝo interne de mia ĉambro by
+  Xavier de Maistre</title>
+<style>.tei {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal
+    }
+.block {
+    display: block
+    }
+.inline {
+    display: inline
+    }
+.floatleft {
+    float: left;
+    margin: 1em 2em 1em 0
+    }
+.floatright {
+    float: right;
+    margin: 1em 0 1em 2em
+    }
+.shaded {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #eee
+    }
+.boxed {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid black
+    }
+body.tei {
+    margin: 4ex 10%;
+    text-align: justify
+    }
+div.tei {
+    margin: 2em 0
+    }
+p.tei {
+    margin: 0 0 1em 0;
+    text-indent: 0
+    }
+blockquote.tei {
+    margin: 2em 4em
+    }
+div.tei-lg {
+    margin: 1em 0
+    }
+div.tei-l {
+    margin: 0;
+    text-align: left
+    }
+div.tei-tb {
+    text-align: center
+    }
+div.tei-epigraph {
+    margin: 0 0 1em 10em
+    }
+div.tei-dateline {
+    margin: 1ex 0;
+    text-align: right
+    }
+div.tei-salute {
+    margin: 1ex 0
+    }
+div.tei-signed {
+    margin: 1ex 0;
+    text-align: right
+    }
+div.tei-byline {
+    margin: 1ex 0
+    }
+div.tei-marginnote {
+    margin: 0 0 0 -12%;
+    width: 11%;
+    float: left
+    }
+div.tei-sp {
+    margin: 1em 0 1em 2em
+    }
+div.tei-speaker {
+    margin: 0 0 1em -2em;
+    font-weight: bold;
+    text-indent: 0
+    }
+div.tei-stage {
+    margin: 1em 0;
+    font-weight: normal;
+    font-style: italic
+    }
+span.tei-stage {
+    font-weight: normal;
+    font-style: italic
+    }
+div.tei-eg {
+    padding: 1em;
+    color: black;
+    background-color: #eee
+    }
+hr.doublepage {
+    margin: 4em 0;
+    height: 5px
+    }
+hr.page {
+    margin: 4em 0;
+    height: 2px
+    }
+ul.tei-index {
+    list-style-type: none
+    }
+dl.tei {
+    margin: 1em 0
+    }
+dt.tei-notelabel {
+    font-weight: normal;
+    text-align: right;
+    float: left;
+    width: 3em
+    }
+dd.tei-notetext {
+    margin: 0 0 1ex 4em
+    }
+span.tei-pb {
+    text-indent: 0;
+    font-size: 75%;
+    font-family: sans-serif;
+    color: #777;
+    position: absolute;
+    left: 1%;
+    width: 8%;
+    font-style: normal
+    }
+span.code {
+    font-family: monospace;
+    font-size: 110%
+    }
+ul.tei-castlist {
+    margin: 0;
+    list-style-type: none
+    }
+li.tei-castitem {
+    margin: 0
+    }
+table.tei-castgroup {
+    margin: 0
+    }
+ul.tei-castgroup {
+    margin: 0;
+    list-style-type: none;
+    padding-right: 2em;
+    border-right: solid black 2px
+    }
+caption.tei-castgroup-head {
+    width: 50%;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 2em
+    }
+*.tei-roledesc {
+    font-style: italic
+    }
+*.tei-set {
+    font-style: italic
+    }
+table.rules {
+    border-collapse: collapse
+    }
+table.rules caption, table.rules th, table.rules td {
+    border: 1px solid black
+    }
+table.tei {
+    border-collapse: collapse
+    }
+table.tei-list {
+    width: 100%
+    }
+th.tei-head-table {
+    padding: 0.5ex 1em
+    }
+th.tei-cell {
+    padding: 0 1em
+    }
+td.tei-cell {
+    padding: 0 1em
+    }
+td.tei-item {
+    padding: 0;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left
+    }
+th.tei-label, td.tei-label {
+    width: 3em;
+    padding: 0;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: right
+    }
+th.tei-label-gloss, td.tei-label-gloss {
+    text-align: left
+    }
+td.tei-item-gloss, th.tei-headItem-gloss {
+    padding-left: 4em
+    }
+img.tei-formula {
+    vertical-align: middle
+    }</style>
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="Vojaĝo interne de mia ĉambro">
+<meta name="dc.language" content="eo">
+<meta name="dcterms.source" content="https://www.gutenberg.org/files/25539/25539-h/25539-h.htm">
+<meta name="dcterms.modified" content="2024-11-11T10:48:28.379317+00:00">
+<meta name="dc.rights" content="Public domain in the USA.">
+<link rel="dcterms.isFormatOf" href="http://www.gutenberg.org/ebooks/25539">
+<meta name="dc.creator" content="Maistre, Xavier de, 1763-1852">
+<meta name="marcrel.trl" content="Meyer, Samuel, -1921">
+<meta name="dc.subject" content="French literature -- Translations into Esperanto">
+<meta name="dcterms.created" content="2008-05-12">
+<meta name="generator" content="Ebookmaker 0.12.47 by Project Gutenberg">
+<meta property="og:title" content="Vojaĝo interne de mia ĉambro">
+<meta property="og:type" content="Text">
+<meta property="og:url" content="https://www.gutenberg.org/cache/epub/25539/pg25539-images.html">
+<meta property="og:image" content="https://www.gutenberg.org/cache/epub/25539/pg25539.cover.medium.jpg">
+</head>
+<body class="tei"><section class="pg-boilerplate pgheader" id="pg-header" lang="en"><h2 id="pg-header-heading" title="">The Project Gutenberg eBook of <span lang="eo" id="pg-title-no-subtitle">Vojaĝo interne de mia ĉambro</span></h2>
+    
+<div>This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at <a class="reference external" href="https://www.gutenberg.org">www.gutenberg.org</a>. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.</div>
+
+<div class="container" id="pg-machine-header"><p><strong>Title</strong>: Vojaĝo interne de mia ĉambro</p>
+<div id="pg-header-authlist">
+<p><strong>Author</strong>: Xavier de Maistre</p>
+
+<p><strong>Translator</strong>: Samuel Meyer</p>
+</div>
+<p><strong>Release date</strong>: May 12, 2008 [eBook #25539]</p>
+
+<p><strong>Language</strong>: Esperanto</p>
+
+
+</div><div id="pg-start-separator">
+<span>*** START OF THE PROJECT GUTENBERG EBOOK VOJAĜO INTERNE DE MIA ĈAMBRO ***</span>
+</div></section><div class="tei tei-text" style="margin-bottom: 2.00em; margin-top: 2.00em" lang="eo"><div class="tei tei-front" style="margin-bottom: 6.00em; margin-top: 2.00em"><div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em"><div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em"><pre class="pre tei tei-div" style="margin-bottom: 3.00em; margin-top: 3.00em"></pre>
+</div>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em"></div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<div class="block tei tei-docTitle">
+<div class="block tei tei-titlePart" style="text-align: left; margin-bottom: 3.46em">
+<span style="font-size: 173%">Vojaĝo interne de mia ĉambro</span>
+</div>
+</div>
+<div class="block tei tei-byline" style="text-align: left; margin-bottom: 3.46em; margin-top: 3.46em">
+<span style="font-size: 173%">by</span> <span class="inline tei tei-docAuthor" style="text-align: left"><span style="font-size: 173%">Xavier de Maistre</span></span>
+</div>
+<div class="tei tei-div" style="text-align: left; margin-bottom: 5.76em; margin-top: 5.76em">
+<span class="tei tei-docEdition" style="text-align: left"><span class="tei tei-edition" style="text-align: left"><span style="font-size: 144%">Edition
+          1</span></span></span><span style="font-size: 144%">,
+          (</span><span class="tei tei-docDate" style="text-align: left"><span class="tei tei-date" style="text-align: left"><span style="font-size: 144%">May 12,
+          2008</span></span></span><span style="font-size: 144%">)</span>
+</div>
+</div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="margin-bottom: 1.00em"></p>
+<div class="tei tei-figure" style="text-align: center">
+<img alt="Ilustraĵo: Kolekto Esperanta: Aprobita de D-o Zamenhof" src="images/terglobo.png" id="img_images_terglobo.png">
+</div>
+</div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">LIBREJO HACHETTE KAJ
+        K<span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; vertical-align: super">o</span></span>, PARIS</p>
+<div class="tei tei-tb">
+<hr style="width: 20%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 180%">Tutmonda
+        Jarlibro Esperantista</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 135%">1906</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 90%">ENHAVANTA LA</span></span><br>
+<em class="tei tei-emph" style="text-align: center"><span style="font-style: normal; font-weight: 700">Adresaron de
+        D</span><span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; font-style: normal; font-weight: 700; vertical-align: super">ro</span></span>
+<span style="font-style: normal; font-weight: 700">ZAMENHOF</span></em><br></p>
+<p class="tei tei-p" style="margin-bottom: 0.90em"><span style="font-size: 90%">Tiu ĉi jarlibro eldoniĝas ĉiujare dum Aprilo. Ĝi
+        entenas: pli ol 30.000 adresojn de Esperantistoj de l’ tuta mondo,
+        plenan sciigon pri la propagandaj Societoj, pri la libroj, la
+        gazetoj, la ĉiuspecaj eldonaĵoj en Esperanto.</span></p>
+<table class="tei tei-table" style="border-spacing: 0px;width: 100%; margin-bottom: 1.00em;" data-summary="This is a table">
+<colgroup span="2"></colgroup>
+<tbody>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-align: left">Unu volumo,
+              in-16, broŝurita</td>
+<td class="tei tei-cell" style="text-align: right">Fr.
+              3,50</td>
+</tr>
+</tbody>
+</table>
+<div class="tei tei-tb">
+<hr style="width: 40%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 180%">LA
+        REVUO</span></span><br>
+<em class="tei tei-emph" style="text-align: center"><span style="font-style: normal; font-weight: 700">Internacia monata literatura
+        gazeto</span></em><br>
+<em class="tei tei-emph" style="text-align: center"><span style="font-style: italic">Redaktata kun la konstanta kunlaborado
+        de</span></em><br>
+<em class="tei tei-emph" style="text-align: center"><span style="font-style: normal; font-weight: 700">D</span><span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; font-style: normal; font-weight: 700; vertical-align: super">ro</span></span>
+<span style="font-style: normal; font-weight: 700">L. L.
+        ZAMENHOF</span></em><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 90%">Aŭtoro de la lingvo</span><br>
+<span style="font-size: 90%">kaj de eminentaj Esperantistoj de ĉiuj
+        landoj.</span></span><br></p>
+<p class="tei tei-p" style="margin-bottom: 0.90em"><span style="font-size: 90%">Ĝi estas pure literatura kaj enhavas: novelojn,
+        poeziojn, komediojn, dramojn, seriozajn studojn pri historio,
+        geografio, statistiko; popolmorojn k. c., kronikon kaj
+        bibliografion.</span></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 0.90em"><span style="font-size: 90%">48 paĝoj, g</span><span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; vertical-align: super">da</span></span> <span style="font-size: 90%">in-8</span><span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; vertical-align: super">o</span></span><span style="font-size: 90%">, da plej bona teksto ĉiumonate!</span><br>
+<span style="font-size: 90%">La 1</span><span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; vertical-align: super">a</span></span> <span style="font-size: 90%">numero aperis la</span> <em class="tei tei-emph" style="text-align: center"><span style="font-size: 90%; font-style: normal; font-weight: 700">1</span><span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; font-style: normal; font-weight: 700; vertical-align: super">an</span></span>
+<span style="font-size: 90%; font-style: normal; font-weight: 700">de
+        Septembro 1906</span></em><span style="font-size: 90%">.</span></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 90%">JARA
+        ABONO</span></span><br>
+        Francujo Fr. 6<br>
+        Ceteraj landoj Fr. 7<br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 90%">UNU NUMERO</span></span>: 50 centimoj<br></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><em class="tei tei-emph" style="text-align: center"><span style="font-style: normal; font-weight: 700">Oni abonas ankaŭ ĉe ĉiuj
+        firmoj montritaj sur la apuda paĝo.</span></em> Ĉiu jaro de La Revuo
+        komenciĝas la 1<span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%; vertical-align: super">an</span></span> de
+        Septembro.</p>
+<div class="tei tei-tb">
+<hr style="width: 40%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 135%">BILDAROJ</span></span><br>
+<em class="tei tei-emph" style="text-align: center"><span style="font-style: normal; font-weight: 700">Teksto en Esperanto—25
+        malsamaj numeroj</span></em></p>
+<p class="tei tei-p" style="margin-bottom: 0.90em"><span style="font-size: 90%">Tiuj bildaroj kvankam skribitaj por infanoj, taŭgas
+        perfekte por la novaj adeptoj. Per ili la profesoroj povas rapide
+        kutimigi la lernantojn paroli esperante. Ili utilas ankaŭ por la
+        propagando.</span></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><em class="tei tei-emph" style="text-align: center"><span style="font-style: normal; font-weight: 700">Prezo</span></em>, Serio<br>
+        da <em class="tei tei-emph" style="text-align: center"><span style="font-style: italic">25 numeroj</span></em></p>
+<table class="tei tei-table" style="border-spacing: 0px;width: 100%; margin-bottom: 0.90em;" data-summary="This is a table">
+<colgroup span="3"></colgroup>
+<tbody>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-align: left"><span style="font-size: 90%">Francujo kaj kolonioj</span></td>
+<td class="tei tei-cell" style="text-align: right"><span style="font-size: 90%">Fr. 1,50</span></td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-align: left"><span style="font-size: 90%">              —              per
+              poŝto simpla</span></td>
+<td class="tei tei-cell" style="text-align: right"><span style="font-size: 90%">1,60</span></td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-align: left"><span style="font-size: 90%">Aliaj landoj</span></td>
+<td class="tei tei-cell" style="text-align: right"><span style="font-size: 90%">2  »</span></td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" style="text-align: left"><span style="font-size: 90%">       —       per
+              poŝto rekomendita</span></td>
+<td class="tei tei-cell" style="text-align: right"><span style="font-size: 90%">2,54</span></td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell" colspan="3" style="text-align: center"><span style="font-size: 90%">Specialaj
+              prezoj por la grupoj.</span></td>
+</tr>
+</tbody>
+</table>
+<div class="tei tei-tb">
+<hr style="width: 20%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 0.90em"><span style="font-size: 90%">326-07.—Coulommiers. Imp.</span> <span class="tei tei-hi" style="text-align: center"><span style="font-size: 90%; font-variant: small-caps">Paul
+        BRODARD</span></span><span style="font-size: 90%">.—P4-07.</span></p>
+</div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.35em"><span style="font-size: 135%">XAVIER DE MAISTRE</span></p>
+<div class="tei tei-tb">
+<hr style="width: 10%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 300%">Vojaĝo</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 180%">interne de mia ĉambro</span></span></p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 70%">TRADUKITA
+        DE</span></span><br>
+        SAM. MEYER</p>
+<div class="tei tei-tb">
+<hr style="width: 10%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">TRIA ELDONO</p>
+<div class="tei tei-tb">
+<hr style="width: 10%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span class="tei tei-hi" style="text-align: center"><span style="font-size: 135%">PARIS</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 135%">LIBRAIRIE HACHETTE ET C</span><span class="tei tei-hi" style="text-align: center"><span style="font-size: 90%; vertical-align: super">ie</span></span></span><br>
+        79, BOULEVARD SAINT-GERMAIN, 79<br></p>
+<div class="tei tei-tb">
+<hr style="width: 5%">
+</div>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">1907<br></p>
+</div>
+</div>
+<hr class="doublepage">
+<div class="tei tei-body" style="margin-bottom: 6.00em; margin-top: 6.00em">
+<span class="tei tei-pb" id="page1">[p. 1]</span><a class="tei tei-anchor" id="p1"></a>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 135%">VOJAĜO</span></span><br>
+<span class="tei tei-hi" style="text-align: center"><span style="font-size: 180%">INTERNE DE MIA ĈAMBRO</span></span></p>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO UNUA.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiel glore estas
+        malfermi novan vojon kaj subite aperi en la mondon scienculan tenante
+        en la mano libron de eltrovoj, kiel en la spaco ekbrilegas neatendita
+        kometo!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ne, mi ne plu
+        konservos mian libron <span class="tei tei-q">« in petto »</span> (en
+        mi mem); jen ĝi estas, sinjoroj, legu. Mi entreprenis kaj plenumis
+        kvardek-du-tagan vojaĝon interne de mia ĉambro. La interesaj observoj
+        faritaj kaj la senĉesa plezuro sentita dum la vojiro donis al mi la
+        deziron publikigi ĝin; la certeco esti utila decidigis min al tio.
+        Mia koro sentas neesprimeblan kontentiĝon, kiam mi pensas pri la
+        nekalkulebla nombro da malfeliĉuloj, al kiuj mi liveras rimedon
+        certan kontraŭ la enuo kaj kvietigilon por la doloroj, kiujn ili
+        suferas. La plezuro, kiun oni trovas vojaĝante en sia ĉambro, estas
+        ŝirmata kontraŭ la malkvieta ĵaluzo de la homoj; ĝi estas sendependa
+        de la riĉeco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉu estas ja homo
+        tiel mizera, tiel forlasita, ke li ne havas rifuĝejon, kie li povas
+        izoli sin kaj kaŝi sin antaŭ la tuta mondo? En tio ĉi konsistas ĉiuj
+        preparoj por la vojaĝo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi estas certa, ke
+        ĉiu homo saĝa alprenos mian sistemon, kiaj ajn estas liaj karaktero
+        kaj temperamento; ĉu li estas avara aŭ malavara, riĉa aŭ malriĉa,
+        juna aŭ maljuna, naskiĝinta en la tropika terzono aŭ proksime de la
+        poluso, <span class="tei tei-pb" id="page2">[p. 2]</span><a class="tei tei-anchor" id="p2"></a> li povos vojaĝi kiel mi; per unu
+        vorto, en la grandega familio de homoj sin movantaj kiel formikoj sur
+        la supraĵo de la tero, ne estas unu (mi parolas pri la homoj loĝantaj
+        en ĉambro), ne estas unu, kiu, leginte mian libron, povos rifuzi sian
+        aprobon al la nova vojaĝmaniero, kiun mi enkondukas en la mondon.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO II</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi povus komenci
+        la laŭdon de mia vojaĝo, dirante, ke ĝi nenion elspezigis al mi;
+        ĉi-tio meritas la atenton. Jen ĝi estas tuj aprobata, aplaŭdata de la
+        malriĉetaj personoj; ankoraŭ pli certan sukceson ĝi havos ĉe alia
+        klaso de homoj, pro tiu sama kaŭzo, ke ĝi nenion kostas—Ĉe kiuj do?
+        He! ĉu vi demandas pri tio? ĉe la riĉuloj! Cetere kiel utila por la
+        malsanuloj estos tiu vojaĝmaniero! Ili ne bezonos timi la
+        malkonstantecon de la aero kaj de la sezonoj.—Koncerne la timulojn,
+        ili estos ŝirmataj kontraŭ la rabistoj: ili renkontos nek
+        profundaĵojn, nek truegojn. Miloj da personoj, kiuj antaŭ mi ne
+        kuraĝis, aliaj, kiuj ne povis, aliaj, fine, kiuj ne ekpensis vojaĝi,
+        tuj decidos fari tion laŭ mia ekzemplo. Ĉu eĉ la plej apatia persono
+        ŝanceliĝus por ekvojiri kun mi al plezuro elspezigonta al ĝi nek
+        monon, nek penon?—Kuraĝe do! ni ekiru!—Sekvu min, vi ĉiuj, kiujn
+        trompo de amatino, senfideleco de amiko, detenas en via loĝejo,
+        malproksime de la malgrandanimeco kaj perfideco de la homoj. Min
+        sekvu ĉiuj malfeliĉuloj, malsanuloj kaj malkontentuloj de la
+        universo!—Leviĝu amase ĉiuj maldiligentuloj!—Kaj vi, kiuj en via
+        animo agitas malgajajn projektojn de aliformiĝo, aŭ de izoliĝo, pro
+        ia malfidelaĵo; vi, kiuj en buduaro forlasas je ĉiam la mondon,
+        amindaj unuvesperaj ermitoj, venu ankaŭ: kredu al mi, forlasu tiujn
+        ideojn malgajajn; vi perdas momenton por la plezuro <span class="tei tei-pb" id="page3">[p. 3]</span><a class="tei tei-anchor" id="p3"></a> kaj ne gajnas momenton por la saĝeco; bonvolu
+        akompani min en mia vojaĝo; ni irados per malgrandaj tagvojoj ridante
+        en la vojiro, kiel vojaĝantoj, kiuj vidis Romon kaj Parizon; neniu
+        kontraŭaĵo povos nin haltigi kaj gaje obeante nian fantazion, ni
+        sekvos ĝin ĉien, kien plaĉos al ĝi konduki nin.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO III</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Estas en la mondo
+        tiom da personoj sciemaj!—Mi estas certa, ke oni dezirus ekscii, kial
+        mia vojaĝo interne de mia ĉambro daŭris kvardek du tagojn anstataŭ
+        kvardek tri aŭ ian alian tempon; sed kiel mi sciigus tion al la
+        leganto, ne sciante mem ĝin?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉio, kion mi povas
+        certigi, estas ke, se la verko estas, laŭ ies opinio, tro longa, ne
+        estis eble al mi fari ĝin malpli longa; lasante aparte ĉiun aŭtoran
+        malmodestecon, mi estus kontentiĝinta kun unu ĉapitro. Mi havis,
+        estas vere, en mia ĉambro ĉiun eblan plezuron kaj agrablon; sed, ho
+        ve! mi ne estis libera por eliri el ĝi laŭ mia volo; mi eĉ pensas,
+        ke, sen la pero de kelkaj personoj potencaj, kiuj interesis sin por
+        mi (ne estingiĝis mia dankeco al ili), mi estus havinta tempon
+        sufiĉan por verki <span class="tei tei-q">« in-folio »</span>’on,
+        tiel favoraj al mi estis la protektantoj, kiuj igis min vojaĝi en mia
+        ĉambro.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tamen, prudenta
+        leganto, rimarku, kiel malpravaj estis tiuj homoj, kaj komprenu bone,
+        se vi povos, la logikecon de tio, kion mi tuj elmontros al vi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉu estas io pli
+        natura kaj pli justa, ol tranĉi al si reciproke la gorĝon, se iu
+        neatente marŝis sur ies piedon, aŭ se iu, en momento de kolero, eble
+        kaŭzita de ies senprudenteco, ellasas parolon pikantan, aŭ fine se iu
+        havis la malfeliĉon plaĉi al ies amatino!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni iras sur la
+        herbejon, kaj tie, kiel Nikolo faris kun <span class="tei tei-pb" id="page4">[p. 4]</span><a class="tei tei-anchor" id="p4"></a>
+        la burĝo nobela, oni penas ataki <span class="tei tei-q">« kvarte »</span> dum la kontraŭulo sin defendas
+        <span class="tei tei-q">« terce »</span>; kaj por ke la venĝo estu
+        certa kaj plena, oni prezentas al li nudan bruston kaj oni riskas
+        esti mortigita de la malamiko por venĝi sin al li.—Oni vidas ke nenio
+        pli logika estas; troviĝas tamen personoj, kiuj malaprobas tiun
+        laŭdindan kutimon!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed io tiel
+        logika, kiel la cetero, estas tio ĉi: tiuj samaj personoj
+        malaprobantaj tion kaj volantaj, ke oni rilatu al ĝi, kiel al grava
+        kulpo, rilatus mem ankoraŭ pli severe al tiu, kiu malkonsentus
+        kulpiĝi tiel. Pli ol unu malfeliĉulo, konformiĝinte al ilia konsilo,
+        perdis sian bonfamon kaj sian oficon; tiel ke, kiam oni havas la
+        malfeliĉon ekhavi honoran disputon, oni ne malprava estus, demandante
+        la sorton por scii, ĉu oni devas fini ĝin laŭ la leĝoj aŭ laŭ la
+        kutimo, kaj ĉar la leĝoj kaj la kutimo malsame ordenas, la juĝistoj
+        ankaŭ povus konsiliĝi per ludkuboj pri sia decido.—Kaj kredeble ankaŭ
+        tiaspecan decidon oni devas serĉi, por klarigi, kial kaj kiel mia
+        vojaĝo daŭris ĝuste kvardek du tagojn.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO IV</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mia ĉambro kuŝas
+        sur la kvina grado de larĝo laŭ la mezuroj de Patro Beccaria; ĝia
+        direkto estas de l’oriento al la okcidento; ĝi formas kvadraton
+        longan, kies ĉirkaŭo havas tridek ses futojn, pasante tre proksime de
+        la muro. Mia vojaĝo tamen estos pli granda, ĉar mi trairos ĝin ofte
+        laŭlonge kaj laŭlarĝe, aŭ ankaŭ diagonale, ne sekvante regulon, nek
+        metodon. Mi eĉ faros zigzagojn kaj mi desegnos ĉiujn eblajn liniojn
+        geometriajn, se la okazo postulos tion. Mi ne amas la homojn, kiuj
+        tiel certe estas mastroj de siaj paŝoj kaj ideoj, kaj diras:
+        <span class="tei tei-q">« Hodiaŭ mi faros tri vizitojn, mi skribos
+        kvar leterojn, mi finos tiun komencitan verkon »</span>. Mia animo
+        tiel malfermita <span class="tei tei-pb" id="page5">[p.
+        5]</span><a class="tei tei-anchor" id="p5"></a> estas al
+        ĉiuspecaj ideoj, emoj kaj sentoj, ĝi akceptas tiel avide ĉion, kio
+        prezentiĝas!…—Kaj kial ĝi rifuzus la ĝuojn disĵetitajn sur la
+        malfacila vojo de la vivo? Ili troviĝas tiel malofte; ili estas tiel
+        malmultaj, ke oni devus esti malsaĝa por ne halti kaj eĉ deturni sin
+        de la vojo kaj rikolti ĉiujn atingeblajn. Nenia estas pli alloga laŭ
+        mia opinio, ol la sekvado de siaj ideoj laŭ iliaj postsignoj, kiel la
+        ĉasisto persekutas la ĉasaĵon, ne penante sekvi difinitan direkton.
+        Tial, kiam mi vojaĝas en mia ĉambro, mi malofte sekvas linion rektan;
+        mi iras de mia tablo al pentraĵo lokita en angulo, de tie mi oblikve
+        iras al la pordo; sed, kvankam mia intenco ĉe la ekiro estis ja iri
+        tien, se mi sur la vojo renkontas mian seĝegon, mi nenian ceremonion
+        faras kaj tuj sidiĝas en ĝi.—Bonega meblo estas seĝego; precipe
+        utilega ĝi estas por ĉiu homo meditema. En la longaj vesperoj vintraj
+        estas kelkfoje agrable kaj ĉiam prudente etendi sin mole sur ĝi,
+        malproksime de la grandaraj kaj grandbruaj kunvenoj.—Bona fajro,
+        libroj, plumoj, kiomaj rimedoj kontraŭ la enuo! Kaj kiel plezure
+        estas ankaŭ forlasi siajn plumojn kaj vigligi sian fajron, fordonante
+        sin al ia dolĉa medito aŭ aranĝante kelkajn rimaĵojn por gajigi siajn
+        amikojn! La horoj tiam glitas preter vi kaj falas silente en la
+        eternon, ne rimarkigante vin pri sia malĝojiga pasado.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO V</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Post mia seĝego,
+        irante al la nordo, oni ekvidas mian liton, kiu staras en la fino de
+        mia ĉambro kaj prezentas la plej agrablan vidaĵon. Ĝi estas lokita
+        plej konvene; la unuaj sunradioj ludas en miaj litkurtenoj.—Mi vidas
+        ilin en la belaj tagoj someraj irantajn antaŭen laŭlonge la blanka
+        muro, laŭ tio, ke la suno supreniras; la ulmoj starantaj antaŭ mia
+        fenestro dividas ilin laŭ mil manieroj <span class="tei tei-pb" id="page6">[p. 6]</span><a class="tei tei-anchor" id="p6"></a>
+        kaj svingas ilin sur mia lito rozkolora kaj blanka, kiu rebriligante
+        ilin, ellasas ĉiuflanken ĉarman nuancon. Mi aŭdas la konfuzan pepadon
+        de la hirundoj, kiuj ekokupis la tegmenton de la domo kaj de la aliaj
+        birdoj, kiuj loĝas en la ulmoj; tiam mil gajaj ideoj okupas mian
+        animon, kaj en la tuta universo neniu havas vekiĝon tiel agrablan,
+        tiel pacan, kiel mi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi konfesas, ke mi
+        amas ĝui tiujn dolĉajn momentojn kaj ke mi ĉiam plilongigas, kiel
+        eble plej multe, la plezuron mediti en la dolĉa varmeco de la
+        lito.—Ĉu estas loko, kiu pli bone faciligas la revadon, kiu vekas pli
+        amajn pensojn, ol la meblo, en kiu mi kelkfoje forgesas min mem?
+        Modesta leganto, ne timiĝu;—sed ĉu mi ne povas paroli pri la feliĉo
+        de amanto, kiu unuafoje premas inter siaj brakoj virtan edzinon?
+        nedirebla plezuro, kiun mia malbona sorto kondamnas min neniam ĝui!
+        Ĉu ne en lito, patrino ebria pro feliĉo je la nasko de filo forgesas
+        siajn dolorojn? Tie la plezuroj fantaziaj, fruktoj de imago kaj
+        espero, venas malkvietigi nin.—Fine en tiu agrablega meblo ni
+        forgesas dum duono de nia vivo la ĉagrenojn de la alia duono. Sed kia
+        amaso da pensoj agrablaj kaj malgajaj sin premas samtempe en mia
+        cerbo! miriga miksaĵo de situacioj teruraj kaj ĉarmegaj!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Lito vidis nin
+        naskiĝantajn kaj vidos nin mortantajn, ĝi estas la ŝanĝema teatro,
+        kie la homaro ludas laŭvice interesajn dramojn, ridigajn komediojn
+        kaj terurajn tragediojn.—Ĝi estas lulilo ornamita per floroj;—ĝi
+        estas la trono de l’amo;—ĝi estas tombo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO VI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu ĉi ĉapitro
+        estas nepre nur por la metafizikuloj. Ĝi tuj ĵetos plej helan lumon
+        sur la naturon homan: ĝi estas prismo, per kiu oni povos analizi kaj
+        dismeti la kapablojn <span class="tei tei-pb" id="page7">[p.
+        7]</span><a class="tei tei-anchor" id="p7"></a> homajn,
+        disigante la povon bestan de la puraj radioj de inteligenteco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Neeble estus por
+        mi klarigi, kiel kaj kial mi bruligis miajn fingrojn je la unuaj
+        paŝoj faritaj en la komenco de mia vojaĝo, se mi ne klarigus detalege
+        al la leganto mian sistemon de l’animo kaj la besto. Tiu ĉi eltrovo
+        metafizika influas cetere tiel forte sur miajn ideojn kaj agojn, ke
+        tre malfacile estus kompreni tiun libron, se mi ne donus la ŝlosilon
+        jam en la komenco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Per diversaj
+        observoj mi eltrovis, ke la homo estas kunfarita el animo kaj besto.
+        Tiuj du estaĵoj estas tute malsamaj, sed tiel enmetitaj unu en la
+        alian, aŭ unu sur la alian, ke la animo bezonas havi kelkan superecon
+        rilate al la besto, por ke ĝi faru tiun distingon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi eksciis de
+        maljuna profesoro (tio estas el miaj plej malnovaj rememoroj), ke
+        Platono nomis la materion <span class="tei tei-q">« la
+        aliulo »</span>. Tio estas bone; sed mi prefere donus tiun nomon al
+        la besto, kiu estas kunigita kun nia animo. Vere tiu ĉi substanco
+        estas la <em class="tei tei-emph"><span style="font-style: italic">aliulo</span></em>, kiu incitetas nin tiel
+        strange. Oni sentas ja konfuze, ke la homo estas duobla; tial oni
+        diras, ke ĝi estas farita el animo kaj korpo, kaj oni kulpigas tiun
+        korpon je mi ne scias kiomaj aferoj; tio ĉi certe tre malĝuste, ĉar
+        ĝi estas tiel nekapabla senti kiel pensi. La beston oni devas
+        kulpigi, tiun estaĵon senteman, plene distingeblan de la animo, veran
+        <em class="tei tei-emph"><span style="font-style: italic">individuon</span></em>, kiu havas sian ekziston
+        apartan, siajn gustojn, inklinojn, volon, kaj kiu superas la aliajn
+        bestojn nur tial, ke ĝi estas pli bone edukita kaj posedas pli
+        perfektajn organojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Gesinjoroj, estu
+        fieraj pro via inteligenteco tiom, kiom al vi plaĉos; sed malfidu
+        forte al la <em class="tei tei-emph"><span style="font-style: italic">aliulo</span></em>, precipe kiam vi estas
+        kune.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi faris mi ne
+        scias kiomajn eksperimentojn pri la kunestado de tiuj du estaĵoj
+        diversnaturaj. Ekzemple mi klare konstatis, ke la animo povas obeigi
+        al si la beston, kaj ke laŭ maloportuna reciprokeco, tiu ĉi tre ofte
+        devigas la animon agi kontraŭ sia volo. Laŭ la regulo <span class="tei tei-pb" id="page8">[p. 8]</span><a class="tei tei-anchor" id="p8"></a> unu havas la leĝigan, kaj la alia la regan
+        potencon; sed tiuj du potencoj ofte kontraŭbatalas reciproke.—La
+        granda arto de genia homo estas tio: scii bone eduki sian beston, por
+        ke ĝi povu iri sola, dum la animo, liberigita de tiu teda kunestado,
+        povos suprenflugi ĝis la ĉielo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed estas bezone
+        klarigi tion per ekzemplo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam vi legas
+        libron, Sinjoro, kaj kiam pli agrabla ideo subite eniras vian imagon,
+        tiam via animo tuj alligas sin al ĝi kaj forgesas la libron, dum viaj
+        okuloj meĥanike sekvas la vortojn kaj liniojn; vi finas la paĝon ne
+        komprenante ĝin kaj vi poste ne memoras tion, kion vi legis.—Tio
+        rezultas ĉar via animo, ordoninte al sia kunulo legi, forgesis averti
+        ĝin pri la mallonga forestado, kiun ĝi mem tuj faros; tial la
+        <em class="tei tei-emph"><span style="font-style: italic">aliulo</span></em> daŭrigis la legadon, kiun via
+        animo jam ne aŭskultis.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO VII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉu tio ĉi ne
+        ŝajnas al vi facile komprenebla? Jen alia ekzemplo:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Unu tagon de la
+        pasinta somero, mi marŝis al la Kortego. Mi estis pentrinta dum la
+        tuta mateno, kaj mia animo, ĝuante la meditadon pri la pentrado,
+        lasis al la besto la zorgon konduki min al la reĝa palaco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kia altega arto
+        estas la pentrado! mia animo pensis; ho! feliĉa tiu, kiun kortuŝis la
+        vidiĝo de la naturo; tiu, kiu ne estas devigata fari pentraĵojn por
+        vivi, kiu ankaŭ ne pentras nur por pasigi la tempon, sed kiu, frapita
+        de la majesteco de bela fizionomio kaj de la admirindaj ludoj lumaj
+        aperantaj milkolore sur la homa vizaĝo, klopodas en siaj verkoj
+        proksimiĝi al la belegaj efektoj de la naturo! Ho, feliĉa ankaŭ la
+        pentristo, kiun la amo al la pejzaĝo forkondukas al izolaj promenoj,
+        kiu sur la pentra tolo scias esprimi la malĝojan senton inspiratan de
+        malhela arbaro aŭ de dezerta kamparo! <span class="tei tei-pb" id="page9">[p. 9]</span><a class="tei tei-anchor" id="p9"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Liaj verkoj imitas
+        kaj figuras la naturon; li kreas novajn marojn kaj malhelajn
+        kavernojn nekonatajn de la suno; ĉe lia ordono, verdaj arbaretoj
+        eliras el la nenio; la bluo de la ĉielo rebrilas en liaj pentraĵoj;
+        li konas la arton malkvietigi la marojn kaj muĝigi la ventegojn.
+        Alifoje li prezentas antaŭ la okulo de ravata rigardanto ĉarmajn
+        kamparojn de antikva Sicilo; oni vidas teruritajn nimfojn forkurantaj
+        tra la kanoj antaŭ la persekuto de Satiro; sanktejoj laŭ majesta
+        arĥitekturo starigas siajn fierajn frontonojn super la sankta arbaro
+        ĉirkaŭanta ilin; la fantazio eraras en la silentajn vojojn de tiu
+        ideala lando; dubebluaj malproksimaĵoj konfuziĝas kun la ĉielo, kaj
+        la tuta lando rebrilanta en la akvoj de kvieta rivero prezentas
+        vidaĵon, kiun nenia lingvo povas priskribi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum mia animo tiel
+        pripensadis, la <em class="tei tei-emph"><span style="font-style: italic">aliulo</span></em> daŭrige marŝis, kaj Dio scias
+        kien ĝi iris!—Anstataŭ ol iri al la Kortego, kiel estis al ĝi
+        ordonite, ĝi tiel dekliniĝis maldekstren, ke en la momento kiam mia
+        animo ĝin rekaptis, ĝi staris jam antaŭ la pordo de S-no de
+        Hautcastel, je duona mejlo de la reĝa palaco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi lasas la
+        leganton imagi tion, kio estus okazinta, se ĝi tute sola enirus la
+        domon de tiel bela sinjorino.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO VIII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Se estas agrable
+        kaj utile havi animon tiel sendependan de la materio, ke oni igas ĝin
+        vojaĝi sola kiam oni trovas tion ĝustatempa, tiu ĉi kapablo havas
+        ankaŭ siajn maloportunaĵojn. Al ĝi ekzemple mi ŝuldas la brulvundon,
+        pri kiu mi parolis en antaŭa ĉapitro.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi kutime lasas al
+        mia besto la zorgon prepari mian matenmanĝon; estas ĝi, kiu rostas
+        kaj distranĉas mian panon. Bonege ĝi preparas la kafon kaj eĉ trinkas
+        ĝin tre ofte sen la enmiksiĝo de mia animo, escepte kiam <span class="tei tei-pb" id="page10">[p. 10]</span><a class="tei tei-anchor" id="p10"></a> tiu ĉi sin amuzas rigardi ĝin laborantan; sed
+        tio okazas malofte kaj estas malfacile farebla, ĉar kiam oni faras
+        kelkan agon meĥanikan, facile estas pensi pri tute alia afero; sed
+        treege malfacile estas rigardi sin agantan, se oni povas tiel
+        diri.—Aŭ, por klarigi tion laŭ mia sistemo, ekzameni per sia animo la
+        iradon de sia besto, vidi ĝin laborantan, kaj ne partopreni mem en
+        tio.—Jen estas la plej miriga ĵonglaĵo metafizika, kiun homo povas
+        plenumi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi kuŝigis mian
+        prenilon sur la fajrajn karbojn por rosti mian panon, kaj iom poste,
+        dum mia animo promenis, jen flamigita ŝtipo ruliĝis sur la
+        antaŭfajrejon; mia malinteligenta besto metis la manon sur la
+        prenilon kaj brulvundis miajn fingrojn.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO IX</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi esperas, ke mi
+        sufiĉe detale elmetis miajn ideojn en la antaŭaj ĉapitroj, por igi la
+        leganton pensi kaj por faciligi al li eltrovojn en tiu ĉi belega
+        minejo; li certe estos kontenta je si, se li iam sukcesos vojaĝigi
+        sian animon tute solan; cetere la plezuroj, kiujn tiu kapablo liveros
+        al li, kompensos la konfuzaĵojn, eble rezultontajn de tio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉu estas ĝojo pli
+        agrabla ol tiamaniere plivastigi la ekziston, okupi samtempe la teron
+        kaj la ĉielon, kaj, por tiel diri, duobligi sian estadon?—Ĉu la
+        eterna kaj neniam satigita deziro de la homo ne estas tio ĉi:
+        pligrandigi sian potencon kaj kapablon, celi tien, kie ĝi ne estas,
+        rememori la estintecon kaj vivi en la estonteco? Ĝi volas komandi
+        armeojn, prezidi akademiojn; ĝi volas esti amegata de la belulinoj;
+        kaj se ĝi posedas ĉion tion ĉi, ĝi tiam sopiras al la kamparo kaj
+        trankvilo kaj envias la dometon paŝtistan; ĝiaj projektoj, ĝiaj
+        esperoj senĉese malprosperas pro la realaj malfeliĉoj kunigitaj kun
+        la <span class="tei tei-pb" id="page11">[p. 11]</span><a class="tei tei-anchor" id="p11"></a> homa naturo; ĝi ne povas trovi
+        la feliĉon. Vojaĝo kun mi dum dekkvin minutoj montros al ĝi la vojon
+        tien.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">He! kial ĝi ne
+        lasas al <em class="tei tei-emph"><span style="font-style: italic">la
+        aliulo</span></em> tiujn mizerajn zorgojn, tiun gloramon, kiuj
+        turmentas ĝin? Venu, kompatindulo! Faru klopodon por disrompi vian
+        malliberejon, kaj de la alta ĉielo, kien mi tuj kondukos vin, de
+        l’mezo de la ĉielaj sferoj kaj de la olimpo, observu vian beston,
+        ellasitan en la mondon, kurantan sole sur la vojo al la riĉeco kaj
+        honoroj; vidu kiel serioze ĝi marŝas meze de la homoj; la amaso
+        flankeniras respekte, kaj, kredu al mi, neniu rimarkos, ke ĝi estas
+        sola; ĉu ĝi havas animon aŭ ne, ĉu ĝi pensas aŭ ne, estas la plej
+        malgranda zorgo de la popolamaso, tra kiu ĝi promenas. Mil virinoj
+        sentimentalaj furioze amos ĝin, ne tion rimarkante; ĝi eĉ povos sin
+        levi, sen la helpo de sia animo, ĝis la plej alta prospero kaj la
+        plej granda riĉeco.—Fine, mi neniel mirus, se, kiam ni revenos de la
+        paradizo, via animo, reenirante hejmen, sin trovus en la besto de
+        altranga sinjoro.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO X</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni ne pensu ke,
+        anstataŭ ol plenumi mian promeson, donante priskribon de mia vojaĝo
+        interne de mia ĉambro, mi ĉirkaŭvagas, por tiri min el embaraso; oni
+        tre erarus, ĉar mia vojaĝo daŭras efektive, kaj dum mia animo,
+        volviĝinte sur si mem, sekvis en la antaŭa ĉapitro la tordajn
+        turniĝojn de metafiziko, mi sidis en mia seĝego, sur kiu mi kvazaŭ
+        kuŝiĝis, tiel ke ĝiaj du antaŭaj piedoj estis levitaj je du coloj
+        super la tero; kaj balancante min dekstren kaj maldekstren kaj tiel
+        antaŭenirante, mi iom post iom alvenis tre proksime de la
+        muro.—Tiamaniere mi vojaĝas, kiam nenio urĝas.—Tie mia mano meĥanike
+        prenis la portreton de S-no de Hautcastel kaj <em class="tei tei-emph"><span style="font-style: italic">la aliulo</span></em>
+        sin amuzis deviŝante la polvon, kiu ĝin kovris.—Tiu <span class="tei tei-pb" id="page12">[p. 12]</span><a class="tei tei-anchor" id="p12"></a> ĉi okupo kaŭzis al ĝi plezuron trankvilan, kaj
+        tiu plezuro estis ankaŭ sentata de mia animo, kvankam tiu ĉi vagis en
+        la vastaj regionoj ĉielaj; ĉar estas utile rimarki, ke kiam la
+        spirito vojaĝas tiamaniere en la ĉielo, ĝi tamen estas ligita al la
+        sentoj per mi ne scias kia sekreta ligilo; tiel ke, ne malhelpante
+        siajn okupojn, ĝi povas partopreni en la pacaj ĝuoj de <em class="tei tei-emph"><span style="font-style: italic">la
+        aliulo</span></em>; sed se tiu ĉi deziro plifortiĝas iom, aŭ se ia
+        neatendita vidaĵo ĝin frapas, la animo tuj reprenas fulmorapide sian
+        lokon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tio ĉi okazis dum
+        mi purigis la portreton.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Laŭ tio, ke la
+        ĉifono deviŝis la polvon kaj iom post iom aperigis buklojn da blondaj
+        haroj, kaj la girlandon de rozoj kronantan ilin, mia animo, de la
+        sunlando, kien ĝi estis transmigrinta, sentis malfortan ektremeton
+        plezuran, kaj simpatie partoprenis en la ĝuo de mia koro. Tiu ĉi ĝuo
+        fariĝis malpli konfuza kaj pli forta, kiam la viŝilo per unu fojo
+        malkovris la brilan frunton de tiu ĉarma vizaĝo; mia animo preskaŭ
+        forlasis la ĉielon por ĝui la vidaĵon. Sed eĉ se ĝi troviĝus en la
+        Elizeaj Kampoj, eĉ se ĝi apudestus ĉe koncerto de keruboj, ĝi certe
+        ne restus tie dum duono da sekundo, kiam ĝia kunulo, ĉiam pli
+        interesiĝante je sia laboro, subite ekkaptis sorbigitan spongon, kiun
+        oni prezentis al ĝi, kaj pasigis ĝin subite sur la brovoj kaj sur la
+        okuloj—sur la nazo—sur la vangoj, sur tiu buŝo;—Ha, Dio! kiel forte
+        batas mia koro; sur la mentono, sur la brusto: en momento tio
+        fariĝis; la tuta vizaĝo ŝajnis reviviĝi kaj eliri el la nenio.—Mia
+        animo rapidegis de la ĉielo kiel falanta stelo; ĝi trovis <em class="tei tei-emph"><span style="font-style: italic">la
+        aliulon</span></em> en ĉarmega ravo, kiun ĝi ankoraŭ pligrandigis
+        partoprenante en ĝi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu stranga kaj
+        neatendita situacio malaperigis por mi tempon kaj spacon.—Dum momento
+        mi vivis en la estinteco kaj, kontraŭ la ordo natura, mi
+        plijuniĝis.—Jes, jen ŝi estas, tiu amegata virino; tio estas ŝi mem;
+        mi vidas ŝin ridetanta, ŝi tuj parolos por diri, ke ŝi min amas.—Kia
+        rigardo! Venu, por ke mi premu vin <span class="tei tei-pb" id="page13">[p. 13]</span><a class="tei tei-anchor" id="p13"></a> sur mian bruston, animo de mia vivo, mia dua
+        ekzisto! Venu partopreni en miaj ebrieco kaj feliĉo!—Tiu momento
+        estis mallonga sed rava; la malvarma racio baldaŭ reprenis sian
+        potencon kaj en la daŭro de palpebrumo mi malplijuniĝis je tuta
+        jaro;—mia koro fariĝis malvarma, malvarmega, kaj mi trovis min je la
+        nivelo de la amaso de indiferentuloj, kiuj kovras la teron.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni ne devas
+        antaŭiri la faktojn: la rapidemo komuniki al la leganto mian sistemon
+        pri l’animo kaj la besto igis min forlasi la priskribon de mia lito,
+        pli frue ol mi tion devis; kiam mi estos fininta ĝin, mi daŭrigos
+        mian vojaĝon de la loko, kie mi ĝin interrompis en la antaŭa
+        ĉapitro.—Mi nur petas vin memori, ke ni lasis <em class="tei tei-emph"><span style="font-style: italic">la duonon de mi
+        mem</span></em> tenanta la portreton de S-no de Hautcastel, proksime
+        de la muro, je kvar futoj de mia skribtablo. Mi forgesis, parolante
+        pri mia lito, konsili al ĉiu homo, kiu tion povos, ke li havu liton
+        rozkoloran kaj blankan; estas certe, ke la koloroj influas sur nin
+        tiel, ke ili nin gajigas aŭ malgajigas, laŭ la nuancoj.—La roza kaj
+        la blanka koloroj estas ambaŭ dediĉitaj al la plezuro kaj feliĉo.—La
+        naturo, donante ilin al la rozo, donis al ĝi la kronon de la imperio
+        Flora; kaj kiam la ĉielo volas anonci al la mondo belan tagon, ĝi
+        koloras la nubojn laŭ tiu ĉarma nuanco, je la leviĝo de la suno.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Unu tagon, ni pene
+        supreniris sur kruta vojeto: la aminda Rozalio marŝis antaŭe; ŝia
+        facilmoveco donis al ŝi flugilojn; ni ne povis sekvi ŝin.—Subite,
+        alveninte sur altaĵeto, ŝi haltis por pli bone spiradi kaj turnis sin
+        al ni, ridetante je nia malrapideco.—Neniam eble la du koloroj, kiujn
+        mi laŭdas, triumfis tiel.—Ŝiaj vangoj fajrigitaj, ŝiaj lipoj kiel
+        koralo, ŝiaj brilaj dentoj, <span class="tei tei-pb" id="page14">[p.
+        14]</span><a class="tei tei-anchor" id="p14"></a> ŝia
+        alabastra kolo, antaŭ postscenejo de verdaĵoj, frapis ĉiujn okulojn.
+        Ni devis halti por rigardadi ŝin; mi nenion diras pri ŝiaj bluaj
+        okuloj nek pri la rigardo, kiun ŝi direktis al ni, ĉar mi tiele
+        elirus el mia temo, kaj ĉar mi cetere pensas pri tio tiel malofte,
+        kiel eble. Sufiĉas, ke mi donis la plej belan ekzemplon imageblan pri
+        la supereco de tiuj du koloroj super ĉiuj aliaj, kaj pri ilia influo
+        sur la feliĉon de la homoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi hodiaŭ ne iros
+        pli antaŭen. Pri kia afero mi povus paroli, kiu ne estus sengusta?
+        Kia ideo ne estas malheligita de tiu ideo?—Mi eĉ ne scias, kiam mi
+        kuraĝos labori denove.—Se mi daŭrigos mian verkon kaj se la leganto
+        deziras vidi ĝian finon, li turnu sin al la anĝelo disdonanta la
+        pensojn, por peti, ke li ne enmiksu plu la vidaĵon de tiu altaĵeto
+        kun la amaso da pensoj sen interligo, kiujn li ĉiuminute ĵetas al
+        mi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sen tiu
+        antaŭzorgo, mia vojaĝo ne efektiviĝos.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XII</p>
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em"><span style="font-family: monospace">. . . . . . . . . . . . . . . . . . . .</span><br>
+<span style="font-family: monospace">. . . . . . . . . . . . . . . . . . . .</span><br>
+<span style="font-family: monospace">. . . . . . . la altaĵeto . . . . . . .</span><br>
+<span style="font-family: monospace">. . . . . . . . . . . . . . . . . . . .</span><br>
+<span style="font-family: monospace">. . . . . . . . . . . . . . . . . . . .</span></p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XIII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La penoj estas
+        vanaj; mi devas prokrasti la aferon kaj estadi tie ĉi kontraŭvole;
+        tio estas milita haltado.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XIV</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi jam diris, ke
+        tre plaĉas al mi mediti en la dolĉa varmeteco de mia lito, kaj ke ĝia
+        agrabla koloro multe kunhelpas al la plezuro, kiun mi trovas en ĝi.
+        <span class="tei tei-pb" id="page15">[p. 15]</span><a class="tei tei-anchor" id="p15"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Por havigi al mi
+        tiun plezuron, mia servisto ricevis la ordonon eniri en mian ĉambron
+        je duono da horo antaŭ la momento, en kiu mi decidis leviĝi. Mi aŭdas
+        lin marŝanta malpeze kaj tuŝetanta ĝentilete la objektojn en mia
+        ĉambro, kaj tiu bruo kaŭzas al mi la plezuron senti min dormetanta,
+        plezuron delikatan kaj nesciatan de multaj homoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni sufiĉe
+        maldormas, por scii ke oni ne tute vekiĝis, kaj por konfuze kalkuli,
+        ke la horo de la aferoj kaj zorgoj estas ankoraŭ en la sabla horloĝo
+        de la tempo. Iom post iom tiu homo fariĝas pli brua; tiel malfacile
+        estas sin deteni! Aliflanke, li scias, ke la horo fatala
+        proksimiĝas.—Li rigardas mian poŝhorloĝon kaj tintigas la pendaĵetojn
+        por min averti; sed mi ŝajnigas min ne aŭdanta; kaj por plilongigi
+        ankoraŭ tiun ĉarman horon, ne estas ĉikano, kiun mi ne faras al tiu
+        malfeliĉulo. Mi havas cent ordonojn por doni al li antaŭe kaj tiel
+        pasigi la tempon. Li bone scias, ke tiuj ordonoj, donitaj sufiĉe
+        malbonhumore, estas nur pretekstoj por resti en la lito ne vidigante,
+        ke mi ĝin deziras. Ŝajnas ke li ne rimarkas tion, kaj mi vere estas
+        danka al li pro tio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Fine, kiam mi
+        eluzis ĉiujn miajn rimedojn, li antaŭvenas ĝis la mezo de la ĉambro
+        kaj staras tie, kun la brakoj krucigitaj, perfekte senmove.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni konfesos, ke
+        ne estas eble malaprobi min pli sprite kaj pli delikate; tial mi
+        neniam kontraŭstaras al tiu silenta invito; mi etendas la brakojn por
+        montri al li, ke mi komprenis, kaj mi sidiĝas.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Se la leganto
+        pripensos pri la konduto de mia servisto, li povos konvinkiĝi ke, en
+        kelkaj aferoj delikataj kiel tiu ĉi, la simplanimeco kaj saĝo senfine
+        pli valoras ol la plej lerta spriteco. Mi kuraĝas certigi, ke la plej
+        prilaborita parolado pri la malutiloj de la mallaboremo ne tiel
+        rapide decidigus min eliri el mia lito, kiel la muta riproĉo de
+        S<span class="tei tei-hi"><span style="font-size: 70%; vertical-align: super">ro</span></span> Joannetti;
+        perfekte honesta homo estas S<span class="tei tei-hi"><span style="font-size: 70%; vertical-align: super">ro</span></span> Joannetti,
+        <span class="tei tei-pb" id="page16">[p. 16]</span><a class="tei tei-anchor" id="p16"></a> kaj samtempe la plej konvena homo
+        por vojaĝisto kiel mi. Li estas kutiminta je la oftaj migradoj de mia
+        animo kaj neniam ridas pri la senraciaĵoj de <em class="tei tei-emph"><span style="font-style: italic">la
+        aliulo</span></em>; li eĉ direktas tiun ĉi kelkfoje, kiam ĝi estas
+        sola, tiel ke oni povus tiam diri, ĝi estas direktata de du animoj.
+        Kiam ekzemple ĝi vestas sin, li per gesto ĝin avertas, ke ĝi tuj
+        metos siajn ŝtrumpojn returnite, aŭ sian frakon antaŭ sian
+        veŝton.—Mia animo ofte sin amuzis vidante la malfeliĉan Joannetti
+        kuranta post la malsaĝulo ĝis la fortifikaĵoj, por averti ĝin, ke ĝi
+        forgesis sian ĉapelon—alian fojon, sian naztukon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Unu tagon (ĉu mi
+        tion konfesos?) sen tiu fidela servisto, kiu ĝin atingis malsupre de
+        la ŝtuparo, la senpripensulo alvojirus al la Kortego sen glavo, tiel
+        fiere kiel ceremonimastro portanta la majestan bastoneton.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XV</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Jen, Joannetti, mi diris, rependigu tiun
+        portreton. »</span>—Li estis helpinta min por purigi ĝin, kaj ne pli
+        divenis ĉion, kio produktis la ĉapitron de la portreto, ol tion, kio
+        okazas en la luno. Estis li, kiu propramove prezentis al mi la
+        spongon sorbigitan kaj kiu, per tiu ago ŝajne negrava, igis mian
+        animon trairi cent milionojn da mejloj dum unu minuto. Anstataŭ ol
+        remeti ĝin en ĝian lokon, li tenis ĝin por viŝi ĝin
+        siavice.—Malfacilaĵo, problemo por solvi donis al li mienon scivolan,
+        kiun mi rimarkis.—<span class="tei tei-q">« Diru, mi demandis, kion
+        vi trovas kritikinda en tiu portreto?—Ho! nenion, sinjoro.—Sed
+        kion? »</span>—Li starigis ĝin sur unu el la bretoj de mia
+        skribtablo; kaj, malproksimiĝinte je kelkaj paŝoj, li diris:
+        <span class="tei tei-q">« Mi dezirus, ke mia sinjoro klarigu al mi,
+        kial tiu portreto rigardas min ĉiam, en kiu ajn loko de la ĉambro mi
+        staras. Matene kiam mi aranĝas la liton, ĝia vizaĝo sin turnas al mi,
+        kaj <span class="tei tei-pb" id="page17">[p. 17]</span><a class="tei tei-anchor" id="p17"></a> se mi iras al la fenestro, ĝi
+        ankoraŭ rigardas min kaj sekvas min per la okuloj dum mi
+        marŝas.—Tiel, Joannetti, ke se la ĉambro estus plena je homoj, tiu
+        bela sinjorino rigardus ĉiuflanken kaj ĉiujn samtempe?—Jes,
+        sinjoro.—Ŝi ridetus al la irantoj kaj venantoj tiel, kiel al
+        mi? »</span>—Joannetti nenion respondis. Mi kuŝigis min sur mia
+        seĝego kaj, mallevante la kapon, mi fordonis min al la plej seriozaj
+        meditoj.—Kia radio de lumo! Malfeliĉa amanto! Dum vi enuadas
+        malproksime de via amatino, ĉe kiu vi eble jam estas anstataŭita; dum
+        vi fervore turnas viajn okulojn sur ŝian portreton, kaj dum vi imagas
+        (almenaŭ pri la portreto), ke vi sola estas rigardata, la perfida
+        figuro, tiel malfidela, kiel la originalo, direktas siajn rigardojn
+        al ĉio, kio ĝin ĉirkaŭas, kaj ridetas al ĉiuj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jen estas simileco
+        morala inter kelkaj portretoj kaj iliaj modeloj, kiun nenia filozofo,
+        nenia pentristo, nenia observemulo ankoraŭ eltrovis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi faras eltrovojn
+        post eltrovoj.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XVI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Joannetti daŭrige
+        staris en la sama sintenado, atendante la pripetitan klarigon. Mi
+        elmetis la kapon el la faldoj de mia vojaĝa surtuto, kien mi estis
+        interniginta ĝin por mediti senĝene kaj por rekvietiĝi post la
+        malgajaj pripensoj ĵus havitaj: <span class="tei tei-q">« Ĉu vi ne
+        vidas, Joannetti, mi diris post momenta silentado kaj turnante mian
+        seĝegon al lia flanko, ĉu vi ne vidas, ke ĉar pentraĵo estas plataĵo,
+        la lumradioj, kiuj deiras de ĉia loko de tiu plataĵo… »</span>.
+        Joannetti, je tiu klarigo, tiel malfermis la okulojn, ke li vidigis
+        la tutajn pupilojn; li plie havis la buŝon duone malfermita; tiuj du
+        movoj, en homa figuro, signas, laŭ la diro de la grandfama Le Brun,
+        la plej altan gradon de la <span class="tei tei-pb" id="page18">[p.
+        18]</span><a class="tei tei-anchor" id="p18"></a> miro.
+        Estis sendube mia besto, kiu entreprenis tian disertacion; mia animo
+        scias ja, ke Joannetti certe ne scias, kio estas lumradioj; la
+        plilarĝiĝo de liaj palpebroj rekonsciigis min, kaj mi remetis mian
+        kapon en la kolumon de mia vojaĝa vesto kaj tiel profunde internigis
+        ĝin tien, ke mi sukcesis kaŝi ĝin preskaŭ tutan.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi decidis
+        tagmanĝi en tiu loko; la mateno jam preskaŭ konsumiĝis; unu paŝo plu
+        en mia ĉambro prokrastigus mian tagmanĝon ĝis la nokto. Mi glitigis
+        min ĝis la randaĵo de mia seĝego; metante ambaŭ piedojn sur la
+        kamenon, mi pacience atendis la manĝon.—Ĉarma teniĝo estas tiu ĉi;
+        estus, mi pensas, tre malfacile trovi alian tiel profitan kaj tiel
+        oportunan por la haltadoj neeviteblaj dum longa vojaĝo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Rozino, mia fidela
+        hundino, neniam forgesas veni tiam kaj tireti la baskojn de mia
+        vojaĝa vesto, por ke mi prenu ŝin sur min; ŝi tie trovas liton tute
+        aranĝitan kaj tre oportunan en la pinto de l’angulo, kiun faras la du
+        partoj de mia korpo: la konsonanto V perfekte figuras mian situacion.
+        Rozino eksaltas sur min, se mi ne prenas ŝin sufiĉe rapide, laŭ ŝia
+        deziro. Mi trovas ŝin ofte tie, ne sciante kiel ŝi venis. Miaj manoj
+        propramove sin metas laŭ la maniero plej favora por ŝia bonstato, ĉu
+        tial, ke ekzistas simpatio inter tiu aminda besto kaj la mia, ĉu ĉar
+        la hazardo decidas pri tio;—sed mi ne kredas al la hazardo, al tiu
+        sistemo netaŭga—al tiu vorto sensignifa.—Mi prefere kredus al la
+        magnetismo.—Mi prefere kredus al la Martinismo. Ne, neniam mi kredos
+        al ĝi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Estas tia realeco
+        en la rilatoj inter tiuj du bestoj, ke, kiam mi metas ambaŭ piedojn
+        sur la kamenon pro simpla senatento, kiam la horo de la tagmanĝo
+        estas ankoraŭ malproksima kaj kiam mi neniel pensas fari la haltadon,
+        tamen Rozino, vidante tiun movon, konigas per malgranda movo de vosto
+        la plezuron sentatan; la konveneco detenas ŝin en ŝia loko; kaj
+        <em class="tei tei-emph"><span style="font-style: italic">la
+        aliulo</span></em>, kiu tion ekvidas, estas danka al ŝi pro tio;
+        kvankam ili ne povas <span class="tei tei-pb" id="page19">[p.
+        19]</span><a class="tei tei-anchor" id="p19"></a> rezoni
+        pri la kaŭzo produktanta tion, fariĝas inter ili muta interparolo,
+        agrabla interŝanĝo de sentoj, kiu certe ne povus esti alskribita al
+        la hazardo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XVII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni ne riproĉu al
+        mi, ke mi skribas tro detale; tio estas la maniero de la vojaĝantoj.
+        Kiam oni ekrajdas por supreniri sur la Blankan Monton, kiam oni iras
+        por viziti la truegon, en kiu pereis Empedoklo, oni neniam forgesas
+        priskribi precize la malplej gravajn detalojn: la nombro de la
+        personoj, la nombro de la muloj, la boneco de la provizoj, la bonega
+        apetito de la vojaĝantoj, fine ĉio, eĉ la faletoj de la rajdbestoj,
+        zorge enskribiĝas en la raporto por la instruo de la nevojaĝanta
+        homaro. Laŭ tiu principo mi decidis paroli pri mia kara Rozino,
+        aminda besto, kiun mi amas per vera amo, kaj dediĉi al ŝi tutan
+        ĉapitron. Dum la ses monatoj, kiujn ni vivis kune, ne estis en niaj
+        interrilatoj la plej malgranda malvarmiĝo; aŭ, se ekestis kelkaj
+        disputetoj inter ŝi kaj mi, mi vereme konfesas, ke la pli granda
+        malpraveco estis miaflanke, kaj ke Rozino ĉiam faris la unuajn paŝojn
+        al la repaciĝo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">En la vespero,
+        kiam ŝi estas riproĉita, ŝi foriras malgaje kaj ne murmurante; je la
+        morgaŭa tago, frumatene, ŝi estas apud mia lito kun respekta
+        sintenado; kaj je la plej malgranda moveto de sia mastro, je lia unua
+        signo de vekiĝo, jen ŝi sciigas pri sia ĉeestado per la rapidegaj
+        batoj de sia vosto sur mian noktotablon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj kiel mi
+        rifuzus mian amon al tiu karesema estaĵo, kiu neniam ĉesis min ami,
+        de la tempo, kiam ni komencis vivi kune? Mia memoro ne sufiĉus por
+        skribi la nomaron de la personoj, kiuj sin interesis por mi kaj poste
+        forgesis min. Mi havis kelkajn amikojn, kelkajn amatinojn, aron da
+        kunuloj, ankoraŭ pli multajn konatojn;—kaj <span class="tei tei-pb" id="page20">[p. 20]</span><a class="tei tei-anchor" id="p20"></a> nun, mi jam estas nenio por ĉiuj tiuj; ili
+        forgesis eĉ mian nomon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiom da certigoj,
+        kiom da proponoj de servo! Ilia riĉeco estis mia. Mi povis fidi al
+        ilia eterna kaj senkondiĉa amikeco!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mia kara Rozino,
+        kiu ne proponis al mi siajn servojn, faras al mi la plej grandan
+        servon fareblan al homo: ŝi min amis iam, kaj amas min ankoraŭ nun.
+        Tial mi ne timas diri tion: mi amas ŝin per parto de la sama sento,
+        kiun mi havas al miaj amikoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni pri tio diru,
+        kion oni volos.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XVIII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni lasis
+        Joannetti’on en la sintenado kaŭzita de la miro, senmove antaŭ mi,
+        atendante la finon de la belega klarigo, kiun mi komencis.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam li vidis min
+        enmetanta subite la kapon en mian noktan surtuton kaj tiel finanta
+        mian klarigon, li ne dubis unu momenton, ke mi haltis pro manko de
+        bonaj argumentoj, kaj ke li sekve venkis min per la malfacila
+        problemo proponita al mi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Malgraŭ la
+        supereco, kiun li tiel akiris super mi, li ne eksentis la plej
+        malgrandan fierecon, kaj ne penis profiti sian venkon. Post momenta
+        silentado li prenis la portreton, remetis ĝin sur ĝian lokon kaj
+        foriris senbrue, marŝante per la pinto de la piedoj. Li bone
+        komprenis, ke lia apudesto estas kvazaŭa humiligo por mi, kaj lia
+        delikateco inspiris al li la penson eliri, ne rimarkigante min pri
+        tio.—Lia konduto en tiu okazo interesis min forte, kaj enlokis lin
+        pli profunden en mian koron. Li sendube trovos lokon ankaŭ en la koro
+        de la leganto; kaj se iu tiel malsentema estas, ke li rifuzos ĝin al
+        li post la lego <span class="tei tei-pb" id="page21">[p.
+        21]</span><a class="tei tei-anchor" id="p21"></a> de la
+        venonta ĉapitro, la ĉielo certe donis al li marmoran koron.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XIX</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Per Dio! mi diris al li unu tagon, jam la trian fojon
+        mi ordonas, ke vi aĉetu broson por mi! Kia kapo! Kia
+        besto! »</span>—Li nenian vorton respondis; nenion li estis
+        respondinta en la antaŭa tago, post simila riproĉo. <span class="tei tei-q">« Li estas tiel akuratema! »</span> mi pensis; mi neniel
+        komprenis tion.—<span class="tei tei-q">« Iru preni ĉifonon por
+        purigi miajn ŝuojn »</span>, mi diris kolere. Dum li iris, mi pentis,
+        ke mi tiel malafable parolis al li. Mia kolero tute foriĝis, kiam mi
+        vidis kun kia zorgo li penadis deviŝi la polvon de miaj ŝuoj, ne
+        tuŝante miajn ŝtrumpojn; mi apogis mian manon sur li, kiel signo de
+        paciĝo.—<span class="tei tei-q">« Kiel! mi diris al mi mem, estas do
+        homoj, kiuj pro mono purigas la ŝuojn de aliuloj? »</span> Tiu vorto
+        <em class="tei tei-emph"><span style="font-style: italic">mono</span></em> estis lumradio, kiu eklumis al
+        mi. Mi subite rememoriĝis, ke jam de longe mi nenian monon donis al
+        mia servisto.—<span class="tei tei-q">« Joannetti, mi diris,
+        retirante mian piedon, ĉu vi havas monon? »</span> Duona rideto de
+        praviĝo aperis sur liaj lipoj, je tiu demando.—<span class="tei tei-q">« Ne, sinjoro, de ok tagoj mi ne havas unu centimon; mi
+        elspezis por viaj malgrandaj aĉetaĵoj ĉion, kion mi posedis.—Kaj la
+        broson? Sendube pro tio? »</span>—Li denove ridetis.—Li povus diri al
+        sia mastro: <span class="tei tei-q">« Ne, mi ne estas senenhava kapo,
+        besto, kiel vi kruele nomis vian fidelan serviston. Pagu al mi 24
+        frankojn, 10 soldojn kaj 4 denarojn, kiujn vi ŝuldas al mi, kaj mi
+        aĉetos broson por vi. »</span>—Li lasis sin insulti prefere ol riski,
+        ke lia mastro hontu pro sia kolero. La ĉielo lin benu! Filozofoj,
+        Kristanoj! ĉu vi tion legis?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Jen, Joannetti, mi diris, kuru por aĉeti la
+        broson.—Sed, sinjoro, ĉu vi volas resti tiel, kun unu ŝuo blanka kaj
+        la alia nigra?—Iru, mi diras, por aĉeti la broson; lasu, lasu tiun
+        polvon sur mia ŝuo »</span>. <span class="tei tei-pb" id="page22">[p.
+        22]</span><a class="tei tei-anchor" id="p22"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li eliris; mi
+        prenis la ĉifonon, kaj mi plezurege purigis mian ŝuon maldekstran,
+        sur kiun mi faligis pentan larmon.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XX</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La muroj de mia
+        ĉambro estas provizitaj je gravuraĵoj kaj pentraĵoj, kiuj ĝin mirige
+        beligas. Mi tutkore dezirus ekzamenigi ilin al la leganto, unujn post
+        aliaj por lin amuzi kaj distri en la vojo, kiun ni devos sekvi por
+        iri al mia skribtablo; sed tiel neeble estas rakonti ĝuste pentraĵon,
+        kiel fari, laŭ priskribo, portreton similan. Kiel kortuŝita li estus,
+        rigardante ekzemple la unuan gravuraĵon, kiu prezentiĝas antaŭ la
+        okuloj!—Li vidus la malfeliĉan <span class="tei tei-q">« Ĉarloto »</span> viŝanta malrapide kaj per tremanta
+        mano la pistolojn de Alberto. Nigraj antaŭsentoj kaj ĉiuj turmentiĝoj
+        de senespera kaj nekonsolebla amo estas signitaj sur ŝia fizionomio;
+        dum la senekscita Alberto, ĉirkaŭita de sakoj da procesaĵoj kaj
+        ĉiuspecaj malnovaj paperoj, sin turnas malvarme por deziri al sia
+        amiko bonan vojaĝon. Kiom da fojoj mi estis tentata disrompi la
+        vitron, kiu kovras tiun gravuraĵon, por detiri tiun Alberton de lia
+        tablo, por lin disŝiri, por lin piedfrapadi! Sed ĉiam restos tro
+        multaj Albertoj en tiu ĉi mondo. Kiu sentema homo ne havas sian, kun
+        kiu li estas devigita kunvivi, kaj kontraŭ kiu la konfidoj de
+        l’animo, la dolĉaj kormovoj, kaj la eksaltoj de la fantazio
+        disrompiĝas kiel la ondoj kontraŭ ŝtonegoj? Feliĉa tiu, kiu trovas
+        amikon, kies koro kaj animo taŭgas por li; amiko, kiu unuiĝas kun li
+        per konformeco de gustoj, sentoj kaj sciaĵoj; amiko ne turmentata de
+        gloramo aŭ profitamo, kaj preferanta la ombraĵon de arbo al la lukso
+        de kortego!—Feliĉa tiu, kiu posedas amikon! <span class="tei tei-pb" id="page23">[p. 23]</span><a class="tei tei-anchor" id="p23"></a></p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi havis unu; la
+        morto lin forprenis de mi; ĝi kaptis lin en la komenco de lia vojo,
+        en la momento, kiam lia amikeco fariĝis necesega bezono por mia
+        koro.—Ni subtenis unu la alian en la malfacilaj laboroj militaj; ni
+        havis unu pipon por ambaŭ; ni trinkis el la sama pokalo; ni kuŝis sub
+        la sama tendo; kaj en la malĝojaj cirkonstancoj nunaj, la loko, kie
+        ni vivadis kune, estis por ni nova patrujo. Mi vidis lin elmetita
+        antaŭ ĉiuj danĝeroj de milito, kaj de milito ruiniga. La morto ŝajnis
+        ŝpari nin unu pro la alia; milfoje ĝi eluzis siajn sagojn ĉirkaŭ li,
+        ne lin atingante; sed tio estis por fari lian perdon pli sentebla por
+        mi. La bruego de la armoj, la entuziasmo, kiu kaptas la animon je la
+        ekvido de la danĝero, eble estus malhelpintaj liajn kriojn veni ĝis
+        mia koro.—Lia morto estus utila al lia lando kaj malutila al liaj
+        malamikoj—mi bedaŭrus lin malpli forte.—Sed perdi lin meze en la ĝojo
+        de vintra loĝado! Vidi lin mortanta inter miaj brakoj en la momento,
+        kiam li ŝajnis esti sanega, kiam nia amikeco ankoraŭ plifortiĝis en
+        la ripozo kaj trankvileco! Ha! neniam mi konsoliĝos! Tamen lia memoro
+        jam ne vivas, krom en mia koro; ĝi ne ekzistas plu ĉe tiuj, kiuj
+        vivis ĉirkaŭ li kaj lin anstataŭis; tiu ideo faras pli dolora por mi
+        la penson de la perdo de li. Same la naturo, indiferenta al la sorto
+        de la estaĵoj, denove vestas sin per sia brila robo printempa, kaj
+        ornamiĝas laŭ sia tuta beleco proksime de la tombejo, kie li ripozas.
+        La arboj kovriĝas per folioj kaj intermiksas siajn branĉojn, la
+        birdoj kantas en la foliaro, la muŝoj zumas inter la floroj; ĉio
+        elmontras ĝojon kaj vivemon, en la loĝejo de la morto; kaj vespere,
+        kiam la luno brilas en la ĉielo kaj mi meditas proksime de tiu
+        malĝoja loko, mi aŭdas la grilon gaje daŭriganta sian nelaciĝan
+        kanton, kaŝite sub la herbo, <span class="tei tei-pb" id="page24">[p.
+        24]</span><a class="tei tei-anchor" id="p24"></a> kiu
+        kovras la silentan tombon de mia amiko. La malrapida neniiĝo de la
+        estaĵoj kaj ĉiuj malfeliĉoj de la homaro valoras same kiel nenio en
+        la granda ĉio.—La morto de sentema homo mortanta meze de siaj
+        senkonsolaj amikoj, kaj tiu de papilio mortigita de la malvarma aero
+        en florkaliko, estas du similaj momentoj en la irado de la naturo. La
+        homo estas nur fantomo, ombro, vaporaĵo disiĝanta en la aeron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed la matena lumo
+        ekblankigas la ĉielon: la nigraj ideoj, kiuj min malkvietigis,
+        disiĝas kun la nokto, kaj la espero renaskiĝas en mia koro.—Ne, tiu,
+        kiu tiel lumegigas la orienton, ne briligis ĝin antaŭ miaj okuloj por
+        baldaŭ ĵeti min en la nigran nenion; tiu, kiu etendis tiun
+        nemezureblan horizonton, kiu konstruis tiujn grandegajn altaĵojn,
+        kies glaciaj suproj estas orataj de la suno, estas la sama, kiu
+        ordonis, ke mia koro batu kaj ke mia spirito pensu.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ne, mia amiko ne
+        eniris en la nenion; kiu ajn estas la barilo disiganta nin, mi
+        revidos lin.—Ne sur silogismo mi fondas mian esperon.—La flugo de
+        insekto trairanta la aeron sufiĉas por konvinki min; kaj ofte la
+        vidaĵo de la kamparo, la bonodoro de l’aero, kaj mi ne scias kia
+        ĉarmo ĉirkaŭ mi, tiel altigas miajn pensojn, ke nevenkebla pruvo de
+        senmorteco perforte eniras mian animon kaj okupas ĝin tutan.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jam de longe la
+        ĵus skribita ĉapitro prezentadis sin al mia plumo, kaj mi ĉiam estis
+        forpuŝinta ĝin. Mi estis promesinta al mi vidigi en tiu ĉi libro nur
+        la gajan flankon de mia animo; sed tiu projekto forkuris de mi, kiel
+        tiomaj aliaj! mi esperas, ke la sentema leganto pardonos, se mi
+        kaŭzis al li kelkajn larmojn; kaj se iu opinias, ke <span class="tei tei-pb" id="page25">[p. 25]</span><a class="tei tei-anchor" id="p25"></a> mi vere povus ne meti tiun malĝojan ĉapitron,
+        li mem povas elŝiri ĝin el sia ekzemplero, aŭ eĉ ĵeti la libron en la
+        fajron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sufiĉas al mi, se
+        vi trovas ĝin laŭ via koro, mia kara Jenny, vi la plej bona kaj la
+        plej amata el la virinoj, vi la plej bona kaj la plej amata el la
+        fratinoj; al vi mi dediĉas mian verkon; se vi ĝin aprobos, ĝin
+        aprobos ĉiuj koroj sentemaj kaj delikataj; kaj se vi pardonos la
+        malsaĝaĵojn, kiujn mi kelkfoje ellasas kontraŭvole, mi maltimas ĉiujn
+        kritikantojn en la universo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXIII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Nur unu vorton mi
+        diros pri la sekvanta gravuraĵo: ĝi estas la familio de la malfeliĉa
+        Ugoleno mortanta pro malsato. Ĉirkaŭ li, unu el liaj filoj kuŝas
+        senmove apud liaj piedoj; la aliaj prezentas al li siajn
+        senfortigitajn brakojn kaj petas pri pano, dum la malfeliĉa patro,
+        apogata al kolono de la malliberejo, kun senmova vizaĝo, kun okuloj
+        fiksaj kaj sovaĝaj, en la terura kvieteco kaŭzita de la plej alta
+        grado de la malespero—mortas samtempe sian propran morton kaj tiun de
+        ĉiuj siaj infanoj, kaj suferas ĉion, kion la homo povas suferi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Brava kavaliro
+        d’Assas, jen vi mortas sub cent bajonetoj, per ekpeno kuraĝa, kun
+        heroeco, kiun oni jam ne konas nuntempe!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj vi, malfeliĉa
+        nigrulino ploranta sub la palmoj! vi, kiun barbaro, kredeble ne
+        Angla, perfidis kaj forlasis;—kion mi diras? vi, kiun li kruele
+        vendis kiel malnoblan sklavinon, malgraŭ via amo kaj via servado,
+        malgraŭ la frukto de sia amo, kiun vi portas en via ventro,—mi ne
+        pasos preter via portreto, ne donante al vi la saluton merititan de
+        via sentemo kaj de viaj malfeliĉoj!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni haltu momenton
+        antaŭ tiu alia pentraĵo: tio estas <span class="tei tei-pb" id="page26">[p. 26]</span><a class="tei tei-anchor" id="p26"></a> juna ŝafistino, kiu tute sola paŝtas sian
+        brutaron sur supro Alpa; ŝi sidas sur maljuna trunko de abio
+        renversita kaj blankigita de la vintroj; ŝiaj piedoj estas kovritaj
+        de larĝaj folioj de tufo de kakalio, kies floro siringviola sin
+        etendas super ŝia kapo. Lavendo, timiano, anemono, centaŭreo,
+        ĉiuspecaj floroj, kiujn oni malfacile kulturas en niaj ĝardenoj kaj
+        varmejoj kaj kiuj naskiĝas sur la Alpoj en la plena beleco primitiva,
+        faras brilan tapiŝon, sur kiu vagas ŝiaj ŝafoj.—Aminda ŝafistino!
+        diru al mi, kie troviĝas la feliĉa terpeco, sur kiu vi loĝas? El kia
+        malproksima ŝafejo vi eliris hodiaŭ matene je la apero de la
+        matenruĝo?—Ĉu mi ne povus iri tien kaj vivi kun vi? Sed, ho ve! la
+        dolĉa kvieteco, kiun vi ĝuas, baldaŭ malaperos. La demono de la
+        milito, ne kontenta kun la detruo de urboj, tuj portos malkvietecon
+        kaj teruron ĝis via dezerta rifuĝejo. Jam venas la soldatoj; mi vidas
+        ilin rampantaj de monto al monto, kaj proksimiĝantaj al la nuboj.—La
+        bruo de la pafilego aŭdiĝas en la alta loĝejo de la tondro.—Forkuru,
+        ŝafistino, rapidigu vian brutaron, kaŝu vin en la plej malproksimaj
+        kaj dezertaj kavernoj; jam ne estas ia ripozo sur tiu malĝoja
+        tero!</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXIV</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi ne scias, kiel
+        tio ĉi okazas; de kelka tempo miaj ĉapitroj ĉiam finiĝas laŭ funebra
+        tono. Vane, komencante ilin, mi turnas miajn okulojn sur kelkan
+        agrablan objekton; vane mi ekveturas dum kvieta vetero, mi baldaŭ
+        suferas ventegon, kiu deklinigas min.—Por fini tiun malkvietecon, kiu
+        ne lasas min mastra de miaj ideoj kaj por trankviligi la batojn de
+        mia koro agitita de tiomaj vidaĵoj kortuŝantaj, mi nenian alian
+        rimedon vidas krom disertacio.—Jes, mi volas meti tiun pecon da
+        glacio sur mian koron. <span class="tei tei-pb" id="page27">[p.
+        27]</span><a class="tei tei-anchor" id="p27"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj tiu disertacio
+        estos pri pentrarto; ĉar neeble al mi estas disertacii pri ia alia
+        temo. Mi ne povas malsupreniri tute de la altaĵo, kiun mi ĵus
+        atingis; cetere tio ĉi estas mia emego.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi preterirante
+        dezirus diri kelkajn vortojn pri la demando de supereco inter la
+        ĉarma pentrarto kaj la muzikarto; jes, ion mi volas meti en la
+        pesilon, kvankam tio estos nur sablero, atomo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni diras por la
+        pentristo, ke li lasas ion post si; liaj pentraĵoj postvivas lin kaj
+        eternigas lian memoron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni respondas, ke
+        ankaŭ la muzikverkistoj lasas operojn kaj koncertojn; sed la muziko
+        estas regata de la modo; ne tiel la pentrado. La muzikaĵoj, kiuj
+        kortuŝis niajn prapatrojn estas ridindaj por la nuntempaj
+        muzikamantoj, kaj oni metas ilin en la ŝercajn operojn por ridigi la
+        pranepojn de tiuj, kiujn ili plorigis iam.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La pentraĵoj de
+        Rafaelo ĉarmos nian idaron, kiel ili ravis niajn prapatrojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jen estas mia
+        sablero.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXV</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed per kio min
+        interesas, diris iam al mi S-no de Hautcastel, ke la muziko de
+        Cherubini aŭ de Cimarosa malsimilas tiun de iliaj antaŭuloj?—Kion
+        signifas, ke la malnova muziko ridigas min, se nur la nova kortuŝas
+        min agrablege?—Ĉu estas do necese por mia feliĉo, ke miaj plezuroj
+        similu tiujn de mia praavino? Kial vi parolas al mi pri pentrarto?
+        pri arto komprenata nur de tre malgrandanombra klaso da personoj, dum
+        la muziko ravas ĉion, kio spiras?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi ne bone scias
+        en tiu ĉi momento, kion oni povus respondi je tiu observo, kiun mi ne
+        antaŭvidis komencante tiun ĉi ĉapitron. <span class="tei tei-pb" id="page28">[p. 28]</span><a class="tei tei-anchor" id="p28"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Se mi estus
+        antaŭvidinta ĝin, mi eble ne entreprenus tiun disertacion. Kaj oni ne
+        imagu, ke tio ĉi estas artifiko de muzikisto.—Mi ne estas tia, mi
+        tion ĵuras,—ne, mi ne estas muzikisto; tion povas atesti la ĉielo kaj
+        ĉiuj, kiuj aŭdis min ludanta je violono.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed supozite, ke
+        la merito de ambaŭ artoj estus egala, oni ne devus trorapide konkludi
+        pro la merito de l’arto al la merito de l’artisto.—Oni vidas infanojn
+        ludantaj je fortepiano kiel majstroj; oni neniam vidis lertan
+        pentriston dekdujaran.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Krom gusto kaj
+        sento, la pentrarto postulas kapon pensantan, kiun ne bezonas la
+        muzikistoj. Oni ĉiutage vidas senkapajn kaj senkorajn homojn, kiuj el
+        violono, el harpo tiras ĉarmajn sonojn. Oni povas dresi la homan
+        beston, por ke ĝi ludu je fortepiano, kaj se ĝi estas dresita de
+        lerta instruisto, la animo povas vojaĝi senĝene, dum la fingroj
+        meĥanike produktas sonojn, pri kiuj ĝi sin ne okupas,—Kontraŭe oni ne
+        povus pentri la plej simplan aferon, se la animo ne uzus por tio
+        ĉiujn siajn kapablojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Se tamen iu imagus
+        distingi la kompozicion, de la muzikludo, mi konfesas, ke li
+        embarasus min iom. Ho, ve! se ĉiuj disertaciemuloj estus sinceraj,
+        ili ĉiuj finus tiel. Komencante la ekzamenon de demando, oni ordinare
+        parolas per dogma tono, ĉar oni estas sekrete decidinta, kiel mi
+        estis reale decidinta por la pentrarto malgraŭ mia hipokrita
+        senpartieco; sed la disputado naskas kontraŭparolon, kaj ĉio finiĝas
+        en dubo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXVI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Nun kiam mi estas
+        pli trankvila, mi tuj penos paroli kviete pri la du portretoj, kiuj
+        sekvas la pentraĵon de la <em class="tei tei-emph"><span style="font-style: italic">Alpa Ŝafistino</span></em>. <span class="tei tei-pb" id="page29">[p. 29]</span><a class="tei tei-anchor" id="p29"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Rafaelo! nur de vi
+        povis esti pentrita via portreto. Kiu alia kuraĝus entrepreni ĝin?
+        Via vizaĝo nekaŝema, sentema, sprita, montras vian karakteron kaj
+        genion.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Por plaĉi al via
+        animo, mi lokis apud vi la portreton de via amatino, kiun ĉiuj homoj
+        de ĉiuj centjaroj eterne riproĉos pro la belegaj verkoj, je kiuj via
+        antaŭtempa morto senigis la artojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam mi ekzamenas
+        la portreton de Rafaelo, mi sentas min prenita de kvazaŭ religia
+        respekto al tiu eminenta homo, kiu en la printempo de sia vivo jam
+        superis ĉiujn antikvulojn, kaj kies pentraĵoj kaŭzas la admiron kaj
+        malesperon de la nuntempaj artistoj.—Mia animo, admirante lin, sentas
+        ekindignon kontraŭ tiu Italino, kiu preferis sian amon al sia amanto
+        kaj kiu estingis en sia brusto tiun ĉielan lumilon, tiun dian
+        genion.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Malfeliĉulino! Ĉu
+        vi do ne sciis, ke Rafaelo estis anoncinta pentraĵon pli belan ol tiu
+        de la Alifiguriĝo? Ĉu vi nesciis, ke vi inter viaj brakoj premis la
+        favoriton de la naturo, la patron de l’entuziasmo, altegan geniulon,
+        dion?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum mia animo
+        faras tiujn observojn, ĝia kunulo. turnante atentan rigardon sur la
+        ĉarman vizaĝon de tiu pereiga belulino, sentas sin preta pardoni al
+        ŝi la morton de Rafaelo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Vane mia animo
+        riproĉas ĝin pro ĝia supermezura malsevereco, ĝi ne estas aŭskultata.
+        En tiaj okazoj fariĝas inter tiuj du moŝtoj stranga dialogo, kiu ĉiam
+        finiĝas per la venko de la <em class="tei tei-emph"><span style="font-style: italic">malbona principo</span></em>, kaj kies
+        specimenon mi donos en alia ĉapitro.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXVII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La gravuraĵoj kaj
+        la pentraĵoj, pri kiuj mi ĵus parolis, paliĝas kaj malaperas je la
+        unua ekrigardo al la sekvanta <span class="tei tei-pb" id="page30">[p. 30]</span><a class="tei tei-anchor" id="p30"></a> pentraĵo; la senmortaj verkoj de Rafaelo, de La
+        Koreĵo kaj de ĉiuj Italaj pentristoj ne elportus la komparon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tial mi ĉiam
+        konservas ĝin por la lasta peco, por la rezervaĵo, kiam mi havigas al
+        kelkaj sciamuloj la plezuron vojaĝi kun mi, kaj mi povas certigi, ke
+        de l’tempo, kiam mi komencis montri tiun belegan pentraĵon al la
+        kompetentuloj kaj al la malkleruloj, al la eminentuloj, al la
+        metiistoj, al la virinoj kaj al la infanoj, eĉ al la bestoj, mi ĉiam
+        vidis ĉiujn rigardantojn vidigantaj, ĉiu laŭ sia maniero, signojn de
+        plezuro kaj miro, tiel fidele la naturo estas tie prezentata.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj kiun
+        pentraĵon, Sinjoroj, oni povus montri al vi, kiun vidaĵon,
+        Sinjorinoj, oni povus meti antaŭ viajn okulojn, pli certan esti
+        aprobita de vi, ol la fidela figuro de vi mem? La priparolita
+        pentraĵo estas spegulo, kaj neniu ĝis nun ekpensis kritiki ĝin; por
+        ĉiuj, kiuj ĝin rigardas, ĝi estas perfekta kaj neriproĉebla
+        pentraĵo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni certe
+        konfesos, ke ĝi devas esti rigardata, kiel unu el la mirindaĵoj de la
+        regiono, kie mi promenadas.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi silentos pri la
+        plezuro sentata de la fizikisto meditanta pri la strangaj fenomenoj
+        de la lumo, kiu reprezentas ĉiujn objektojn de la naturo sur tiu
+        polurita supraĵo. La spegulo inspiras al la hejmsida vojaĝanto mil
+        interesajn pripensojn, mil observojn, kiuj igas ĝin utila kaj
+        grandvalora objekto.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Vi, kiun Amo tenis
+        aŭ tenas sub sia potenco, sciiĝu, <span class="tei tei-corr">ke</span> antaŭ spegulo ĝi akrigas siajn sagojn kaj
+        preparas siajn kruelaĵojn; tie ĝi ripetas siajn manovrojn, lernas
+        siajn movojn, pretigas sin por la milito, kiun ĝi volas komenci; tie
+        ĝi ekzerciĝas al dolĉaj rigardoj, al grimacetoj, al lertaj koleretoj,
+        kiel aktoro sin ekzercas antaŭ si mem, antaŭ ol vidigi sin al la
+        publiko. Ĉiam senpartia kaj vera, spegulo resendas al la okuloj de la
+        rigardanto la helkolorojn de juneco kaj la sulkojn de maljuneco, ne
+        kalumniante nek flatante. Sola el ĉiuj konsilantoj de altrangulo, ĝi
+        ĉiam diras al ili la veron. <span class="tei tei-pb" id="page31">[p.
+        31]</span><a class="tei tei-anchor" id="p31"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu eco dezirigis
+        al mi la eltrovon de spegulo morala, kie ĉiuj homoj povu vidi sin kun
+        siaj virtoj kaj malvirtoj. Mi eĉ pensis proponi ĉe ia akademio
+        premion por tia eltrovo; sed serioza pripensado elmontris al mi la
+        senutilecon de tio.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiel malofte
+        malbelulo rekonas sin kaj disrompas la spegulon! Vane la speguloj
+        multobliĝas ĉirkaŭ ni kaj resendas kun geometria ĝusteco la lumon kaj
+        la veron! en la momento, kiam la radioj tuj penetros en nian okulon
+        kaj montros nin tiajn, kiaj ni estas, la memestimo englitigas sian
+        trompantan prismon inter ni kaj nia imago, kaj prezentas al ni nian
+        diaĵon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj el ĉiuj
+        prismoj, kiuj ekzistis de la unua kreita de la senmorta Newton, neniu
+        posedis tiel fortan rebrilpovon, neniu produktas tiel agrablajn kaj
+        helajn kolorojn, kiel la prismo de la memestimo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Nu, ĉar la
+        ordinaraj speguloj vane vidigas la veron, kaj ĉar ĉiu estas kontenta
+        je sia vizaĝo; ĉar ili ne povas konigi al la homoj iliajn korpajn
+        difektojn, por kio utilus mia morala spegulo? Malmultaj turnus al ĝi
+        siajn okulojn, kaj neniu rekonus sin en ĝi,—escepte la filozofoj—eĉ
+        pri ĉi-tio mi dubas iom.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Akceptante la
+        spegulon tian, kia ĝi estas, mi esperas, ke neniu mallaŭdos min tial,
+        ke mi ĝin ŝatas pli alte, ol ĉiujn pentraĵojn de la Itala skolo. La
+        sinjorinoj, kies gusto ne povas esti malĝusta kaj kies opinio devas
+        decidi ĉion, ĝenerale turnas sian unuan rigardon al tiu pentraĵo,
+        kiam ili eniras en ĉambron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Milfoje mi vidis
+        sinjorinojn kaj eĉ sinjoretojn forgesantaj en balo siajn amantojn aŭ
+        amatinojn, la dancadon kaj ĉiujn plezurojn de la festo, por rigardadi
+        kun videbla prefero tiun ĉarman pentraĵon, kaj eĉ honori ĝin per
+        ekrigardeto meze de la plej vivaj dancoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiu do povus
+        konkurenci kun ĝi pri la rango, kiun mi donas al ĝi inter la
+        ĉefverkoj de la arto de Apelo? <span class="tei tei-pb" id="page32">[p. 32]</span><a class="tei tei-anchor" id="p32"></a></p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXVIII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi fine alvenis
+        tute proksime de mia skribtablo; jam mi povus eĉ tuŝi ĝian angulon
+        plej proksiman, etendante la brakon, kiam mi preskaŭ perdis la
+        frukton de ĉiuj miaj laboroj kaj eĉ la vivon.—Estus pli bone, se mi
+        silentus pri la malfeliĉo okazinta al mi, por ne senkuraĝigi la
+        vojaĝantojn; sed tiel malfacile estas renversiĝi, en la vojaĝseĝo,
+        kiun mi uzas, ke oni devige konfesos, ke por suferi tian danĝeron,
+        oni devas esti malfeliĉega—tiel malfeliĉa kiel mi. Mi trovis min
+        kuŝanta sur la planko, tute renversite, kaj tio ĉi tiel rapide, tiel
+        neatendite, ke mi preskaŭ dubus pri mia malfeliĉaĵo, se tintado en la
+        kapo kaj forta doloro en la maldekstra ŝultro ne pruvus al mi tro
+        klare la realecon de ĝi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ankaŭ tio estis
+        malbona ŝerco de mia duono.—Timigite de la voĉo de mizerulo
+        neatendite petanta almozon ĉe la pordo, kaj de la bojo de Rozino, ĝi
+        subite turnis mian seĝegon, antaŭ ol mia animo povis averti ĝin, ke
+        malantaŭe mankis briko; la puŝo estis tiel forta, ke mia vojaĝseĝo
+        tute senekvilibriĝis kaj renversiĝis sur min.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi konfesas, ke
+        tiu ĉi estas unu el la okazoj, en kiuj mi havis plej fortan kaŭzon
+        por plendi je mia animo; ĉar anstataŭ ol bedaŭri la foreston ĵus
+        faritan kaj riproĉi sian kunulon pri ĝia trorapidemo, ĝi tiel perdis
+        la moderecon, ke ĝi plej beste ekkoleris kaj ofendis per paroloj tiun
+        mizeran senkulpulon.—<span class="tei tei-q">« Mallaboremulo! iru
+        labori. »</span> ĝi diris (malbonega alparolaĵo eltrovita de avara
+        kaj kruela riĉularo). <span class="tei tei-q">« Sinjoro, li tiam
+        diris por plidolĉigi min, mi estas el Chambéry…—Des pli malbone por
+        vi.—Mi estas Ĵako; min vi vidis en la kamparo; mi kondukadis la
+        ŝafojn al la herbejoj…—Kion vi venas tien ĉi por fari? »</span> Mia
+        animo komencis penti pri la malĝentileco de miaj unuaj paroloj.—Mi eĉ
+        kredas, ke ĝi <span class="tei tei-pb" id="page33">[p.
+        33]</span><a class="tei tei-anchor" id="p33"></a> pentis
+        pri ili, iom antaŭ ol elparoli ilin. Ofte tiel, ne atendite trovante
+        dum la kuro foson aŭ ŝlimejon, oni vidas ĝin, sed jam ne havas la
+        tempon eviti ĝin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Rozino plenigis
+        mian reprudentiĝon kaj penton; ĝi estis rekoninta Ĵakon, kiu ofte
+        dividis kun ŝi sian panon, kaj ŝi montris al li per siaj karesoj sian
+        memoron kaj dankecon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Dum tiu tempo,
+        Joannetti, kolektinte la restaĵojn de mia manĝo, difinitajn por lia
+        propra manĝo, ne ŝanceliĝante donis ilin al Ĵako.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kompatinda
+        Joannetti!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiel, dum mia
+        vojaĝo, mi ricevas de mia servanto kaj de mia hundino instruon pri
+        filozofio kaj humaneco.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXIX</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Antaŭ ol daŭrigi,
+        mi volas forigi dubon eble enirintan en la penson de la legantoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Por nenio en la
+        mondo mi volus, ke oni suspektu min, ke mi entreprenis tiun ĉi
+        vojaĝon nur tial, ke mi ne sciis kion fari, kaj, por tiel diri,
+        devigite de la cirkonstancoj; mi certigas tie ĉi kaj mi ĵuras je tio,
+        kio estas al mi plej kara, ke mi intencis entrepreni ĝin jam longe
+        antaŭ la fariĝo, per kiu mi perdis la liberecon dum kvardek du
+        tagoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu ĉi devigita
+        izoleco estis nur okazo por ekvojiri pli frue.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi scias, ke la
+        propravola protesto, kiun mi ĵus faris, ŝajnos suspektinda al kelkaj
+        personoj;—sed mi ankaŭ scias, ke la suspektemuloj ne legos tiun ĉi
+        libron;—ili havas sufiĉe da okupoj hejme kaj ĉe siaj amikoj; multajn
+        aliajn zorgojn ili havas;—kaj la bonuloj kredos al mi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi konfesas tamen,
+        ke mi estus preferinta okupi min per tiu ĉi vojaĝo en alia tempo, kaj
+        ke mi elektus por plenumi ĝin la grandan Faston, prefere ol la
+        Karnavalon; <span class="tei tei-pb" id="page34">[p.
+        34]</span><a class="tei tei-anchor" id="p34"></a> sed
+        filozofiaj pripensoj senditaj al mi de la ĉielo helpis al mi forte
+        por elporti la seniĝon de la plezuroj, kiujn Torino prezentas amase
+        en tiuj ĉi momentoj de bruo kaj agito.—Tre certe estas, mi diris al
+        mi, ke la muroj de mia ĉambro ne estas tiel belege ornamitaj, kiel la
+        muroj de bala salono; la silentado de mia kamero ne tiel valoras,
+        kiel la agrabla bruado de muziko kaj danco; sed inter la eminentaj
+        personoj, kiuj troviĝas en tiuj festoj, estas certe multaj pli
+        malkontentaj ol mi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj kial mi pensus
+        nur pri tiuj, kiuj estas en situacio pli agrabla, dum la mondo estas
+        plena je homoj malpli feliĉaj ol mi mem?—Anstataŭ ol transporti min
+        per la fantazio en tiun belegan Kazinon, kie tiomaj belulinoj estas
+        mallumigitaj de la juna Eŭgenio, por trovi min feliĉa mi nur bezonas
+        halti momenton en la stratoj, kiuj kondukas tien.—Aro da
+        malfeliĉuloj, kuŝantaj duone nudaj sub la pordegoj de tiuj ĉi riĉegaj
+        loĝejoj, ŝajnas tuj pereontaj pro malvarmo kaj mizero.—Kia vidaĵo! Mi
+        dezirus, ke tiu ĉi paĝo de mia libro estu legata de la tuta mondo; mi
+        dezirus, oni sciu, ke en tiu ĉi urbo, kie ĉio vidigas la riĉecegon
+        dum la plej malvarmaj noktoj de la vintro, amaso da mizeruloj dormas
+        senŝirme, kun la kapo apogita sur limŝtono aŭ sojlo de palaco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tie ĉi estas grupo
+        da infanoj, premiĝantaj unu kontraŭ la aliaj por ne morti pro
+        malvarmo.—Tie estas virino tremanta kaj sen voĉo por plendi.—La
+        preterirantoj iras kaj venas ne tuŝataj de vidaĵo, al kiu ili jam
+        kutimis.—La bruo de kaleŝoj, la voĉo de malsobreco, la ĉarmaj sonoj
+        de muziko, enmiksiĝas kelkfoje je la krioj de tiuj kompatinduloj kaj
+        kunfaras teruran senagordaĵon.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXX</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu, kiu rapidus
+        juĝi urbon laŭ la antaŭa ĉapitro, trompiĝus multe. Mi parolis pri la
+        tieaj mizeruloj, pri iliaj <span class="tei tei-pb" id="page35">[p.
+        35]</span><a class="tei tei-anchor" id="p35"></a> malĝojaj
+        krioj kaj pri la indiferenteco de kelkaj personoj kontraŭ ili; sed mi
+        nenion diris pri la aro da bonfaruloj, kiuj dormas, dum la ceteraj
+        sin amuzas, kiuj leviĝas je la unua ekbrileto de la tago kaj iras
+        helpi al la malfeliĉuloj sen atestantoj kaj sen fanfaronado.—Ne, mi
+        ne silentos pri tio!—mi volas ĝin skribi sur la posta flanko de la
+        paĝo, <span class="tei tei-q">« kiun la tuta universo devas
+        legi »</span>.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiel dividinte
+        sian riĉecon kun siaj gefratoj kaj verŝinte balzamon en tiujn korojn
+        ĉifitajn de la doloro, ili iras en la preĝejojn, dum la lacigitaj
+        malvirtuloj dormas sur lanuga kusenego; ili proponas al Dio siajn
+        preĝojn kaj dankas al li por liaj bonfaroj. Ankoraŭ interbatalas en
+        la sanktejo la lumo de soleca lampo kaj la naskiĝanta tago, kaj ili
+        jam genufleksas antaŭ la altaroj;—tiam la Eternulo, kvankam
+        kolerigita de la malboneco kaj avareco de la homoj, detenas sian
+        fulmon pretan por frapi.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi volis ion diri
+        pri tiuj malfeliĉuloj en mia vojaĝo, ĉar la penso pri ilia mizero
+        ofte distris min dum la vojiro. Kelkfoje, tuŝite de la diferenco
+        inter ilia situacio kaj la mia, mi subite haltigis mian kaleŝon, kaj
+        mia ĉambro ŝajnis al mi mirinde plibeligita. Kia senutila lukso! Ses
+        seĝoj, du tabloj, skribtablo, spegulo; kia vanta parado! Precipe mia
+        lito, mia lito blanka kaj rozkolora, kaj miaj du matracoj, ŝajnis
+        vetbatali kontraŭ la belegeco kaj la konfortemo de la Aziaj
+        monarkoj.—Tiuj ĉi pripensoj igis sensignifaj por mi la plezurojn al
+        mi nepermesitajn. De pripenso al pripenso, mia atako de filozofio
+        fariĝis tia, ke mi povus vidi balon en najbara ĉambro, mi povus aŭdi
+        muzikon de violonoj kaj klarnetoj, ne ekmoviĝante de mia loko;—mi
+        povus aŭdi per ambaŭ oreloj la belsonan voĉon de Markesini, tiun
+        voĉon, kiu tiel ofte ekscitegis <span class="tei tei-pb" id="page36">[p. 36]</span><a class="tei tei-anchor" id="p36"></a> min—jes, ĝin mi povus aŭdi ne ŝanceliĝante; pli
+        ol tio, mi povus rigardi sen ia ekscito la plej belan virinon de
+        Torino, Eŭgenion mem, ornamitan de la kapo ĝis la piedoj per la manoj
+        de fraŭlino Rapous<a href="#note_1" id="noteref_1" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">1</span></span></a>.—Tio ĉi
+        tamen estas ne tiel certa.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed permesu,
+        Sinjoroj, ke mi demandu: Ĉu vi amuziĝas tiel, kiel antaŭe, en balo aŭ
+        teatro?—Koncerne min, mi konfesas tion, de kelka tempo ĉiuj
+        grandanombraj kunvenoj kaŭzas al mi kvazaŭan teruron.—Mi tie estas
+        vizitata de funebra sonĝo.—Vane mi penas forpeli ĝin, ĝi ĉiam
+        revenas, kiel la sonĝo de Atalio.—Eble ĉar la animo, superakvita
+        hodiaŭ de pensoj mallumaj kaj de kortuŝantaj vidaĵoj, trovas ĉie
+        kaŭzojn por malĝojo—kiel difektita stomako ŝanĝas en venenojn la plej
+        sanigajn manĝaĵojn.—Estu kiel estas, jen mia sonĝo:—Kiam mi staras en
+        unu el tiuj festoj, meze de tiu aro da homoj afablaj kaj karesaj,
+        kiuj dancas, kantas, ploras antaŭ la tragedioj, kiuj montras nur
+        ĝojon, sincerecon kaj bonkoron, mi pensas:—Se en tiun ĉi bonmanieran
+        societon subite enirus blanka urso, filozofo, tigro, aŭ ia ajn
+        tiaspeca besto, kiu suprenirante sur la orkestran stablon krius per
+        fortega voĉo:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Kompatindaj homoj! Aŭskultu la veron parolanta per mia
+        buŝo: Vi estas subpremitaj, sklavigitaj, vi estas malfeliĉaj, vi
+        enuas;—eliru el tiu dormado! »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Vi muzikistoj, komencu, disrompante tiujn muzikilojn
+        sur viajn kapojn; ĉiu sin armu per ponardo; de nun ne pensu pri
+        amuzoj kaj festoj; supreniru al la loĝioj kaj buĉu ĉiujn; la virinoj
+        ankaŭ trempu siajn timemajn manojn en la sangon! »</span>
+<span class="tei tei-pb" id="page37">[p. 37]</span><a class="tei tei-anchor" id="p37"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Eliru, vi estas liberaj; fortiru vian reĝon de lia
+        trono kaj vian Dion el lia sanktejo! »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">—Nu! Tion, kion la
+        tigro diris, kiom da tiuj <em class="tei tei-emph"><span style="font-style: italic">ĉarmaj</span></em> homoj ĝin plenumos? Kiom da
+        ili eble pensis pri tio, antaŭ ol ĝi eniris! Kiu scias?—Ĉu oni ne
+        dancis en Parizo antaŭ kvin jaroj<a href="#note_2" id="noteref_2" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">2</span></span></a>?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Joannetti, ŝlosu la pordojn kaj fenestrojn.—Mi ne volas
+        plu vidi la lumon; neniu homo eniru mian ĉambron;—metu glavon
+        proksime de mia mano;—eliru vi mem, kaj ne aperu plu antaŭ
+        mi! »</span></p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXIII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Ne, ne, restu, Joannetti; restu, malfeliĉa junulo: kaj
+        vi ankaŭ Rozino mia, kiu divenas miajn ĉagrenojn kaj kvietigas ilin
+        per viaj karesoj; venu, Rozino mia, venu.—V konsonanto kaj
+        ripozejo. »</span></p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXIV</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La falo de mia
+        vojaĝseĝo utilis al la leganto, farante mian vojaĝon malpli longa je
+        almenaŭ dekduo da ĉapitroj, ĉar releviĝinte mi trovis min antaŭ kaj
+        tre proksime de mia skribtablo, kaj mi plu ne havis tempon por
+        pripensadi pri la grandnombro da desegnaĵoj kaj pentraĵoj, kiujn mi
+        estis ankoraŭ vizitonta, kio povus plilongigi miajn ekskursojn pri la
+        pentrarto.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Lasinte do dekstre
+        la portretojn de Rafaelo kaj lia amatino, Kavaliron d’Assas, kaj la
+        Ŝafistinon Alpan, kaj irante maldekstren al la fenestro, oni ekvidas
+        mian skribtablon: ĝi estas la unua kaj plej videbla objekto,
+        <span class="tei tei-pb" id="page38">[p. 38]</span><a class="tei tei-anchor" id="p38"></a> kiu prezentas sin antaŭ la okuloj
+        de la vojaĝanto, sekvante la vojon ĵus diritan.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĝi estas
+        superkovrita de kelkaj bretoj, kiuj servas kiel biblioteko; la tuto
+        estas kronita per busto pleniganta la piramidon, kaj tiu ĉi objekto
+        estas la plej grava ornamaĵo de la regiono.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tirinte la unuan
+        tirkeston dekstran, oni trovas skribilaron, ĉiuspecan paperon,
+        pretigitajn plumojn, sigelvakson.—Ĉio tio ĉi donus al la plej
+        maldiligenta homo la deziron skribi.—Mia kara Jenny, mi estas certa,
+        ke, se vi okaze malfermus tiun tirkeston, vi respondus la leteron,
+        kiun mi skribis al vi en la antaŭa jaro.—En la kontraŭa tirkesto
+        kuŝas konfuze kunmetitaj la materialoj por la kortuŝa rakonto pri la
+        malliberulino de Pignerol, kiun vi baldaŭ legos, karaj amikoj<a href="#note_3" id="noteref_3" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">3</span></span></a>.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Inter tiuj du
+        tirkestoj estas profundaĵo, kien mi ĵetas la leterojn, laŭ tio kiel
+        mi ricevas ilin; oni trovas tie ĉiujn leterojn ricevitajn de dek
+        jaroj. La plej malnovaj estas ordigitaj laŭ la datoj en kelkaj pakoj;
+        la novaj estas intermiksitaj; kelkaj restas de la tempo de mia plej
+        frua juneco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kia plezuro revidi
+        en tiuj ĉi leteroj la interesajn situaciojn de niaj unuaj jaroj,
+        translokiĝi denove en tiujn feliĉajn tempojn neniam revenontajn!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ha! kiel plena
+        estas mia koro! Kiel malgaje ĝi ĝuas, dum miaj okuloj tralegas la
+        liniojn skribitajn de persono, kiu jam ne vivas! Jen lia skribaĵo,
+        lia koro kondukis lian manon, al mi li skribis tiun leteron, kaj
+        nenio pli ol tiu letero restas al mi pri li!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam mi enmetas la
+        manon en tiun loketon, mi malfacile foriras antaŭ la fino de la tago.
+        Tiamaniere vojaĝanto trairas rapide kelkajn provincojn de Italujo,
+        farante rapidege supraĵajn observojn, kaj haltadas en Romo dum tutaj
+        monatoj.—Tiu ĉi estas la plej riĉa parto de la minejo, kiun mi
+        ekspluatas. Kia aliiĝo en miaj ideoj kaj sentoj! kia <span class="tei tei-pb" id="page39">[p. 39]</span><a class="tei tei-anchor" id="p39"></a> diferenco en miaj amikoj! Kiam mi ekzamenas
+        ilin tiam kaj hodiaŭ, mi vidas ilin mortige agititaj de projektoj,
+        kiuj nun ne interesas plu ilin. Okazintaĵo ŝajnis al ni granda
+        malfeliĉo; sed mankas la fino de la letero, kaj tute forgesita estas
+        la okazintaĵo; mi ne povas scii, pri kio oni parolis.—Mil antaŭjuĝoj
+        sieĝis nin; la mondo kaj la homoj estis tute nekonataj de ni! sed kia
+        varmeco en niaj rilatoj! kia intima amikeco! kia senlima
+        konfideco!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ni estis feliĉaj
+        per niaj eraroj.—Kaj nun?—Ha, ne tiel estas nun! Ni devis legi, kiel
+        la ceteraj, en la homa koro;—kaj la vero, falante apud ni kiel bombo,
+        detruis je ĉiam la sorĉan palacon de iluzio.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXV</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Facile mi povus
+        skribi ĉapitron pri jena sekiĝinta rozo, se mi tion volus, kaj se la
+        objekto estus inda je tio: ĝi estas floro de la antaŭjara karnavalo.
+        Mi mem deŝiris ĝin en la varmejoj de Valentin, kaj en la vespero, unu
+        horon antaŭ la balo, plena je espero kaj kun ĝoja kormovo, mi iris
+        proponi ĝin al S-no de Hautcastel. Ŝi prenis ĝin, metis ĝin sur sian
+        tualettablon, neniel rigardinte ĝin nek min.—Sed kiel ŝi povus atenti
+        al mi? Ŝi estis okupata je la rigardado de ŝi mem. Starante antaŭ
+        granda spegulo, kun la haroj jam aranĝitaj, ŝi donis la lastan
+        tuŝeton al sia ornamiĝo; ŝi tiel forte priokupiĝis, ŝia atento estis
+        tiel plene prenita de la ĉiuspecaj rubandoj, gazoj kaj plumfasketoj
+        amasigitaj antaŭ ŝi, ke mi ne ricevis eĉ rigardon aŭ signon.—Mi
+        submetiĝis; mi humile tenis pinglojn tute pretajn, aranĝitajn en mia
+        mano; sed ĉar ŝia pinglujo estis pli proksime, ŝi prenis ilin el sia
+        pinglujo,—kaj se mi alproksimigis la manon, ŝi prenis ilin el mia
+        mano—senprefere; kaj por ilin trovi, ŝi palpetis, ne deturnante siajn
+        okulojn de la spegulo, el timo, ke ŝi sin ne vidos plu. <span class="tei tei-pb" id="page40">[p. 40]</span><a class="tei tei-anchor" id="p40"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Iom da tempo mi
+        tenis post ŝi duan spegulon, por ke ŝi pli bone juĝu pri sia ornamo;
+        kaj ŝia vizaĝo, rebrilante de spegulo al spegulo, vidigis al mi
+        serion da koketulinoj, el kiuj neniu atentis min. Fine, ĉu mi tion
+        konfesos? mia rozo kaj mi prezentis tre malbrilan vidaĵon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi fine perdis la
+        paciencon, kaj ne povante jam kontraŭstari al la kolereto, kiu min
+        ekscitis, mi remetis en ĝian lokon la spegulon, kiun mi tenis, kaj mi
+        eliris ĉagrene, ne adiaŭdirinte.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Ĉu vi foriras? ŝi diris, turnante sin flanken, por vidi
+        profile sian talion. Mi nenion respondis; sed mi aŭskultis kelkan
+        tempon post la pordo, por scii la impreson faritan de mia rapida
+        eliro.—Ĉu vi ne vidas, ŝi diris al sia ĉambristino post momenta
+        silento, ĉu vi ne vidas, ke tiu ĉi korsaĵo estas multe tro larĝa por
+        mia talio, precipe malsupre, kaj ke oni bezonas fari faldon per
+        pingloj? »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiel kaj kial tiu
+        velkinta rozo troviĝas sur breto de mia skribtablo, tion mi certe ne
+        diros, ĉar mi anoncis, ke sekiĝinta rozo ne valoras ĉapitron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Rimarku,
+        Sinjorinoj, ke mi nenian observon faras pri la aventuro pri la
+        sekiĝinta rozo. Mi ne diras, ke S-no de Hautcastel estis prava aŭ
+        malprava atentante sian ornamiĝon prefere ol min, aŭ ke mi havis la
+        rajton esti akceptita aliamaniere.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kun ankoraŭ pli
+        granda zorgo mi evitas eltiri el tio ĝeneralajn konkludojn pri la
+        realeco, la forto kaj la daŭro de la amo de sinjorinoj al ŝiaj
+        amikoj.—Mi nur ĵetos tiun ĉi ĉapitron (ĉar ĝi estas ja ĉapitro) en la
+        mondon kun la cetero de la vojaĝo, ne adresante ĝin al iu kaj
+        rekomendante ĝin al neniu.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi almetos nur
+        konsilon por vi, Sinjoroj: vi bone komprenu, ke en bala tago via
+        amatino ne estas via.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">En la momento,
+        kiam la ornamiĝo komencas, la amanto fariĝas nur edzo, kaj la sola
+        balo estas la amanto. <span class="tei tei-pb" id="page41">[p.
+        41]</span><a class="tei tei-anchor" id="p41"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉiuj scias ja,
+        kion gajnas edzo, kiu volas amatiĝi perforte; submetiĝu do pacience
+        kaj ridante.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj ne eraru,
+        sinjoro; se oni plezure vidas vin en la balo, tio ĉi ne estas kiel
+        amanton, ĉar vi estas nur edzo; sed nur tial, ke vi estas parto el la
+        balo, kaj sekve ero de ŝia nova almilitaĵo; vi estas partumo de
+        amanto; aŭ eble tial, ke vi dancas bone kaj ke vi tiel briligos ŝin;
+        fine la kaŭzo plej flata por vi en la bona akcepto, kiun vi ricevos,
+        estas, ke ŝi esperas ĵaluzigi siajn koleginojn montrante, kiel
+        amanton, viron tiel meritan, kiel vi estas; se ne estus pro tio, ŝi
+        eĉ ne rigardus vin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tio ĉi do estu
+        komprenita; vi devos submetiĝi kaj atendi ĝis via rolo de edzo estos
+        finita.—Mi konas pli ol unu, kiu volus esti kvita tiel malkare.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXVI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi promesis
+        dialogon inter mia animo kaj <em class="tei tei-emph"><span style="font-style: italic">la aliulo</span></em>; sed kelkaj ĉapitroj
+        forkuras de mi, aŭ plibone kelkaj aliaj fluas el mia plumo kvazaŭ
+        kontraŭ mia volo kaj deklinigas miajn projektojn: inter tiuj estas la
+        ĉapitro de mia biblioteko, kiun mi faros kiel eble plej mallonga.—La
+        kvardek du tagoj baldaŭ finiĝos kaj samlonga tempo ne sufiĉus por
+        plenigi la priskribon de la riĉa lando, kie mi tiel agrable
+        vojaĝas.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mia biblioteko do
+        konsistas el romanoj, se mi tion devas konfesi,—jes, romanoj kaj
+        kelkaj elektitaj verslibroj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kvazaŭ miaj
+        ĉagrenoj ne sufiĉus al mi, mi ankoraŭ volonte partoprenas en la
+        ĉagrenoj de mil fantaziaj personoj, kaj tiujn ĉi mi sentas tiel
+        forte, kiel miajn proprajn; kiom da larmoj mi verŝis pri tiu
+        malfeliĉa Klariso kaj pri la amanto de Ĉarloto! <span class="tei tei-pb" id="page42">[p. 42]</span><a class="tei tei-anchor" id="p42"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed, se mi tiel
+        serĉas neverajn dolorojn, mi kontraŭe trovas en tiu fantazia mondo:
+        virton, bonecon, neprofitemon, ankoraŭ ne trovitajn kunigite en la
+        reala mondo, kie mi vivas.—Mi trovas tie virinon tian, kian mi
+        deziras, ne malbonhumoran, ne malseriozan, ne malvereman; mi nenion
+        diros pri ŝia beleco; oni fidu al mia fantazio: mi faras ŝin tiel
+        bela, ke nenion oni povas kritiki en ŝi. Poste, ferminte la libron,
+        kiu jam ne respondas al miaj ideoj, mi prenas ŝin per la mano, kaj ni
+        kune trairas landon milfoje pli ĉarman, ol la Edeno. Kia pentristo
+        povus reprezenti la sorĉan landon, kie mi lokis la diaĵon de mia
+        koro? kaj kia poeto povos iam priskribi la fortajn kaj diversajn
+        sentojn, kiujn mi ĝuas en tiuj sorĉaj regionoj?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiel ofte mi
+        malbenis tiun Kleveland-on, kiu ĉiuminute eniras novajn malfeliĉojn,
+        kiujn li povus eviti!—Mi ne povas toleri tiun libron kaj tiun sekvon
+        da malfeliĉegoj; sed se mi pro distreco malfermas ĝin, mi nepre devas
+        engluti ĝin ĝis la fino.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiel mi lasus tiun
+        malfeliĉan homon ĉe la Abakisoj? Kio fariĝus el li ĉe tiuj sovaĝuloj?
+        Ankoraŭ malpli mi kuraĝus forlasi lin en la ekskurso, kiun li faras
+        por eliri el kaptiteco.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Fine, mi tiel kore
+        partoprenas en liaj ĉagrenoj, mi tiel forte interesas min por lia
+        kompatinda familio, ke la neatendita apero de la kruelaj Ruintonoj
+        starigas miajn kapharojn; malvarma ŝvito ekkovras min, dum mi legas
+        tiun ĉapitron kaj mia timego estas tiel forta, tiel reala, kvazaŭ mi
+        mem estus tuj rostota kaj manĝota.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam mi sufiĉe
+        ploris kaj amindumis, mi serĉas kelkan poeton, kaj mi denove foriras
+        al alia mondo.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXVII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">De la militiro de
+        la Argonaŭtoj ĝis la kunveno de la Eminentuloj, de la fundo de la
+        infero ĝis la lasta fiksa <span class="tei tei-pb" id="page43">[p.
+        43]</span><a class="tei tei-anchor" id="p43"></a> stelo
+        trans la Lakta Vojo, ĝis la fino de la universo, ĝis la pordoj de la
+        ĥaoso, jen estas la vasta kampo, kie mi trankvile promenas laŭlonge
+        kaj laŭlarge kaj laŭ mia bonvolo; ĉar nek la tempo, nek la spaco
+        mankas al mi. Tien mi transportas mian ekzistadon, sekvante Homeron,
+        Miltonon, Virgilion, Osianon kaj ceterajn. Ĉiuj fariĝoj okazintaj
+        inter tiuj du epokoj, ĉiuj landoj, ĉiuj mondoj, ĉiuj estaĵoj
+        ekzistintaj inter tiuj du templimoj, ĉio tio ĉi estas mia, apartenas
+        al mi tiel certe, tiel leĝe, kiel la ŝipoj enirantaj la Pireon
+        apartenis al unu Atenano.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi precipe amas la
+        poetojn, kiuj transportas min en la plej malnovan antikvecon: la
+        morto de la ambicia Agamemnono, la koleroj de Oresto kaj la tuta
+        historio tragedia de la familio Atrea, persekutata de la ĉielo,
+        kaŭzas al mi teruron, kiun la nuntempaj fariĝoj neniel povus naski en
+        mi.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Jen estas la
+        fatala urno, kiu enhavas la cindrojn de Oresto. Kiu ne ektremus,
+        vidante ĝin? Elektrino! Malfeliĉa fratino, kvietiĝu: Oresto mem
+        alportas la urnon kaj la cindroj estas tiuj de liaj malamikoj!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni jam ne trovas
+        nun bordojn, kiel la bordoj de la Zanto kaj la Skamandro;—oni jam ne
+        vidas ebenaĵojn, kiel tiuj de Hesperio kaj Arkadio. Kie estas nun la
+        insuloj Lemnoso kaj Kreto? Kie estas la grandfama labirinto? Kie la
+        ŝtonego, kiun la forlasita Ariadno surverŝis per siaj larmoj?—Oni nun
+        vidas nenian Tezeon, nenian Herkuleson; la nuntempaj homoj kaj eĉ
+        herooj estas pigmeoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam mi poste
+        volas doni al mi scenon de entuziasmo kaj ĝui la tutan forton de mia
+        fantazio, mi kuraĝe ekkaptas la faldojn de flirtanta robo de la
+        altega blindulo de Albiono en la momento, kiam li eksaltas al la
+        ĉielo kaj proksimiĝas al la Eternulo.—Kia muzo povis subteni lin en
+        tia alteco, kien neniu homo antaŭ li kuraĝis turni siajn
+        rigardojn?—De la blindiga vestiblo ĉiela, kiun la avara Mamono
+        rigardis per enviaj okuloj, mi kun <span class="tei tei-pb" id="page44">[p. 44]</span><a class="tei tei-anchor" id="p44"></a> terura sento pasas al la vastaj kavernoj de la
+        loĝejo Satana;—mi ĉeestas ĉe la infera konsiliĝo, mi enmiksiĝas kun
+        la amaso de la ribelaj spiritoj, kaj mi aŭskultas iliajn
+        paroladojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed tie ĉi mi
+        devas konfesi malvirteton, pri kiu mi ofte riproĉis min.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi ne povas ne
+        interesiĝi je tiu kompatinda Satano, (mi parolas pri la Satano de
+        Miltono), post kiam li estas elĵetita de la ĉielo. Kvankam mi
+        malaprobas la obstinecon de la ribelulo, mi konfesas, ke la forteco,
+        kiun li vidigas en la troega malfeliĉo, kaj lia granda kuraĝo,
+        devigas min kontraŭvole admiri lin.—Kvankam mi scias la malfeliĉojn
+        devenintajn de lia pereiga entrepreno, kiam li perforte malfermis la
+        pordegon de la infero, por veni malkvietigi la edzan vivadon de niaj
+        unuaj gepatroj, mi malgraŭ ĉio ne povas deziri, eĉ momenton, ke li
+        dum la vojiro pereu en la konfuzo de la ĥaoso. Mi eĉ kredas, ke mi
+        volonte helpus al li, se ne detenus min la honto. Mi sekvas ĉiujn
+        liajn movojn, kaj mi sentas tiom da plezuro, vojaĝante kun li, kvazaŭ
+        mi estus en deca societo. Vane mi diras al mi, ke li estas ja diablo,
+        ke li estas pereiganto de la homaro, ke li estas vera demokrato, ne
+        kiel tiuj de Atenoj, sed kiel tiuj de Parizo, ĉio tio ĉi ne korektas
+        min de mia antaŭjuĝo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kia grandega
+        projekto! kaj kia maltimo en la plenumo de ĝi!</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiam la vastaj kaj
+        trioblaj pordoj de la infero subite malfermiĝis laŭ la tuta larĝeco
+        antaŭ li, kaj kiam la profunda foso de la nenio kaj nokto aperis en
+        sia tuta teruro antaŭ liaj piedoj—li per maltima okulo rigardis la
+        malluman imperion ĥaosan; kaj, sen ŝanceliĝo, malvolvante siajn
+        larĝajn flugilojn, kiuj povus kovri tutan armeon, li ekĵetis sin en
+        la senfundaĵon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tion ne farus la
+        plej sentima kuraĝulo.—Kaj tio estas, laŭ mia opinio, unu el la plej
+        fortaj elpensaĵoj, kiel ankaŭ <span class="tei tei-pb" id="page45">[p. 45]</span><a class="tei tei-anchor" id="p45"></a> unu el la plej belaj vojaĝoj iam faritaj,—krom
+        la vojaĝo interne de mia ĉambro.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXVIII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi neniam finus,
+        se mi volus priskribi la milonan parton el la strangaj okazintaĵoj,
+        kiujn mi renkontas, vojaĝante apud mia biblioteko; la vojaĝoj de Cook
+        kaj la observoj de liaj kunvojaĝantoj, doktoroj Banks kaj Solander,
+        estas nenio, kompare kun miaj aventuroj en tiu ĉi sola distrikto;
+        tial mi kredas, ke mi la tutan vivon pasigus tie en kvazaŭa raveco,
+        se ne estus la busto, pri kiu mi jam parolis, sur kiu ĉiam fine sin
+        fiksas miaj rigardoj kaj miaj pensoj, kia ajn estas la stato de mia
+        animo; kaj kiam ĝi sin fordonas al la senkuraĝiĝo, sufiĉas, ke mi
+        rigardu tiun buston, por ke ĝi revenu al sia normala stato: tio estas
+        la agordilo, per kiu mi konsentigas la ŝanĝeman kaj senagordan
+        kunaĵon de sentoj kaj perceptoj, el kiuj mia vivo estas farita.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiel simila ĝi
+        estas!—Jen estas la trajtoj, kiujn la naturo donis al la plej virta
+        el la homoj. Ha! se la skulptisto povus vidigi lian bonegan animon,
+        lian genion kaj lian karakteron!—Sed kion mi entreprenis? Ĉu tie ĉi
+        mi devas laŭdi lin? Ĉu al la ĉeestantaj homoj mi tiel parolas? Per
+        kio tio ĉi interesas ilin?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi volas nur
+        genufleksi antaŭ via amata figuraĵo, ho plej bona el la patroj: Ve!
+        tiu figuraĵo estas ĉio, kio restas al mi pri vi kaj mia patrujo: vi
+        forlasis la teron, en la momento, kiam la krimo estis okuponta ĝin;
+        kaj ĝi nun subpremas min per tiaj malfeliĉoj, ke eĉ via familio estas
+        nun devigita rigardi vian morton, kiel feliĉon. Kiom da ĉagrenoj
+        suferigus al vi pli longa vivado! Ho patro! Ĉu la sorto de via
+        grandanombra familio estas konata de vi en la loĝejo de la feliĉo? Ĉu
+        vi scias, <span class="tei tei-pb" id="page46">[p. 46]</span><a class="tei tei-anchor" id="p46"></a> ke viaj infanoj estas
+        ekzilitaj el tiu patrujo, kiun vi tiel fervore kaj honeste servis dum
+        sesdek jaroj? Ĉu vi scias, ke al ili estas malpermesite viziti vian
+        tombon?—Sed la tiraneco ne povis forpreni de ili la plej valoran
+        parton el via heredaĵo, la memoron pri viaj virtoj kaj la forton de
+        viaj ekzemploj; meze en la krima torento, kiu fortiris ilian patrujon
+        kaj ilian posedaĵon al la senfundaĵo, ili restis neŝanĝeble kunigitaj
+        sur la linio desegnita de vi por ili; kaj kiam ili denove povos
+        genufleksi sur via respektata cindro, ĝi ankoraŭ rekonos ilin.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XXXIX</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Promesinte
+        dialogon, mi plenumas mian promeson.—Tio estis dum la mateno, je la
+        komenca tagiĝo; la sunradioj oris samtempe la supron de l’monto Viso
+        kaj tiujn de la plej altaj montoj de la insulo, kiu kuŝas je niaj
+        antipodoj; kaj ŝi jam maldormis, ĉu antaŭtempe vekita de noktaj
+        sonĝoj, kiuj ofte ŝin agitas, tiel lacige kiel senutile, ĉu simple
+        vekita de la tuj finiĝonta karnavalo, ĉar tiu tempo de plezuro kaj
+        malsaĝo influas sur la homan maŝinon tiel, kiel la fazoj de la luno
+        kaj la interkombiniĝo de kelkaj planedoj.—Fine <em class="tei tei-emph"><span style="font-style: italic">ŝi</span></em>
+        maldormis kaj tre maldormis, kiam mia animo mem liberigis sin el la
+        ligiloj de la dormo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">De longe tiu ĉi
+        konfuze partoprenis en la sentoj de <em class="tei tei-emph"><span style="font-style: italic">la
+        aliulo</span></em>; sed ĝi estis ankoraŭ enligita sub la krepaĵo
+        nokta kaj dorma; kaj ĉi tiu krepaĵo ŝajnis al ĝi kiel gazo, linaĵo,
+        Hinda tolo.—Mia kompatinda animo estis do kvazaŭ vindita en ĉiu tiu
+        ĉi embarasaĵo, kaj la dio de la dormo, por deteni ĝin pli forte en
+        sia imperio, aldonis al tiuj ligiloj senordajn blondajn harligojn,
+        bantojn de rubandoj, perlajn ĉirkaŭkolojn; estis kortuŝante vidi ĝin
+        baraktanta en tiuj retoj. <span class="tei tei-pb" id="page47">[p.
+        47]</span><a class="tei tei-anchor" id="p47"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La agiteco de la
+        pli nobla parto el mi mem komunikis sin al la alia, kaj tiu ĉi
+        siavice forte influis sur mian animon.—Mi tuta estis alveninta al
+        stato malfacile priskribebla, kiam fine mia animo, ĉu pro saĝeco, ĉu
+        okaze, eltrovis la manieron liberigi sin el la gazoj, kiuj sufokis
+        ĝin. Mi ne scias, ĉu ĝi renkontis malfermaĵon, aŭ ĉu ĝi simple
+        ekpensis relevi ilin, kio estis pli natura; certe estas, ke ĝi
+        eltrovis la elirejon de la labirinto. La senordaj harligoj estis
+        ankoraŭ tie, sed ili jam ne estis <em class="tei tei-emph"><span style="font-style: italic">malhelpo</span></em>;
+        pli bone <em class="tei tei-emph"><span style="font-style: italic">rimedo</span></em> ili estis. Tiun rimedon
+        ekkaptis mia animo, kiel dronanta homo ekkaptas la bordajn herbojn;
+        sed la perla ĉirkaŭkolo rompiĝis pro la premo, kaj la perloj
+        elfadenigitaj ruliĝis sur la sofon, kaj de tie sur la pargeton de
+        S-no de Hautcastel; ĉar mia animo, per strangeco malfacile
+        klarigebla, imagis sin ĉe tiu sinjorino; dika bukedo da violoj falis
+        teren kaj mia animo, tiam vekiĝinte, revenis hejmen, alkondukante kun
+        si racion kaj realecon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiel oni povas
+        pensi, ĝi forte malaprobis ĉion faritan dum sia forestado, kaj tie ĉi
+        komencas la dialogo, kiu estas la objekto de tiu ĉi ĉapitro.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mia animo neniam
+        estis tiel malĝentile akceptita. La riproĉoj, kiujn ĝi opiniis
+        ĝustatempe fari en tiu ĉi danĝera momento, plenigis la malpacon de la
+        domo; fariĝis ribelo, vera ribelego.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Kiel do! diris mia animo, tiele dum mia forestado,
+        anstataŭ ol rebonigi viajn fortojn per trankvila dormado kaj fariĝi
+        pli taŭga por plenumi miajn ordonojn, vi <em class="tei tei-emph"><span style="font-style: italic">senhonte</span></em>
+        (tiu ĉi vorto estis iom troa) donis vin al pasiaĵoj, kiujn ne
+        sankciis mia volo? »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ne kutimigite je
+        tiu aroganta tono, <em class="tei tei-emph"><span style="font-style: italic">la aliulo</span></em> kolere respondis:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Konvenas ja, <em class="tei tei-emph"><span style="font-style: italic">Sinjorino</span></em> (por forigi de la disputo
+        ĉiun ideon de familiareco), konvenas ja, ke vi prenas ŝajnon decan
+        kaj virtan! Ha! ĉu ne la dekliniĝoj de via imago, ĉu ne viaj
+        malsaĝegaj ideoj naskis ĉion, kio en mi malplaĉas <span class="tei tei-pb" id="page48">[p. 48]</span><a class="tei tei-anchor" id="p48"></a> al vi? Kial vi ne estis tie ĉi?—Kial vi havus
+        la rajton ĝui sen mi, en la oftaj vojaĝoj, kiujn vi faras sola?—Ĉu mi
+        iam malaprobis viajn vizitojn en la Olimpon aŭ en la Kampojn
+        Elizeajn?—viajn interparoladojn kun la spiritoj, viajn gravegajn
+        pripensadojn (iom da moko, kiel oni vidas), viajn kastelojn en la
+        aero, viajn altegajn sistemojn? Kaj, kiam vi tiel senĝene forlasas
+        min, mi ne havus la rajton ĝui la bonfarojn donacitajn de la naturo
+        kaj la plezurojn proponitajn al mi? »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mia animo,
+        surprizite de tioma viveco kaj elokventeco, ne sciis, kion ĝi devis
+        respondi.—Por eliri el embaraso, ĝi decidis surkovri per vualo de
+        indulgo la riproĉojn ĵus faritajn; kaj por ne ŝajni faranta la unuajn
+        paŝojn al la repaciĝo, ĝi ankaŭ uzis ceremonian tonon.—<em class="tei tei-emph"><span style="font-style: italic">Sinjorino</span></em>, ĝi diris siavice kun
+        afekta koreco… (se la leganto trovis tiun vorton neĝustloka, kiam ĝi
+        estis adresita al mia animo, kion li diras nun, se li nur volas
+        rememori la objekton de la disputo?—Mia animo ne rimarkis la
+        ridindecon de tia dirmaniero, tiel la inteligenteco estas mallumigita
+        de la pasio)!—<em class="tei tei-emph"><span style="font-style: italic">Sinjorino</span></em>, ĝi diris do, mi certigas
+        vin, ke nenio tiel plaĉus al mi, kiel vidi vin ĝuanta ĉiujn plezurojn
+        ĝueblajn por via naturo, kvankam mi ne partoprenus en ili, se nur
+        tiuj plezuroj ne estus malutilaj al vi, se ili ne forigus la
+        harmonion, kiu… Tie ĉi mia animo estis subite
+        interrompita:—<span class="tei tei-q">« Ne, ne, min ne trompas via
+        ŝajna bonvolo;—nia devigita kunestado en tiu ĉi ĉambro, kie ni
+        vojaĝas; la ricevita vundo, kiu apenaŭ ne pereigis min kaj kiu
+        doloras ankoraŭ al mi, ĉu ĉio tio ĉi ne estas kaŭzita de via
+        malsaĝega fierego kaj de viaj barbaraj antaŭjuĝoj? Mia bonestado kaj
+        mia ekzisto mem valoras kiel nenio, kiam viaj pasioj kondukas
+        vin,—kaj vi certigas, ke vi interesas vin por mi, kaj ke viaj
+        riproĉoj estas kaŭzitaj de via amikeco? »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mia animo
+        komprenis ja, ke ĝi ne ludis la pli belan rolon en tiu ĉi afero; ĝi
+        cetere komencis vidi, ke la ekscito de la disputo forigis la kaŭzon
+        de ĝi, kaj ĝi profitis <span class="tei tei-pb" id="page49">[p.
+        49]</span><a class="tei tei-anchor" id="p49"></a> la
+        okazon por deklinigi la interparolon: <span class="tei tei-q">« Preparu la kafon »</span>, ĝi diris al Joannetti ĵus
+        eniranta la ĉambron.—La bruo de la tasoj altiris la tutan atenton de
+        <em class="tei tei-emph"><span style="font-style: italic">la
+        ribelulo</span></em>, kiu tuj forgesis la ceteron. Tiamaniere,
+        montrante al infanoj ludileton, oni igas ilin forgesi la malsanigajn
+        fruktojn, kiujn ili petis piedfrapante.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi iom post iom
+        endormiĝis dum la akvo varmiĝis.—Mi ĝuis tiun ĉarman plezuron, pri
+        kiu mi jam parolis al la legantoj: senti sin dormanta. La agrabla
+        bruo farita de Joannetti per la frapo de la kafkruĉo kontraŭ la
+        kamenstableto sonadis en mian cerbon kaj vibrigis ĉiujn miajn
+        sentemajn fibrojn, kiel la ekmovo de harpa kordo sonorigas la
+        oktavojn.—Fine mi vidis kvazaŭan ombron antaŭ mi; mi malfermis la
+        okulojn, tio estis Joannetti;—Ha, kia bonodoro! kia agrabla surprizo!
+        kafo, kremo, piramido de rostita pano!—Bona leganto, matenmanĝu kun
+        mi.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XL</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kian grandan
+        trezoron da ĝuoj la bona naturo liveris al la homoj, kies koro scias
+        ĝui! Kia diverseco en tiuj ĝuoj! Kiu povos denombri iliajn
+        nekalkuleblajn nuancojn laŭ la diversaj personoj kaj laŭ la diversaj
+        aĝoj de la vivo? La neklara memoro pri la ĝuoj de mia juneco
+        ektremigas min ankoraŭ. Ĉu mi provos rakonti la ĝuojn de junulo, kies
+        koro komencas bruli per la fajroj de senteco? En tiu feliĉa aĝo, kiam
+        oni nescias eĉ la nomon de profitemo, ambicio, malamo kaj de ĉiuj
+        hontindaj pasioj, kiuj malaltigas kaj turmentas la homaron; en tiu
+        aĝo, bedaŭrinde tro mallongedaŭra, la suno brilas per heleco, kiun
+        oni ne retrovos plu dum la resto de la vivo. La aero estas pli
+        pura;—la fontoj estas pli klaraj kaj pli malvarmetaj:—la naturo
+        prezentas vidaĵojn, la arbaretoj prezentas vojetojn ne plu
+        retroveblajn en la matura aĝo. <span class="tei tei-pb" id="page50">[p. 50]</span><a class="tei tei-anchor" id="p50"></a> Dio! kiajn bonodorojn ellasas tiuj floroj! kiel
+        <span class="tei tei-corr">bongustaj</span> estas tiuj fruktoj! kiel
+        belkolore brilas la matenruĝo!—Ĉiuj virinoj estas amindaj kaj
+        fidelaj; ĉiuj viroj, bonaj, grandanimaj kaj sentemaj; ĉie troviĝas
+        koreco, verdiremo kaj neprofitemo. Estas en la naturo nur floroj,
+        virtoj kaj plezuroj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉu la konfuzo de
+        amo, la espero al feliĉo ne plenigas nian koron je sentaĵoj tiel
+        vivaj kiel diversaj?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">La vidado de la
+        naturo, la rigardado de ĝi entute kaj detale, malfermas antaŭ la
+        racio vastegan minejon de ĝuoj. Baldaŭ la fantazio, flugante super
+        tiu oceano da plezuroj, pligrandigas ilian nombron kaj forton; la
+        diversaj sentaĵoj unuiĝas kaj kombiniĝas por formi novajn; la revo
+        pri gloro enmiksiĝas kun la korbatoj de amo; la bonfareco iras flanke
+        de la memestimo, kiu tenas ĝin per la mano; la melankolio venas
+        kelkfoje ĵeti sur nin sian solenan krepaĵon, kaj faras plezurojn el
+        niaj larmoj.—Fine la perceptoj de la spirito, la sentaĵoj de la koro,
+        eĉ la memoroj de la sentoj, estas por la homo nesekigeblaj fontoj de
+        plezuro kaj feliĉo.—Oni ne miru do, se la bruo farita de Joannetti
+        per la frapo de la kafkruĉo kontraŭ la kamenstableto kaj la
+        neatendita vidiĝo de taso da kremo faris sur min impreson tiel vivan
+        kaj tiel agrablan.</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XLI</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi tuj prenis mian
+        vojaĝan veston, rigardinte ĝin per kontenta okulo, kaj tiam mi
+        decidis fari ĉapitron <em class="tei tei-emph"><span style="font-style: italic">ad hoc</span></em> por konigi ĝin al la leganto.
+        Ĉar la formo kaj utilo de tiuj vestoj estas ĝenerale konataj, mi
+        precipe parolos pri ilia influo sur la spiriton de la vojaĝantoj.—Mia
+        vojaĝa vesto por la vintro estas farita el la plej varma kaj plej
+        mola ŝtofo, kiun mi povis trovi; ĝi envolvas min de la kapo ĝis la
+        piedoj; kaj kiam mi sidas en mia seĝego, <span class="tei tei-pb" id="page51">[p. 51]</span><a class="tei tei-anchor" id="p51"></a> kun la manoj en la poŝoj kaj mia kapo enmetita
+        en la kolumon de la vesto, mi similas la statuon de Viŝnu, sen piedoj
+        kaj sen manoj, kiun oni vidas en la Hindaj pagodoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Se oni volos, oni
+        nomu antaŭjuĝo la influon, kiun mi alskribas al la vojaĝaj vestoj sur
+        la vojaĝantojn; pri tio mi povas diri, ke ŝajnus al mi tiel ridinde
+        antaŭeniri per unu paŝo en mia vojaĝo interne de mia ĉambro, vestita
+        per mia uniformo kaj kun glavo ĉe la flanko, kiel iri en societon en
+        ĉambra surtuto.—Kiam mi vidas min tiel vestita laŭ ĉiuj postuloj de
+        la <span class="tei tei-q">« Pragmatika Regularo »</span>, mi ne sole
+        estus nekapabla daŭrigi mian vojaĝon, sed kredeble mi eĉ ne povus
+        legi tion, kion mi ĝis nun skribis pri ĝi, kaj ankoraŭ malpli
+        kompreni ĝin.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Sed ĉu tio mirigas
+        vin? Ĉu oni ne ĉiutage vidas personojn opiniantaj sin malsanaj, ĉar
+        ilia barbo estas de longe nerazita, aŭ ĉar iu ektrovas, ke ili havas
+        malsanulan mienon, kaj diras tion al ili? La vestoj tiel influas sur
+        la spiritojn de la homoj, ke estas malsanuloj, kiuj sentas sin
+        plibone, kiam ili vidas sin kun nova vesto kaj pudrita peruko; kelkaj
+        tiamaniere trompas la publikon kaj sin mem per konstanta ornamo; ili
+        unu tagon mortas bone kombitaj, kaj ilia morto mirigas ĉiujn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni kelkfoje
+        forgesis antaŭsciigi al grafo de… ke li devos deĵori:—korporalo iris
+        veki lin frumatene, en la tago mem, kiam li estis deĵoronta, kaj lin
+        informis pri tiu malĝoja afero; sed la ideo leviĝi tuj, meti siajn
+        gamaŝojn kaj tiele eliri, ne pensinte pri tio en la antaŭa vespero,
+        malkvietigis lin tiel, ke li preferis anonci, ke li estas malsana,
+        kaj ne eliri el sia domo. Li do vestis sin per nokta surtuto kaj
+        forsendis la perukiston; tio ĉi donis al li mienon palan, malsanan,
+        kiu maltrankviligis lian edzinon kaj la tutan familion.—Li mem trovis
+        sin reale iom nesana en tiu tago.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Li diris tion al
+        ĉiuj, iom por kredigi ĝin, iom ankaŭ ĉar li mem kredis ĝin. Iom post
+        iom efikis la influo de la <span class="tei tei-pb" id="page52">[p.
+        52]</span><a class="tei tei-anchor" id="p52"></a> nokta
+        surtuto: la buljonoj, kiujn li vole nevole ensorbis, naŭzis al li; ne
+        tiom estis necesa, por ke li kuŝiĝu en liton.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">En la vespero
+        doktoro Ranson<a href="#note_4" id="noteref_4" class="pginternal"><span class="tei tei-noteref"><span style="font-size: 60%; vertical-align: super">4</span></span></a> trovis
+        lian pulson malregula, kaj ordonis sangeltiron en la sekvanta tago.
+        Se la deĵorado estus daŭrinta unu monaton plie, la malsanulo certe
+        pereus.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kiu povus dubi pri
+        la influo de vojaĝaj vestoj sur la vojaĝantojn, sciante, ke la
+        kompatinda grafo de… preskaŭ vojaĝis en la alian mondon, tial ke li,
+        en tiu ĉi mondo, malĝustatempe vestis sin per nokta surtuto?</p>
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 1.00em">ĈAPITRO XLII</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi sidis apud mia
+        fajro, post la tagmanĝo, envolvite en mia vojaĝa vesto; bonvole
+        submetite al ĝia tuta influo; mi atendis la horon de la ekveturo,
+        kiam la vaporoj de digestado, suprenirante al mia cerbo, tiel
+        mallumigis la trairejon, tra kiuj venas al ĝi la ideoj naskitaj de la
+        sentoj, ke ĉiu komuniko estis obstrukcita: kaj kiel miaj sentoj jam
+        ne sendis iajn ideojn al mia cerbo, tiel ankaŭ tiu ĉi siavice jam ne
+        povis sendi la elektran fluaĵon, kiu vivigas ilin, kaj per kiu la
+        sagaca doktoro Valli revivigas mortintajn ranojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Oni facile
+        komprenos, leginte tiun ĉi antaŭparolon, kial mia kapo kliniĝis sur
+        mian bruston, kaj kiel la muskoloj de la dika kaj montra fingroj de
+        mia dekstra mano, jam ne ekscitite de tiu fluaĵo, malfirmiĝis tiel,
+        ke volumo el la verkoj de markizo Caraccioli, kiun mi tenis per tiuj
+        du fingroj, elglitis, nesciate de mi, kaj falis en la fajron.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi ĵus estis
+        havinta kelkajn vizitojn, kaj la temo de mia interparolado kun la
+        elirintaj personoj estis la morto de la glora kuracisto Cigna ĵus
+        mortinta kaj bedaŭrata de <span class="tei tei-pb" id="page53">[p.
+        53]</span><a class="tei tei-anchor" id="p53"></a> ĉiuj: li
+        estis klera, laborema, bona fizikisto kaj grandfama botanikisto.—La
+        merito de tiu lerta homo okupis mian penson; kaj tamen, mi pensis, se
+        mi povus elvoki la animojn de ĉiuj, kiujn li eble sendis en la alian
+        mondon, kiu scias, ĉu lia gloro ne estus iom difektita?</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi iom post iom
+        venis al disertacio pri la kuracarto kaj ĝiaj progresoj de la tempo
+        de Hipokrato.—Mi demandis min, ĉu la personoj de la antikveco
+        mortintaj en sia lito, kiel Perikleso, Platono, la glora Aspazio kaj
+        Hipokrato mem,… ĉu ili mortis kiel ordinaraj homoj pro febro putra,
+        bruluma aŭ verma; ĉu oni flegis ilin per sangeltiroj kaj troaj
+        kuraciloj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi ne povus diri,
+        kial mi pensis pri tiuj ĉi kvar personoj prefere ol pri aliaj.—Kiu
+        povas klarigi sonĝon?—Mi nur povas diri, ke ĝi estis mia animo, kiu
+        elvokis la doktorojn de Koso, de Torino kaj la grandfaman
+        politikiston, kiu faris tiel belajn agojn kaj tiel gravajn
+        erarojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Koncerne lian
+        elegantan amikinon, mi humile konfesas, ke ŝi estis vokita de
+        <em class="tei tei-emph"><span style="font-style: italic">la
+        aliulo</span></em>.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tamen, pensante
+        pri tio, mi estus tentata eksenti iom da fiereco, ĉar evidente
+        ŝajnas, ke en tiu ĉi sonĝo la bilanco por la racio estis kiel kvar al
+        unu.—Tio ĉi estas ja multe por militisto de mia aĝo.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Estu kiel estis,
+        dum mi tiamaniere pripensadis, miaj okuloj tute fermiĝis, kaj mi
+        plene endormiĝis: sed kiam mi fermis la okulojn, la figuro de la
+        personoj ĵus pripensitaj restis gravurita sur tiu delikata tolo,
+        nomita memoro, kaj ĉar tiuj figuroj miksiĝis en mia cerbo kun la ideo
+        de la elvoko de mortintoj, mi baldaŭ vidis aperantaj unu post la alia
+        Hipokraton, Platonon, Perikleson, Aspazion kaj doktoron Cigna kun lia
+        peruko.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi vidis ilin
+        ĉiujn sidiĝantaj sur la seĝojn, kiuj ankoraŭ ĉirkaŭis la fajrejon.
+        Nur Perikleso restis staranta, por legi la gazetojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Se la eltrovoj, pri kiuj vi parolas, estus veraj,
+        Hipokrato <span class="tei tei-pb" id="page54">[p. 54]</span><a class="tei tei-anchor" id="p54"></a> diris al la doktoro, kaj
+        se ili tiel utilus al la kuracarto, kiel vi pretendas, mi vidus
+        malgrandiĝanta la nombron de homoj, kiuj ĉiutage malsuprenvenas en la
+        malluman regnon, kaj tiu nombro, kiel mi mem konstatis laŭ la libroj
+        de Minoso, estas konstante la sama, kiel antaŭe. »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Doktoro Cigna
+        turnis sin al mi:</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Vi kredeble aŭdis paroli pri tiuj eltrovoj, li diris;
+        vi konas tiun de Harvey pri la ĉirkaŭfluado de la sango: tiun de la
+        neforgesebla Spallanzini pri la digestado, kies tutan meĥanismon ni
+        konas nun. »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Kaj li faris
+        longan nomaron de ĉiuj eltrovoj rilate la kuracarton, kaj de la
+        grandanombraj kuraciloj liveritaj de la ĥemio, kaj li faris akademian
+        paroladon, por laŭdi la nuntempan kuracarton.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Ĉu mi devas kredi, mi tiam respondis, ke tiuj eminentaj
+        homoj ne scias ĉion, kion vi ĵus diris, kaj ke ilia animo, liberigite
+        el la malhelpoj de la materio, trovas ankoraŭ ion neklara en la tuta
+        naturo? »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">—<span class="tei tei-q">« Ha! kiel vi eraras, ekkriis lia kuracista Moŝto de la
+        Peloponeso; la misteroj de la naturo estas nesciataj de la mortintoj,
+        kiel de la vivuloj; tiu sola, kiu kreis kaj direktas ĉion, scias la
+        grandan sekreton, kiun la homoj vane penas atingi; jen estas la
+        certaĵo, kiun ni lernas sur la bordoj de la Stikso; kaj kredu al mi,
+        li aldiris turnante sin al la doktoro, liberigu vin el tiu resto de
+        gildamo, kiun vi kunportis de la loĝejo de la mortemuloj; ĉar la
+        laboroj de mil generacioj kaj ĉiuj eltrovoj de la homoj ne sukcesis
+        plilongigi je unu momento ilian vivon; ĉar Karono ĉiutage pasigas en
+        sia barko saman nombron de animoj, ni ĉesu lacigi nin defendante
+        arton, kiu tie ĉi ĉe la mortintoj ne estus utila eĉ al la
+        kuracistoj. »</span>—Tiel parolis la glora Hipokrato, al mia granda
+        miro…</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Doktoro Cigna
+        ridetis; kaj ĉar la spiritoj ne povas nei evidentaĵon, nek silenti
+        pri veraĵo, li ne sole samopiniis kun Hipokrato, sed eĉ konfesis,
+        ruĝiĝante laŭ la maniero de la spiritoj, ke li ĉiam suspektis tion.
+        <span class="tei tei-pb" id="page55">[p. 55]</span><a class="tei tei-anchor" id="p55"></a></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Perikleso, kiu
+        proksimiĝis al la fenestro, ellasis grandan ekĝemon, kies kaŭzon mi
+        divenis. Li estis leganta numeron de la <span class="tei tei-q">« Moniteur »</span>, kiu sciigis la malprogresadon de la
+        artoj kaj sciencoj; li vidis glorajn scienculojn forlasantaj siajn
+        belegajn serĉadojn kaj eltrovantaj novajn krimojn, kaj li ektremetis
+        aŭdante bandon da hommanĝantoj, kiuj komparis sin kun la herooj de la
+        grandanima Grekujo, dum ili, senhonte kaj sen riproĉo de konscienco,
+        pereigis sur la eŝafodo respektindajn maljunulojn, virinojn kaj
+        infanojn, kaj faris senekscite la plej kruelajn kaj senutilajn
+        krimojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Platono, kiu estis
+        aŭskultinta silente nian kunparoladon, vidinte ĝin finita en maniero
+        tiel neatendita, ekparolis siavice.—<span class="tei tei-q">« Mi
+        komprenas, li diris, ke la eltrovoj faritaj de viaj eminentuloj en
+        ĉiuj fakoj de la fiziko estis senutilaj por la kuracarto, kiu neniam
+        povos ŝanĝi la iradon de la naturo, krom difektante la vivon homan,
+        sed ne tiel estos sendube pri la serĉadoj faritaj pri la politiko. La
+        eltrovoj de Locke pri la naturo de la homa spirito, la elpenso de la
+        presarto, la amasigitaj observoj eltiritaj el la historio, tiel
+        multaj seriozaj libroj disvastigintaj la sciencon ĝis en la
+        popolon,—unuvorte tiomaj mirindaĵoj sendube kunlaboris por plibonigi
+        la homojn, kaj tiu respubliko feliĉa kaj saĝa, kiun mi imagis kaj
+        kiun, pro la tempo en kiu mi vivis, mi devis rigardi kiel
+        neefektivigeblan revon, sendube ekzistas nun en la mondo? »</span>—Je
+        tiu demando, la honesta doktoro mallevis la okulojn kaj ne respondis,
+        krom per larmoj; poste, viŝante ilin per sia naztuko, li nevole
+        ekturnis sian perukon tiel, ke ĝi kaŝis parton de la
+        vizaĝo.—<span class="tei tei-q">« Ho, senmortaj dioj!, diris Aspazio
+        per akra ekkrio, kia stranga vizaĝo! Ĉu pro eltrovo de viaj
+        eminentuloj vi elpensis tiel kapvestiĝi per fremda
+        kranio? »</span></p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Aspazio, kiun
+        oscedigis la disertacioj de la filozofoj, estis ekkaptinta gazeton de
+        modoj trovitan sur la kameno, kaj trarigardis ĝin de kelka tempo,
+        kiam la <span class="tei tei-pb" id="page56">[p. 56]</span><a class="tei tei-anchor" id="p56"></a> peruko de la doktoro
+        kaŭzis ŝian ekkrion; kaj ĉar la seĝo mallarĝa kaj ŝanceliĝanta sur
+        kiu ŝi sidis, estis tre maloportuna por ŝi, ŝi senĝene metis siajn
+        ambaŭ nudajn krurojn, provizitajn de banderoloj, sur pajlan seĝon
+        inter ŝi kaj mi, kaj apogis sin per kubuto sur unu el la larĝaj
+        ŝultroj de Platono.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Tio ĉi ne estas kranio, respondis la doktoro, prenante
+        sian perukon kaj ĵetante ĝin en la fajron; tio estas peruko,
+        fraŭlino, kaj mi ne scias ja, kial mi ne ĵetis tiun ridindan
+        ornamaĵon en la flamojn de la Tartaro, antaŭ ol veni al vi; sed la
+        ridindaĵoj kaj antaŭjuĝoj estas tiel kunigitaj kun nia mizera naturo,
+        ke ili sekvas nin ankoraŭ kelkan tempon trans la tombo. »</span>—Mi
+        mirinde ĝojadis, vidante la doktoron forĵuranta samtempe sian
+        kuracarton kaj sian perukon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Mi certigas vin, diris Aspazio, ke la plimulto el la
+        kapvestoj figuritaj en la kajero, kiun mi trarigardas, meritus la
+        saman sorton, kiel la via, tiel ridindegaj ili estas! »</span>—La
+        bela Atenanino amuziĝis multege rigardante tiujn gravuraĵojn, kaj
+        prave miris pri la diverseco kaj strangeco de la nuntempaj vestaĵoj.
+        Unu figuro inter aliaj atentigis ŝin: tiu estis juna virino figurita
+        kun plej eleganta kapvesto, kiun Aspazio trovis nur iom tro alta; sed
+        la peco da gazo kovranta la gorĝon estis tiel supermezure larĝa, ke
+        oni nur vidis duonon de la vizaĝo. Aspazio, ne sciante ke tiuj
+        mirindaj formoj estis nur kaŭzitaj de la amelo, vidigis miron, kiu
+        estus returnite duobliĝinta, se la gazo estus diafana.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em"><span class="tei tei-q">« Sed sciigu al mi, ŝi diris, kial la nuntempaj virinoj
+        ŝajnas havi vestaĵojn pli bone faritajn por kaŝi, ol por vesti ilin:
+        apenaŭ ili lasas vidi sian vizaĝon, laŭ kiu sola oni povas rekoni
+        ilian sekson, tiel senformigita ilia korpo estas de la strangaj
+        faldoj de la ŝtofoj! El ĉiuj personoj figuritaj en tiuj folioj, neniu
+        lasas nekovritaj la bruston, la brakojn kaj la krurojn; kial ne
+        provis viaj junaj militistoj detrui tian kutimon? Kredeble, ŝi
+        aldiris, <span class="tei tei-pb" id="page57">[p. 57]</span><a class="tei tei-anchor" id="p57"></a> la virto de la nuntempaj
+        virinoj, elmontrita de ĉiuj iliaj vestoj, multe superas tiun de miaj
+        samtempulinoj! »</span> Dirinte tiujn vortojn, Aspazio rigardis min
+        kaj ŝajnis deziri respondon.—Mi faris kvazaŭ mi tion ne rimarkus—kaj
+        por ŝajni distrita, mi puŝis per la prenilo sur la fajrajn karbojn la
+        restaĵon de la peruko de la doktoro, kiun la fajro ĝis nun
+        ŝparis.—Poste, ekvidinte, ke unu el la banderoloj subtenantaj la ŝuon
+        de Aspazio estis malligita, mi diris: <span class="tei tei-q">« Permesu, ĉarmulino… »</span> kaj tiel parolante mi
+        kliniĝis rapide etendante la manojn al tiu seĝo, kie mi pensis vidi
+        tiujn du krurojn, kiuj iam malsaĝigis grandajn filozofojn.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi estas certa, ke
+        en tiu momento mi atingis la veran somnambulismon, ĉar la movo
+        priparolita estis tre reala; sed Rozino, kiu dormetis ja sur tiu
+        seĝo, akceptis por si tiun movon, kaj eksaltante malpeze en miajn
+        brakojn reĵetis en la inferojn la glorajn spiritojn elvokitajn de mia
+        vojaĝa vesto.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ĉarma lando de la
+        fantazio, vi, kiun la Bonfarulego liveris al la homoj, por ilin
+        konsoli de la realeco, mi devas forlasi vin.—Hodiaŭ kelkaj personoj,
+        de kiuj mi dependas, volas redoni al mi la liberecon, kvazaŭ ili
+        estus deprenintaj ĝin de mi! kvazaŭ estus eble al ili senigi min je
+        ĝi eĉ unu minuton kaj malhelpi min trairi laŭvole la vastan spacon
+        malfermitan antaŭ mi! Ili malpermesis al mi trairi unu urbon, unu
+        lokon, sed ili lasis al mi la tutan universon; la senlimeco kaj la
+        eterneco estas sub miaj ordonoj.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Hodiaŭ do mi estas
+        libera, aŭ plibone mi denove estos katenita! La jugo de la aferoj
+        denove pezos sur mi; mi jam ne faros paŝon ne mezuritan de la dececo
+        kaj la devo.—Feliĉa ankoraŭ mi estos, se ia kaprica diino ne igos min
+        forgesi ambaŭ, kaj se mi povos eviti tiun novan kaj danĝeran
+        kaptitecon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">He! kial oni ne
+        lasas min fini mian vojaĝon? Ĉu por puni min oni apartigis min en
+        mian ĉambron,—en tiun <span class="tei tei-pb" id="page58">[p.
+        58]</span><a class="tei tei-anchor" id="p58"></a> ĉarman
+        landon, kiu enhavas ĉiujn bienojn kaj ĉiujn trezorojn de la mondo?
+        Tiel facile oni povus ekzili muson en grenejon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Mi tamen neniam
+        tiel klare rimarkis, ke mi estas <em class="tei tei-emph"><span style="font-style: italic">duobla</span></em>.—Dum
+        mi bedaŭras miajn fantaziajn ĝuojn, mi sentas min konsolita vole
+        nevole; nekonata potenco fortiras min; ĝi diras, ke mi bezonas la
+        aeron ĉielan, kaj ke izoleco similas morton.—Jen mi estas preta; mia
+        pordo malfermiĝas; mi jam vagas sub la vasta arkado de la Po’a
+        strato; mil agrablaj fantomoj flirtas antaŭ miaj okuloj.—Jes, jen
+        estas tiu domego—tiu pordo, tiu ŝtuparo;—mi antaŭe tremetas.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiel oni sentas
+        acidan antaŭguston, tranĉante manĝotan citronon.</p>
+<p class="tei tei-p" style="margin-bottom: 1.00em">Ho, mia besto, mia
+        kompatinda besto, gardu vin!</p>
+</div>
+<div class="tei tei-tb">
+<hr style="width: 10%">
+</div>
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<p class="tei tei-p" style="text-align: center; margin-bottom: 0.90em"><span style="font-size: 90%">326-07.—Coulommiers. Imp.</span> <span class="tei tei-hi" style="text-align: center"><span style="font-size: 90%; font-variant: small-caps">Paul
+        BRODARD</span></span><span style="font-size: 90%">.—P4-07.</span></p>
+</div>
+</div>
+<hr class="doublepage">
+<div class="tei tei-back" style="margin-bottom: 2.00em; margin-top: 6.00em">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em" id="footnotes">
+<h1 class="tei tei-head" style="text-align: center; margin-bottom: 3.46em; margin-top: 3.46em">
+<span style="font-size: 173%">Notoj</span></h1>
+<dl class="tei tei-list-footnotes">
+<dt class="tei tei-notelabel"><a href="#noteref_1" id="note_1" class="pginternal">1.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">Grandfama
+            tualetistino.</p>
+</dd>
+<dt class="tei tei-notelabel"><a href="#noteref_2" id="note_2" class="pginternal">2.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu ĉi ĉapitro
+            estis skribata en la jaro 1794.</p>
+</dd>
+<dt class="tei tei-notelabel"><a href="#noteref_3" id="note_3" class="pginternal">3.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tiu ĉi promeso
+            ne plenumiĝis; la libro ne estis eldonita.</p>
+</dd>
+<dt class="tei tei-notelabel"><a href="#noteref_4" id="note_4" class="pginternal">4.</a></dt>
+<dd class="tei tei-notetext">
+<p class="tei tei-p" style="margin-bottom: 1.00em">Tre konata
+            kuracisto el Torino.</p>
+</dd>
+</dl>
+</div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<h1 class="tei tei-head" style="text-align: center; margin-bottom: 3.46em; margin-top: 3.46em">
+<span style="font-size: 173%">Notoj de la tekstpreparinto</span></h1>
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em">
+<h2 class="tei tei-head" style="text-align: center; margin-bottom: 2.88em; margin-top: 2.88em">
+<span style="font-size: 144%">Mispresaĵoj</span></h2>
+<table class="tei tei-table" style="border-spacing: 0px;margin-bottom: 1.00em;" data-summary="This is a table">
+<colgroup span="3"></colgroup>
+<tbody>
+<tr class="tei tei-row">
+<td class="tei tei-cell"><em class="tei tei-emph"><span style="font-style: italic">Paĝo</span></em></td>
+<td class="tei tei-cell"><em class="tei tei-emph"><span style="font-style: italic">Originala
+                teksto</span></em></td>
+<td class="tei tei-cell"><em class="tei tei-emph"><span style="font-style: italic">Korektaĵo</span></em></td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">21</td>
+<td class="tei tei-cell">Sendube pro tio?—</td>
+<td class="tei tei-cell">Sendube pro tio?<a class="tei tei-anchor" id="add1"></a>»—</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">30</td>
+<td class="tei tei-cell">sciiĝu, <a class="tei tei-anchor" id="corr1"></a><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">que</span></em> antaŭ
+                spegulo</td>
+<td class="tei tei-cell">ke</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">36</td>
+<td class="tei tei-cell">eliru el tiu dormado!</td>
+<td class="tei tei-cell">eliru el tiu dormado!»</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">36</td>
+<td class="tei tei-cell">manojn en la sangon!</td>
+<td class="tei tei-cell">manojn en la sangon!»</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">37</td>
+<td class="tei tei-cell">konsonanto kaj ripozejo.</td>
+<td class="tei tei-cell">konsonanto kaj ripozejo.»</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">49</td>
+<td class="tei tei-cell">Preparu la kafon, ĝi diris</td>
+<td class="tei tei-cell">Preparu la kafon», ĝi diris</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">50</td>
+<td class="tei tei-cell">kiel <a class="tei tei-anchor" id="corr2"></a><em class="tei tei-emph"><span style="font-style: normal; font-weight: 700">bongusta</span></em>
+                estas tiuj fruktoj!</td>
+<td class="tei tei-cell">bongustaj</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">54</td>
+<td class="tei tei-cell">la tuta naturo?</td>
+<td class="tei tei-cell">la tuta naturo?»</td>
+</tr>
+<tr class="tei tei-row">
+<td class="tei tei-cell">54</td>
+<td class="tei tei-cell">—Ha! kiel vi eraras,</td>
+<td class="tei tei-cell">—«Ha! kiel vi eraras,</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<hr class="doublepage">
+<div class="tei tei-div" style="margin-bottom: 5.00em; margin-top: 5.00em">
+<div class="tei tei-div" style="margin-bottom: 4.00em; margin-top: 4.00em" id="pgfooter">
+<pre class="pre tei tei-div" style="margin-bottom: 3.00em; margin-top: 3.00em"></pre></div></div></div></div><section class="pg-boilerplate pgheader" id="pg-footer" lang="en">
+<div id="pg-end-separator">
+<span>*** END OF THE PROJECT GUTENBERG EBOOK VOJAĜO INTERNE DE MIA ĈAMBRO ***</span>
+</div>
+
+    
+<div>
+Updated editions will replace the previous one—the old editions will
+be renamed.
+</div><div>
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+</div>
+
+<div id="project-gutenberg-license">START: FULL LICENSE</div>
+
+<h2 id="pg-footer-heading">THE FULL PROJECT GUTENBERG LICENSE</h2>
+
+<div class="agate">PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+</div><div>
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+</div><div class="secthead">
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+</div><div>
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+</div><div>
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+</div><div>
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+</div><div>
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+</div><div>
+1.E. Unless you have removed all references to Project Gutenberg:
+</div><div>
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+</div><blockquote><div>
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  </div></blockquote><div>
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+</div><div>
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+</div><div>
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+</div><div>
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+</div><div>
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+</div><div>
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+</div><div>
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+</div><ul>
+    <li>• You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    </li>
+    <li>• You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    </li>
+    <li>• You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    </li>
+    <li>• You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    </li>
+</ul><div>
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+</div><div>
+1.F.
+</div><div>
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+</div><div>
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+</div><div>
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+</div><div>
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+</div><div>
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+</div><div>
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+</div><div class="secthead">
+Section 2. Information about the Mission of Project Gutenberg™
+</div><div>
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+</div><div>
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+</div><div class="secthead">
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+</div><div>
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+</div><div>
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+</div><div class="secthead">
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+</div><div>
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+</div><div>
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit <a href="https://www.gutenberg.org/donate/">www.gutenberg.org/donate</a>.
+</div><div>
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+</div><div>
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+</div><div>
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+</div><div class="secthead">
+Section 5. General Information About Project Gutenberg™ electronic works
+</div><div>
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+</div><div>
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+</div><div>
+Most people start at our website which has the main PG search
+facility: <a href="https://www.gutenberg.org">www.gutenberg.org</a>.
+</div><div>
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+</div>
+
+</section></body>
+</html>
