@@ -30,9 +30,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: "Mirror"
-        run: echo "${workflow_ref}" > .test # for testing, will change
+        run: |
+          while [ "${ENDPOINT}" ]
+          do
+            ENDPOINT="$(curl -sS "${ENDPOINT}" | tee -a "${TMP_FILE}" | jq --raw-output "${JQ_QUERY}")"
+          done
+
+          jq --slurp '[.[].results[]]' "${TMP_FILE}" | tee -a "index.json"
+
+          # TODO: download files listed in index
         env:
-          workflow_ref: ${{ github.workflow_ref }}
+          ENDPOINT: 'https://gutendex.com/books/?languages=eo'
+          JQ_QUERY: '.next|tostring|sub("^null$"; ""; "i")'
+          TMP_FILE: '${{ runner.temp }}/results'
 
       - name: "Add files"
         run: git add . 
