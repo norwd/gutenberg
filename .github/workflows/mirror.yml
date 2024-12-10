@@ -38,7 +38,7 @@ jobs:
 
           jq --slurp '[.[].results[]]' "${TMP_FILE}" | tee -a "index.json"
 
-          # TODO: download files listed in index
+          jq --raw-output '.[].formats[]' < "index.json" | xargs -P256 -IURL wget --no-verbose --execute robots=off --random-wait --wait 10 --no-host-directories --force-directories URL
         env:
           ENDPOINT: 'https://gutendex.com/books/?languages=eo'
           JQ_QUERY: '.next|tostring|sub("^null$"; ""; "i")'
