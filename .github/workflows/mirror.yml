@@ -36,7 +36,7 @@ jobs:
             ENDPOINT="$(curl -sS "${ENDPOINT}" | tee -a "${TMP_FILE}" | jq --raw-output "${JQ_QUERY}")"
           done
 
-          jq --slurp '[.[].results[]]' "${TMP_FILE}" | tee -a "index.json"
+          jq --slurp '[.[].results[]]' "${TMP_FILE}" | tee "index.json"
 
           jq --raw-output '.[].formats[]' < "index.json" | xargs -P256 -IURL wget --no-verbose --execute robots=off --random-wait --wait 10 --no-host-directories --force-directories URL
         env:
