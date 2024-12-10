@@ -30,7 +30,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: "Mirror"
-        run: date +%s > .test # for testing, will change
+        run: echo "${workflow_ref}" > .test # for testing, will change
+        env:
+          workflow_ref: ${{ github.workflow_ref }}
 
       - name: "Add files"
         run: git add . 
