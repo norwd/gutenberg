@@ -1,5 +1,9 @@
 # Small Project Gutenberg Mirror
 
+![GitHub repo size](https://img.shields.io/github/repo-size/norwd/gutenberg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/norwd/gutenberg)
+![GitHub License](https://img.shields.io/github/license/norwd/gutenberg)
+
 This is a GitHub Actions powered mirror of some niche books and other literature from [Project Gutenberg].
 
 ---
