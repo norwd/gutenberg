@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/27915">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-28</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/2298">
         <pgterms:name>Andersen, H. C. (Hans Christian)</pgterms:name>
@@ -36,47 +36,48 @@
     </marcrel:trl>
     <dcterms:title>Fabeloj de Andersen</dcterms:title>
     <dcterms:description>Reading ease score: 62.8 (8th &amp; 9th grade). Neither easy nor difficult to read.</dcterms:description>
+    <dcterms:description>Wikipedia page about this book: https://eo.wikipedia.org/wiki/Kategorio:Fabeloj_de_Hans_Christian_Andersen</dcterms:description>
     <pgterms:marc508>Produced by Andrew Sly and the Online Distributed
 Proofreading Team at https://www.pgdp.net Thanks to the
 Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
     <pgterms:marc520>"Fabeloj de Andersen" by H. C. Andersen is a collection of fairy tales written in the early to mid-19th century. The book presents a selection of Andersen's beloved stories, which have enchanted readers across generations. These tales often delve into themes of love, sacrifice, and moral lessons conveyed through fantastical narratives and memorable characters.  The collection includes well-known stories such as "The Brave Tin Soldier," which tells the tale of a one-legged soldier in love with a paper ballerina and faces numerous trials only to meet a tragic yet poignant fate. In "The Mother," a heart-wrenching story about a mother’s desperate search for her lost child, Andersen explores themes of grief and the deep bond between parent and child. Other stories, like "The Princess and the Pea," illustrate the concept of authenticity and sensitivity associated with true royalty. Through enchanting prose, Andersen invites readers into a world where deep emotions intertwine with whimsical scenarios, solidifying his legacy as a master storyteller. (This is an automatically generated summary.)</pgterms:marc520>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N2a1500cb1b9a42349907fb3910b24ea0">
+      <rdf:Description rdf:nodeID="Ned2fc55fa8894c6a83e90445b4271f06">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N08802ecaaa464c2cb3a18849e1a5c1e1">
+      <rdf:Description rdf:nodeID="Nb117d8561f1744ec9601c7970231e37e">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Fairy tales</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb258b0c92f514e159a5e6f118069c7c4">
+      <rdf:Description rdf:nodeID="N18c9b64dcf274cdd965d38e4d83ea241">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PZ</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N27f63d4315e04d388be9c06828742fa7">
+      <rdf:Description rdf:nodeID="Na406b9bcbf584bf8821140ca8595583a">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N2481d86928ef4355b75c97048cdcfe42">
+      <rdf:Description rdf:nodeID="N57f256c8060d44bebe43f57aa4c37b93">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N1b6ccd5732dc49d7b1b276e4077e2c95">
+      <rdf:Description rdf:nodeID="N78194bf34d7541caa7185cd44c0f8ec0">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Children &amp; Young Adult Reading</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Nb993e10addbf4f4f979fb4de59c14633">
+      <rdf:Description rdf:nodeID="N125165f8f961482fb043cb7892c2d07f">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Literature</rdf:value>
       </rdf:Description>
@@ -86,16 +87,16 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89293</dcterms:extent>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89279</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:31.509925</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:30.468710</dcterms:modified>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-12T09:43:27.987393</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfe9d33fa2d9d490c9be694a6c6e9921c">
+          <rdf:Description rdf:nodeID="Ncb5cb53aa80a4213ac3e6a0f2cf1f316">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd471830058924929ab78bc2bf90c97a0">
+          <rdf:Description rdf:nodeID="Ne80572b122de49749bba9e08e5dcb3de">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -108,7 +109,7 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90072</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-04T16:49:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndaec18da8e8b4db9899213997ac78166">
+          <rdf:Description rdf:nodeID="N456ebe5e89a44b039c05a28e9d65ef74">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -121,13 +122,13 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35730</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-04T16:49:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb1b73222546f42c99f62b143a1f8bad6">
+          <rdf:Description rdf:nodeID="N2d5bd3fb55c24d50a13c815cbe3dc60e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nec0b6c32d8804aeaad30c99423ba4fc5">
+          <rdf:Description rdf:nodeID="N75f2ecca75ed483b87078df0b411f8a5">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -137,10 +138,10 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/27915.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101914</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:36.108914</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101913</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:35.046687</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf8463e5f67784d18b65e41421fad6937">
+          <rdf:Description rdf:nodeID="Nd4edf3060dc74f50a8fd077731186325">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -150,10 +151,10 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/27915.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100998</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:33.239922</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100996</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:32.246713</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne8617045d5bb44bdb9c66d09c8ea2cd3">
+          <rdf:Description rdf:nodeID="Ndf002f1e0ea446e5a21dc6f24c09270d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -164,9 +165,9 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/27915.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96466</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:32.118922</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:31.090708</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N624b77d0684e48e3948dfdafbb4b437c">
+          <rdf:Description rdf:nodeID="N11b33c729eb14bfa937e27784ff66ad2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -176,10 +177,10 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/27915.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201828</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:38.177886</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201824</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:37.064695</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na20b59fafb454442b6ffc807626b6732">
+          <rdf:Description rdf:nodeID="Nd5737e5518f94bd393b03abdc01a39c4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -190,9 +191,9 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/27915.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194809</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:35.458908</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:34.394702</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc33b803dd50347b18af062d924c4887d">
+          <rdf:Description rdf:nodeID="N5c50f3ef2a0c4ea48637f6811457ef37">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -205,7 +206,7 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165111</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-13T05:49:44.354086</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N56ff137c31c54a739c787d69578cd7d6">
+          <rdf:Description rdf:nodeID="Nc45b63521df045e19926fdc50782d96d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -216,9 +217,9 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/27915.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76106</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:31.097937</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:30.065735</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf2fc9da510644b95967c05b90b2e97ee">
+          <rdf:Description rdf:nodeID="Naa63b1ae5bd54f72ae298a2aa1dd32cd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -231,7 +232,7 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75746</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-04T16:49:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5788e91c4e734b73b2c15e8d259bafbc">
+          <rdf:Description rdf:nodeID="Nc8eea1e23b7b4988bb473d5d70905cbe">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -244,13 +245,13 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28627</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-04T16:49:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N97bbeb4539e04f5783c869482f3e6276">
+          <rdf:Description rdf:nodeID="N17b841064f6a45eb8a9128263d24baf7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N16864cf5a85747babf8ac67a3615614c">
+          <rdf:Description rdf:nodeID="N193bc351f36442c7819a9e35d5aa9e76">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -263,7 +264,7 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75870</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-04T16:49:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0f80915d91084773836f911076faf891">
+          <rdf:Description rdf:nodeID="N7e7f76c699ce447bbf4f4d7f3cd6ac21">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
@@ -276,13 +277,13 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28517</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-04T16:49:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf0afc78febb54eae9a01f5e695982f74">
+          <rdf:Description rdf:nodeID="N7de39b1ac2354ed68c95fb8e139ecd02">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N54b0b931c3df462b85b3ccf243854949">
+          <rdf:Description rdf:nodeID="N8f44a65cb65b487485ba20593c73adda">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -292,10 +293,10 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/27915.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21709</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:38.328884</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21842</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:37.201704</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N09129def32524524b1238ad359522e0f">
+          <rdf:Description rdf:nodeID="N280c45bf08d54efb875fb88cff034199">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -306,9 +307,9 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/27915/pg27915.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13085</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:32.660921</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:31.650718</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3622830659be4007812023576b628464">
+          <rdf:Description rdf:nodeID="N8bd901390b1641429e5226012340279d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -319,9 +320,9 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/27915/pg27915.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3375</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:32.391912</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:31.379696</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Neb7f3fda6f534739a867652ab71429b7">
+          <rdf:Description rdf:nodeID="Nac139da9b3d44cedbee8c3f0f28ef846">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -331,16 +332,16 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/27915/pg27915-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/27915"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98922</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-12T06:28:31.522933</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98923</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-12T06:27:30.480739</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N432d0b4d2d314baa9821d16302b17fb5">
+          <rdf:Description rdf:nodeID="Nb36a62809ea94a598be095fd7106ea14">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7ffcfae2be9246d59a05be636de3153d">
+          <rdf:Description rdf:nodeID="N6a27acfbc32e48a18342abf3d1348e61">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -353,10 +354,10 @@ Toronto Esperanto Circle for providing the original book.</pgterms:marc508>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
-  <rdf:Description rdf:about="http://eo.wikipedia.org/wiki/Frederik_Skeel-Gi%C3%B8rling">
-    <dcterms:description>eo.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Hans_Christian_Andersen">
     <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eo.wikipedia.org/wiki/Frederik_Skeel-Gi%C3%B8rling">
+    <dcterms:description>eo.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
