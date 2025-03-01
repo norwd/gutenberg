@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:cc="http://web.resource.org/cc/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/21951">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-06-27</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/24989">
         <pgterms:name>Novák, Jan Václav</pgterms:name>
@@ -28,42 +33,42 @@ Johano Amos Comenius</dcterms:title>
     <pgterms:marc508>Produced by Robert L. Read and Miroslav Malovec</pgterms:marc508>
     <pgterms:marc520>"Jan Amos Komenský" by Jan Václav Novák is a biography written in the early 20th century, specifically in the 1920s. The book explores the life and contributions of Jan Amos Komensky, also known as Comenius, who is regarded as a significant figure in the field of education and a symbol of Bohemian pride. The historical context highlights his role during a time of great turmoil and change in Europe, particularly related to educational reform and humanistic ideals.  The book details Komensky's journey as the last bishop of the Czech Brethren, his commitment to improving education, and his vision for a united Europe based on peace and understanding. It discusses his pivotal works, such as "Didaktika" and "Orbis Pictus," emphasizing innovative educational methods that catered to various stages of life. Through his philosophy of pansophy, Komensky aimed to create a holistic educational system that promoted moral and intellectual growth, advocating for a society where knowledge was seen as a common good. His struggles and aspirations highlight not only his devotion to education but also his desire for a just and peaceful world, making his life a testament to the enduring power of human thought and action. (This is an automatically generated summary.)</pgterms:marc520>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Nb20275a6a2e746bab6509ced5d0d1603">
+      <rdf:Description rdf:nodeID="N2a60c5b494b54ef98c83462ea3b6cd56">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0696c4f613f34126bf0e4a53e369d794">
+      <rdf:Description rdf:nodeID="N4a721f99ff82461c957688246befcae5">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Comenius, Johann Amos, 1592-1670</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N83fdd9238fb344369a9a2918fbba2807">
+      <rdf:Description rdf:nodeID="N6a8accdd28ce414fb8859ee1ae9ecba5">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>LB</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nb8e1e8cbf691467181ee99729207a711">
+      <rdf:Description rdf:nodeID="N8ed94d0aec7f42b7b985eab75d69f0f9">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N11ab4a6493a244a98cebae784d5ed5b9">
+      <rdf:Description rdf:nodeID="Ncbc5ca833688424c8154ec116a332d96">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N93fdf3685ba44f02be9313c7218b31f8">
+      <rdf:Description rdf:nodeID="N54bf970a8ac24efbad48f56d7e8ceafc">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: History - Religious</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Nc5b419dea27944c2afc8e075b2305f78">
+      <rdf:Description rdf:nodeID="Nc99f5b3e83aa4367a0a0b55221a307f6">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Teaching &amp; Education</rdf:value>
       </rdf:Description>
@@ -73,16 +78,16 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63389</dcterms:extent>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63397</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:53.356578</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:18.659937</dcterms:modified>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-10T04:48:33.084635</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6760188ae0a64bb2a1cc6a457c0c5d02">
+          <rdf:Description rdf:nodeID="N1e04a57ea60e4786a090456d31f9885f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N05bd6af41464426996ca1635f96c3565">
+          <rdf:Description rdf:nodeID="N27e2e69f2f9c408ba2bae97859554689">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -95,7 +100,7 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59252</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-02T11:51:04</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9bfbe622f8d744c0ac68713b75c3fdd7">
+          <rdf:Description rdf:nodeID="N28ae02715db3449886caa818f0868ee1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -108,13 +113,13 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23490</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-02T11:51:30</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N10ddd7e00edf4cb88c0c2150d2f6af87">
+          <rdf:Description rdf:nodeID="Nd376fcb129284030a162e3b3e72a25b4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nee3c6055032647fcad3d9eaec93344fa">
+          <rdf:Description rdf:nodeID="N8246b57d857a41b0a7b09ca4eee5ef61">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -124,10 +129,10 @@ Johano Amos Comenius</dcterms:title>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21951.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102648</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:59.896520</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102650</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:24.011911</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6587df4d8cc54707b5bfbf39eb484fe9">
+          <rdf:Description rdf:nodeID="Nec85443f2e5f4efd88c69df100d72926">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -137,10 +142,10 @@ Johano Amos Comenius</dcterms:title>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21951.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101539</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:57.075540</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101541</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:21.722921</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na0bce651c0574315af3d9a1066e8caab">
+          <rdf:Description rdf:nodeID="N48a71751520f461192537cd514b00303">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -151,9 +156,9 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21951.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90669</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:55.399514</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:20.530939</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N497f90c850974711983ed8df0c23407c">
+          <rdf:Description rdf:nodeID="N0f145cb24ba34c0cac4677eadb8ecf56">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -164,9 +169,9 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21951.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223265</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:51:01.814521</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:25.620914</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0e0cdec9dd0040d3bae089f097f141e0">
+          <rdf:Description rdf:nodeID="N0812548a949346ec9295535dc4b45457">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -177,9 +182,9 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21951.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217490</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:58.936516</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:23.294939</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N68b5d0cfd952482386e9446ae81939bb">
+          <rdf:Description rdf:nodeID="N00bba7b217cc465282fd32637392720a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -192,7 +197,7 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199052</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-10T10:10:40.091202</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Neb1513ef91714012b988ed1bf3d0d7f8">
+          <rdf:Description rdf:nodeID="N8ab5b93f6f334dcab8a2a12a2fa4127b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -203,9 +208,9 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21951.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56419</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:52.896536</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:18.404933</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nec5803f56cc541509d5c2622a4a78184">
+          <rdf:Description rdf:nodeID="N7bcfdc59007f4228af73745ceb9558d9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -218,7 +223,7 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56766</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-27T17:18:16</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N117de4c6e11c43edacb7b70aa430f5bb">
+          <rdf:Description rdf:nodeID="N0d62f80bf2334e96bd687ff61bac6a97">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -231,13 +236,13 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22549</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-27T17:19:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4e11bee52aef43a7852a44483da9faeb">
+          <rdf:Description rdf:nodeID="Ncda72e26b3f34bcb9f75739fa19031d1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3b9407ecf5124d7e96d600f84829320c">
+          <rdf:Description rdf:nodeID="N86fde35b9c624f8997942d45aaf4454a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -250,7 +255,7 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56412</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-27T17:18:52</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N96ff18d007ac49bd9c697bb9042b11cf">
+          <rdf:Description rdf:nodeID="Naab2e72ae56c4b3a968ab799c4774e02">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -263,13 +268,13 @@ Johano Amos Comenius</dcterms:title>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22357</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-06-27T17:19:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N905fddfb20f542e9bc526540a3fd716a">
+          <rdf:Description rdf:nodeID="Nfc7b844aab0b43e790da79b74bb8a5d8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc4cb944457fd4f588a7d50b304d3a5dc">
+          <rdf:Description rdf:nodeID="N9440c018dd154fcfae23c7b7c9b4f2fc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -280,9 +285,9 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21951.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20982</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:51:02.541468</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:25.740895</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na317a289a1a247d1860d375414cdbdce">
+          <rdf:Description rdf:nodeID="N468194b6841342c3b43e2668507a17b2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -293,9 +298,9 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/21951/pg21951.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16442</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:56.278529</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:21.065926</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb020cddb46f941d3a54a5ac6978b67b9">
+          <rdf:Description rdf:nodeID="N7339ba1365c54cdbad29fc5ed25503e3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -306,9 +311,9 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/21951/pg21951.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4066</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:55.782513</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:20.796911</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N62d3573c557340bdaa32e5751ff58db7">
+          <rdf:Description rdf:nodeID="N49f59987d29e445c8c78faa7a2063065">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -319,15 +324,15 @@ Johano Amos Comenius</dcterms:title>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/21951/pg21951-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/21951"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104180</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-09T12:50:53.363552</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-09T08:37:18.666935</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nddda711304654bac873925d75349936b">
+          <rdf:Description rdf:nodeID="N847fece5ad2c4c8eb467f0f549bc2299">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc4dabb67e2304867b92574a7cbc1dd4f">
+          <rdf:Description rdf:nodeID="N41833590c4924b66907083e611fc3baa">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -335,11 +340,6 @@ Johano Amos Comenius</dcterms:title>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
-            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-  </cc:Work>
   <rdf:Description rdf:about="http://eo.wikipedia.org/wiki/Jan_V%C3%A1clav_Nov%C3%A1k">
     <dcterms:description>eo.wikipedia</dcterms:description>
   </rdf:Description>
