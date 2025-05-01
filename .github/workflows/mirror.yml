@@ -34,13 +34,13 @@ jobs:
           while [ "${ENDPOINT}" ]
           do
             ENDPOINT="$(curl -sS "${ENDPOINT}" | tee "${TMP_FILE}" | jq --raw-output "${JQ_QUERY}")"
-            cat "${TMP_FILE}"
-          done | \
-            jq --slurp '[.[].results[]]' | \
-            tee "index.json" | \
-            jq --raw-output '.[].formats[]' | \
-            xargs --max-procs="$(nproc)" -IURL \
-              wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL
+            cat "${TMP_FILE}" | \
+              jq --slurp '[.[].results[]]' | \
+              tee "index.json" | \
+              jq --raw-output '.[].formats[]' | \
+              xargs --max-procs="$(nproc)" -IURL \
+                wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL
+          done
         env:
           ENDPOINT: 'https://gutendex.com/books/?languages=eo'
           JQ_QUERY: '.next|tostring|sub("^null$"; ""; "i")'
