@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
 >
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/52063">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-05-14</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</pgterms:downloads>
     <marcrel:edt>
       <pgterms:agent rdf:about="2009/agents/46651">
         <pgterms:name>Soros, Tivadar</pgterms:name>
@@ -30,48 +35,48 @@
 by Linda Cantoni.</pgterms:marc508>
     <pgterms:marc520>"Literatura Mondo, numero 2, 1922 Novembro" by Tivadar Soros is a literary magazine written in the early 20th century. The publication serves as a platform for literature and discourse within the Esperanto community, offering a collection of articles, poems, and literary insights from various contributors. The magazine reflects on cultural interactions and the significance of Esperanto as a means to unite diverse literatures from around the world.  At the start of this issue, the editorial committee expresses gratitude for the enthusiastic support received for their previous edition and highlights plans for a new section called “Mondliteratura Observo,” aimed at informing readers about notable works in global literature. The publication also features various literary works, including poems and short stories by authors like Rabindranath Tagore and J. Baghy, emphasizing themes of love, nature, and human experience. Through its content, the magazine seeks to promote understanding and collaboration among different cultures using the universal language of Esperanto. (This is an automatically generated summary.)</pgterms:marc520>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N3688c062db8a42d488623d4e41ab8f46">
+      <rdf:Description rdf:nodeID="Nd9d15000ccda4dd2a206395536fd9cb6">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N67055b30341b48ad9513e87ac620dc72">
+      <rdf:Description rdf:nodeID="N47d70195a26441a38d84cd7e83de2e7f">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Esperanto literature -- Periodicals</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N91137641a38542bba8e010c655e552ee">
+      <rdf:Description rdf:nodeID="Nb1c64c79f92042ec985cebf8ec297c95">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Literature, Modern -- 20th century -- Periodicals</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nabf72e59039941e2b7e256f3b8e73911">
+      <rdf:Description rdf:nodeID="Ne36a00242393486ca9155d66501cb179">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PM</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nbf1950ae52544929b412d52442c9102f">
+      <rdf:Description rdf:nodeID="N879ebe40221b407cbab07ac828c238ee">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Nf4d155330b65429193f0b9b0fa3671f8">
+      <rdf:Description rdf:nodeID="N11b03c27d49b45518974c97bc1a5c7a5">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N54223103abdf48f9a772c8b1c40f513c">
+      <rdf:Description rdf:nodeID="Ne4bc4ee4fa8c411cbdc6897d084426b1">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Language &amp; Communication</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Ncec771d97cbf49fc81f36776e3f53748">
+      <rdf:Description rdf:nodeID="N71598db65112476ab5c594cf7c1c7ea0">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Literature</rdf:value>
       </rdf:Description>
@@ -81,16 +86,16 @@ by Linda Cantoni.</pgterms:marc508>
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128799</dcterms:extent>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128665</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:44:57.354372</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:14.984069</dcterms:modified>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-22T12:45:06.558402</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf8ba8c36008241bb9e5a87698b74c30c">
+          <rdf:Description rdf:nodeID="Nfd299a20e96a49b4bd33f42255a36338">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4685902f7db443f1bcb5954b28ea0f43">
+          <rdf:Description rdf:nodeID="N8be96c8bb6a34ff58f6e046eaeb34ec9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -103,7 +108,7 @@ by Linda Cantoni.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133368</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-14T03:03:28</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1a6a365dfcd44df19fa7fccaaf0849db">
+          <rdf:Description rdf:nodeID="Nb04592831f964b7187fd8c64dedb98d1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -116,13 +121,13 @@ by Linda Cantoni.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">689704</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-14T03:04:46</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5eff6d3cb47d47efbe0aa6580abe0f22">
+          <rdf:Description rdf:nodeID="Nba7169e298f94f979f4e82e375be801d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc4c5d3b1609f4861aa96e5b7ac35886f">
+          <rdf:Description rdf:nodeID="Nfffbcca064804bcf9781e893f61a4466">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -132,10 +137,10 @@ by Linda Cantoni.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/52063.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600410</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:45:01.310864</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600412</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:18.818034</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N52e4706dd3b440d58de43a8dcd061f56">
+          <rdf:Description rdf:nodeID="N1808e62c73444cedb2135d49aab55d3d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -145,10 +150,10 @@ by Linda Cantoni.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/52063.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">601101</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:44:58.343838</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">601104</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:15.952113</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N28aed102db7b49c7a4b785a561eb6f92">
+          <rdf:Description rdf:nodeID="N21d835de0ca747ec996ca9e7ababa34b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -158,10 +163,10 @@ by Linda Cantoni.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/52063.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110493</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:44:57.698357</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110489</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:15.321059</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N139219630f9045159aa99482ddb6eab5">
+          <rdf:Description rdf:nodeID="N081d9745a5274ec9927e5bd01087bba6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -171,10 +176,10 @@ by Linda Cantoni.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/52063.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">835845</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:45:03.394825</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">835839</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:20.880056</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4b1faf3b90f64fd9bfbeb8be57e1dcbc">
+          <rdf:Description rdf:nodeID="N27be52586d8e4aada4da6fffbefd9b82">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -184,10 +189,10 @@ by Linda Cantoni.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/52063.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">835013</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:45:00.746824</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">835003</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:18.255080</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2600a7b62a144ae3aec30193319ce51d">
+          <rdf:Description rdf:nodeID="N8c6d90cb9bb5470384d5885b2f018fd4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -200,7 +205,7 @@ by Linda Cantoni.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173056</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-23T18:09:46.688825</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N89fd0ec3a60f494193d4e680ef7bd0f8">
+          <rdf:Description rdf:nodeID="N158c26dda12f43a1a0a464938bd8d179">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -212,16 +217,16 @@ by Linda Cantoni.</pgterms:marc508>
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103440</dcterms:extent>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103375</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:44:56.914395</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:14.543099</dcterms:modified>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-22T12:45:05.892388</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N86f0381d64964a7285322a440c28c09f">
+          <rdf:Description rdf:nodeID="Ne30cc41bc85f4bd6bd3878aa8849d585">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8edff9435d264c76b9dbe10106f651a9">
+          <rdf:Description rdf:nodeID="Nefabc40c65ed451c98334182fe42191c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
@@ -234,7 +239,7 @@ by Linda Cantoni.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103700</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-14T03:03:24</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N82d067ae826d4477b43c35cea15e527d">
+          <rdf:Description rdf:nodeID="Nac776582661842bbbe2f0b9e948cb3b3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -247,13 +252,13 @@ by Linda Cantoni.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42552</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-14T03:04:46</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5df69b4ddc064c4eb32b07a7d6ae55e0">
+          <rdf:Description rdf:nodeID="N4ba503343d904a0c8bcfa6ea500bc22d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nebb0359b06a146a6bea844d0f255f9f1">
+          <rdf:Description rdf:nodeID="N22271d33e1594f06a31190f0e7f96c07">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -264,9 +269,9 @@ by Linda Cantoni.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/52063.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19947</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:45:03.527983</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:21.009037</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N28bcafeaca09466d924d8ebefc205000">
+          <rdf:Description rdf:nodeID="N3429981c236e4eda9569f7cb2af33408">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -277,9 +282,9 @@ by Linda Cantoni.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/52063/pg52063.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24622</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:44:57.771339</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:15.397058</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7b610619490b45f281836e815d76a5ff">
+          <rdf:Description rdf:nodeID="N7050e171c9ce4a3092d4948adf2c6162">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -290,9 +295,9 @@ by Linda Cantoni.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/52063/pg52063.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4024</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:44:57.735335</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:15.359126</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N77e57d70a6f2465ca5c0e4f642bb697a">
+          <rdf:Description rdf:nodeID="Nb9fb30ac57c74b50b20c404fdae49ca6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -302,16 +307,16 @@ by Linda Cantoni.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/52063/pg52063-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/52063"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">690852</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-21T03:44:57.470374</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">690849</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-21T03:44:15.092072</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8427e61d037642e1a69d9ef66edb19b3">
+          <rdf:Description rdf:nodeID="N1fe949520909462a8582314e91e3e6aa">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf089dfad5ac845448c08c47bce8238bd">
+          <rdf:Description rdf:nodeID="N57f434d23df84139ba14fac7c8c11ee9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -319,11 +324,6 @@ by Linda Cantoni.</pgterms:marc508>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
-            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-  </cc:Work>
   <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Tivadar_Soros">
     <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
