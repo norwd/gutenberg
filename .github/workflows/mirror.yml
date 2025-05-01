@@ -39,13 +39,17 @@ jobs:
               tee "index.json" | \
               jq --raw-output '.[].formats[]' | \
               xargs --max-procs="$(nproc)" -IURL \
-                wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL
+                sh -c "${WGET_CMD}"
           done
         env:
           ENDPOINT: 'https://gutendex.com/books/?languages=eo'
           JQ_QUERY: '.next|tostring|sub("^null$"; ""; "i")'
           TMP_FILE: '${{ runner.temp }}/results'
           WAIT_SEC: 10
+          WGET_CMD: |
+            wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL || {
+              echo "::error title=WGET ERROR CODE $?::URL" ;
+            }
 
       - name: "Add files"
         run: git add . 
