@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/11307">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-02-01</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/3934">
         <pgterms:name>Zamenhof, L. L. (Ludwik Lejzer)</pgterms:name>
@@ -31,42 +36,42 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
     <pgterms:marc508>Produced by Distributed Proofreaders Europe, http://dp.rastko.net Project by David Starner, Carlo Traverso and Tapio Riikonen</pgterms:marc508>
     <pgterms:marc520>"El la Biblio" by L. L. Zamenhof is a collection of selected chapters from the Psalms, the Proverbs, and the Ecclesiastes, translated from the original texts. This work was published in the early 20th century and serves as a spiritual guide, reflecting on faith, wisdom, and the human condition through the lens of biblical principles. The collection emphasizes the importance of divine wisdom and offers insights into moral and ethical living.  The book features excerpts from the Psalms, which express themes of praise, lament, and reflection on God's presence in human life, as well as selections from the Proverbs that offer wisdom and guidance on living righteously. Zamenhof's translation aims to make these ancient texts accessible and relevant to a contemporary audience. The Ecclesiastes section delves into deeper philosophical questions about the meaning of life, vanity, and the pursuit of meaning amidst the transience of existence. Overall, this compilation not only serves as a devotional and moral resource but also invites readers to ponder profound life questions through poetic and reflective language. (This is an automatically generated summary.)</pgterms:marc520>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Ndcd1b87d59734d24980864a158bb5de3">
+      <rdf:Description rdf:nodeID="N6a5126b9237b4a2ba49ad00d15227116">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N46534b3a0245474b888753b42b306827">
+      <rdf:Description rdf:nodeID="Na7270f70c9c2448cb8918d7b96633c67">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Bible. Old Testament -- Selections</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2594a13898a94405aa4002d1d41e1a64">
+      <rdf:Description rdf:nodeID="Ndac5fb5c5b0e49a1ac7ce3ffae3500b9">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>BS</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N8e87c899a615470bbbfd716812331b4e">
+      <rdf:Description rdf:nodeID="N6cd645b5755f4a9c9764a4044654c203">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N9aa1df5c7a07464396f91025334b7360">
+      <rdf:Description rdf:nodeID="Naab06043e6d64a69a80c2f51ab6595c3">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N5dad909337fc4e74b71909bf73170615">
+      <rdf:Description rdf:nodeID="Nb6b31c31054044ec8d5655fed83d4dc4">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Philosophy &amp; Ethics</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N10eec6f308a24398a9572dc7de710253">
+      <rdf:Description rdf:nodeID="Nac64a1b3a24e4bfbbdc7667634c7af71">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Religion/Spirituality/Paranormal</rdf:value>
       </rdf:Description>
@@ -75,17 +80,9 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87680</dcterms:extent>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87570</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:41.113229</dcterms:modified>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-05T08:54:58.727674</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:49.243363</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7b0d4595e89c43cdba4ec2c7ce88c817">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Neb8386823e444fe0adaf82c29c304e08">
+          <rdf:Description rdf:nodeID="N3567ea8527ae41a9b669841b409ff231">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -96,17 +93,9 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.html.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87501</dcterms:extent>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87563</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-12T22:26:48.193755</dcterms:modified>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-05T08:54:58.866671</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne690751ff3884eb08ab296bba0fcc33b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Neff3d402f7ff40be8af3bc4fc5941c18">
+          <rdf:Description rdf:nodeID="Nf2f94ca4b8df466dad76eff98aa7da98">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -116,10 +105,10 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90308</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:44.884204</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90307</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:52.966339</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nea63696ac7cf4d69ad28c2b6be7c4b19">
+          <rdf:Description rdf:nodeID="N2bdeba3447d24cfd832b62b219afd1ac">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -129,10 +118,10 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89877</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:42.254221</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89876</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:50.362339</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na05fadba5f33473e873720c2dc0d1087">
+          <rdf:Description rdf:nodeID="N34a21d6ca5cb41d5ae6aa42ebcb12496">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -142,10 +131,10 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89877</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:41.702231</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89875</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:49.814352</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N254f1d433b444a9782b5cb38647fe1a2">
+          <rdf:Description rdf:nodeID="N73fbfc7f4ee94ea1869d9e130d89651c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -155,10 +144,10 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178792</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:46.942198</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">178788</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:54.984331</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9e802e583a514931ac979c3901cc3165">
+          <rdf:Description rdf:nodeID="N5a2ec30e5de24630948cd02d27d2536a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -169,9 +158,9 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156354</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:44.256221</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:52.349340</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Neef7ab3987b0401db53809423386e16e">
+          <rdf:Description rdf:nodeID="N69e320f8ae434e5fa38e2992e45ba64c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -184,7 +173,7 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151682</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-05T12:39:50.242246</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6515e006ba6842d49c27e4ba520a3625">
+          <rdf:Description rdf:nodeID="N1f7ce03d2195482fa39d7654f39cc3b4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -194,20 +183,12 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68715</dcterms:extent>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68607</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-05T08:53:35.236206</dcterms:modified>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-05T08:54:58.558675</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68568</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:48.994380</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nca840db254f24b6698a52566b3b427e2">
+          <rdf:Description rdf:nodeID="Nc3863777e4754518bb3ab9371ac223e0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N36473b093c094ffca21878ca9e854643">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -218,60 +199,9 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69938</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-25T18:41:33</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbd48b7d8c1b14b0499e8af00a551c017">
+          <rdf:Description rdf:nodeID="N5785222f086a47c996d8c03429753b47">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="https://www.gutenberg.org/files/11307/11307-0.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26228</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-25T18:41:33</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N16385dc603714f1d966813bafe5a531c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9e652f9830cf4c4284d61bb2923029bd">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="https://www.gutenberg.org/files/11307/11307.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69973</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-25T18:41:33</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfda498fe79634597b248fc004fef1930">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="https://www.gutenberg.org/files/11307/11307.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26167</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-25T18:41:33</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1cfa18a708b94845aa48a6c0378cbb03">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nacc1deaf6c0044d69bf3458855465d9b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -279,10 +209,10 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/11307.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21402</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:47.066192</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21403</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:55.110326</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Neeeefc3775d64c50bc6a2b6ffc969b83">
+          <rdf:Description rdf:nodeID="Na311660ce152432cb72e4fd09f71da80">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -295,7 +225,7 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9753</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-05T08:53:36.945182</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N50e42f4452aa44088b96a0e869f37e1e">
+          <rdf:Description rdf:nodeID="Nab506d014e5e4abbb483de445faac2d7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -308,7 +238,7 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2792</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-05T08:53:36.680242</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7f7c5c28a34346538142178cc7571f69">
+          <rdf:Description rdf:nodeID="N0210a6580d7c44a68ae32abae820bf35">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -319,15 +249,15 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/11307/pg11307-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/11307"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86902</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-05T06:08:41.121235</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-05T06:06:49.251356</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbe4b826f10a2467797a7fc921ffc4ba3">
+          <rdf:Description rdf:nodeID="Nfe36c601ce6c4810b491b70b3a868c54">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7e924a95363242f9b938b7e8b78271c8">
+          <rdf:Description rdf:nodeID="Nf0ec71865efc470cbc38d16f8e288e54">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -335,15 +265,10 @@ Elektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predikanto</dcterm
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
-            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-  </cc:Work>
-  <rdf:Description rdf:about="https://eo.wikipedia.org/wiki/L._L._Zamenhof">
-    <dcterms:description>eo.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="https://en.wikipedia.org/wiki/L._L._Zamenhof">
     <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://eo.wikipedia.org/wiki/L._L._Zamenhof">
+    <dcterms:description>eo.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
