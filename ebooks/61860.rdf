@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/61860">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-17</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/9367">
         <pgterms:name>Orzeszkowa, Eliza</pgterms:name>
@@ -45,59 +45,47 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <pgterms:marc520>"Marta" by Eliza Orzeszkowa is a novel written in the late 19th century. The story follows Marta, a young widow navigating the struggles of motherhood and poverty in Warsaw. As she reflects on her past and contemplates her future, she grapples with societal expectations of women and the harsh realities of her new life.  At the start of the novel, readers are introduced to Marta as she stands on the threshold of a new chapter in her life, surrounded by the remnants of her past following her husband's death. Dispossessed, she faces the emotional and financial challenges of single motherhood, with her daughter Janja as her only companion. As they move into a new, more modest apartment, the narrative delves into Marta's memories of her happier days, contrasting her past joys with her current hardships. The opening captures Marta's vulnerability while hinting at her determination to forge a better future for herself and her child despite the obstacles ahead. (This is an automatically generated summary.)</pgterms:marc520>
     <pgterms:marc908>Reading ease score: 60.6 (8th &amp; 9th grade). Neither easy nor difficult to read.</pgterms:marc908>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Nf6413b6491364599b36cc77625713a4b">
+      <rdf:Description rdf:nodeID="N17793ae144dc446dafed345dad060373">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N88175b2d5bee42eba02c032f71ca110c">
+      <rdf:Description rdf:nodeID="N2a68cdcb26a245b2a02719e28692cc40">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Women -- Employment -- Fiction</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N416f63654bd84ca18b6207e093532201">
+      <rdf:Description rdf:nodeID="N0267fcbdd17b47a0b2a3aeceeb88476a">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PG</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nc58f0b9cbd3b4e54874799f54d2cde47">
+      <rdf:Description rdf:nodeID="Nf8f660da91ae444886dfc674f9f43a2f">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N971c47469d9e4dd181ef96fba5ab6134">
+      <rdf:Description rdf:nodeID="Na8cf2dc8c81248679333fa5cad9c78ea">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N68915ecdde784d9db526ece466a4cd7f">
+      <rdf:Description rdf:nodeID="N660a7835c74c4c71b0bc2d42a50b69f2">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-        <rdf:value>Browsing: Gender &amp; Sexuality Studies</rdf:value>
-      </rdf:Description>
-    </pgterms:bookshelf>
-    <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N9e270f2539c04cbb97ab45a2c2360d88">
-        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-        <rdf:value>Browsing: Language &amp; Communication</rdf:value>
-      </rdf:Description>
-    </pgterms:bookshelf>
-    <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N5d632b634a8049ffb898f4ac1464d388">
-        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-        <rdf:value>Browsing: Fiction</rdf:value>
+        <rdf:value>Category: Novels</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512423</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:24.318949</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:22.692879</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9ded93b98cbc4edb9de8b39ad3983408">
+          <rdf:Description rdf:nodeID="Nfdbd072833774bd09538bc36b17f2034">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -107,12 +95,12 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/files/61860/61860-h/61860-h.htm">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">518611</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-17T16:24:16</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">498265</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-17T17:38:09</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7bb5439e7527425594b460f04a1f42a4">
+          <rdf:Description rdf:nodeID="N8870dec850084d168d76e79d2fcd5965">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -120,10 +108,10 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357343</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:30.095922</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357345</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:27.309921</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N626c58459f7f471783f03fb1fcc5fe2f">
+          <rdf:Description rdf:nodeID="Ne60c21169341446196e15eac81fd477b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -134,9 +122,9 @@ HathiTrust Digital Library.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">364508</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:25.443961</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:23.351847</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd789d389dcf04b698d0a992f5657b53b">
+          <rdf:Description rdf:nodeID="N39ec75140a1248f288512307e2021410">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -146,10 +134,10 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259149</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:24.735971</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259148</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:23.029939</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6745392d62154003a4c1d2590fd97311">
+          <rdf:Description rdf:nodeID="Nd6e3b80ce8db496b81f9da542a223f3d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -159,10 +147,10 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500981</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:33.990909</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500991</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:30.547842</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndc2aec4f61f94dc89515e709b78ffd2c">
+          <rdf:Description rdf:nodeID="Nb9e1f63f549e4e9aa889fc3e75bc09eb">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -173,9 +161,9 @@ HathiTrust Digital Library.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478093</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:29.749934</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:27.053885</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N276f93fe2af849518268a21baab1620c">
+          <rdf:Description rdf:nodeID="N8803b23fac494993b92667a4648b8449">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -188,7 +176,7 @@ HathiTrust Digital Library.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">374287</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-27T23:04:16.667865</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5f9fba83dca540528a76b5e419b6599f">
+          <rdf:Description rdf:nodeID="N2013df47050440e998694831147307cb">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -199,9 +187,9 @@ HathiTrust Digital Library.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">491236</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:23.453942</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:21.955932</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf33d546c3a724c71ab33b3c7b8d89fee">
+          <rdf:Description rdf:nodeID="N8f901a6c8ef04c708173e94d50c85e77">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -211,12 +199,12 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/files/61860/61860-0.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">491642</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-17T16:24:12</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">471405</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-17T17:38:09</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3224499edf8b4a6fbf5566673b32f653">
+          <rdf:Description rdf:nodeID="N3720e8638ccb46e9a3515be336a8a420">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -224,10 +212,10 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/61860.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17852</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:34.384915</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17844</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:30.688867</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0bd8a9920e13440cbdee198031445d15">
+          <rdf:Description rdf:nodeID="Nbbd1965cb5e341dba83a511650a55440">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -238,9 +226,9 @@ HathiTrust Digital Library.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/61860/pg61860.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17288</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:24.994950</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:23.118898</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7514bea3829e4b82bb1ba4af0e1c2df6">
+          <rdf:Description rdf:nodeID="Nff1ad2a45bab4321aa8a78862fa614f3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -251,9 +239,9 @@ HathiTrust Digital Library.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/61860/pg61860.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2552</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:24.815946</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:23.074862</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N95c6e728058e4ee5812ded837d8d0128">
+          <rdf:Description rdf:nodeID="N4516771d91164f6c808665dfa196c9a1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -263,16 +251,16 @@ HathiTrust Digital Library.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/61860/pg61860-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/61860"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">352362</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-24T12:54:24.369941</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">352361</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-24T12:37:22.740863</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfd61eb07eef24db9b423cfd9b82a8f5f">
+          <rdf:Description rdf:nodeID="N45014ae18e9c4bc1b3facb82c672c339">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N11eef59f11e646e5a2529eb51069cfe7">
+          <rdf:Description rdf:nodeID="N33be11758df74a35bff22ed4180f2d3c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -288,10 +276,10 @@ HathiTrust Digital Library.)</pgterms:marc508>
   <rdf:Description rdf:about="https://eo.wikipedia.org/wiki/L._L._Zamenhof">
     <dcterms:description>eo.wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Eliza_Orzeszkowa">
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/L._L._Zamenhof">
     <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/L._L._Zamenhof">
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Eliza_Orzeszkowa">
     <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>

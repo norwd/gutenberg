@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/63064">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-27</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/111">
         <pgterms:name>Wilde, Oscar</pgterms:name>
@@ -41,59 +41,53 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <pgterms:marc520>"Salome: Dramo En Unu Akto" by Oscar Wilde is a play written in the late 19th century. The work explores themes of desire, manipulation, and the tragic consequences of obsession, centering on the character of Salome, the daughter of Herodias and Herod’s stepdaughter. The narrative is steeped in sensuality and dark drama, set against the backdrop of a decadent court where power and moral decay intertwine.  At the start of the play, a young Syrian soldier observes the beauty of Princess Salome as she stands outside the palace, while various soldiers discuss the prophet John, who is imprisoned in a cistern. Salome expresses discomfort with her stepfather Herod's gaze and her desire to speak with the prophet. Through a series of interactions that highlight her growing obsession with John, Salome demands to see him, revealing her intent to manipulate the situation to her own ends. The atmosphere shifts from intrigue to tension as Salome's infatuation leads to a fatal confrontation, setting the stage for the tragic directions the plot will take. (This is an automatically generated summary.)</pgterms:marc520>
     <pgterms:marc908>Reading ease score: 69.2 (8th &amp; 9th grade). Neither easy nor difficult to read.</pgterms:marc908>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Ned41f30a1bc145879049b9e3dbdf1fb5">
+      <rdf:Description rdf:nodeID="N349eb3ac8a1b4c779d814cb13782d3c9">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb8ec2e39e18d47948aecde80bbf1ec36">
+      <rdf:Description rdf:nodeID="N719333830cb74d788513ab150776e1bc">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Salome (Biblical figure) -- Drama</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N139770d8a24c4730b9acf778877c6ade">
+      <rdf:Description rdf:nodeID="Neff87954717b41688d75cd2989199fee">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Tragedies (Drama)</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N90338d36fe18407cae8dcb2827b017be">
+      <rdf:Description rdf:nodeID="N2aff4d4728544d5b94a9120ab8463e6f">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PR</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N424e67d2828c40838433cff412622059">
+      <rdf:Description rdf:nodeID="N9c256d4cb73c416d80f2113a2f2bab18">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N9a70b5507da54c968d5081c8df9a3587">
+      <rdf:Description rdf:nodeID="Nfa8a6f6db56a4e83add3e06f0fdb3d17">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-        <rdf:value>Browsing: Literature</rdf:value>
+        <rdf:value>Category: Plays/Films/Dramas</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N0dbf9bc1f9ee4383ba1a390cccccfbcf">
+      <rdf:Description rdf:nodeID="N3929d192c457409facd3ce9d09d476a9">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-        <rdf:value>Browsing: Performing Arts/Film</rdf:value>
-      </rdf:Description>
-    </pgterms:bookshelf>
-    <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N53ee07ac3ffd494ebc7dde2dfc478253">
-        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
-        <rdf:value>Browsing: Fiction</rdf:value>
+        <rdf:value>Category: Classics of Literature</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139369</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:53.623708</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:14.707491</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf975bc0721f2420db577446ab99a68ea">
+          <rdf:Description rdf:nodeID="N50211ce9911643f18e9327f59531ed62">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -103,12 +97,12 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/files/63064/63064-h/63064-h.htm">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135156</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-27T16:50:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114967</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-18T05:31:57</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N947e656ded224e96968537cde0464eb1">
+          <rdf:Description rdf:nodeID="N5c3eab16e7e44d6a9e94261c3b1a7419">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -116,10 +110,10 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226616</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:13:00.478718</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226615</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:20.694452</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9e48122a8dcf439587f319e88813b5b8">
+          <rdf:Description rdf:nodeID="N04d6d43763704b788f7fe43204323584">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -130,9 +124,9 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226689</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:56.817683</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:17.471506</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4742ef5618bd4c69819d20847a12fc5d">
+          <rdf:Description rdf:nodeID="N42a65bbf1103414cafad91c811339206">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -142,10 +136,10 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98301</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:55.493678</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98298</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:16.341479</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb84bad095a31473388b769dd08828623">
+          <rdf:Description rdf:nodeID="N5d9bff246aa34eb18bf544f987f98758">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -155,10 +149,10 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">365942</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:13:03.137724</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">365918</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:23.016471</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4e3509f172e44676abe11ddb6d596fda">
+          <rdf:Description rdf:nodeID="Na7a8a23468ac406a8b77dc6a3b448c3f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -169,9 +163,9 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339654</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:59.686679</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:19.994458</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N76f1ba1b04bc42efa62ee6a61ac52f71">
+          <rdf:Description rdf:nodeID="N1e0cfe07d243451da7d76681b767a775">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -184,7 +178,7 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138009</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-28T12:20:49.811315</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9d47466f177b4f72a084362f96b46edf">
+          <rdf:Description rdf:nodeID="N9a43db758bdf45af85ede3840c3774ce">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -195,9 +189,9 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83577</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:52.892699</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:14.060493</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4a58765ee7bd48a5a4d14b63afec139f">
+          <rdf:Description rdf:nodeID="N6ccb7699bcbd4334b18c968f862223e8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -207,12 +201,12 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/files/63064/63064-0.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83855</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-27T16:50:20</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63769</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-18T05:31:57</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd9e60a63261c4d6e886ba6a91870c923">
+          <rdf:Description rdf:nodeID="N58bc91866b7f4051988c2d847f195806">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -220,10 +214,10 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63064.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17901</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:13:03.287651</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17893</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:23.149463</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb4bea219038445b89e7477e880bb3db0">
+          <rdf:Description rdf:nodeID="N56543141dbd6451f95a08b13311f9010">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -234,9 +228,9 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/63064/pg63064.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14764</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:56.076706</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:16.840468</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na5db38bbd110472da28f74a671c775a5">
+          <rdf:Description rdf:nodeID="Na41391038c054e9bb25b16c6d0b45af9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -247,9 +241,9 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/63064/pg63064.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4067</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:55.772675</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:16.589479</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N75cf6e52041a4c048d432bafb599c59a">
+          <rdf:Description rdf:nodeID="N8f2b1ed86e304ec5a1b986661ba9619d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -260,15 +254,15 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/63064/pg63064-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/63064"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225554</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-25T06:12:53.641725</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T05:51:14.720505</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbe1894be469e4a7dbf65fdd61af8923d">
+          <rdf:Description rdf:nodeID="N56e9d09ece8f4bbbb70295249370c48b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc341a8ca95ce4eee9d43b224f98d6962">
+          <rdf:Description rdf:nodeID="N35e15a584f6447e382f1a5a7ce428667">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -281,16 +275,16 @@ Project ID: COALESCE/2017/117 (Irish Research Council)</pgterms:marc508>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
-  <rdf:Description rdf:about="https://nl.wikipedia.org/wiki/H.J._Bulthuis">
-    <dcterms:description>nl.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Oscar_Wilde">
     <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="https://eo.wikipedia.org/wiki/Hendrik_Bulthuis">
-    <dcterms:description>eo.wikipedia</dcterms:description>
+  <rdf:Description rdf:about="https://nl.wikipedia.org/wiki/H.J._Bulthuis">
+    <dcterms:description>nl.wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://fr.wikipedia.org/wiki/Oscar_Wilde">
     <dcterms:description>fr.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://eo.wikipedia.org/wiki/Hendrik_Bulthuis">
+    <dcterms:description>eo.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/19030">
@@ -13,7 +13,7 @@
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-08-12</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/861">
         <pgterms:name>Ibsen, Henrik</pgterms:name>
@@ -34,75 +34,87 @@
     <dcterms:title>Puphejmo: Dramo en tri aktoj</dcterms:title>
     <dcterms:description>Wikipedia page about this book: https://en.wikipedia.org/wiki/A_Doll%27s_House Wikipedia page about this book: https://eo.wikipedia.org/wiki/Pupohejmo_(teatra%C4%B5o)</dcterms:description>
     <dcterms:description>Translation of: Et dukkehjem</dcterms:description>
-    <dcterms:description>Reading ease score: 70.5 (7th grade). Fairly easy to read.</dcterms:description>
     <pgterms:marc508>Produced by William Patterson, Robert L. Read and Andrew Sly.</pgterms:marc508>
     <pgterms:marc520>"Puphejmo: Dramo en tri aktoj" by Henrik Ibsen is a play written in the late 19th century. This significant work revolves around the characters Nora and Torvald Helmer as they navigate complex themes of marriage, societal roles, and personal independence during a time when gender norms were heavily enforced. The play delves into Nora's struggles for self-identity and freedom within the confines of her domestic life.  At the start of the play, the setting is described as a cozy yet modestly furnished living room in the Helmer household, on Christmas Eve. Nora is introduced as a lively and somewhat carefree character, interacting affectionately with her husband, Torvald, who has just received a promotion that promises a more prosperous future for the family. As the act unfolds, we learn that while Nora indulges in shopping and preparations for the festive season, her past actions hint at deeper tensions. It is revealed that Nora secretly borrowed a large sum of money against her father's name to save Torvald’s life years earlier, setting the stage for forthcoming conflicts surrounding secrets, societal expectations, and personal sacrifice. (This is an automatically generated summary.)</pgterms:marc520>
+    <pgterms:marc908>Reading ease score: 70.5 (7th grade). Fairly easy to read.</pgterms:marc908>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N0d6e06af68c14ba1b15f96a3cd9c9614">
+      <rdf:Description rdf:nodeID="N2e39b2bd5ba4480cb4b3cf2fdb96d0af">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N62434248e75446e39d87979291553ed8">
+      <rdf:Description rdf:nodeID="Nc723162ed610485a8b2dbe85ccefda36">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Marriage -- Drama</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nbea2ea0edb924e6eb00d4054d4f0bccd">
+      <rdf:Description rdf:nodeID="Na44902ef6ba041f1a71cf6751f9504b1">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Norwegian drama</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ncaccbde48dbb47e2ad6b027db25aa280">
+      <rdf:Description rdf:nodeID="N8f0b8e49a4e14dfeaa9946537c4fd71f">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PT</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N7644dada7f9d47ae8360b66fd724300b">
+      <rdf:Description rdf:nodeID="N5814150d81374e5baf0efb20d80feadf">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N60ce70fe022f4154a3dfd9103e02ba65">
+      <rdf:Description rdf:nodeID="N372e6917b4bc4cef91898233090195f4">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Best Books Ever Listings</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Nd9911b5ceafe4f5d97c9681c7b2b60ce">
+      <rdf:Description rdf:nodeID="N833cb48cf9ca4451a475fdcdcd383d9c">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Nfe66e47bc1214a0d83e170a3abb004a9">
+      <rdf:Description rdf:nodeID="N209d8ef15b5241eea9121249069f1171">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Literature</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N5c485e7b3b1245ec915a677ededc0cf6">
+      <rdf:Description rdf:nodeID="Nfb277f7d47074c7a8d08fa840ee9bfcd">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Performing Arts/Film</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N8cbeebe9358a43e2bbb94e56b94335c1">
+      <rdf:Description rdf:nodeID="N2acafca8fa3d4bf78d893e38e74d0a6e">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Browsing: Fiction</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N74774ace2e7242349fc343510b2141d9">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Category: Plays/Films/Dramas</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Ne52b639bf86c42909f8ae0cc429a2cc1">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Category: Classics of Literature</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175218</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:27.433254</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:00.066923</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4f824dcfbf4242e89282eedefd62465e">
+          <rdf:Description rdf:nodeID="N27216a4ba1674889b40bff96d79ae329">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -115,7 +127,7 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181878</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-12T03:23:18</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncc190f6faa5a4d2eb1b28a04af7d366d">
+          <rdf:Description rdf:nodeID="N8f1d3247eae34a5ea7f6fa126ecdd471">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -128,13 +140,13 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60118</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-12T03:24:26</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb48ac69fd0f34b93a8effc861b8bb33b">
+          <rdf:Description rdf:nodeID="N549c7e5e5f134b588310fdbadfe16006">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7834005ab73d41b28c3128bd2acc0f66">
+          <rdf:Description rdf:nodeID="Nae64a4f4e125449eb18921299fdce7df">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -144,10 +156,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131451</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:34.317210</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131454</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:06.915904</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N827ffab6def24102bd3839373cb833c0">
+          <rdf:Description rdf:nodeID="Ne918aa8bda7b43b8869a31798c9a1588">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -157,10 +169,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132154</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:30.618198</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132156</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:03.262899</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5892f33e5c4340b6afa8d3f04d5229ac">
+          <rdf:Description rdf:nodeID="Ndcd3b2a61696446a97a2a88aafe29f50">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -170,10 +182,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125654</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:29.345210</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125655</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:02.004904</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nce7dcefd374c498e9338805455245407">
+          <rdf:Description rdf:nodeID="Na2e5ca1e85bf49db857f03df31fdee44">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -183,10 +195,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310733</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:36.740194</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310743</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:09.313886</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf1762ba45fc7490f90dce3180bd11305">
+          <rdf:Description rdf:nodeID="N3c3edaaec30c42de8aa50f21aed0e992">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -197,9 +209,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297857</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:33.574234</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:06.177919</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb785e158c7fd4dd1a4f85b8fc897ed4c">
+          <rdf:Description rdf:nodeID="Nf50cb13a6b6b4445a8e568f2e5e55432">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -212,7 +224,7 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192454</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-09T07:13:58.936642</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N025b7d4392584f0492158eaf0839d617">
+          <rdf:Description rdf:nodeID="Ne839bac313984b4f9bc06ff30095d5bc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -223,9 +235,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158553</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:26.436241</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:50:59.109914</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N00f395cb50a04d7a8230f017cc28999e">
+          <rdf:Description rdf:nodeID="Ne7ecf7b04fc34f9a822515fc8df71137">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -238,7 +250,7 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158412</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-12T03:23:10</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb4f69e508467499a89e620e9d5dc762b">
+          <rdf:Description rdf:nodeID="N82a7414df84049c0be7bef1e56d72aa8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
@@ -251,13 +263,13 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57558</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-12T03:24:26</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4a831296e13a437088823262f0663283">
+          <rdf:Description rdf:nodeID="N82edb5c53bb64e088b7159221600d422">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N534983e9286147dd8bfdc176a0770806">
+          <rdf:Description rdf:nodeID="N76dcbeec97b54dcb85bb22db2ade3467">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -270,7 +282,7 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158405</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-12T03:24:10</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N95dc8f27c3d1491a8292392496d9bec4">
+          <rdf:Description rdf:nodeID="N8b4fcbb066344326900260c67d3e3a0a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -283,13 +295,13 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57422</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-08-12T03:24:26</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb5efe128041e4d67887f262ea421c065">
+          <rdf:Description rdf:nodeID="Nef6b2ddc9ad84b4882177ca6f814b8c7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf685ef90fca940419aea00f7515e69c0">
+          <rdf:Description rdf:nodeID="Ned26ee29a2a54bc7b6f7024ed812873d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -300,9 +312,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19030.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22134</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:36.892183</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:09.455878</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc498a184da3344788694549d29fc6e12">
+          <rdf:Description rdf:nodeID="N4fc33e0d20e54ca8b65ce8185f97e264">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -313,9 +325,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/19030/pg19030.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16647</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:29.934200</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:02.577906</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N709d7e92941e41c2860f1ad0ba057ec6">
+          <rdf:Description rdf:nodeID="N73c7d83cebb84c4faa39f636ec74f89f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -326,9 +338,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/19030/pg19030.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4294</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:29.628218</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:02.293904</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nebd80bde75014331847ba39df1792f87">
+          <rdf:Description rdf:nodeID="Nec31c69a6ee14160931bd9adb8fa125b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -338,16 +350,16 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/19030/pg19030-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/19030"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130692</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T07:50:27.449228</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130688</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T07:51:00.081932</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N150a79a21e654912b07d75447760684e">
+          <rdf:Description rdf:nodeID="N08bbbf22e28a4051af19cc3c28a89c6f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3e19d6b1e6ff4bb7863da93b1ad89f62">
+          <rdf:Description rdf:nodeID="N906b429b4f144a32866b5a80162d7654">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -360,13 +372,13 @@
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
-  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Henrik_Ibsen">
-    <dcterms:description>en.wikipedia</dcterms:description>
+  <rdf:Description rdf:about="https://no.wikipedia.org/wiki/Henrik_Ibsen">
+    <dcterms:description>no.wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://eo.wikipedia.org/wiki/Odd_Tangerud">
     <dcterms:description>eo.wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="https://no.wikipedia.org/wiki/Henrik_Ibsen">
-    <dcterms:description>no.wikipedia</dcterms:description>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Henrik_Ibsen">
+    <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>

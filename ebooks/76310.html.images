@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="eo"><head>
+<meta charset="utf-8"><style>
+#pg-header div, #pg-footer div {
+    all: initial;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+#pg-footer div.agate {
+    font-size: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-footer li {
+    all: initial;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: -0.6em;
+}
+#pg-footer div.secthead {
+    font-size: 110%;
+    font-weight: bold;
+}
+#pg-footer #project-gutenberg-license {
+    font-size: 110%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#pg-header-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight:bold;
+}
+#pg-footer-heading {
+    all: inherit;
+    text-align: center;
+    font-size: 120%;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header p {
+    text-indent: -4em;
+    margin-left: 4em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-size: medium
+}
+#pg-header #pg-header-authlist {
+    all: initial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pg-header #pg-machine-header strong {
+    font-weight: normal;
+}
+#pg-header #pg-start-separator, #pg-footer #pg-end-separator {
+    margin-bottom: 3em;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: center
+}
+
+    .xhtml_center {text-align: center; display: block;}
+    .xhtml_center table {
+        display: table;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        }</style><title>Cindrulino | Project Gutenberg</title>
+<link href="images/cover.jpg" rel="icon" type="image/x-cover" id="id-8053555872066006476">
+<style>@media screen {
+    body {
+        margin-left: 10%;
+        margin-right: 10%
+        }
+    }
+.pagedjs_page_content > div {
+    margin-left: 10%;
+    margin-right: 10%
+    }
+h1, h2 {
+    text-align: center;
+    margin-top: 1em;
+    clear: both
+    }
+p {
+    margin-top: 0.51em;
+    text-align: justify;
+    margin-bottom: 0.49em
+    }
+.p1 {
+    margin-top: 1em
+    }
+.p2 {
+    margin-top: 2em
+    }
+.p3 {
+    margin-top: 3em
+    }
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both
+    }
+div.chapter {
+    page-break-before: always
+    }
+.no-break {
+    page-break-before: always
+    }
+.pagenum {
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0
+    }
+.center {
+    text-align: center
+    }
+.center p {
+    text-align: center
+    }
+.right {
+    display: block;
+    text-align: right
+    }
+.smcap {
+    font-variant: small-caps
+    }
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto
+    }
+.cover {
+    margin: 0 auto;
+    padding: 2em;
+    width: 35%;
+    height: auto
+    }
+.x-ebookmaker .cover {
+    width: 80%;
+    margin: 0 10%;
+    padding: 1em
+    }
+figure {
+    display: block;
+    border: 1px black solid;
+    margin: 0 auto;
+    width: 35%;
+    height: auto
+    }
+figcaption {
+    border-top: 1px black solid;
+    color: black;
+    background-color: white;
+    padding: 1em;
+    text-align: center
+    }
+.x-ebookmaker figure {
+    width: 68%;
+    margin: 0 16%;
+    padding: 1em
+    }
+.orna {
+    display: block;
+    padding: 1em;
+    margin: 0 auto;
+    width: 4em
+    }
+.orna_w {
+    display: block;
+    padding: 1em;
+    margin: 0 auto;
+    width: 20em
+    }
+.muso {
+    display: block;
+    padding: 2em;
+    margin: 0 auto;
+    width: 90%
+    }
+.x-ebookmaker .orna {
+    width: 10%;
+    margin: 0 45%;
+    padding: 0.5em
+    }
+.x-ebookmaker .orna_w, .muso {
+    width: 80%;
+    margin: 0 10%;
+    padding: 0.5em
+    }
+.footnote {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.9em
+    }
+.footnote .label {
+    position: absolute;
+    right: 84%;
+    text-align: right
+    }
+.fnanchor {
+    vertical-align: super;
+    font-size: 0.8em;
+    text-decoration: none
+    }
+.transnote {
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 95%;
+    padding: 0.5em;
+    margin-bottom: 5em;
+    font-family: sans-serif, serif
+    }
+.tn_title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 1em auto
+    }
+.container {
+    display: inline-block;
+    margin: 0 auto
+    }</style>
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="Cindrulino">
+<meta name="dc.language" content="eo">
+<meta name="dcterms.source" content="https://www.gutenberg.org/files/76310/76310-h/76310-h.htm">
+<meta name="dcterms.modified" content="2025-07-30T11:33:40.276188+00:00">
+<meta name="dc.rights" content="Public domain in the USA.">
+<link rel="dcterms.isFormatOf" href="http://www.gutenberg.org/ebooks/76310">
+<meta name="dc.creator" content="Milho, L.">
+<meta name="marcrel.ill" content="Rubin, R.">
+<meta name="dc.subject" content="Fairy tales">
+<meta name="dcterms.created" content="2025-06-15">
+<meta name="generator" content="Ebookmaker 0.13.7 by Project Gutenberg">
+<meta property="og:title" content="Cindrulino">
+<meta property="og:type" content="Text">
+<meta property="og:url" content="https://www.gutenberg.org/cache/epub/76310/pg76310-images.html">
+<meta property="og:image" content="https://www.gutenberg.org/cache/epub/76310/pg76310.cover.medium.jpg">
+</head>
+<body><section class="pg-boilerplate pgheader" id="pg-header" lang="en"><h2 id="pg-header-heading" title="">The Project Gutenberg eBook of <span lang="eo" id="pg-title-no-subtitle">Cindrulino</span></h2>
+    
+<div>This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at <a class="reference external" href="https://www.gutenberg.org">www.gutenberg.org</a>. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.</div>
+
+<div class="container" id="pg-machine-header"><p><strong>Title</strong>: Cindrulino</p>
+<div id="pg-header-authlist">
+<p><strong>Author</strong>: L. Milho</p>
+
+<p><strong>Illustrator</strong>: R. Rubin</p>
+</div>
+<p><strong>Release date</strong>: June 15, 2025 [eBook #76310]</p>
+
+<p><strong>Language</strong>: Esperanto</p>
+
+<p><strong>Original publication</strong>: Tours: A. Barbot, 1910</p>
+
+<p><strong>Credits</strong>: Mairi, Richard Illner and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by Österreichische Nationalbibliothek - Austrian National Library.)</p>
+
+</div><div id="pg-start-separator">
+<span>*** START OF THE PROJECT GUTENBERG EBOOK CINDRULINO ***</span>
+</div></section><div style="text-align:center"></div>
+
+<!-- BOOK COVER -->
+<div class="cover no-break">
+   <img alt="Librokovrilo" height="2560" src="images/cover.jpg" width="1631" id="img_images_cover.jpg">
+</div>
+
+<!-- TITLE PAGE -->
+<div class="chapter center p2">
+   <p>ILUSTRITA</p>
+   <p>Biblioteko por Infanoj</p>
+   <p>N<sup>o</sup> 2</p>
+   <hr>
+   <h1 class="p3">CINDRULINO</h1>
+     <p class="p2">Laŭ Angla rakonto esperantigis</p>
+     <p class="p1">L. MILHO</p>
+     <p>Profesoro aprobita de la S. f. p. E.</p>
+   <p class="p2">
+     PREZO:<br>
+     50 CENTIMOJN (½ FRANKO)<br>
+     AFRANKITE
+   </p>
+
+   <p class="p2">
+     <i>Eldonoj de E. X.<br>
+     Librejo A. BARBOT<br>
+     15, Rue Etienne Pallu, 15<br>
+     Tours (Tur)<br>
+     Franclando</i>
+   </p>
+</div>
+
+<!-- DEDICATION -->
+<div class="center chapter">
+   <span class="pagenum">[1]</span>
+   <div class="orna">
+     <img alt="" data-role="presentation" height="96" src="images/i_001a.jpg" width="192" id="img_images_i_001a.jpg">
+  </div>
+</div>
+  <div class="center p1">
+    <div class="container">
+    <p><span class="smcap">Al</span> Sro
+    <span class="smcap"> Edmond</span> PRIVAT</p>
+    <p><i>La deksesjara Direktoro de</i></p>
+    <p>«JUNA ESPERANTISTO»</p>
+    <p><i>kaj fervorega propagandisto de</i></p>
+    <p>Esperanto inter la gejunuloj,</p>
+    <p>Tiun libreton mi tre kore</p>
+    <p>dediĉas.</p>
+    <p><span class="right smcap p1">L. Milho.</span></p>
+    </div>
+</div>
+
+<div class="orna">
+  <img alt="" data-role="presentation" height="208" src="images/i_001b.jpg" width="336" id="img_images_i_001b.jpg">
+</div>
+
+<!-- FRONTISPIECE -->
+<div class="no-break p2">
+  <span class="pagenum">[2]</span>
+  <figure class="center p2">
+    <img alt="" height="479" src="images/i_002.jpg" width="350" id="img_images_i_002.jpg">
+    <figcaption>Cindrulino en la kuirejo.</figcaption>
+  </figure>
+</div>
+
+<!-- CHAPTER I -->
+<div class="chapter">
+  <span class="pagenum">[3]</span>
+  <div class="orna_w">
+    <img alt="" data-role="presentation" height="128" src="images/i_003.jpg" width="1128" id="img_images_i_003.jpg">
+  </div>
+   <h2>I</h2>
+<p>La patrino de Cindrulino mortis kiam la knabino estis ankoraŭ tre
+juna infano. Cindrulino estis lasata al la zorgo de sia patro kaj de
+siaj duon-fratinoj, kiuj estis multe pliaĝaj ol ŝi; ĉar la patro de
+Cindrulino edziĝis du fojojn kaj ŝia patrino estis lia dua edzino.</p>
+
+<p>Nu la fratinoj de Cindrulino ne amis ŝin kaj estis tre malbonaj al
+ŝi.</p>
+
+<p><span class="pagenum">[4]</span> Kiam ŝi pliaĝiĝis, ili devigis
+ŝin laboradi kiel servistino, kaj eĉ kribri la cindrojn; pro tio ili
+kutimis ŝin nomi moke: «Cindrulino». Tiu ĉi ne estis ŝia vera nomo,
+sed ŝi fariĝis poste tiel bone konita laŭ ĝi ke ŝia propra nomo estis
+forgesata.</p>
+
+<p>Ŝi estis tre bonkaraktera knabino, kaj ĉiu amis ŝin, escepte ŝiaj
+kruelaj fratinoj.</p>
+
+<p>Kiam Cindrulino havis ĉirkaŭe dek sep jarojn, okazis ke la reĝo de
+tiu lando donis balon, je kiu ĉiuj sinjorinoj estis invitataj, kaj
+ankaŭ la fratinoj de Cindrulino. Cindrulino devis vesti ilin por tiu
+balo; sed la fratinoj neniel pensis permesi, ke ŝi iru kun ili.</p>
+
+<p>«Mi deziras ke vi konduku min al la balo kun vi, fratinoj», diris
+Cindrulino ĝentile.</p>
+
+<div class="no-break">
+<span class="pagenum">[5,6]</span>
+<figure class="center p2">
+   <img alt="" height="481" src="images/i_005.jpg" width="350" id="img_images_i_005.jpg">
+   <figcaption>Ŝi devis vesti ŝiajn fratinojn...</figcaption>
+</figure>
+</div>
+
+<p class="p2"><span class="pagenum">[7]</span>«Alkonduki vin, vere!»
+ironie respondis la pli juna fratino: «nenia estas loko por
+cindro-kribrantino; restu hejme, kaj faru vian laboron».</p>
+
+<div class="orna">
+   <img alt="" data-role="presentation" height="263" src="images/i_007.jpg" width="175" id="img_images_i_007.jpg">
+</div>
+</div>
+
+<!-- CHAPTER 2 -->
+<div class="chapter">
+  <span class="pagenum">[8]</span>
+   <div class="orna_w">
+   <img alt="" data-role="presentation" height="176" src="images/i_008.jpg" width="1136" id="img_images_i_008.jpg">
+   </div>
+   <h2>II</h2>
+
+<p>Kiam ili estis foririntaj, Cindrulino, kies koro estis tre malĝoja,
+sidiĝis kaj ĉagrenege ekploris; sed dum ŝi sidiĝis malgaja, pensante
+pri la malboneco de siaj fratinoj, voĉo alvokis ŝin el la ĝardeno, kaj
+ŝi eliris por vidi kiu ĝi estis.</p>
+
+<p>Ĝi estis ŝia bapto-patrino, bona, maljuna Feino.</p>
+
+<p>«Ne ploru, Cindrulino, ŝi diris, vi ankaŭ iros al la balo, ĉar vi
+estas bona, afabla knabino. Alportu al mi grandan kukurbon.»</p>
+
+<p><span class="pagenum">[9,10,11]</span>Cindrulino obeis, kaj la Feino,
+tuŝante ĝin kun sia vergeto, ĝin ŝanĝis en grandan veturilon. Poste ŝi
+ŝanĝis raton en veturigiston, kaj musojn en lakeojn. La Feino tuŝis
+ankaŭ Cindrulinon kun sia vergeto, kaj la vestaĉoj<a class="fnanchor pginternal" href="#Footnote_1" id="FNanchor_1">[1]</a> de l' malriĉa knabino
+fariĝis belegaj vestoj, ornamitaj per multe-kostaj puntoj kaj juveloj;
+ŝiaj malnovaj ŝuoj fariĝis ĉarma paro da vitraj pantofloj, kiuj ŝajnis
+diamantoj. La Feino ordonis, ke ŝi iru al la balo kaj sin amuzadu,
+sed certe lasu la balĉambron antaŭ ol la horloĝo sonorigos la dekduan
+horon.</p>
+
+<div class="footnote">
+<p><a class="label pginternal" href="#FNanchor_1" id="Footnote_1">[1]</a>
+«Aĉ» estas sufikso <i>malboniga</i> jam ofte uzita de tre lertaj
+Esperantistoj.</p>
+</div>
+
+<p><span class="pagenum">[12]</span> «Se vi tion ne faros, ŝi diris,
+viaj belegaj vestoj de nove fariĝos vestaĉoj.»</p>
+
+<p>Tiam Cindrulino eniris la veturilon kaj forveturis kun siaj lakeoj,
+tre belege, kaj alvenis al la reĝa kortego, kie ŝi estis entuziasme
+ricevata.</p>
+
+<div class="no-break">
+<figure class="center p2">
+   <img alt="" height="491" src="images/i_009.jpg" width="350" id="img_images_i_009.jpg">
+   <figcaption>Cindrulino en la balo.</figcaption>
+</figure>
+</div>
+
+<p class="p2">La plej belega junulino en la balo ŝi estis, kaj la
+princo volis danci nur kun ŝi.</p>
+
+<p>Sed ŝi rapidis foriri iom antaŭ la fiksita horo, kaj ŝi havis tempon
+por senvestiĝi antaŭ ol ŝiaj fratinoj alvenis hejme. Ili diris al ŝi,
+ke alestis la balon mirinda princino, pri kiu la princo entuziasmiĝis.
+Ili nesciis, ke la princino estis Cindrulino mem.</p>
+</div>
+
+<div class="chapter">
+<span class="pagenum">[13,14,15]</span>
+<div class="orna_w">
+  <img alt="" data-role="presentation" height="96" src="images/i_015.jpg" width="1136" id="img_images_i_015.jpg">
+</div>
+
+<h2>III</h2>
+
+<p>Tri fojojn Cindrulino sammaniere iris al la reĝaj baloj, sed la
+trian fojon ŝi forgesis la ordonon de l' Feino, kaj ŝi aŭdis la
+horloĝon sonorigi la dekduan horon.</p>
+
+<div class="no-break">
+<figure class="center p2">
+   <img alt="" height="490" src="images/i_013.jpg" width="350" id="img_images_i_013.jpg">
+   <figcaption>Ŝi forkuris el la balĉambro.</figcaption>
+</figure>
+</div>
+
+<p class="p2">Ŝi forkuris el la balĉambro kaj rapidege malsupreniris la
+ŝtuparon. Sed ŝiaj vestoj ĉiuj fariĝis vestaĉoj antaŭ ol ŝi eliris el
+la palaco, kaj ŝi perdis unu el siaj vitraj pantofloj.</p>
+
+<p><span class="pagenum">[16]</span> La princo ŝin serĉadis en la tuta
+palaco; sed la gardistoj diris al li, ke neniu trapasis la pordon,
+escepte malriĉa junulino.</p>
+
+<p>La princo tamen trovis la pantoflon kaj por koni kien Cindrulino
+foriris, li proklamigis ke li edziĝos la junulinon, kiu povos
+piedvestiĝi per la vitra pantoflo.</p>
+
+<p>Ĉiuj virinoj provis piedvestiĝi per la pantoflo, sed vane. La
+fratinoj de Cindrulino ankaŭ penadis por piedvestiĝi per ĝi, sed ili
+ne sukcesis. Tiam la juna fratino petis, ke oni permesu al ŝi provi
+la pantoflon, kaj ĝi troviĝis tute taŭga por ŝi; tiam ĝoje la princo
+vidis, ke ŝi posedis ankaŭ la duan pantoflon, kaj li tuj rekonis, ke
+Cindrulino estis la belega princino, kun kiu li dancis dum la balo.</p>
+</div>
+
+<div class="no-break">
+<span class="pagenum">[17]</span>
+<figure class="center p2">
+   <img alt="" height="498" src="images/i_017.jpg" width="350" id="img_images_i_017.jpg">
+   <figcaption>La pantoflo troviĝis taŭga...</figcaption>
+</figure>
+</div>
+
+<div class="chapter">
+<span class="pagenum">[18,19]</span>
+<div class="orna_w">
+  <img alt="" data-role="presentation" height="232" src="images/i_019.jpg" width="1136" id="img_images_i_019.jpg">
+</div>
+
+<h2>IV</h2>
+
+<p>Oni ne povas imagi la koleron kaj envion de ŝiaj fratinoj; sed
+subite la bapto-patrino feino aperis, denove tuŝis Cindrulinon per sia
+vergeto, kaj ŝia robaĉo ŝanĝiĝis en belegan silkan robon, tute decan
+por edziniĝa festo.</p>
+
+<p>«Prenu ŝin por esti via edzino, kara princo, diris la feino. Ŝi
+estas inda je amo via, ĉar ŝi estas pacienca, ĝentila kaj tre lerta;
+ŝi ja estos bonega edzino.»</p>
+
+<p><span class="pagenum">[20]</span> Kaj turnante sin al la fratinoj:
+«Lernu, ŝi diris, ke ĉiam estas saĝe, kaj tiel singardeme kiel
+grandanime, esti bona al ĉiuj sendiference, al riĉuloj kaj malriĉuloj,
+al fratino aŭ al duon-fratino. Nun vi devas atendi vian pardonon, el
+la boneco de Cindrulino.»</p>
+
+<p>Tial Cindrulino fariĝis la edzino de l' Princo, kaj la infanoj
+disĵetis rozojn sur la stratojn, kiam geedzoj eliris el la preĝejo.</p>
+
+<div class="no-break">
+<figure class="center p2">
+  <img alt="" height="473" src="images/i_021.jpg" width="350" id="img_images_i_021.jpg">
+  <figcaption>Cindrulino edziniĝas</figcaption>
+</figure>
+</div>
+
+<p class="p2"><span class="pagenum">[21,22,23]</span> Cindrulino
+pardonis al siaj fratinoj kaj estis tiel bona al ili, ke ili sincere
+pentis pri siaj pasintaj krueleco kaj maljusteco. Ŝi montris sin bona
+reĝino, tial ke ŝi ja eksperimentis malriĉan vivadon; kaj ŝia edzo, kaj
+ŝiaj infanoj ĉiam amis ŝin tre kore.</p>
+
+<p>La vitraj pantofloj estis metitaj en vitra kesteto, kaj ofte
+la Princo ilin montris al siaj infanoj, kaj al ĉiu el ili rakontis
+kiamaniere Cindrulino iris al la Balo.</p>
+
+<div class="orna">
+  <img alt="" data-role="presentation" height="344" src="images/i_023.jpg" width="680" id="img_images_i_023.jpg">
+</div>
+
+<div class="no-break p2">
+<span class="pagenum">[24]</span>
+   <div class="center muso">
+   <img alt="Muso kaj kukurbo" height="264" src="images/i_024.jpg" width="350" id="img_images_i_024.jpg">
+   </div>
+</div>
+</div>
+
+<!-- NOTOJ DE TRANSSKRIBANTOJ -->
+<div class="transnote p2">
+<p class="tn_title center">Notoj de Transskribantoj</p>
+<p>Evidentaj preseraroj estis ŝanĝitaj senkomente.</p>
+
+<p>Ilustraĵoj estis movitaj por alĝustigi pli ĝuste kun la taŭga
+alineo.</p>
+
+<p>En Esperanto, «la» estas ofte ŝanĝita al, «l' » (l+apostrofo+spaco).
+Ĉi tio estas traktata kiel aparta vorto kaj ne estas alfiksita al la
+sekva vorto.</p>
+
+<p>Nova originala kovrila arto inkluzivita kun ĉi tiu eBook estas
+donita al la publika havaĵo.</p>
+</div>
+<div style="text-align:center"></div><section class="pg-boilerplate pgheader" id="pg-footer" lang="en">
+<div id="pg-end-separator">
+<span>*** END OF THE PROJECT GUTENBERG EBOOK CINDRULINO ***</span>
+</div>
+
+    
+<div>
+Updated editions will replace the previous one—the old editions will
+be renamed.
+</div><div>
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+</div>
+
+<div id="project-gutenberg-license">START: FULL LICENSE</div>
+
+<h2 id="pg-footer-heading">THE FULL PROJECT GUTENBERG LICENSE</h2>
+
+<div class="agate">PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+</div><div>
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+</div><div class="secthead">
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+</div><div>
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+</div><div>
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+</div><div>
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+</div><div>
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+</div><div>
+1.E. Unless you have removed all references to Project Gutenberg:
+</div><div>
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+</div><blockquote><div>
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  </div></blockquote><div>
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+</div><div>
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+</div><div>
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+</div><div>
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+</div><div>
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+</div><div>
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+</div><div>
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+</div><ul>
+    <li>• You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    </li>
+    <li>• You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    </li>
+    <li>• You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    </li>
+    <li>• You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    </li>
+</ul><div>
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+</div><div>
+1.F.
+</div><div>
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+</div><div>
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+</div><div>
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+</div><div>
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+</div><div>
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+</div><div>
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+</div><div class="secthead">
+Section 2. Information about the Mission of Project Gutenberg™
+</div><div>
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+</div><div>
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+</div><div class="secthead">
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+</div><div>
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+</div><div>
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+</div><div class="secthead">
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+</div><div>
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+</div><div>
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit <a href="https://www.gutenberg.org/donate/">www.gutenberg.org/donate</a>.
+</div><div>
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+</div><div>
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+</div><div>
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+</div><div class="secthead">
+Section 5. General Information About Project Gutenberg™ electronic works
+</div><div>
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+</div><div>
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+</div><div>
+Most people start at our website which has the main PG search
+facility: <a href="https://www.gutenberg.org">www.gutenberg.org</a>.
+</div><div>
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+</div>
+
+</section></body></html>
