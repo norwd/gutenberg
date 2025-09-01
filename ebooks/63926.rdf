@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
 >
   <pgterms:ebook rdf:about="ebooks/63926">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-01</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/1779">
         <pgterms:name>Chamisso, Adelbert von</pgterms:name>
@@ -45,42 +45,42 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <pgterms:marc520>"La mirinda historio de Petro Schlemihl" by Adelbert von Chamisso is a novel written in the early 19th century. The story centers on the character Peter Schlemihl, who experiences a fantastical journey starting from his remarkable loss—his shadow. This unusual premise explores themes of identity, value, and the nature of happiness, inviting readers into a world where material wealth comes with a cost.  The opening of the narrative describes Peter Schlemihl's arrival in a bustling harbor town after a taxing sea voyage, where he seeks to establish himself in a new place. As he navigates the social scene, he encounters intriguing characters, including a mysterious man in a gray coat who ultimately proposes a strange exchange: Schlemihl's shadow for a bag of gold. This fantastical transaction sets the stage for the ensuing adventures and challenges Schlemihl faces as he grapples with the consequences of his decision and contemplates the deeper meaning of existence without his shadow. The fascinating blend of realism and fantasy in the initial chapters establishes a compelling premise, drawing readers into Schlemihl's unusual predicament. (This is an automatically generated summary.)</pgterms:marc520>
     <pgterms:marc908>Reading ease score: 60.9 (8th &amp; 9th grade). Neither easy nor difficult to read.</pgterms:marc908>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N94d8bc68fe304399b70f7c0ef16744e3">
+      <rdf:Description rdf:nodeID="N51bce22d0ab349c5a9f9fead1ea4d622">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5cd356bb39f7413e80645af9fcc3c65e">
+      <rdf:Description rdf:nodeID="Ne0662041fbab4faabe5cbe8ea401bef7">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Fables</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N29bf96fdc3fa44889452b5be7bf223c2">
+      <rdf:Description rdf:nodeID="N0df0b0d4eda04a978507d0d540de7352">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PT</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N9483a945410e4bd68a599d046d4b2012">
+      <rdf:Description rdf:nodeID="Ne04b7bdefa1e4fc5a0c1d71e03d19971">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N3e69915043d24c44a4ed73d4b23a5b55">
+      <rdf:Description rdf:nodeID="Ne0faf6e154bc43f2a4e45f87ea4de525">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Science-Fiction &amp; Fantasy</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N1e0b25a82ca549fd94301771445761ae">
+      <rdf:Description rdf:nodeID="N330ce75ac4e24ade84fd193f931ab666">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Novels</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N77ddcf95062840e1bbb0fe2525d30c73">
+      <rdf:Description rdf:nodeID="N37a67f02af2241509a5f81e34deb9dfd">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: German Literature</rdf:value>
       </rdf:Description>
@@ -89,9 +89,9 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">171363</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:51.049576</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:06.048068</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9545ede71edc4f028957a037f5c7f749">
+          <rdf:Description rdf:nodeID="N5efe4f552eb84dd0af1508de23c11b13">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -104,7 +104,7 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147885</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-18T08:45:21</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na83c795e2f2b4ab287f526ecc0fd5720">
+          <rdf:Description rdf:nodeID="Nd68893f145f64ed7856ee0a609bf2f6c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -114,10 +114,10 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">342576</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:54.194511</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">342565</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:09.466011</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbef6ef88abc74819b1c7ad9d1495af01">
+          <rdf:Description rdf:nodeID="Na6642602d76040d79a7c17063be8cd48">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -127,10 +127,10 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341721</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:51.702523</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341710</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:06.720051</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N86e2231caee14bf2a333943d8a695b4d">
+          <rdf:Description rdf:nodeID="N51775f51c8da4151bfd94a55d8004863">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -140,10 +140,10 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142786</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:51.351536</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142773</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:06.351042</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb94328513268472badc32f7677b2500d">
+          <rdf:Description rdf:nodeID="N36fa71d1ac374aeb8c87e4aa1ef4525c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -153,10 +153,10 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">396934</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:56.256638</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">396956</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:11.596017</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd7c0945b766d47bd99b51dd2bcef0068">
+          <rdf:Description rdf:nodeID="N61d07d9e67db425490aa00862fef08e0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -166,10 +166,10 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">379187</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:53.906511</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">379189</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:09.170025</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N33add76a0ae84910944733da48b7a012">
+          <rdf:Description rdf:nodeID="Ncc276c69fa664d11a910d7abdb7b62f8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -182,7 +182,7 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180246</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-28T19:50:10.230549</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N64020759c5b14b708973d2c9394decb0">
+          <rdf:Description rdf:nodeID="Nb06fbfc8dd3e490aa497a7477fdd1a2d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -193,9 +193,9 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153566</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:50.829548</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:05.823041</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1c73272ddecd4af5ac447b2d3e4886f9">
+          <rdf:Description rdf:nodeID="N58159dd1c5ed49ceb8e61240490e807e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -208,7 +208,7 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133742</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-18T08:45:21</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Naa7d11fd232a4091a96566a5a065d737">
+          <rdf:Description rdf:nodeID="N376c25ad059e4b609b3648f381cc359d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -218,10 +218,10 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/63926.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17984</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:56.637562</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17978</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:11.733984</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1ce6834d3f204a5fa02ebc3f625bfda9">
+          <rdf:Description rdf:nodeID="Nb828f9ec4efd4de4a7ffbd9790d9d864">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -232,9 +232,9 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/63926/pg63926.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21779</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:51.477541</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:06.485040</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0bbeadb074264c8794cbfbefde734ff9">
+          <rdf:Description rdf:nodeID="N5af27d0ee6ff4425b66dde31e5d3e8c2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -245,9 +245,9 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/63926/pg63926.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3359</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:51.413517</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:06.416041</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1c83b9dfdd4b4a83b35d45d099913161">
+          <rdf:Description rdf:nodeID="Nf796193ba2f64c9da4c5438ca4170e16">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -257,16 +257,16 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/63926/pg63926-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/63926"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">330988</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-25T09:00:51.073546</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">330990</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-25T09:47:06.070018</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N82daaf15fb0c4784be81f4a0076f1c1c">
+          <rdf:Description rdf:nodeID="N69eb6fa9563046a8b414090796d4d2b5">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Neaa0d9951b08442a91bec08cd7a3b204">
+          <rdf:Description rdf:nodeID="N7d53a4bb126440f28e608e7811910bcd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -279,11 +279,11 @@ Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
-  <rdf:Description rdf:about="https://de.wikipedia.org/wiki/Adelbert_von_Chamisso">
-    <dcterms:description>de.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="http://eo.wikipedia.org/wiki/Eugen_W%C3%BCster">
     <dcterms:description>eo.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://de.wikipedia.org/wiki/Adelbert_von_Chamisso">
+    <dcterms:description>de.wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Adelbert_von_Chamisso">
     <dcterms:description>en.wikipedia</dcterms:description>
