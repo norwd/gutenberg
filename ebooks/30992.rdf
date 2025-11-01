@@ -2,18 +2,18 @@
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
 >
   <pgterms:ebook rdf:about="ebooks/30992">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-16</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</pgterms:downloads>
     <marcrel:edt>
       <pgterms:agent rdf:about="2009/agents/33509">
         <pgterms:name>Mudie, H. Bolingbroke (Harold Bolingbroke)</pgterms:name>
@@ -31,47 +31,47 @@ material from the Google Print project.)</pgterms:marc508>
     <pgterms:marc520>"The Esperantist, Vol. 1, No. 5" by H. Bolingbroke Mudie is a periodical publication focused on the Esperanto language, written in the early 20th century. This issue aims to promote the understanding and usage of Esperanto while providing readers with insights into the language's development and practical applications. The magazine features contributions and articles that range from language studies to folklore, reflecting the interests of the growing international community of Esperanto speakers.  The opening of this edition introduces the editorial perspective on the utility of Esperanto, addressing issues such as accentuation in the language and the potential for modifications to improve its adoption. The editor invites readers to express their opinions on specific proposals regarding the use of accented characters, emphasizing community engagement. Additionally, the beginning includes announcements of new resources for learners and reflects a spirit of collaboration within the Esperanto movement, while also sharing various pieces that emphasize cultural aspects and narratives, illustrating the language's expressive capabilities. (This is an automatically generated summary.)</pgterms:marc520>
     <pgterms:marc908>Reading ease score: 56.5 (10th to 12th grade). Somewhat difficult to read.</pgterms:marc908>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N97ae932e030741a49b6cf03acf1c76b4">
+      <rdf:Description rdf:nodeID="N2fa4b0e1bb4348e4b722e962f467322e">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N165f96bde4e247eba09f57b5fe5112ce">
+      <rdf:Description rdf:nodeID="N8f2294d3882d4e0b99aa57dbd62ec25c">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7239a27c34ce4152817c93f121a1c596">
+      <rdf:Description rdf:nodeID="Nf3ce1eb33bf34be6ae024ad8f98bb4fe">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Esperanto -- Periodicals</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nfa2979707e25490a880cce242d4bf8ad">
+      <rdf:Description rdf:nodeID="N047ec6a234424df8a3aadcb5d3976c9a">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PM</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N92174aed6b7944e88620c9712493db96">
+      <rdf:Description rdf:nodeID="N794f8c6e022347a4a1fd8fde70b52855">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N00b9837e5bc64410a6c82de8458cc34a">
+      <rdf:Description rdf:nodeID="Na0474642c10e4fe59e21db1f8e5f7bc3">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>The Esperantist</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Na7cf9d5e4fbd429fb29403387e61cf9d">
+      <rdf:Description rdf:nodeID="N3b8a9bd4267140f8be3c395c7e01d87e">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Language &amp; Communication</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N5caca2ff305b4d73b8a9c8346ae88f3e">
+      <rdf:Description rdf:nodeID="N045d09c5896a43c98ff5f6909abdb3cb">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Journals</rdf:value>
       </rdf:Description>
@@ -80,9 +80,9 @@ material from the Google Print project.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121649</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:35.386556</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:52.912184</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8891992b194647c6b7e83ce5adbc068f">
+          <rdf:Description rdf:nodeID="N21ccb2ac96a5437389e16d368e93ccf1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -95,7 +95,7 @@ material from the Google Print project.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123290</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-06T01:37:52</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N780b59e53023446eab5343a0b5654e02">
+          <rdf:Description rdf:nodeID="N26ffc6982ab34c2aaebf6a0d60851050">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -105,10 +105,10 @@ material from the Google Print project.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188859</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:41.513500</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188853</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:58.858117</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N720e5647b9da4bce91b8fa1545c0b9e1">
+          <rdf:Description rdf:nodeID="N9750695afb82440da939151e516376b0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -118,10 +118,10 @@ material from the Google Print project.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188203</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:38.262540</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188198</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:55.738123</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N27241fde9b8f4857a66ffcab5792ebf6">
+          <rdf:Description rdf:nodeID="Nabafdb38768e4657a3c8245b4fc12229">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -131,10 +131,10 @@ material from the Google Print project.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107494</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:37.083529</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107493</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:54.593109</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N255aadc76c12493192b96137a4bbc8ec">
+          <rdf:Description rdf:nodeID="N3f2de7e74e6c413f8224a9c48e13ba75">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -144,10 +144,10 @@ material from the Google Print project.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307794</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:43.876529</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307800</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:19:01.179116</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1e24a797f8e04f30ba2bd1d939704f85">
+          <rdf:Description rdf:nodeID="N898a1b19bf814b2f80da5fb091ce36a2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -158,9 +158,9 @@ material from the Google Print project.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">298857</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:40.748509</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:58.130095</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0229938dd256485294bd220c283dc3d3">
+          <rdf:Description rdf:nodeID="N4907fd7d5cb340f0885ea20453bb4380">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -173,7 +173,7 @@ material from the Google Print project.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204977</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-14T09:30:35.188628</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na996e90746cd455e9e97424870e97276">
+          <rdf:Description rdf:nodeID="N1c99604db6e54de7b93583911dcf8c4d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -183,10 +183,10 @@ material from the Google Print project.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102658</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:34.874530</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102652</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:52.397184</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc5bcda38186f409f99055daf2b6094e0">
+          <rdf:Description rdf:nodeID="Nc63e35c70e1047b38068d25de006712e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -199,7 +199,7 @@ material from the Google Print project.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102450</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-06T01:37:52</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N76192c0e14694da5952c88fdf7856d24">
+          <rdf:Description rdf:nodeID="Nac292ffd5a444816aef39cab5484614e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -212,7 +212,7 @@ material from the Google Print project.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102437</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-06T01:37:52</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N28fd2f7873624c66babbd24668f795df">
+          <rdf:Description rdf:nodeID="N141fb57b49f24fb0957c2842fdfaa2b3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -223,9 +223,9 @@ material from the Google Print project.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30992.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20673</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:44.005482</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:19:01.307068</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne7f19c4c65654bc79a06c5fb1227f8e9">
+          <rdf:Description rdf:nodeID="N1afce1addf464a32b3cc3220b17200d1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -236,9 +236,9 @@ material from the Google Print project.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/30992/pg30992.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14815</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:37.594508</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:55.081122</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N300d4d1b275446bbb499f3c053358e0d">
+          <rdf:Description rdf:nodeID="Nc76daf4414d54551a181a41c775e404e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -249,9 +249,9 @@ material from the Google Print project.)</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/30992/pg30992.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3631</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:37.342515</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:54.837130</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7025bbabed314bf1aae755ab25586fc9">
+          <rdf:Description rdf:nodeID="N866c13692c514c71a3350509d3233a8d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -264,13 +264,13 @@ material from the Google Print project.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43003</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-06T01:37:52</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb92389f4109f40c49c563c32b5a5d459">
+          <rdf:Description rdf:nodeID="N2e9bd54b53224c1b8d3ac95bc1128219">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N75b29f8c476d4437b9e02e8d18892055">
+          <rdf:Description rdf:nodeID="Nba8cd3b24d31446799832c8ae55fa979">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -283,13 +283,13 @@ material from the Google Print project.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108032</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-06T01:37:52</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N92a2909c5c9b4189afcaec10822652b7">
+          <rdf:Description rdf:nodeID="Na6142cc3c59d49b99e23db0febecd620">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb983d62a5a2144f5a88637dfbcf7757c">
+          <rdf:Description rdf:nodeID="N99c3821641de4faeb0090e90aa9457aa">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -302,13 +302,13 @@ material from the Google Print project.)</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42864</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-06T01:37:52</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc0ca77f01a644a519f471c0ef74d7a75">
+          <rdf:Description rdf:nodeID="N553900b70a7f4fd5a0974bf3ab0d5528">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na1ead6a6d13d44aeb42248f001ad6db0">
+          <rdf:Description rdf:nodeID="Nef7f9a5e16ed4f87a78a592ffbf7a41e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -318,16 +318,16 @@ material from the Google Print project.)</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/30992/pg30992-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/30992"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184995</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-12T14:34:35.399531</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184994</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-12T14:18:52.925177</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nacbe716787e849e9b2d22a464cd92bf1">
+          <rdf:Description rdf:nodeID="Nf7e526f25e944d6e9cbff0f8d9a6b453">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0b099a428328448a97e2d19a354c6c0c">
+          <rdf:Description rdf:nodeID="Nb10efa33d28b44a4b8b3c1469bacd9d3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
