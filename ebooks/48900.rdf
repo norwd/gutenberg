@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/48900">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-08</dcterms:issued>
     <dcterms:rights>Copyrighted. Read the copyright notice inside this book for details.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</pgterms:downloads>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/132">
         <pgterms:name>Kipling, Rudyard</pgterms:name>
@@ -38,66 +43,66 @@
     <pgterms:marc520>"Tiel do: Rakontoj por malgrandaj infanoj" by Rudyard Kipling is a collection of children's stories written in the late 19th century. The work is a translation of Kipling's well-loved "Just So Stories," and it is intended to entertain young readers with imaginative tales that explain various natural phenomena and whimsical adventures. Notable characters introduced include a cunning whale, a camel, a rhinoceros, and a little girl named Tafinjo, all of whom navigate through fables that highlight themes of curiosity, resilience, and the wonders of nature.  At the start of the collection, readers are introduced to the whimsical world through the tale "Kiel la baleno ekhavis sian gorĝon," focusing on a whale who devours a man, leading to unexpected consequences. The story sets a playful tone as it describes the interactions between the clever little fish and the whale, revealing how the whale is unable to rid himself of the intruder. The narrative continues with diverse characters, like the lazy camel who earned a hump for his idleness, effectively engaging young readers with humor and cleverness. The opening establishes a pattern of imaginative storytelling marked by moral lessons, vibrant characters, and playful language that invites children to explore the magic of stories. (This is an automatically generated summary.)</pgterms:marc520>
     <pgterms:marc908>Reading ease score: 64.0 (8th &amp; 9th grade). Neither easy nor difficult to read.</pgterms:marc908>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Nda61359324e141a295211680ade9ee9a">
+      <rdf:Description rdf:nodeID="N700e207907d14fada5d11f88ec910b64">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nc0557b34927d422596e5419847c6c492">
+      <rdf:Description rdf:nodeID="N5e91c29d8c2a44dda2a7218ad8b7bae8">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Short stories</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7875a5ac664e423da323706673abe155">
+      <rdf:Description rdf:nodeID="N1beff25b4a064757838718a02084766a">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Animals -- Fiction</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8b0aa3e0f7a24eb6a6d2145215da4fa7">
+      <rdf:Description rdf:nodeID="N3ce9e6bffc124f889bfcae5fb3e7dc9b">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Children's stories, English -- Translations into Esperanto</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7beb9b42210141db928a7cfa80470c37">
+      <rdf:Description rdf:nodeID="Ndd7f6c2c6f2b44d5b4c5417f2c7ecdb6">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PR</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N475eba6f60764e2e8acf7f55bc19a5b6">
+      <rdf:Description rdf:nodeID="N94e0335c068a4cacb08d7b6e7db5ef49">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PZ</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nce43b0c054ba47abb41242db7a999719">
+      <rdf:Description rdf:nodeID="N7ca4a6276a5c485da25d1c5674b9f202">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Nf6e22cfb7fe147b1af28a13a3b515e54">
+      <rdf:Description rdf:nodeID="N29d2ed41bb0a4b2ca178cc60793eba68">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Ne927fa756fa34d0eaac000a799c80b3d">
+      <rdf:Description rdf:nodeID="N7d5b0fe8823046829c069b1234efb6fd">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Short Stories</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N07ac2737c6054d5d8030af314ea1fb10">
+      <rdf:Description rdf:nodeID="N6a7a2b18571a4fb5af5eccd9c8038b7e">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Children &amp; Young Adult Reading</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N481423a4e7124572b4bf45471dae3a31">
+      <rdf:Description rdf:nodeID="Nccf6ad80fd2744019e10fdbcf548da98">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Nobel Prizes in Literature</rdf:value>
       </rdf:Description>
@@ -106,9 +111,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99052</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:51:56.817499</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:44.056719</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1edd29d75b8b426d8c616df3b62c6722">
+          <rdf:Description rdf:nodeID="N46558cdea839444badc0b82d11dbcbb3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -121,7 +126,7 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77091</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-24T17:23:29</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb599cdafd9524c8b87333cb3e46e6245">
+          <rdf:Description rdf:nodeID="Ndc4d151799f246479e5f9777e7a9a600">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -131,10 +136,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112988</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:52:02.413462</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112999</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:49.558698</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3c2c237e9b144c2a8bcbb5fb8edb2590">
+          <rdf:Description rdf:nodeID="Na1899d88f2bc4fb8a3028d0c6bae12a9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -144,10 +149,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111693</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:51:59.771470</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111699</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:47.025706</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N60bebad35f664d4e880119c6ab3c3165">
+          <rdf:Description rdf:nodeID="Na4366aa1512e4ccbb6764cbcc7e350bc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -157,10 +162,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94008</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:51:58.676451</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94014</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:45.917699</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N78f56642b7774c28ac42606ce29a8715">
+          <rdf:Description rdf:nodeID="Ne19108ac0b074d5c98e32e6ed6850e71">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -170,10 +175,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269786</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:52:04.187451</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269796</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:51.333695</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3d6fbefd89a04b21b525a69d4120b3a4">
+          <rdf:Description rdf:nodeID="N05a3dbe3b66646618fae23850a93747b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -184,9 +189,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">258566</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:52:01.604465</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:48.883730</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7f349568eea548c08290a134ebcc92d9">
+          <rdf:Description rdf:nodeID="N56204d6ca5954d829aef9c7f7bc7e1e2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -199,7 +204,7 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146170</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-22T07:42:34.686366</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0d8b2a1a3c0942869aa465ebe31ab7d8">
+          <rdf:Description rdf:nodeID="N22843163b929453a8023ec4bd174d306">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -210,9 +215,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88486</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:51:56.429470</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:43.670735</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N99eea9dc5bde43b197e12adc35dd8d9c">
+          <rdf:Description rdf:nodeID="N29d25d7afb8f451d8ddea968dd45ff97">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -225,7 +230,7 @@
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68193</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-24T17:23:29</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0ba147ba72f649fc98c33095d21455c9">
+          <rdf:Description rdf:nodeID="N26d5aedcb0d640f69c6b54be1fb16254">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -235,10 +240,10 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/48900.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18268</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:52:04.328438</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18534</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:51.483679</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Naf9b29b2f56c43b1b381d4139569acf4">
+          <rdf:Description rdf:nodeID="N6c5f1d26bc584970b6dea40c086313ca">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -249,9 +254,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/48900/pg48900.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17138</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:51:59.163457</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:46.409696</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N644faa88c65f4c38bc55680b4ca91e61">
+          <rdf:Description rdf:nodeID="Nab0f624069494ca8bc241f8e5e7b1b63">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -262,9 +267,9 @@
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/48900/pg48900.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4042</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:51:58.919453</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:46.160716</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7690631eac1448898b6905ce3317af60">
+          <rdf:Description rdf:nodeID="N88cea4b72dd640b4aa1996feeadb4b47">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -274,16 +279,16 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/48900/pg48900-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/48900"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112928</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-19T13:51:56.825493</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112932</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-19T13:55:44.064744</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N39b8974e24b747b591041486137d1d04">
+          <rdf:Description rdf:nodeID="N02e2818a33cc4d829a15ac084a77161a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9ea1a0d79fd9475e8d6f7f162b218320">
+          <rdf:Description rdf:nodeID="N7c09ea34aef749bbbc117fea93aeb9fd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -291,15 +296,10 @@
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
-            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-  </cc:Work>
-  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Rudyard_Kipling">
-    <dcterms:description>en.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="http://eo.wikipedia.org/wiki/Wouter_Pilger">
     <dcterms:description>eo.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Rudyard_Kipling">
+    <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
