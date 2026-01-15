@@ -51,12 +51,14 @@ jobs:
 
       - name: "Cyrillise"
         run: |
-          find . -type d | grep -v '^\./\.git/*$' | grep -v '^\./цирила/*$' # | xargs -IDIRECTORY mkdir --parents './цирила/DIRECTORY'
-          find . -type f | grep -v '^\./\.git/*$' | grep -v '^\./цирила/*$' # | xargs -IFILE cp --recursive FILE './цирила/FILE'
-          gh gist view d44101f2ac807a0830cdb8364a3f2141 --raw --filename эспэранто.sed | tee ./эспэранто.sed
-          chmod +x ./эспэранто.sed
-          find ./цирила -type f -exec ./эспэранто.sed '{}' \;
-          rm ./эспэранто.sed
+          true
+
+      - run: find . -type d # | grep -v '^\./\.git*/*$' | grep -v '^\./цирила/*$' # | xargs -IDIRECTORY mkdir --parents './цирила/DIRECTORY'
+      - run: find . -type f # | grep -v '^\./\.git*/*$' | grep -v '^\./цирила/*$' # | xargs -IFILE cp --recursive FILE './цирила/FILE'
+      - run: gh gist view d44101f2ac807a0830cdb8364a3f2141 --raw --filename эспэранто.sed | tee ./эспэранто.sed
+      - run: chmod +x ./эспэранто.sed
+      - run: find ./цирила -type f -exec ./эспэранто.sed '{}' \;
+      - run: rm ./эспэранто.sed
 
       - name: "BREAK"
         run: exit 1
