@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
   <pgterms:ebook rdf:about="ebooks/30536">
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:license rdf:resource="license"/>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-24</dcterms:issued>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</pgterms:downloads>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</pgterms:downloads>
     <marcrel:trl>
       <pgterms:agent rdf:about="2009/agents/34660">
         <pgterms:name>Noël, Eugène</pgterms:name>
@@ -31,66 +36,66 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
     <pgterms:marc520>"Rolandkanto" by Eugène Noël is a poetic translation of the medieval epic "La Chanson de Roland," written in the early 20th century. This new rendition presents the original work alongside a French translation, seeking to revitalize a monumental piece of French literature. The poem explores themes of valor, national identity, and the historical conflict between Christians and Saracens, centered on the figure of Roland, a noble warrior and nephew to Emperor Charlemagne.  At the start of "Rolandkanto," the narrative sets the stage for the conflict in Spain, introducing King Marsil' of Saragossa, who grapples with the threat posed by Charlemagne's forces. As Marsil' consults with his barons about their dire situation, he decides to seek a deceitful peace by sending delegates to the French king. The opening ignites tension and foreshadows betrayal, as characters plot against one another, laying the groundwork for the epic battles and themes of loyalty that will follow in Roland's tragic saga. (This is an automatically generated summary.)</pgterms:marc520>
     <pgterms:marc908>Reading ease score: 59.7 (10th to 12th grade). Somewhat difficult to read.</pgterms:marc908>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N1e635344723c4e3cb731bc7046d63bb1">
+      <rdf:Description rdf:nodeID="N974c2ed28e7f449385d55d58da69abbf">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N58027dd9629848718e503147ed6fc2b4">
+      <rdf:Description rdf:nodeID="N9fcdb91d8c1d440c95d35502ff4a223e">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Roland (Legendary character) -- Romances</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N10b099a494a146a5ba91a15a99ef19c6">
+      <rdf:Description rdf:nodeID="N2efa3b17f0584539bddcd7cfebea8e0b">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Knights and knighthood -- Poetry</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nca53a8c19f4c40dbbf8030e74b9ac2da">
+      <rdf:Description rdf:nodeID="N252facee21184678a71919e563cdccc3">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Epic poetry, French -- Translations into Esperanto</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7781967eeab14d968f295674e3e42e0e">
+      <rdf:Description rdf:nodeID="Nc1fd05cf739745a3be5fcf0ad350a740">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PQ</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N2f1c7986568749f581d26d5b8816291f">
+      <rdf:Description rdf:nodeID="N4c0b22ee07d34f47affb59667badf02a">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="Nebf5fbe5ce6649f1873b31d7d71d5e03">
+      <rdf:Description rdf:nodeID="Nee29b1a9b8a746edadfb19f2ba788454">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Esperanto</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N07898a3e7834494ca6449a6b4e90eaf0">
+      <rdf:Description rdf:nodeID="N65f857a52f2b470d8b846848e84ecff1">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Poetry</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N739aefd5902240639dc18d447013130a">
+      <rdf:Description rdf:nodeID="N1863f580d51247afaaa8191a7e6c5976">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Mythology, Legends &amp; Folklore</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N680a9155038a4ad69057fb14a47ba8c9">
+      <rdf:Description rdf:nodeID="Nd07bc4a8373e4cf88d44a94ed0605fc2">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: Classics of Literature</rdf:value>
       </rdf:Description>
     </pgterms:bookshelf>
     <pgterms:bookshelf>
-      <rdf:Description rdf:nodeID="N1b57017807374dbaa699aea75cb7fc32">
+      <rdf:Description rdf:nodeID="Ne963f0b8c04548a6a0762ab8ede13398">
         <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
         <rdf:value>Category: French Literature</rdf:value>
       </rdf:Description>
@@ -99,9 +104,9 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.html.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456918</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:41.241794</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:28:45.132238</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb5e11827309a4bf9926770b31b613574">
+          <rdf:Description rdf:nodeID="N9fc20b8ac9424b639f63ffe80fd5a687">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -114,7 +119,7 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">515428</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-24T16:35:54</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N340047906242477abbf435ff55f320b6">
+          <rdf:Description rdf:nodeID="N79f0b3761fe84c8c8e2e5745ccd01a70">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -124,10 +129,10 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.epub3.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187903</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:29:01.484699</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">187938</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:29:05.765172</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N62044076a9324d45803b2579247a62c6">
+          <rdf:Description rdf:nodeID="N35b282a1ef0d42b88a12c2343768142c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -137,10 +142,10 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190175</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:48.104792</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190199</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:28:52.278197</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb7ccb53c8f714ed080974e042fc1fd43">
+          <rdf:Description rdf:nodeID="N0a4c4ad602d7439793b4336588e71350">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -150,10 +155,10 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176466</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:44.428777</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176485</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:28:48.502230</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2c64c89a41ff4fe1b3511361e3f287ad">
+          <rdf:Description rdf:nodeID="N6c8708484111420d89fb244a6ecb2ddf">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -163,10 +168,10 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.kf8.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450919</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:29:06.605696</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450931</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:29:10.886100</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndbdc61cac52f448a9f3d1b2849a66bdf">
+          <rdf:Description rdf:nodeID="N5740e4d5999f4a8fb5dc34a8f41338f8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -177,9 +182,9 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430693</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:56.113727</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:29:00.235186</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Naf93ad9c0f72443882849a7748460878">
+          <rdf:Description rdf:nodeID="N992a6720207f46a29884ebc826c66932">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -192,7 +197,7 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368780</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-14T06:48:35.776371</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9c95609942814e81997f0a56e8eafd3e">
+          <rdf:Description rdf:nodeID="N9d8bf3e8a91c45ad8649d139f2668065">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
@@ -203,9 +208,9 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231033</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:38.928800</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:28:42.886308</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1657e048b5004ee19cbf1fbeabb8c4d6">
+          <rdf:Description rdf:nodeID="Na6237a210c064c4f8c6bfa85989efef6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -218,7 +223,7 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230913</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-05T21:37:43</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0c445a294f5a4c7ea1e050c1142680e5">
+          <rdf:Description rdf:nodeID="Nac11eeabf487410a8805ca818644d4cf">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
@@ -229,9 +234,9 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/30536.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19558</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:29:06.777669</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:29:11.053092</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na78b856ebe0d4d898eb1efa0fe9280fd">
+          <rdf:Description rdf:nodeID="N9d0ed370cdd445409f3681466608d4a1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
@@ -242,9 +247,9 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/30536/pg30536.cover.medium.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10606</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:45.027792</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:28:49.101198</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf6526b5368ad4581a9ae52ce84cec719">
+          <rdf:Description rdf:nodeID="N97a68aeb2a6245db99f51bbf1b8bf644">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -255,9 +260,9 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/30536/pg30536.cover.small.jpg">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2931</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:44.729749</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:28:48.803210</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7867fc2b8a934020a68ab4d8eb8e2c87">
+          <rdf:Description rdf:nodeID="Nff12ff1feb5443998b265e5d4c7c0223">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
           </rdf:Description>
@@ -270,13 +275,13 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82912</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-05T21:37:43</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Neb7cdfa7eb754bbcb154fcaf414a1c81">
+          <rdf:Description rdf:nodeID="Nfcbb2eb00d194aeea25d47d2dd2ef2ad">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N51a7d14e4fee454c8c995ee9028b7da7">
+          <rdf:Description rdf:nodeID="Ncd47c1b177f64b3abca72655d78854f5">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -289,13 +294,13 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119270</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-24T16:35:59</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Naf08b882115a405bab91b8d34f729254">
+          <rdf:Description rdf:nodeID="N91f419673634462dbd3b23deb1ed58f6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1b607fe705644cf2bfb15835f2b06646">
+          <rdf:Description rdf:nodeID="N7a9cde291fa44c66a41ef9aa71a68662">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -305,16 +310,16 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/30536/pg30536-h.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/30536"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170890</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T12:28:41.270776</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170891</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-12T12:28:45.161214</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4c887d61a7924979b6cd4cc2f1dceda4">
+          <rdf:Description rdf:nodeID="Ncf8cdf9a8cf84ba59767064176c0e5fe">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value>application/octet-stream</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N958f4b02d51b4ee9824dfd83365a9fea">
+          <rdf:Description rdf:nodeID="N5ccd091561a64479b6982e762d56b5a1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
@@ -322,11 +327,6 @@ Esperanto Circle for providing the original book.</pgterms:marc508>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
-  <cc:Work rdf:about="">
-    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
-            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-  </cc:Work>
   <rdf:Description rdf:about="http://eo.wikipedia.org/wiki/Eug%C3%A8ne_No%C3%ABl">
     <dcterms:description>eo.wikipedia</dcterms:description>
   </rdf:Description>
