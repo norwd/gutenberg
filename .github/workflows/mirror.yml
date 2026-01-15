@@ -54,7 +54,7 @@ jobs:
           true
 
       - run: find . -type d | grep -vE './\.git*' | grep -vE './цирила' | xargs -IDIRECTORY mkdir --parents './цирила/DIRECTORY'
-      - run: find '*/.' -type f | grep -vE './\.git*' | grep -vE './цирила' | xargs -IFILE cp --recursive FILE './цирила/FILE'
+      - run: find . -type f | grep -vE './\.git*' | grep -vE './цирила' | xargs -IFILE cp --recursive FILE './цирила/FILE'
       - run: curl https://gist.githubusercontent.com/norwd/d44101f2ac807a0830cdb8364a3f2141/raw/4eb4f306e10bf7cc8a82402973789d8bacf65048/%25D1%258D%25D1%2581%25D0%25BF%25D1%258D%25D1%2580%25D0%25B0%25D0%25BD%25D1%2582%25D0%25BE.sed | tee ./эспэранто.sed
       - run: chmod +x ./эспэранто.sed
       - run: find ./цирила -type f -exec ./эспэранто.sed '{}' \;
