@@ -48,6 +48,19 @@ jobs:
           WGET_CMD: |
             wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL || echo "::error title=WGET ERROR CODE ${?}::URL"
 
+      - name: "Cyrillise"
+        run: |
+          mkdir --parents ./цирила/.
+          cp --recursive . ./цирила/.
+          rm --recursive --force "./цирила/.*"
+          gh gist view d44101f2ac807a0830cdb8364a3f2141 --raw --filename эспэранто.sed | tee ./эспэранто.sed
+          chmod -x ./эспэранто.sed
+          find . -type f -exec ./эспэранто.sed '{}' \;
+          rm ./эспэранто.sed
+
+      - name: "BREAK"
+        run: exit 1
+
       - name: "Add files"
         run: git add . 
 
