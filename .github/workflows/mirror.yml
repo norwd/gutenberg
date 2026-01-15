@@ -51,7 +51,7 @@ jobs:
 
       - name: "Cyrillise"
         run: |
-          find . -type d -not -path '.*' -not -path 'цирила/' -exec mkdir --parents '{}' ';'
+          find . -type d -not -path '.*' -not -path 'цирила/*' -exec mkdir --parents './цирила/{}' ';'
           find . -type f -not -path '.*' -not -path 'цирила/*' -exec cp --recursive '{}' './цирила/{}' ';'
           gh gist view d44101f2ac807a0830cdb8364a3f2141 --raw --filename эспэранто.sed | tee ./эспэранто.sed
           chmod +x ./эспэранто.sed
