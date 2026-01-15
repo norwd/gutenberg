@@ -26,10 +26,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+      - name: "Install"
+        run: sudo apt-get install moreutils
+
       - name: "Checkout"
         uses: actions/checkout@v4
 
       - name: "Mirror"
+        if: false # temp
         run: |
           while [ "${ENDPOINT}" ]
           do
@@ -47,6 +51,15 @@ jobs:
           WAIT_SEC: 10
           WGET_CMD: |
             wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL || echo "::error title=WGET ERROR CODE ${?}::URL"
+
+      - name: "Cyrillise"
+        run: |
+          find . -type d | grep -vE './\.git*' | grep -vE './цирила' | xargs -IDIRECTORY mkdir --parents './цирила/DIRECTORY'
+          find . -type f | grep -vE './\.git*' | grep -vE './цирила' | grep -E '.txt$' | xargs -IFILE cp --recursive FILE './цирила/FILE'
+          curl https://gist.githubusercontent.com/norwd/d44101f2ac807a0830cdb8364a3f2141/raw/4eb4f306e10bf7cc8a82402973789d8bacf65048/%25D1%258D%25D1%2581%25D0%25BF%25D1%258D%25D1%2580%25D0%25B0%25D0%25BD%25D1%2582%25D0%25BE.sed | tee ./эспэранто.sed
+          chmod +x ./эспэранто.sed
+          find ./цирила -type f -exec sh -c './эспэранто.sed {} | sponge {}' \;
+          rm ./эспэранто.sed
 
       - name: "Add files"
         run: git add . 
