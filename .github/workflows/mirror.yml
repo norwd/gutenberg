@@ -30,6 +30,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: "Mirror"
+        if: false # temp
         run: |
           while [ "${ENDPOINT}" ]
           do
@@ -51,7 +52,7 @@ jobs:
       - name: "Cyrillise"
         run: |
           mkdir --parents ./цирила/.
-          cp --recursive . ./цирила/.
+          find . -type f -not -iname './цирила/*' -exec cp '{}' './цирила/{}' ';'
           rm --recursive --force "./цирила/.*"
           gh gist view d44101f2ac807a0830cdb8364a3f2141 --raw --filename эспэранто.sed | tee ./эспэранто.sed
           chmod -x ./эспэранто.sed
