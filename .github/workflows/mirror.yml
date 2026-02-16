@@ -56,10 +56,10 @@ jobs:
         run: |
           find . -type d | grep -vE './\.git*' | grep -vE './цирила' | xargs -IDIRECTORY mkdir --parents './цирила/DIRECTORY'
           find . -type f | grep -vE './\.git*' | grep -vE './цирила' | grep -E '.txt$' | xargs -IFILE cp --recursive FILE './цирила/FILE'
-          curl https://gist.githubusercontent.com/norwd/d44101f2ac807a0830cdb8364a3f2141/raw/4eb4f306e10bf7cc8a82402973789d8bacf65048/%25D1%258D%25D1%2581%25D0%25BF%25D1%258D%25D1%2580%25D0%25B0%25D0%25BD%25D1%2582%25D0%25BE.sed | tee ./эспэранто.sed
-          chmod +x ./эспэранто.sed
-          find ./цирила -type f -exec sh -c './эспэранто.sed {} | sponge {}' \;
-          rm ./эспэранто.sed
+          curl https://gist.githubusercontent.com/norwd/d44101f2ac807a0830cdb8364a3f2141/raw/8b47cbbdd7aa9acc24f8ca2b9e4a6b34f5e82232/ciriligu.sed | tee ./ciriligu.sed
+          chmod +x ./ciriligu.sed
+          find ./цирила -type f -exec sh -c './ciriligu.sed {} | sponge {}' \;
+          rm ./ciriligu.sed
 
       - name: "Add files"
         run: git add . 
