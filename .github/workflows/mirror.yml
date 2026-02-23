@@ -43,7 +43,7 @@ jobs:
             ENDPOINT="$(curl -sS "${ENDPOINT}" | tee "${TMP_FILE}" | jq --raw-output "${JQ_QUERY}")"
             cat "${TMP_FILE}"
           done | \
-              jq --slurp '[.[].results[]] | sort' | \
+              jq --slurp '[.[].results[]] | sort_by(.id)' | \
               tee "index.json" | \
               jq --raw-output '.[].formats[]' | \
               xargs --max-procs="$(nproc)" -IURL sh -c "${WGET_CMD}"
