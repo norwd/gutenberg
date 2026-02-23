@@ -56,7 +56,7 @@ jobs:
             wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL || echo "::error title=WGET ERROR CODE ${?}::URL"
 
       - name: "Convert index to Yaml"
-        run: yq --input-format json --output-format yaml index.json | tee index.yaml
+        run: yq --input-format json --output-format yaml --prettyPrint index.json | tee index.yaml
 
       - name: "Cyrillise"
         run: |
