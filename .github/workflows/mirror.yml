@@ -26,8 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: "Install"
+      - name: "Install moreutils"
         run: sudo apt-get install moreutils
+
+      - name: "Install yq"
+        run: go install github.com/mikefarah/yq/v4@latest
 
       - name: "Checkout"
         uses: actions/checkout@v4
@@ -40,7 +43,7 @@ jobs:
             ENDPOINT="$(curl -sS "${ENDPOINT}" | tee "${TMP_FILE}" | jq --raw-output "${JQ_QUERY}")"
             cat "${TMP_FILE}"
           done | \
-              jq --slurp '[.[].results[]]' | \
+              jq --slurp '[.[].results[]] | sort' | \
               tee "index.json" | \
               jq --raw-output '.[].formats[]' | \
               xargs --max-procs="$(nproc)" -IURL sh -c "${WGET_CMD}"
@@ -52,6 +55,9 @@ jobs:
           WGET_CMD: |
             wget --no-verbose --execute robots=off --random-wait --wait "${WAIT_SEC}" --no-host-directories --force-directories URL || echo "::error title=WGET ERROR CODE ${?}::URL"
 
+      - name: "Convert index to Yaml"
+        run: yq --input-format json --output-format yaml index.json | tee index.yaml
+
       - name: "Cyrillise"
         run: |
           find . -type d | grep -vE './\.git*' | grep -vE './цирила' | xargs -IDIRECTORY mkdir --parents './цирила/DIRECTORY'
@@ -62,7 +68,7 @@ jobs:
           rm ./ciriligu.sed
 
       - name: "Add files"
-        run: git add . 
+        run: git add .
 
       - name: "Commit"
         run: git commit --allow-empty --author="${GIT_COMMITTER_NAME} <${GIT_COMMITTER_EMAIL}>" --message="${MESSAGE}"
